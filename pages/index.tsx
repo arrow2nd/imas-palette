@@ -1,3 +1,3 @@
-export default function Home() {
-  return <h1>test!</h1>
-}
+import Home from '../components/home/home'
+
+export default Home

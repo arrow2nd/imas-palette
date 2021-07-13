@@ -1,4 +1,16 @@
 @tailwind base;
 @tailwind components;
 
+/* 全体 */
+body {
+  background-color: #faf8f7;
+}
+
+a,
+p,
+input {
+  /* Windowsでのジャギー対策 */
+  transform: rotate(0.05deg);
+}
+
 @tailwind utilities;
