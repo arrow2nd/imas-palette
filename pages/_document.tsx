@@ -12,11 +12,11 @@ class MyDocument extends Document {
             crossOrigin="true"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap"
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap"
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="font-default">
           <Main />
           <NextScript />
         </body>
