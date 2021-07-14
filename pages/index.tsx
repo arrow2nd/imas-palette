@@ -1,3 +1,5 @@
-import Home from '../components/home/home'
+import Home from '../components/templates/home'
 
-export default Home
+const ImasPalette = () => <Home />
+
+export default ImasPalette
