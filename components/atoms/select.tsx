@@ -4,7 +4,7 @@ type Props = {
 
 const Select = ({ className = '' }: Props) => (
   <div className={className}>
-    <select className="form-select block w-full rounded-md shadow-md">
+    <select className="form-select block w-full rounded-lg shadow-md">
       <option>全てのブランド</option>
       <option>アイドルマスター</option>
       <option>ミリオンライブ！</option>

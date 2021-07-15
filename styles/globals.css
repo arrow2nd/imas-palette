@@ -14,6 +14,10 @@ input {
 }
 
 /* 色 */
+.text-natural-white {
+  color: #faf8f7;
+}
+
 .text-natural-black {
   color: #1c1c1c;
 }
