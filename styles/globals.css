@@ -13,17 +13,4 @@ input {
   transform: rotate(0.05deg);
 }
 
-/* 色 */
-.text-natural-white {
-  color: #faf8f7;
-}
-
-.text-natural-black {
-  color: #1c1c1c;
-}
-
-.bg-natural-black {
-  background-color: #1c1c1c;
-}
-
 @tailwind utilities;
