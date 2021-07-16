@@ -4,7 +4,7 @@ type Props = {
 
 const SearchButton = ({ className = '' }: Props) => (
   <div className={className}>
-    <button className="w-20 h-10 block rounded-lg shadow-md bg-natural-black text-white">
+    <button className="w-20 h-10 block rounded-lg shadow-md text-natural-white bg-natural-black">
       検索
     </button>
   </div>
