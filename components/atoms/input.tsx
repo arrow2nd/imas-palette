@@ -5,7 +5,6 @@ type Props = {
 const Input = ({ className = '' }: Props) => (
   <div className={className}>
     <input
-      type="email"
       className="form-input block w-80 rounded-lg shadow-md"
       placeholder="アイドル名から検索"
     />

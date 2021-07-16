@@ -1,4 +1,13 @@
-// TODO: 後で色を動的に変更できるようにする！
-const ColorSample = () => <div className="w-14 h-14 rounded-xl bg-red-600" />
+type Props = {
+  color: string
+}
+
+const ColorSample = ({ color }: Props) => {
+  const style: React.CSSProperties = {
+    backgroundColor: color
+  }
+
+  return <div className="w-16 h-16 rounded-xl" style={style} />
+}
 
 export default ColorSample

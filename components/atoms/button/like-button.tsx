@@ -6,7 +6,7 @@ type Props = {
 
 const LikeButton = ({ className = '' }: Props) => (
   <button
-    className={`inline-flex items-center px-4 py-2 rounded-lg text-natural-white bg-natural-black ${className}`}
+    className={`inline-flex items-center px-3 py-1 rounded-lg text-natural-white bg-natural-black ${className}`}
   >
     <RiHeartAddLine />
     <span className="ml-2">Like</span>
