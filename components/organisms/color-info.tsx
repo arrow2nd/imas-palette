@@ -24,7 +24,7 @@ const ColorInfo = ({ className = '', type, value }: Props) => {
       <TypeLabel type={type} />
       <CopyToClipboard text={value} onCopy={handleClickCopy}>
         <span>
-          <ValueLabel value={isCopied ? 'Copied!' : value} />
+          <ValueLabel value={isCopied ? 'Copied! 👌' : value} />
         </span>
       </CopyToClipboard>
     </div>
