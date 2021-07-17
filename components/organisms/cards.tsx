@@ -1,4 +1,4 @@
-import Card from '../molecules/card'
+import Card from './card'
 import { Idol } from '../../types/idol'
 
 const Cards = () => {

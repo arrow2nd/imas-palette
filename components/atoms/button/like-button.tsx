@@ -9,7 +9,7 @@ const LikeButton = ({ className = '' }: Props) => (
     className={`inline-flex items-center px-3 py-1 rounded-lg text-natural-white bg-natural-black ${className}`}
   >
     <RiHeartAddLine />
-    <span className="ml-2">Like</span>
+    <span className="ml-2 tracking-wide">Like</span>
   </button>
 )
 
