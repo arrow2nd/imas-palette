@@ -1,9 +1,9 @@
 import Links from '../molecules/links'
 
 const Footer = () => (
-  <div className="items-center tracking-wide mt-6">
+  <div className="flex flex-col items-center tracking-wide mt-12">
     <Links />
-    <div className="mt-4">
+    <div className="mt-4 text-center">
       <span>
         {'Idol color data is obtained from '}
         <a

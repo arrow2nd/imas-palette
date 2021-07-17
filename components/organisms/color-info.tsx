@@ -7,9 +7,10 @@ type Props = {
   className?: string
   type: string
   value: string
+  tooltip?: boolean
 }
 
-const ColorInfo = ({ className = '', type, value }: Props) => {
+const ColorInfo = ({ className = '', type, value, tooltip = false }: Props) => {
   const [isCopied, setCopied] = useState(false)
 
   const handleClickCopy = () => {
@@ -24,7 +25,10 @@ const ColorInfo = ({ className = '', type, value }: Props) => {
       <TypeLabel type={type} />
       <CopyToClipboard text={value} onCopy={handleClickCopy}>
         <span>
-          <ValueLabel value={isCopied ? 'Copied! 👌' : value} />
+          <ValueLabel
+            value={isCopied ? 'Copied! 👌' : value}
+            tooltip={tooltip}
+          />
         </span>
       </CopyToClipboard>
     </div>
