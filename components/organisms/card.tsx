@@ -1,6 +1,5 @@
-import ColorSample from '../atoms/color-sample'
-import NameLabel from '../atoms/label/name-label'
 import LikeButton from '../atoms/button/like-button'
+import CardTitle from '../molecules/card-title'
 import ColorInfo from './color-info'
 import { Idol } from '../../types/idol'
 
@@ -9,12 +8,9 @@ type Props = {
 }
 
 const Card = ({ idol }: Props) => (
-  <div className="w-96 p-6 rounded-lg shadow-md bg-white">
+  <div className="w-96 m-2 p-6 rounded-lg shadow-md bg-white">
     <div className="flex flex-row items-center justify-between">
-      <div className="flex flex-row items-center">
-        <ColorSample color={idol.hex} />
-        <NameLabel className="ml-6" nameJa={idol.nameJa} nameEn={idol.nameEn} />
-      </div>
+      <CardTitle nameJa={idol.nameJa} nameEn={idol.nameEn} color={idol.hex} />
       <LikeButton />
     </div>
     <div className="mt-6">

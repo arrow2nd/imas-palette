@@ -4,9 +4,11 @@ import Footer from '../organisms/footer'
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen mx-8 my-6">
+    <div className="flex flex-col min-h-screen m-10">
       <Header />
-      <Cards />
+      <div className="flex-1">
+        <Cards />
+      </div>
       <Footer />
     </div>
   )

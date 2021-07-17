@@ -7,7 +7,7 @@ type Props = {
 }
 
 const Search = ({ className = '' }: Props) => (
-  <div className={`flex flex-row ${className}`}>
+  <div className={`flex flex-row flex-wrap ${className}`}>
     <Select />
     <Input className="ml-5" />
     <SearchButton className="ml-5" />

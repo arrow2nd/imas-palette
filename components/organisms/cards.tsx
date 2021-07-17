@@ -11,7 +11,11 @@ const Cards = () => {
   }
 
   return (
-    <div className="flex-1 mt-8">
+    <div className="flex flex-row flex-wrap justify-center mt-8">
+      <Card idol={idol} />
+      <Card idol={idol} />
+      <Card idol={idol} />
+      <Card idol={idol} />
       <Card idol={idol} />
     </div>
   )
