@@ -7,11 +7,12 @@ const ReactTooltip = dynamic(() => import('react-tooltip'), {
 
 type Props = {
   value: string
+  tooltip: boolean
 }
 
-const ValueLabel = ({ value }: Props) => (
+const ValueLabel = ({ value, tooltip }: Props) => (
   <label
-    className="text-sm tracking-wide cursor-pointer"
+    className="flex flex-row items-center text-sm tracking-wide cursor-pointer"
     data-tip="クリックでコピー"
   >
     {value}
@@ -20,6 +21,7 @@ const ValueLabel = ({ value }: Props) => (
       border
       borderColor="#faf8f7"
       backgroundColor="#1c1c1c"
+      disable={!tooltip}
     />
   </label>
 )

@@ -1,7 +1,7 @@
 import Links from '../molecules/links'
 
 const Footer = () => (
-  <div className="flex flex-col items-center tracking-wide mt-8">
+  <div className="flex flex-col items-center tracking-wide mt-12">
     <Links />
     <div className="mt-4 text-center">
       <span>

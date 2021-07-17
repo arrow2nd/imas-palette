@@ -5,7 +5,7 @@ type Props = {
 const Input = ({ className = '' }: Props) => (
   <div className={className}>
     <input
-      className="form-input block w-80 rounded-lg shadow-md"
+      className="form-input block w-full rounded-lg shadow-md"
       placeholder="アイドル名から検索"
     />
   </div>
