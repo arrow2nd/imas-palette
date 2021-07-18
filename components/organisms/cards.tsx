@@ -1,40 +1,50 @@
 import CardDefault from './card/default'
 import CardMobile from './card/mobile'
 import { useIsMobile } from '../../hooks/useIsMobile'
-import { Idol } from '../../types/idol'
+import { idol } from '../../types/idol'
 
-const Cards = () => {
+type Props = {
+  isTouchable: boolean
+}
+
+const Cards = ({ isTouchable }: Props) => {
   const isMobile = useIsMobile()
 
-  const idols: Idol[] = [
+  const idols: idol[] = [
     {
       nameJa: '芹沢あさひ',
       nameEn: 'Asahi Serizawa',
-      rgb: '(200, 0, 0)',
-      hsv: '(0, 0, 0)',
-      hex: '#F30100'
+      color: {
+        rgb: '(200, 0, 0)',
+        hsv: '(0, 0, 0)',
+        hex: '#F30100'
+      }
     },
     {
       nameJa: '芹沢あさひ',
       nameEn: 'test 2',
-      rgb: '(200, 0, 0)',
-      hsv: '(0, 0, 0)',
-      hex: '#F30100'
+      color: {
+        rgb: '(200, 0, 0)',
+        hsv: '(0, 0, 0)',
+        hex: '#F30100'
+      }
     },
     {
       nameJa: '芹沢あさひ',
       nameEn: 'test 3',
-      rgb: '(200, 0, 0)',
-      hsv: '(0, 0, 0)',
-      hex: '#F30100'
+      color: {
+        rgb: '(200, 0, 0)',
+        hsv: '(0, 0, 0)',
+        hex: '#F30100'
+      }
     }
   ]
 
   const cards = idols.map((e) =>
     isMobile ? (
-      <CardMobile key={e.nameEn} idol={e} />
+      <CardMobile key={e.nameEn} idol={e} isTouchable={isTouchable} />
     ) : (
-      <CardDefault key={e.nameEn} idol={e} />
+      <CardDefault key={e.nameEn} idol={e} isTouchable={isTouchable} />
     )
   )
 

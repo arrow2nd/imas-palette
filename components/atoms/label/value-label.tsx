@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import { FiCopy } from 'react-icons/fi'
 
 // https://github.com/wwayne/react-tooltip/issues/675
 const ReactTooltip = dynamic(() => import('react-tooltip'), {
@@ -7,22 +8,25 @@ const ReactTooltip = dynamic(() => import('react-tooltip'), {
 
 type Props = {
   value: string
-  tooltip: boolean
+  tooltipDisable: boolean
 }
 
-const ValueLabel = ({ value, tooltip }: Props) => (
+const ValueLabel = ({ value, tooltipDisable }: Props) => (
   <label
     className="flex flex-row items-center text-sm tracking-wide cursor-pointer"
     data-tip="クリックでコピー"
   >
     {value}
-    <ReactTooltip
-      place="top"
-      border
-      borderColor="#faf8f7"
-      backgroundColor="#1c1c1c"
-      disable={!tooltip}
-    />
+    {tooltipDisable ? (
+      <FiCopy className="ml-2" />
+    ) : (
+      <ReactTooltip
+        place="top"
+        border
+        borderColor="#faf8f7"
+        backgroundColor="#1c1c1c"
+      />
+    )}
   </label>
 )
 

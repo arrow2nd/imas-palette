@@ -1,7 +1,7 @@
-export type Idol = {
+import { color } from './color'
+
+export type idol = {
   nameJa: string
   nameEn: string
-  rgb: string
-  hsv: string
-  hex: string
+  color: color
 }

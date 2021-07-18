@@ -1976,6 +1976,11 @@ jsonfile@^6.0.1:
     array-includes "^3.1.2"
     object.assign "^4.1.2"
 
+kind-of@>=6.0.3:
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
+  integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
+
 language-subtag-registry@~0.3.2:
   version "0.3.21"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.21.tgz#04ac218bea46f04cb039084602c6da9e788dd45a"
@@ -2153,7 +2158,7 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
-minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
+minimist@>=1.2.5, minimist@^1.1.1, minimist@^1.2.0, minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
@@ -2194,6 +2199,17 @@ natural-compare@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
+
+next-useragent@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/next-useragent/-/next-useragent-2.6.0.tgz#aba2fa8d440543293388ff855ee7a6e7497bc339"
+  integrity sha512-3+I0T47UeqcjIHNV9fNEmgNdcDyOr6kVVcA15lRa/qQQGVrujNJi+E0X7yp9fSdis25gMr5OsC8nh0Ib+vA0Fw==
+  dependencies:
+    kind-of ">=6.0.3"
+    minimist ">=1.2.5"
+    node-fetch ">=2.6.1"
+    object-path "0.11.5"
+    ua-parser-js "^0.7.23"
 
 next@11.0.1:
   version "11.0.1"
@@ -2258,7 +2274,7 @@ node-emoji@^1.8.1:
   dependencies:
     lodash.toarray "^4.4.0"
 
-node-fetch@2.6.1:
+node-fetch@2.6.1, node-fetch@>=2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
   integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
@@ -2351,6 +2367,11 @@ object-keys@^1.0.12, object-keys@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
+
+object-path@0.11.5:
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/object-path/-/object-path-0.11.5.tgz#d4e3cf19601a5140a55a16ad712019a9c50b577a"
+  integrity sha512-jgSbThcoR/s+XumvGMTMf81QVBmah+/Q7K7YduKeKVWL7N111unR2d6pZZarSk6kY/caeNxUDyxOvMWyzoU2eg==
 
 object.assign@^4.1.2:
   version "4.1.2"
@@ -3482,6 +3503,11 @@ typescript@4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
   integrity sha512-DqQgihaQ9cUrskJo9kIyW/+g0Vxsk8cDtZ52a3NGh0YNTfpUSArXSohyUGnvbPazEPLu398C0UxmKSOrPumUzA==
+
+ua-parser-js@^0.7.23:
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
+  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
