@@ -11,12 +11,13 @@ const Cards = ({ idols }: Props) => {
   const isMobile = useIsMobile()
 
   const cards = idols.map((e) => {
+    const key = `${e.nameEn}_${e.color.hex}`
     const isKeeped = false
 
     return isMobile ? (
-      <CardMobile key={e.nameEn} idol={e} isKeeped={isKeeped} />
+      <CardMobile key={key} idol={e} isKeeped={isKeeped} />
     ) : (
-      <CardDefault key={e.nameEn} idol={e} isKeeped={isKeeped} />
+      <CardDefault key={key} idol={e} isKeeped={isKeeped} />
     )
   })
 
