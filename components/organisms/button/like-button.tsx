@@ -3,7 +3,7 @@ import { Props } from './props'
 import Button from '../../atoms/button'
 
 const LikeButton = ({ className = '' }: Props) => (
-  <Button className={`inline-flex ${className}`}>
+  <Button className={`inline-flex text-sm ${className}`}>
     <FiBookmark />
     <span className="ml-2 tracking-wide">Keep</span>
   </Button>
