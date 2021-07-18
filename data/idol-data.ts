@@ -7,8 +7,8 @@ export const idolData: Idol[] = [
     nameKana: 'あいばゆみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '234, 226, 141',
-      hsv: '55, 40, 92',
+      rgb: 'rgb(234, 226, 141)',
+      hsv: 'hsv(55, 40, 92)',
       hex: '#EAE28D'
     }
   },
@@ -18,8 +18,8 @@ export const idolData: Idol[] = [
     nameKana: 'あおいきょうすけ',
     bland: 'SideM',
     color: {
-      rgb: '35, 205, 122',
-      hsv: '151, 83, 80',
+      rgb: 'rgb(35, 205, 122)',
+      hsv: 'hsv(151, 83, 80)',
       hex: '#23CD7A'
     }
   },
@@ -29,8 +29,8 @@ export const idolData: Idol[] = [
     nameKana: 'あおいゆうすけ',
     bland: 'SideM',
     color: {
-      rgb: '254, 232, 6',
-      hsv: '55, 98, 100',
+      rgb: 'rgb(254, 232, 6)',
+      hsv: 'hsv(55, 98, 100)',
       hex: '#FEE806'
     }
   },
@@ -40,8 +40,8 @@ export const idolData: Idol[] = [
     nameKana: 'あかいすざく',
     bland: 'SideM',
     color: {
-      rgb: '230, 60, 46',
-      hsv: '5, 80, 90',
+      rgb: 'rgb(230, 60, 46)',
+      hsv: 'hsv(5, 80, 90)',
       hex: '#E63C2E'
     }
   },
@@ -51,8 +51,8 @@ export const idolData: Idol[] = [
     nameKana: 'あかぎみりあ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '248, 199, 21',
-      hsv: '47, 92, 97',
+      rgb: 'rgb(248, 199, 21)',
+      hsv: 'hsv(47, 92, 97)',
       hex: '#F8C715'
     }
   },
@@ -62,8 +62,8 @@ export const idolData: Idol[] = [
     nameKana: 'あきづきりつこ',
     bland: '765AS',
     color: {
-      rgb: '1, 168, 96',
-      hsv: '154, 99, 66',
+      rgb: 'rgb(1, 168, 96)',
+      hsv: 'hsv(154, 99, 66)',
       hex: '#01A860'
     }
   },
@@ -73,8 +73,8 @@ export const idolData: Idol[] = [
     nameKana: 'あきづきりょう',
     bland: 'DearlyStars',
     color: {
-      rgb: '178, 212, 104',
-      hsv: '79, 51, 83',
+      rgb: 'rgb(178, 212, 104)',
+      hsv: 'hsv(79, 51, 83)',
       hex: '#B2D468'
     }
   },
@@ -84,8 +84,8 @@ export const idolData: Idol[] = [
     nameKana: 'あきづきりょう',
     bland: 'SideM',
     color: {
-      rgb: '112, 180, 73',
-      hsv: '98, 59, 71',
+      rgb: 'rgb(112, 180, 73)',
+      hsv: 'hsv(98, 59, 71)',
       hex: '#70B449'
     }
   },
@@ -95,8 +95,8 @@ export const idolData: Idol[] = [
     nameKana: 'あきやまはやと',
     bland: 'SideM',
     color: {
-      rgb: '254, 107, 2',
-      hsv: '25, 99, 100',
+      rgb: 'rgb(254, 107, 2)',
+      hsv: 'hsv(25, 99, 100)',
       hex: '#FE6B02'
     }
   },
@@ -106,8 +106,8 @@ export const idolData: Idol[] = [
     nameKana: 'あくのひでお',
     bland: 'SideM',
     color: {
-      rgb: '87, 179, 229',
-      hsv: '201, 62, 90',
+      rgb: 'rgb(87, 179, 229)',
+      hsv: 'hsv(201, 62, 90)',
       hex: '#57B3E5'
     }
   },
@@ -117,8 +117,8 @@ export const idolData: Idol[] = [
     nameKana: 'あけたみこと',
     bland: 'ShinyColors',
     color: {
-      rgb: '118, 14, 16',
-      hsv: '359, 88, 46',
+      rgb: 'rgb(118, 14, 16)',
+      hsv: 'hsv(359, 88, 46)',
       hex: '#760E10'
     }
   },
@@ -128,8 +128,8 @@ export const idolData: Idol[] = [
     nameKana: 'あさくらとおる',
     bland: 'ShinyColors',
     color: {
-      rgb: '80, 208, 208',
-      hsv: '180, 62, 82',
+      rgb: 'rgb(80, 208, 208)',
+      hsv: 'hsv(180, 62, 82)',
       hex: '#50D0D0'
     }
   },
@@ -139,8 +139,8 @@ export const idolData: Idol[] = [
     nameKana: 'あすらんべるぜびゅーとにせい',
     bland: 'SideM',
     color: {
-      rgb: '96, 108, 178',
-      hsv: '231, 46, 70',
+      rgb: 'rgb(96, 108, 178)',
+      hsv: 'hsv(231, 46, 70)',
       hex: '#606CB2'
     }
   },
@@ -150,8 +150,8 @@ export const idolData: Idol[] = [
     nameKana: 'あなすたしあ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '176, 197, 228',
-      hsv: '216, 23, 89',
+      rgb: 'rgb(176, 197, 228)',
+      hsv: 'hsv(216, 23, 89)',
       hex: '#B0C5E4'
     }
   },
@@ -161,8 +161,8 @@ export const idolData: Idol[] = [
     nameKana: 'あべなな',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '230, 74, 121',
-      hsv: '342, 68, 90',
+      rgb: 'rgb(230, 74, 121)',
+      hsv: 'hsv(342, 68, 90)',
       hex: '#E64A79'
     }
   },
@@ -172,8 +172,8 @@ export const idolData: Idol[] = [
     nameKana: 'あまがせとうま',
     bland: 'SideM',
     color: {
-      rgb: '243, 35, 51',
-      hsv: '355, 86, 95',
+      rgb: 'rgb(243, 35, 51)',
+      hsv: 'hsv(355, 86, 95)',
       hex: '#F32333'
     }
   },
@@ -183,8 +183,8 @@ export const idolData: Idol[] = [
     nameKana: 'あまみはるか',
     bland: '765AS',
     color: {
-      rgb: '226, 43, 48',
-      hsv: '358, 81, 89',
+      rgb: 'rgb(226, 43, 48)',
+      hsv: 'hsv(358, 81, 89)',
       hex: '#E22B30'
     }
   },
@@ -194,8 +194,8 @@ export const idolData: Idol[] = [
     nameKana: 'あらきひな',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '128, 194, 96',
-      hsv: '100, 51, 76',
+      rgb: 'rgb(128, 194, 96)',
+      hsv: 'hsv(100, 51, 76)',
       hex: '#80C260'
     }
   },
@@ -205,8 +205,8 @@ export const idolData: Idol[] = [
     nameKana: 'ありすがわなつは',
     bland: 'ShinyColors',
     color: {
-      rgb: '144, 230, 103',
-      hsv: '101, 55, 90',
+      rgb: 'rgb(144, 230, 103)',
+      hsv: 'hsv(101, 55, 90)',
       hex: '#90E667'
     }
   },
@@ -216,8 +216,8 @@ export const idolData: Idol[] = [
     nameKana: 'いかるがるか',
     bland: 'ShinyColors',
     color: {
-      rgb: '30, 20, 14',
-      hsv: '23, 53, 12',
+      rgb: 'rgb(30, 20, 14)',
+      hsv: 'hsv(23, 53, 12)',
       hex: '#1E140E'
     }
   },
@@ -227,8 +227,8 @@ export const idolData: Idol[] = [
     nameKana: 'いがらしきょうこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '245, 103, 198',
-      hsv: '320, 58, 96',
+      rgb: 'rgb(245, 103, 198)',
+      hsv: 'hsv(320, 58, 96)',
       hex: '#F567C6'
     }
   },
@@ -238,8 +238,8 @@ export const idolData: Idol[] = [
     nameKana: 'いじゅういんほくと',
     bland: 'SideM',
     color: {
-      rgb: '28, 35, 170',
-      hsv: '237, 84, 67',
+      rgb: 'rgb(28, 35, 170)',
+      hsv: 'hsv(237, 84, 67)',
       hex: '#1C23AA'
     }
   },
@@ -249,8 +249,8 @@ export const idolData: Idol[] = [
     nameKana: 'いずみめい',
     bland: 'ShinyColors',
     color: {
-      rgb: '255, 0, 255',
-      hsv: '300, 100, 100',
+      rgb: 'rgb(255, 0, 255)',
+      hsv: 'hsv(300, 100, 100)',
       hex: '#FF00FF'
     }
   },
@@ -260,8 +260,8 @@ export const idolData: Idol[] = [
     nameKana: 'いせやしき',
     bland: 'SideM',
     color: {
-      rgb: '241, 37, 193',
-      hsv: '314, 85, 95',
+      rgb: 'rgb(241, 37, 193)',
+      hsv: 'hsv(314, 85, 95)',
       hex: '#F125C1'
     }
   },
@@ -271,8 +271,8 @@ export const idolData: Idol[] = [
     nameKana: 'いちかわひなな',
     bland: 'ShinyColors',
     color: {
-      rgb: '255, 198, 57',
-      hsv: '43, 78, 100',
+      rgb: 'rgb(255, 198, 57)',
+      hsv: 'hsv(43, 78, 100)',
       hex: '#FFC639'
     }
   },
@@ -282,8 +282,8 @@ export const idolData: Idol[] = [
     nameKana: 'いちのせしき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '160, 27, 80',
-      hsv: '336, 83, 63',
+      rgb: 'rgb(160, 27, 80)',
+      hsv: 'hsv(336, 83, 63)',
       hex: '#A01B50'
     }
   },
@@ -293,8 +293,8 @@ export const idolData: Idol[] = [
     nameKana: 'いちはらにな',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '247, 222, 140',
-      hsv: '46, 43, 97',
+      rgb: 'rgb(247, 222, 140)',
+      hsv: 'hsv(46, 43, 97)',
       hex: '#F7DE8C'
     }
   },
@@ -304,8 +304,8 @@ export const idolData: Idol[] = [
     nameKana: 'いぶきつばさ',
     bland: 'MillionLive',
     color: {
-      rgb: '254, 213, 82',
-      hsv: '46, 68, 100',
+      rgb: 'rgb(254, 213, 82)',
+      hsv: 'hsv(46, 68, 100)',
       hex: '#FED552'
     }
   },
@@ -315,8 +315,8 @@ export const idolData: Idol[] = [
     nameKana: 'うえだすずほ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '201, 135, 15',
-      hsv: '39, 93, 79',
+      rgb: 'rgb(201, 135, 15)',
+      hsv: 'hsv(39, 93, 79)',
       hex: '#C9870F'
     }
   },
@@ -326,8 +326,8 @@ export const idolData: Idol[] = [
     nameKana: 'うづきまきお',
     bland: 'SideM',
     color: {
-      rgb: '248, 197, 89',
-      hsv: '41, 64, 97',
+      rgb: 'rgb(248, 197, 89)',
+      hsv: 'hsv(41, 64, 97)',
       hex: '#F8C559'
     }
   },
@@ -337,8 +337,8 @@ export const idolData: Idol[] = [
     nameKana: 'えみりーすちゅあーと',
     bland: 'MillionLive',
     color: {
-      rgb: '85, 65, 113',
-      hsv: '265, 42, 44',
+      rgb: 'rgb(85, 65, 113)',
+      hsv: 'hsv(265, 42, 44)',
       hex: '#554171'
     }
   },
@@ -348,8 +348,8 @@ export const idolData: Idol[] = [
     nameKana: 'えんじょうじみちる',
     bland: 'SideM',
     color: {
-      rgb: '202, 145, 17',
-      hsv: '42, 92, 79',
+      rgb: 'rgb(202, 145, 17)',
+      hsv: 'hsv(42, 92, 79)',
       hex: '#CA9111'
     }
   },
@@ -359,8 +359,8 @@ export const idolData: Idol[] = [
     nameKana: 'おいかわしずく',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '255, 255, 255',
-      hsv: '0, 0, 100',
+      rgb: 'rgb(255, 255, 255)',
+      hsv: 'hsv(0, 0, 100)',
       hex: '#FFFFFF'
     }
   },
@@ -370,8 +370,8 @@ export const idolData: Idol[] = [
     nameKana: 'おおがみたまき',
     bland: 'MillionLive',
     color: {
-      rgb: '238, 118, 46',
-      hsv: '23, 81, 93',
+      rgb: 'rgb(238, 118, 46)',
+      hsv: 'hsv(23, 81, 93)',
       hex: '#EE762E'
     }
   },
@@ -381,8 +381,8 @@ export const idolData: Idol[] = [
     nameKana: 'おおさきあまな',
     bland: 'ShinyColors',
     color: {
-      rgb: '245, 66, 117',
-      hsv: '343, 73, 96',
+      rgb: 'rgb(245, 66, 117)',
+      hsv: 'hsv(343, 73, 96)',
       hex: '#F54275'
     }
   },
@@ -392,8 +392,8 @@ export const idolData: Idol[] = [
     nameKana: 'おおさきてんか',
     bland: 'ShinyColors',
     color: {
-      rgb: '231, 91, 236',
-      hsv: '298, 61, 93',
+      rgb: 'rgb(231, 91, 236)',
+      hsv: 'hsv(298, 61, 93)',
       hex: '#E75BEC'
     }
   },
@@ -403,8 +403,8 @@ export const idolData: Idol[] = [
     nameKana: 'おおつきゆい',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '239, 184, 23',
-      hsv: '45, 90, 94',
+      rgb: 'rgb(239, 184, 23)',
+      hsv: 'hsv(45, 90, 94)',
       hex: '#EFB817'
     }
   },
@@ -414,8 +414,8 @@ export const idolData: Idol[] = [
     nameKana: 'おかむらなお',
     bland: 'SideM',
     color: {
-      rgb: '31, 20, 81',
-      hsv: '251, 75, 32',
+      rgb: 'rgb(31, 20, 81)',
+      hsv: 'hsv(251, 75, 32)',
       hex: '#1F1451'
     }
   },
@@ -425,8 +425,8 @@ export const idolData: Idol[] = [
     nameKana: 'おがたちえり',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '105, 182, 76',
-      hsv: '104, 58, 71',
+      rgb: 'rgb(105, 182, 76)',
+      hsv: 'hsv(104, 58, 71)',
       hex: '#69B64C'
     }
   },
@@ -436,8 +436,8 @@ export const idolData: Idol[] = [
     nameKana: 'おくぞらこはく',
     bland: 'Other',
     color: {
-      rgb: '252, 250, 212',
-      hsv: '57, 16, 99',
+      rgb: 'rgb(252, 250, 212)',
+      hsv: 'hsv(57, 16, 99)',
       hex: '#FCFAD4'
     }
   },
@@ -447,8 +447,8 @@ export const idolData: Idol[] = [
     nameKana: 'おとくらゆうき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '242, 192, 193',
-      hsv: '359, 21, 95',
+      rgb: 'rgb(242, 192, 193)',
+      hsv: 'hsv(359, 21, 95)',
       hex: '#F2C0C1'
     }
   },
@@ -458,8 +458,8 @@ export const idolData: Idol[] = [
     nameKana: 'かぐられい',
     bland: 'SideM',
     color: {
-      rgb: '61, 90, 200',
-      hsv: '227, 70, 78',
+      rgb: 'rgb(61, 90, 200)',
+      hsv: 'hsv(227, 70, 78)',
       hex: '#3D5AC8'
     }
   },
@@ -469,8 +469,8 @@ export const idolData: Idol[] = [
     nameKana: 'かざのひおり',
     bland: 'ShinyColors',
     color: {
-      rgb: '20, 67, 132',
-      hsv: '215, 85, 52',
+      rgb: 'rgb(20, 67, 132)',
+      hsv: 'hsv(215, 85, 52)',
       hex: '#144384'
     }
   },
@@ -480,8 +480,8 @@ export const idolData: Idol[] = [
     nameKana: 'かしわぎつばさ',
     bland: 'SideM',
     color: {
-      rgb: '59, 175, 41',
-      hsv: '112, 77, 69',
+      rgb: 'rgb(59, 175, 41)',
+      hsv: 'hsv(112, 77, 69)',
       hex: '#3BAF29'
     }
   },
@@ -491,8 +491,8 @@ export const idolData: Idol[] = [
     nameKana: 'かすがみらい',
     bland: 'MillionLive',
     color: {
-      rgb: '234, 91, 118',
-      hsv: '349, 61, 92',
+      rgb: 'rgb(234, 91, 118)',
+      hsv: 'hsv(349, 61, 92)',
       hex: '#EA5B76'
     }
   },
@@ -502,8 +502,8 @@ export const idolData: Idol[] = [
     nameKana: 'かたぎりさなえ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '233, 77, 26',
-      hsv: '15, 89, 91',
+      rgb: 'rgb(233, 77, 26)',
+      hsv: 'hsv(15, 89, 91)',
       hex: '#E94D1A'
     }
   },
@@ -513,8 +513,8 @@ export const idolData: Idol[] = [
     nameKana: 'かぶとだいご',
     bland: 'SideM',
     color: {
-      rgb: '228, 28, 26',
-      hsv: '1, 89, 89',
+      rgb: 'rgb(228, 28, 26)',
+      hsv: 'hsv(1, 89, 89)',
       hex: '#E41C1A'
     }
   },
@@ -524,8 +524,8 @@ export const idolData: Idol[] = [
     nameKana: 'かみじょうはるな',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '89, 183, 219',
-      hsv: '197, 59, 86',
+      rgb: 'rgb(89, 183, 219)',
+      hsv: 'hsv(197, 59, 86)',
       hex: '#59B7DB'
     }
   },
@@ -535,8 +535,8 @@ export const idolData: Idol[] = [
     nameKana: 'かみやなお',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '141, 117, 179',
-      hsv: '263, 35, 70',
+      rgb: 'rgb(141, 117, 179)',
+      hsv: 'hsv(263, 35, 70)',
       hex: '#8D75B3'
     }
   },
@@ -546,8 +546,8 @@ export const idolData: Idol[] = [
     nameKana: 'かみやゆきひろ',
     bland: 'SideM',
     color: {
-      rgb: '240, 144, 121',
-      hsv: '12, 50, 94',
+      rgb: 'rgb(240, 144, 121)',
+      hsv: 'hsv(12, 50, 94)',
       hex: '#F09079'
     }
   },
@@ -557,8 +557,8 @@ export const idolData: Idol[] = [
     nameKana: 'かわしまみずき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '63, 89, 166',
-      hsv: '225, 62, 65',
+      rgb: 'rgb(63, 89, 166)',
+      hsv: 'hsv(225, 62, 65)',
       hex: '#3F59A6'
     }
   },
@@ -568,8 +568,8 @@ export const idolData: Idol[] = [
     nameKana: 'かんざきらんこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '126, 49, 136',
-      hsv: '293, 64, 53',
+      rgb: 'rgb(126, 49, 136)',
+      hsv: 'hsv(293, 64, 53)',
       hex: '#7E3188'
     }
   },
@@ -579,8 +579,8 @@ export const idolData: Idol[] = [
     nameKana: 'がなはひびき',
     bland: '765AS',
     color: {
-      rgb: '1, 173, 185',
-      hsv: '184, 99, 73',
+      rgb: 'rgb(1, 173, 185)',
+      hsv: 'hsv(184, 99, 73)',
       hex: '#01ADB9'
     }
   },
@@ -590,8 +590,8 @@ export const idolData: Idol[] = [
     nameKana: 'きくちまこと',
     bland: '765AS',
     color: {
-      rgb: '81, 85, 88',
-      hsv: '206, 8, 35',
+      rgb: 'rgb(81, 85, 88)',
+      hsv: 'hsv(206, 8, 35)',
       hex: '#515558'
     }
   },
@@ -601,8 +601,8 @@ export const idolData: Idol[] = [
     nameKana: 'きさらぎちはや',
     bland: '765AS',
     color: {
-      rgb: '39, 67, 210',
-      hsv: '230, 81, 82',
+      rgb: 'rgb(39, 67, 210)',
+      hsv: 'hsv(230, 81, 82)',
       hex: '#2743D2'
     }
   },
@@ -612,8 +612,8 @@ export const idolData: Idol[] = [
     nameKana: 'きざきれん',
     bland: 'SideM',
     color: {
-      rgb: '172, 22, 42',
-      hsv: '352, 87, 67',
+      rgb: 'rgb(172, 22, 42)',
+      hsv: 'hsv(352, 87, 67)',
       hex: '#AC162A'
     }
   },
@@ -623,8 +623,8 @@ export const idolData: Idol[] = [
     nameKana: 'きたかみれいか',
     bland: 'MillionLive',
     color: {
-      rgb: '107, 182, 176',
-      hsv: '175, 41, 71',
+      rgb: 'rgb(107, 182, 176)',
+      hsv: 'hsv(175, 41, 71)',
       hex: '#6BB6B0'
     }
   },
@@ -634,8 +634,8 @@ export const idolData: Idol[] = [
     nameKana: 'きたざわしほ',
     bland: 'MillionLive',
     color: {
-      rgb: '175, 166, 144',
-      hsv: '43, 18, 69',
+      rgb: 'rgb(175, 166, 144)',
+      hsv: 'hsv(43, 18, 69)',
       hex: '#AFA690'
     }
   },
@@ -645,8 +645,8 @@ export const idolData: Idol[] = [
     nameKana: 'きたひなこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '244, 208, 89',
-      hsv: '46, 64, 96',
+      rgb: 'rgb(244, 208, 89)',
+      hsv: 'hsv(46, 64, 96)',
       hex: '#F4D059'
     }
   },
@@ -656,8 +656,8 @@ export const idolData: Idol[] = [
     nameKana: 'きたみゆず',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '234, 220, 98',
-      hsv: '54, 58, 92',
+      rgb: 'rgb(234, 220, 98)',
+      hsv: 'hsv(54, 58, 92)',
       hex: '#EADC62'
     }
   },
@@ -667,8 +667,8 @@ export const idolData: Idol[] = [
     nameKana: 'きたむらそら',
     bland: 'SideM',
     color: {
-      rgb: '71, 117, 37',
-      hsv: '94, 68, 46',
+      rgb: 'rgb(71, 117, 37)',
+      hsv: 'hsv(94, 68, 46)',
       hex: '#477525'
     }
   },
@@ -678,8 +678,8 @@ export const idolData: Idol[] = [
     nameKana: 'きのしたひなた',
     bland: 'MillionLive',
     color: {
-      rgb: '209, 52, 44',
-      hsv: '3, 79, 82',
+      rgb: 'rgb(209, 52, 44)',
+      hsv: 'hsv(3, 79, 82)',
       hex: '#D1342C'
     }
   },
@@ -689,8 +689,8 @@ export const idolData: Idol[] = [
     nameKana: 'きむらなつき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '85, 86, 90',
-      hsv: '228, 6, 35',
+      rgb: 'rgb(85, 86, 90)',
+      hsv: 'hsv(228, 6, 35)',
       hex: '#55565A'
     }
   },
@@ -700,8 +700,8 @@ export const idolData: Idol[] = [
     nameKana: 'きむらりゅう',
     bland: 'SideM',
     color: {
-      rgb: '238, 114, 32',
-      hsv: '24, 87, 93',
+      rgb: 'rgb(238, 114, 32)',
+      hsv: 'hsv(24, 87, 93)',
       hex: '#EE7220'
     }
   },
@@ -711,8 +711,8 @@ export const idolData: Idol[] = [
     nameKana: 'きよすみくろう',
     bland: 'SideM',
     color: {
-      rgb: '121, 165, 223',
-      hsv: '214, 46, 87',
+      rgb: 'rgb(121, 165, 223)',
+      hsv: 'hsv(214, 46, 87)',
       hex: '#79A5DF'
     }
   },
@@ -722,8 +722,8 @@ export const idolData: Idol[] = [
     nameKana: 'くずのはあめひこ',
     bland: 'SideM',
     color: {
-      rgb: '17, 23, 33',
-      hsv: '217, 48, 13',
+      rgb: 'rgb(17, 23, 33)',
+      hsv: 'hsv(217, 48, 13)',
       hex: '#111721'
     }
   },
@@ -733,8 +733,8 @@ export const idolData: Idol[] = [
     nameKana: 'くろのげんぶ',
     bland: 'SideM',
     color: {
-      rgb: '15, 12, 159',
-      hsv: '241, 92, 62',
+      rgb: 'rgb(15, 12, 159)',
+      hsv: 'hsv(241, 92, 62)',
       hex: '#0F0C9F'
     }
   },
@@ -744,8 +744,8 @@ export const idolData: Idol[] = [
     nameKana: 'くわやまちゆき',
     bland: 'ShinyColors',
     color: {
-      rgb: '251, 250, 250',
-      hsv: '0, 0, 98',
+      rgb: 'rgb(251, 250, 250)',
+      hsv: 'hsv(0, 0, 98)',
       hex: '#FBFAFA'
     }
   },
@@ -755,8 +755,8 @@ export const idolData: Idol[] = [
     nameKana: 'こうさかうみ',
     bland: 'MillionLive',
     color: {
-      rgb: '233, 115, 155',
-      hsv: '340, 51, 91',
+      rgb: 'rgb(233, 115, 155)',
+      hsv: 'hsv(340, 51, 91)',
       hex: '#E9739B'
     }
   },
@@ -766,8 +766,8 @@ export const idolData: Idol[] = [
     nameKana: 'こしみずさちこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '204, 170, 207',
-      hsv: '295, 18, 81',
+      rgb: 'rgb(204, 170, 207)',
+      hsv: 'hsv(295, 18, 81)',
       hex: '#CCAACF'
     }
   },
@@ -777,8 +777,8 @@ export const idolData: Idol[] = [
     nameKana: 'こばやかわさえ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '217, 103, 163',
-      hsv: '328, 53, 85',
+      rgb: 'rgb(217, 103, 163)',
+      hsv: 'hsv(328, 53, 85)',
       hex: '#D967A3'
     }
   },
@@ -788,8 +788,8 @@ export const idolData: Idol[] = [
     nameKana: 'こひなたみほ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '198, 71, 150',
-      hsv: '323, 64, 78',
+      rgb: 'rgb(198, 71, 150)',
+      hsv: 'hsv(323, 64, 78)',
       hex: '#C64796'
     }
   },
@@ -799,8 +799,8 @@ export const idolData: Idol[] = [
     nameKana: 'こみやかほ',
     bland: 'ShinyColors',
     color: {
-      rgb: '229, 70, 28',
-      hsv: '13, 88, 90',
+      rgb: 'rgb(229, 70, 28)',
+      hsv: 'hsv(13, 88, 90)',
       hex: '#E5461C'
     }
   },
@@ -810,8 +810,8 @@ export const idolData: Idol[] = [
     nameKana: 'ころんくりす',
     bland: 'SideM',
     color: {
-      rgb: '31, 193, 221',
-      hsv: '189, 86, 87',
+      rgb: 'rgb(31, 193, 221)',
+      hsv: 'hsv(189, 86, 87)',
       hex: '#1FC1DD'
     }
   },
@@ -821,8 +821,8 @@ export const idolData: Idol[] = [
     nameKana: 'さいじょうじゅり',
     bland: 'ShinyColors',
     color: {
-      rgb: '255, 198, 2',
-      hsv: '46, 99, 100',
+      rgb: 'rgb(255, 198, 2)',
+      hsv: 'hsv(46, 99, 100)',
       hex: '#FFC602'
     }
   },
@@ -832,8 +832,8 @@ export const idolData: Idol[] = [
     nameKana: 'さかきなつき',
     bland: 'SideM',
     color: {
-      rgb: '36, 202, 210',
-      hsv: '183, 83, 82',
+      rgb: 'rgb(36, 202, 210)',
+      hsv: 'hsv(183, 83, 82)',
       hex: '#24CAD2'
     }
   },
@@ -843,8 +843,8 @@ export const idolData: Idol[] = [
     nameKana: 'さくままゆ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '209, 25, 123',
-      hsv: '328, 88, 82',
+      rgb: 'rgb(209, 25, 123)',
+      hsv: 'hsv(328, 88, 82)',
       hex: '#D1197B'
     }
   },
@@ -854,8 +854,8 @@ export const idolData: Idol[] = [
     nameKana: 'さくらいももか',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '239, 147, 188',
-      hsv: '333, 38, 94',
+      rgb: 'rgb(239, 147, 188)',
+      hsv: 'hsv(333, 38, 94)',
       hex: '#EF93BC'
     }
   },
@@ -865,8 +865,8 @@ export const idolData: Idol[] = [
     nameKana: 'さくらぎまの',
     bland: 'ShinyColors',
     color: {
-      rgb: '255, 186, 214',
-      hsv: '336, 27, 100',
+      rgb: 'rgb(255, 186, 214)',
+      hsv: 'hsv(336, 27, 100)',
       hex: '#FFBAD6'
     }
   },
@@ -876,8 +876,8 @@ export const idolData: Idol[] = [
     nameKana: 'さくらばかおる',
     bland: 'SideM',
     color: {
-      rgb: '25, 69, 186',
-      hsv: '224, 87, 73',
+      rgb: 'rgb(25, 69, 186)',
+      hsv: 'hsv(224, 87, 73)',
       hex: '#1945BA'
     }
   },
@@ -887,8 +887,8 @@ export const idolData: Idol[] = [
     nameKana: 'さくらもりかおり',
     bland: 'MillionLive',
     color: {
-      rgb: '39, 64, 121',
-      hsv: '222, 68, 47',
+      rgb: 'rgb(39, 64, 121)',
+      hsv: 'hsv(222, 68, 47)',
       hex: '#274079'
     }
   },
@@ -898,8 +898,8 @@ export const idolData: Idol[] = [
     nameKana: 'ささきちえ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '0, 106, 182',
-      hsv: '205, 100, 71',
+      rgb: 'rgb(0, 106, 182)',
+      hsv: 'hsv(205, 100, 71)',
       hex: '#006AB6'
     }
   },
@@ -909,8 +909,8 @@ export const idolData: Idol[] = [
     nameKana: 'さたけみなこ',
     bland: 'MillionLive',
     color: {
-      rgb: '88, 166, 220',
-      hsv: '205, 60, 86',
+      rgb: 'rgb(88, 166, 220)',
+      hsv: 'hsv(205, 60, 86)',
       hex: '#58A6DC'
     }
   },
@@ -920,8 +920,8 @@ export const idolData: Idol[] = [
     nameKana: 'さとうしん',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '228, 78, 142',
-      hsv: '334, 66, 89',
+      rgb: 'rgb(228, 78, 142)',
+      hsv: 'hsv(334, 66, 89)',
       hex: '#E44E8E'
     }
   },
@@ -931,8 +931,8 @@ export const idolData: Idol[] = [
     nameKana: 'しいなのりこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '234, 73, 91',
-      hsv: '353, 69, 92',
+      rgb: 'rgb(234, 73, 91)',
+      hsv: 'hsv(353, 69, 92)',
       hex: '#EA495B'
     }
   },
@@ -942,8 +942,8 @@ export const idolData: Idol[] = [
     nameKana: 'しおみしゅうこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '222, 226, 235',
-      hsv: '222, 6, 92',
+      rgb: 'rgb(222, 226, 235)',
+      hsv: 'hsv(222, 6, 92)',
       hex: '#DEE2EB'
     }
   },
@@ -953,8 +953,8 @@ export const idolData: Idol[] = [
     nameKana: 'しじょうたかね',
     bland: '765AS',
     color: {
-      rgb: '166, 18, 106',
-      hsv: '324, 89, 65',
+      rgb: 'rgb(166, 18, 106)',
+      hsv: 'hsv(324, 89, 65)',
       hex: '#A6126A'
     }
   },
@@ -964,8 +964,8 @@ export const idolData: Idol[] = [
     nameKana: 'しののめそういちろう',
     bland: 'SideM',
     color: {
-      rgb: '2, 148, 108',
-      hsv: '164, 99, 58',
+      rgb: 'rgb(2, 148, 108)',
+      hsv: 'hsv(164, 99, 58)',
       hex: '#02946C'
     }
   },
@@ -975,8 +975,8 @@ export const idolData: Idol[] = [
     nameKana: 'しのみやかれん',
     bland: 'MillionLive',
     color: {
-      rgb: '182, 59, 64',
-      hsv: '358, 68, 71',
+      rgb: 'rgb(182, 59, 64)',
+      hsv: 'hsv(358, 68, 71)',
       hex: '#B63B40'
     }
   },
@@ -986,8 +986,8 @@ export const idolData: Idol[] = [
     nameKana: 'しぶやりん',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '28, 144, 205',
-      hsv: '201, 86, 80',
+      rgb: 'rgb(28, 144, 205)',
+      hsv: 'hsv(201, 86, 80)',
       hex: '#1C90CD'
     }
   },
@@ -997,8 +997,8 @@ export const idolData: Idol[] = [
     nameKana: 'しまばらえれな',
     bland: 'MillionLive',
     color: {
-      rgb: '155, 206, 146',
-      hsv: '111, 29, 81',
+      rgb: 'rgb(155, 206, 146)',
+      hsv: 'hsv(111, 29, 81)',
       hex: '#9BCE92'
     }
   },
@@ -1008,8 +1008,8 @@ export const idolData: Idol[] = [
     nameKana: 'しまむらうづき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '236, 112, 146',
-      hsv: '344, 53, 93',
+      rgb: 'rgb(236, 112, 146)',
+      hsv: 'hsv(344, 53, 93)',
       hex: '#EC7092'
     }
   },
@@ -1019,8 +1019,8 @@ export const idolData: Idol[] = [
     nameKana: 'しらいしつむぎ',
     bland: 'MillionLive',
     color: {
-      rgb: '235, 225, 255',
-      hsv: '260, 12, 100',
+      rgb: 'rgb(235, 225, 255)',
+      hsv: 'hsv(260, 12, 100)',
       hex: '#EBE1FF'
     }
   },
@@ -1030,8 +1030,8 @@ export const idolData: Idol[] = [
     nameKana: 'しらぎくほたる',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '209, 98, 203',
-      hsv: '303, 53, 82',
+      rgb: 'rgb(209, 98, 203)',
+      hsv: 'hsv(303, 53, 82)',
       hex: '#D162CB'
     }
   },
@@ -1041,8 +1041,8 @@ export const idolData: Idol[] = [
     nameKana: 'しらさかこうめ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '170, 197, 226',
-      hsv: '211, 25, 89',
+      rgb: 'rgb(170, 197, 226)',
+      hsv: 'hsv(211, 25, 89)',
       hex: '#AAC5E2'
     }
   },
@@ -1052,8 +1052,8 @@ export const idolData: Idol[] = [
     nameKana: 'しらせさくや',
     bland: 'ShinyColors',
     color: {
-      rgb: '0, 96, 71',
-      hsv: '164, 100, 38',
+      rgb: 'rgb(0, 96, 71)',
+      hsv: 'hsv(164, 100, 38)',
       hex: '#006047'
     }
   },
@@ -1063,8 +1063,8 @@ export const idolData: Idol[] = [
     nameKana: 'しんげんせいじ',
     bland: 'SideM',
     color: {
-      rgb: '120, 133, 58',
-      hsv: '70, 56, 52',
+      rgb: 'rgb(120, 133, 58)',
+      hsv: 'hsv(70, 56, 52)',
       hex: '#78853A'
     }
   },
@@ -1074,8 +1074,8 @@ export const idolData: Idol[] = [
     nameKana: 'じゅりあ',
     bland: 'MillionLive',
     color: {
-      rgb: '215, 56, 95',
-      hsv: '345, 74, 84',
+      rgb: 'rgb(215, 56, 95)',
+      hsv: 'hsv(345, 74, 84)',
       hex: '#D7385F'
     }
   },
@@ -1085,8 +1085,8 @@ export const idolData: Idol[] = [
     nameKana: 'じょうがさきみか',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '244, 152, 43',
-      hsv: '33, 82, 96',
+      rgb: 'rgb(244, 152, 43)',
+      hsv: 'hsv(33, 82, 96)',
       hex: '#F4982B'
     }
   },
@@ -1096,8 +1096,8 @@ export const idolData: Idol[] = [
     nameKana: 'じょうがさきりか',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '247, 211, 13',
-      hsv: '51, 95, 97',
+      rgb: 'rgb(247, 211, 13)',
+      hsv: 'hsv(51, 95, 97)',
       hex: '#F7D30D'
     }
   },
@@ -1107,8 +1107,8 @@ export const idolData: Idol[] = [
     nameKana: 'すおうももこ',
     bland: 'MillionLive',
     color: {
-      rgb: '239, 184, 100',
-      hsv: '36, 58, 94',
+      rgb: 'rgb(239, 184, 100)',
+      hsv: 'hsv(36, 58, 94)',
       hex: '#EFB864'
     }
   },
@@ -1118,8 +1118,8 @@ export const idolData: Idol[] = [
     nameKana: 'せきひろみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '248, 197, 193',
-      hsv: '4, 22, 97',
+      rgb: 'rgb(248, 197, 193)',
+      hsv: 'hsv(4, 22, 97)',
       hex: '#F8C5C1'
     }
   },
@@ -1129,8 +1129,8 @@ export const idolData: Idol[] = [
     nameKana: 'せりざわあさひ',
     bland: 'ShinyColors',
     color: {
-      rgb: '243, 1, 0',
-      hsv: '0, 100, 95',
+      rgb: 'rgb(243, 1, 0)',
+      hsv: 'hsv(0, 100, 95)',
       hex: '#F30100'
     }
   },
@@ -1140,8 +1140,8 @@ export const idolData: Idol[] = [
     nameKana: 'そのだちよこ',
     bland: 'ShinyColors',
     color: {
-      rgb: '249, 59, 144',
-      hsv: '333, 76, 98',
+      rgb: 'rgb(249, 59, 144)',
+      hsv: 'hsv(333, 76, 98)',
       hex: '#F93B90'
     }
   },
@@ -1151,8 +1151,8 @@ export const idolData: Idol[] = [
     nameKana: 'たいがたける',
     bland: 'SideM',
     color: {
-      rgb: '14, 12, 159',
-      hsv: '241, 92, 62',
+      rgb: 'rgb(14, 12, 159)',
+      hsv: 'hsv(241, 92, 62)',
       hex: '#0E0C9F'
     }
   },
@@ -1162,8 +1162,8 @@ export const idolData: Idol[] = [
     nameKana: 'たかがきかえで',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '51, 213, 172',
-      hsv: '165, 76, 84',
+      rgb: 'rgb(51, 213, 172)',
+      hsv: 'hsv(165, 76, 84)',
       hex: '#33D5AC'
     }
   },
@@ -1173,8 +1173,8 @@ export const idolData: Idol[] = [
     nameKana: 'たかじょうきょうじ',
     bland: 'SideM',
     color: {
-      rgb: '106, 196, 233',
-      hsv: '197, 55, 91',
+      rgb: 'rgb(106, 196, 233)',
+      hsv: 'hsv(197, 55, 91)',
       hex: '#6AC4E9'
     }
   },
@@ -1184,8 +1184,8 @@ export const idolData: Idol[] = [
     nameKana: 'たかつきやよい',
     bland: '765AS',
     color: {
-      rgb: '243, 153, 57',
-      hsv: '31, 77, 95',
+      rgb: 'rgb(243, 153, 57)',
+      hsv: 'hsv(31, 77, 95)',
       hex: '#F39939'
     }
   },
@@ -1195,8 +1195,8 @@ export const idolData: Idol[] = [
     nameKana: 'たかふじかこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '92, 6, 143',
-      hsv: '278, 96, 56',
+      rgb: 'rgb(92, 6, 143)',
+      hsv: 'hsv(278, 96, 56)',
       hex: '#5C068F'
     }
   },
@@ -1206,8 +1206,8 @@ export const idolData: Idol[] = [
     nameKana: 'たかもりあいこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '197, 221, 127',
-      hsv: '75, 43, 87',
+      rgb: 'rgb(197, 221, 127)',
+      hsv: 'hsv(75, 43, 87)',
       hex: '#C5DD7F'
     }
   },
@@ -1217,8 +1217,8 @@ export const idolData: Idol[] = [
     nameKana: 'たかやまさよこ',
     bland: 'MillionLive',
     color: {
-      rgb: '127, 101, 117',
-      hsv: '323, 20, 50',
+      rgb: 'rgb(127, 101, 117)',
+      hsv: 'hsv(323, 20, 50)',
       hex: '#7F6575'
     }
   },
@@ -1228,8 +1228,8 @@ export const idolData: Idol[] = [
     nameKana: 'ただりいな',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '0, 109, 178',
-      hsv: '203, 100, 70',
+      rgb: 'rgb(0, 109, 178)',
+      hsv: 'hsv(203, 100, 70)',
       hex: '#006DB2'
     }
   },
@@ -1239,8 +1239,8 @@ export const idolData: Idol[] = [
     nameKana: 'たちばなありす',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '88, 129, 193',
-      hsv: '217, 54, 76',
+      rgb: 'rgb(88, 129, 193)',
+      hsv: 'hsv(217, 54, 76)',
       hex: '#5881C1'
     }
   },
@@ -1250,8 +1250,8 @@ export const idolData: Idol[] = [
     nameKana: 'たちばなしろう',
     bland: 'SideM',
     color: {
-      rgb: '209, 48, 55',
-      hsv: '357, 77, 82',
+      rgb: 'rgb(209, 48, 55)',
+      hsv: 'hsv(357, 77, 82)',
       hex: '#D13037'
     }
   },
@@ -1261,8 +1261,8 @@ export const idolData: Idol[] = [
     nameKana: 'たなかことは',
     bland: 'MillionLive',
     color: {
-      rgb: '146, 207, 187',
-      hsv: '160, 29, 81',
+      rgb: 'rgb(146, 207, 187)',
+      hsv: 'hsv(160, 29, 81)',
       hex: '#92CFBB'
     }
   },
@@ -1272,8 +1272,8 @@ export const idolData: Idol[] = [
     nameKana: 'たなかまみみ',
     bland: 'ShinyColors',
     color: {
-      rgb: '168, 70, 251',
-      hsv: '272, 72, 98',
+      rgb: 'rgb(168, 70, 251)',
+      hsv: 'hsv(272, 72, 98)',
       hex: '#A846FB'
     }
   },
@@ -1283,8 +1283,8 @@ export const idolData: Idol[] = [
     nameKana: 'つきおかこがね',
     bland: 'ShinyColors',
     color: {
-      rgb: '248, 76, 173',
-      hsv: '326, 69, 97',
+      rgb: 'rgb(248, 76, 173)',
+      hsv: 'hsv(326, 69, 97)',
       hex: '#F84CAD'
     }
   },
@@ -1294,8 +1294,8 @@ export const idolData: Idol[] = [
     nameKana: 'つくもかずき',
     bland: 'SideM',
     color: {
-      rgb: '207, 158, 81',
-      hsv: '37, 61, 81',
+      rgb: 'rgb(207, 158, 81)',
+      hsv: 'hsv(37, 61, 81)',
       hex: '#CF9E51'
     }
   },
@@ -1305,8 +1305,8 @@ export const idolData: Idol[] = [
     nameKana: 'つづきけい',
     bland: 'SideM',
     color: {
-      rgb: '197, 166, 226',
-      hsv: '271, 27, 89',
+      rgb: 'rgb(197, 166, 226)',
+      hsv: 'hsv(271, 27, 89)',
       hex: '#C5A6E2'
     }
   },
@@ -1316,8 +1316,8 @@ export const idolData: Idol[] = [
     nameKana: 'てんくうばしともか',
     bland: 'MillionLive',
     color: {
-      rgb: '190, 227, 227',
-      hsv: '180, 16, 89',
+      rgb: 'rgb(190, 227, 227)',
+      hsv: 'hsv(180, 16, 89)',
       hex: '#BEE3E3'
     }
   },
@@ -1327,8 +1327,8 @@ export const idolData: Idol[] = [
     nameKana: 'てんどうてる',
     bland: 'SideM',
     color: {
-      rgb: '227, 28, 26',
-      hsv: '1, 89, 89',
+      rgb: 'rgb(227, 28, 26)',
+      hsv: 'hsv(1, 89, 89)',
       hex: '#E31C1A'
     }
   },
@@ -1338,8 +1338,8 @@ export const idolData: Idol[] = [
     nameKana: 'とくがわまつり',
     bland: 'MillionLive',
     color: {
-      rgb: '90, 191, 183',
-      hsv: '175, 53, 75',
+      rgb: 'rgb(90, 191, 183)',
+      hsv: 'hsv(175, 53, 75)',
       hex: '#5ABFB7'
     }
   },
@@ -1349,8 +1349,8 @@ export const idolData: Idol[] = [
     nameKana: 'ところめぐみ',
     bland: 'MillionLive',
     color: {
-      rgb: '69, 67, 65',
-      hsv: '30, 6, 27',
+      rgb: 'rgb(69, 67, 65)',
+      hsv: 'hsv(30, 6, 27)',
       hex: '#454341'
     }
   },
@@ -1360,8 +1360,8 @@ export const idolData: Idol[] = [
     nameKana: 'とときあいり',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '233, 66, 92',
-      hsv: '351, 72, 91',
+      rgb: 'rgb(233, 66, 92)',
+      hsv: 'hsv(351, 72, 91)',
       hex: '#E9425C'
     }
   },
@@ -1371,8 +1371,8 @@ export const idolData: Idol[] = [
     nameKana: 'とよかわふうか',
     bland: 'MillionLive',
     color: {
-      rgb: '114, 120, 168',
-      hsv: '233, 32, 66',
+      rgb: 'rgb(114, 120, 168)',
+      hsv: 'hsv(233, 32, 66)',
       hex: '#7278A8'
     }
   },
@@ -1382,8 +1382,8 @@ export const idolData: Idol[] = [
     nameKana: 'どうみょうじかりん',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '204, 37, 45',
-      hsv: '357, 82, 80',
+      rgb: 'rgb(204, 37, 45)',
+      hsv: 'hsv(357, 82, 80)',
       hex: '#CC252D'
     }
   },
@@ -1393,8 +1393,8 @@ export const idolData: Idol[] = [
     nameKana: 'なかたにいく',
     bland: 'MillionLive',
     color: {
-      rgb: '247, 231, 142',
-      hsv: '51, 43, 97',
+      rgb: 'rgb(247, 231, 142)',
+      hsv: 'hsv(51, 43, 97)',
       hex: '#F7E78E'
     }
   },
@@ -1404,8 +1404,8 @@ export const idolData: Idol[] = [
     nameKana: 'なかのゆか',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '203, 120, 176',
-      hsv: '320, 41, 80',
+      rgb: 'rgb(203, 120, 176)',
+      hsv: 'hsv(320, 41, 80)',
       hex: '#CB78B0'
     }
   },
@@ -1415,8 +1415,8 @@ export const idolData: Idol[] = [
     nameKana: 'ながよしすばる',
     bland: 'MillionLive',
     color: {
-      rgb: '174, 180, 156',
-      hsv: '75, 13, 71',
+      rgb: 'rgb(174, 180, 156)',
+      hsv: 'hsv(75, 13, 71)',
       hex: '#AEB49C'
     }
   },
@@ -1426,8 +1426,8 @@ export const idolData: Idol[] = [
     nameKana: 'ななおゆりこ',
     bland: 'MillionLive',
     color: {
-      rgb: '199, 184, 60',
-      hsv: '54, 70, 78',
+      rgb: 'rgb(199, 184, 60)',
+      hsv: 'hsv(54, 70, 78)',
       hex: '#C7B83C'
     }
   },
@@ -1437,8 +1437,8 @@ export const idolData: Idol[] = [
     nameKana: 'ななくさにちか',
     bland: 'ShinyColors',
     color: {
-      rgb: '165, 207, 182',
-      hsv: '144, 20, 81',
+      rgb: 'rgb(165, 207, 182)',
+      hsv: 'hsv(144, 20, 81)',
       hex: '#A5CFB6'
     }
   },
@@ -1448,8 +1448,8 @@ export const idolData: Idol[] = [
     nameKana: 'なんじょうひかる',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '237, 8, 41',
-      hsv: '351, 97, 93',
+      rgb: 'rgb(237, 8, 41)',
+      hsv: 'hsv(351, 97, 93)',
       hex: '#ED0829'
     }
   },
@@ -1459,8 +1459,8 @@ export const idolData: Idol[] = [
     nameKana: 'なんばえみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '233, 70, 61',
-      hsv: '3, 74, 91',
+      rgb: 'rgb(233, 70, 61)',
+      hsv: 'hsv(3, 74, 91)',
       hex: '#E9463D'
     }
   },
@@ -1470,8 +1470,8 @@ export const idolData: Idol[] = [
     nameKana: 'にかいどうちづる',
     bland: 'MillionLive',
     color: {
-      rgb: '241, 149, 87',
-      hsv: '24, 64, 95',
+      rgb: 'rgb(241, 149, 87)',
+      hsv: 'hsv(24, 64, 95)',
       hex: '#F19557'
     }
   },
@@ -1481,8 +1481,8 @@ export const idolData: Idol[] = [
     nameKana: 'にったみなみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '109, 188, 219',
-      hsv: '197, 50, 86',
+      rgb: 'rgb(109, 188, 219)',
+      hsv: 'hsv(197, 50, 86)',
       hex: '#6DBCDB'
     }
   },
@@ -1492,8 +1492,8 @@ export const idolData: Idol[] = [
     nameKana: 'にのみやあすか',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '85, 42, 124',
-      hsv: '271, 66, 49',
+      rgb: 'rgb(85, 42, 124)',
+      hsv: 'hsv(271, 66, 49)',
       hex: '#552A7C'
     }
   },
@@ -1503,8 +1503,8 @@ export const idolData: Idol[] = [
     nameKana: 'ねこやなぎきりお',
     bland: 'SideM',
     color: {
-      rgb: '247, 189, 5',
-      hsv: '46, 98, 97',
+      rgb: 'rgb(247, 189, 5)',
+      hsv: 'hsv(46, 98, 97)',
       hex: '#F7BD05'
     }
   },
@@ -1514,8 +1514,8 @@ export const idolData: Idol[] = [
     nameKana: 'ののはらあかね',
     bland: 'MillionLive',
     color: {
-      rgb: '235, 97, 63',
-      hsv: '12, 73, 92',
+      rgb: 'rgb(235, 97, 63)',
+      hsv: 'hsv(12, 73, 92)',
       hex: '#EB613F'
     }
   },
@@ -1525,8 +1525,8 @@ export const idolData: Idol[] = [
     nameKana: 'はぎわらゆきほ',
     bland: '765AS',
     color: {
-      rgb: '211, 221, 233',
-      hsv: '213, 9, 91',
+      rgb: 'rgb(211, 221, 233)',
+      hsv: 'hsv(213, 9, 91)',
       hex: '#D3DDE9'
     }
   },
@@ -1536,8 +1536,8 @@ export const idolData: Idol[] = [
     nameKana: 'はこざきせりか',
     bland: 'MillionLive',
     color: {
-      rgb: '237, 144, 186',
-      hsv: '333, 39, 93',
+      rgb: 'rgb(237, 144, 186)',
+      hsv: 'hsv(333, 39, 93)',
       hex: '#ED90BA'
     }
   },
@@ -1547,8 +1547,8 @@ export const idolData: Idol[] = [
     nameKana: 'はざまみちお',
     bland: 'SideM',
     color: {
-      rgb: '67, 108, 169',
-      hsv: '216, 60, 66',
+      rgb: 'rgb(67, 108, 169)',
+      hsv: 'hsv(216, 60, 66)',
       hex: '#436CA9'
     }
   },
@@ -1558,8 +1558,8 @@ export const idolData: Idol[] = [
     nameKana: 'はちみやめぐる',
     bland: 'ShinyColors',
     color: {
-      rgb: '255, 224, 18',
-      hsv: '52, 93, 100',
+      rgb: 'rgb(255, 224, 18)',
+      hsv: 'hsv(52, 93, 100)',
       hex: '#FFE012'
     }
   },
@@ -1569,8 +1569,8 @@ export const idolData: Idol[] = [
     nameKana: 'はなむらしょうま',
     bland: 'SideM',
     color: {
-      rgb: '118, 100, 160',
-      hsv: '258, 38, 63',
+      rgb: 'rgb(118, 100, 160)',
+      hsv: 'hsv(258, 38, 63)',
       hex: '#7664A0'
     }
   },
@@ -1580,8 +1580,8 @@ export const idolData: Idol[] = [
     nameKana: 'はまぐちあやめ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '71, 28, 135',
-      hsv: '264, 79, 53',
+      rgb: 'rgb(71, 28, 135)',
+      hsv: 'hsv(264, 79, 53)',
       hex: '#471C87'
     }
   },
@@ -1591,8 +1591,8 @@ export const idolData: Idol[] = [
     nameKana: 'はやさかみれい',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '183, 32, 137',
-      hsv: '318, 83, 72',
+      rgb: 'rgb(183, 32, 137)',
+      hsv: 'hsv(318, 83, 72)',
       hex: '#B72089'
     }
   },
@@ -1602,8 +1602,8 @@ export const idolData: Idol[] = [
     nameKana: 'はやみかなで',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '13, 56, 109',
-      hsv: '213, 88, 43',
+      rgb: 'rgb(13, 56, 109)',
+      hsv: 'hsv(213, 88, 43)',
       hex: '#0D386D'
     }
   },
@@ -1613,8 +1613,8 @@ export const idolData: Idol[] = [
     nameKana: 'ばばこのみ',
     bland: 'MillionLive',
     color: {
-      rgb: '241, 190, 203',
-      hsv: '345, 21, 95',
+      rgb: 'rgb(241, 190, 203)',
+      hsv: 'hsv(345, 21, 95)',
       hex: '#F1BECB'
     }
   },
@@ -1624,8 +1624,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひぐちまどか',
     bland: 'ShinyColors',
     color: {
-      rgb: '190, 30, 62',
-      hsv: '348, 84, 75',
+      rgb: 'rgb(190, 30, 62)',
+      hsv: 'hsv(348, 84, 75)',
       hex: '#BE1E3E'
     }
   },
@@ -1635,8 +1635,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひさかわなぎ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '247, 161, 186',
-      hsv: '343, 35, 97',
+      rgb: 'rgb(247, 161, 186)',
+      hsv: 'hsv(343, 35, 97)',
       hex: '#F7A1BA'
     }
   },
@@ -1646,8 +1646,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひさかわはやて',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '122, 218, 214',
-      hsv: '178, 44, 85',
+      rgb: 'rgb(122, 218, 214)',
+      hsv: 'hsv(178, 44, 85)',
       hex: '#7ADAD6'
     }
   },
@@ -1657,8 +1657,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひだかあい',
     bland: 'DearlyStars',
     color: {
-      rgb: '232, 87, 134',
-      hsv: '341, 63, 91',
+      rgb: 'rgb(232, 87, 134)',
+      hsv: 'hsv(341, 63, 91)',
       hex: '#E85786'
     }
   },
@@ -1668,8 +1668,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひのあかね',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '234, 79, 33',
-      hsv: '14, 86, 92',
+      rgb: 'rgb(234, 79, 33)',
+      hsv: 'hsv(14, 86, 92)',
       hex: '#EA4F21'
     }
   },
@@ -1679,8 +1679,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひめかわゆき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '233, 135, 12',
-      hsv: '33, 95, 91',
+      rgb: 'rgb(233, 135, 12)',
+      hsv: 'hsv(33, 95, 91)',
       hex: '#E9870C'
     }
   },
@@ -1690,8 +1690,8 @@ export const idolData: Idol[] = [
     nameKana: 'ひめのかのん',
     bland: 'SideM',
     color: {
-      rgb: '247, 181, 196',
-      hsv: '346, 27, 97',
+      rgb: 'rgb(247, 181, 196)',
+      hsv: 'hsv(346, 27, 97)',
       hex: '#F7B5C4'
     }
   },
@@ -1701,8 +1701,8 @@ export const idolData: Idol[] = [
     nameKana: 'ぴえーる',
     bland: 'SideM',
     color: {
-      rgb: '139, 220, 99',
-      hsv: '100, 55, 86',
+      rgb: 'rgb(139, 220, 99)',
+      hsv: 'hsv(100, 55, 86)',
       hex: '#8BDC63'
     }
   },
@@ -1712,8 +1712,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふくだのりこ',
     bland: 'MillionLive',
     color: {
-      rgb: '236, 235, 112',
-      hsv: '60, 53, 93',
+      rgb: 'rgb(236, 235, 112)',
+      hsv: 'hsv(60, 53, 93)',
       hex: '#ECEB70'
     }
   },
@@ -1723,8 +1723,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふくまるこいと',
     bland: 'ShinyColors',
     color: {
-      rgb: '121, 103, 195',
-      hsv: '252, 47, 76',
+      rgb: 'rgb(121, 103, 195)',
+      hsv: 'hsv(252, 47, 76)',
       hex: '#7967C3'
     }
   },
@@ -1734,8 +1734,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふじもとりな',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '101, 58, 42',
-      hsv: '16, 58, 40',
+      rgb: 'rgb(101, 58, 42)',
+      hsv: 'hsv(16, 58, 40)',
       hex: '#653A2A'
     }
   },
@@ -1745,8 +1745,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふじわらはじめ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '114, 113, 179',
-      hsv: '241, 37, 70',
+      rgb: 'rgb(114, 113, 179)',
+      hsv: 'hsv(241, 37, 70)',
       hex: '#7271B3'
     }
   },
@@ -1756,8 +1756,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふたばあんず',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '241, 157, 180',
-      hsv: '344, 35, 95',
+      rgb: 'rgb(241, 157, 180)',
+      hsv: 'hsv(344, 35, 95)',
       hex: '#F19DB4'
     }
   },
@@ -1767,8 +1767,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふたみあみ',
     bland: '765AS',
     color: {
-      rgb: '255, 228, 63',
-      hsv: '52, 75, 100',
+      rgb: 'rgb(255, 228, 63)',
+      hsv: 'hsv(52, 75, 100)',
       hex: '#FFE43F'
     }
   },
@@ -1778,8 +1778,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふたみまみ',
     bland: '765AS',
     color: {
-      rgb: '255, 228, 63',
-      hsv: '52, 75, 100',
+      rgb: 'rgb(255, 228, 63)',
+      hsv: 'hsv(52, 75, 100)',
       hex: '#FFE43F'
     }
   },
@@ -1789,8 +1789,8 @@ export const idolData: Idol[] = [
     nameKana: 'ふゆみじゅん',
     bland: 'SideM',
     color: {
-      rgb: '24, 69, 185',
-      hsv: '223, 87, 73',
+      rgb: 'rgb(24, 69, 185)',
+      hsv: 'hsv(223, 87, 73)',
       hex: '#1845B9'
     }
   },
@@ -1800,8 +1800,8 @@ export const idolData: Idol[] = [
     nameKana: 'ほうじょうかれん',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '56, 186, 184',
-      hsv: '179, 70, 73',
+      rgb: 'rgb(56, 186, 184)',
+      hsv: 'hsv(179, 70, 73)',
       hex: '#38BAB8'
     }
   },
@@ -1811,8 +1811,8 @@ export const idolData: Idol[] = [
     nameKana: 'ほしいみき',
     bland: '765AS',
     color: {
-      rgb: '180, 224, 75',
-      hsv: '78, 67, 88',
+      rgb: 'rgb(180, 224, 75)',
+      hsv: 'hsv(78, 67, 88)',
       hex: '#B4E04B'
     }
   },
@@ -1822,8 +1822,8 @@ export const idolData: Idol[] = [
     nameKana: 'ほししょうこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '162, 29, 60',
-      hsv: '346, 82, 64',
+      rgb: 'rgb(162, 29, 60)',
+      hsv: 'hsv(346, 82, 64)',
       hex: '#A21D3C'
     }
   },
@@ -1833,8 +1833,8 @@ export const idolData: Idol[] = [
     nameKana: 'ほりゆうこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '232, 155, 85',
-      hsv: '29, 63, 91',
+      rgb: 'rgb(232, 155, 85)',
+      hsv: 'hsv(29, 63, 91)',
       hex: '#E89B55'
     }
   },
@@ -1844,8 +1844,8 @@ export const idolData: Idol[] = [
     nameKana: 'ほんだみお',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '246, 177, 40',
-      hsv: '40, 84, 96',
+      rgb: 'rgb(246, 177, 40)',
+      hsv: 'hsv(40, 84, 96)',
       hex: '#F6B128'
     }
   },
@@ -1855,8 +1855,8 @@ export const idolData: Idol[] = [
     nameKana: 'まいたるい',
     bland: 'SideM',
     color: {
-      rgb: '245, 210, 75',
-      hsv: '48, 69, 96',
+      rgb: 'rgb(245, 210, 75)',
+      hsv: 'hsv(48, 69, 96)',
       hex: '#F5D24B'
     }
   },
@@ -1866,8 +1866,8 @@ export const idolData: Idol[] = [
     nameKana: 'まいはまあゆむ',
     bland: 'MillionLive',
     color: {
-      rgb: '226, 90, 155',
-      hsv: '331, 60, 89',
+      rgb: 'rgb(226, 90, 155)',
+      hsv: 'hsv(331, 60, 89)',
       hex: '#E25A9B'
     }
   },
@@ -1877,8 +1877,8 @@ export const idolData: Idol[] = [
     nameKana: 'まえかわみく',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '202, 17, 58',
-      hsv: '347, 92, 79',
+      rgb: 'rgb(202, 17, 58)',
+      hsv: 'hsv(347, 92, 79)',
       hex: '#CA113A'
     }
   },
@@ -1888,8 +1888,8 @@ export const idolData: Idol[] = [
     nameKana: 'まかべみずき',
     bland: 'MillionLive',
     color: {
-      rgb: '153, 183, 220',
-      hsv: '213, 30, 86',
+      rgb: 'rgb(153, 183, 220)',
+      hsv: 'hsv(213, 30, 86)',
       hex: '#99B7DC'
     }
   },
@@ -1899,8 +1899,8 @@ export const idolData: Idol[] = [
     nameKana: 'まつだありさ',
     bland: 'MillionLive',
     color: {
-      rgb: '181, 68, 97',
-      hsv: '345, 62, 71',
+      rgb: 'rgb(181, 68, 97)',
+      hsv: 'hsv(345, 62, 71)',
       hex: '#B54461'
     }
   },
@@ -1910,8 +1910,8 @@ export const idolData: Idol[] = [
     nameKana: 'まつながりょう',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '32, 36, 73',
-      hsv: '234, 56, 29',
+      rgb: 'rgb(32, 36, 73)',
+      hsv: 'hsv(234, 56, 29)',
       hex: '#202449'
     }
   },
@@ -1921,8 +1921,8 @@ export const idolData: Idol[] = [
     nameKana: 'まゆずみふゆこ',
     bland: 'ShinyColors',
     color: {
-      rgb: '92, 230, 38',
-      hsv: '103, 83, 90',
+      rgb: 'rgb(92, 230, 38)',
+      hsv: 'hsv(103, 83, 90)',
       hex: '#5CE626'
     }
   },
@@ -1932,8 +1932,8 @@ export const idolData: Idol[] = [
     nameKana: 'みうらあずさ',
     bland: '765AS',
     color: {
-      rgb: '146, 56, 190',
-      hsv: '280, 71, 75',
+      rgb: 'rgb(146, 56, 190)',
+      hsv: 'hsv(280, 71, 75)',
       hex: '#9238BE'
     }
   },
@@ -1943,8 +1943,8 @@ export const idolData: Idol[] = [
     nameKana: 'みずしまさき',
     bland: 'SideM',
     color: {
-      rgb: '250, 126, 180',
-      hsv: '334, 50, 98',
+      rgb: 'rgb(250, 126, 180)',
+      hsv: 'hsv(334, 50, 98)',
       hex: '#FA7EB4'
     }
   },
@@ -1954,8 +1954,8 @@ export const idolData: Idol[] = [
     nameKana: 'みずたにえり',
     bland: 'DearlyStars',
     color: {
-      rgb: '0, 173, 185',
-      hsv: '184, 100, 73',
+      rgb: 'rgb(0, 173, 185)',
+      hsv: 'hsv(184, 100, 73)',
       hex: '#00ADB9'
     }
   },
@@ -1965,8 +1965,8 @@ export const idolData: Idol[] = [
     nameKana: 'みずもとゆかり',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '232, 186, 214',
-      hsv: '323, 20, 91',
+      rgb: 'rgb(232, 186, 214)',
+      hsv: 'hsv(323, 20, 91)',
       hex: '#E8BAD6'
     }
   },
@@ -1976,8 +1976,8 @@ export const idolData: Idol[] = [
     nameKana: 'みたらいしょうた',
     bland: 'SideM',
     color: {
-      rgb: '148, 213, 9',
-      hsv: '79, 96, 84',
+      rgb: 'rgb(148, 213, 9)',
+      hsv: 'hsv(79, 96, 84)',
       hex: '#94D509'
     }
   },
@@ -1987,8 +1987,8 @@ export const idolData: Idol[] = [
     nameKana: 'みつみねゆいか',
     bland: 'ShinyColors',
     color: {
-      rgb: '59, 145, 196',
-      hsv: '202, 70, 77',
+      rgb: 'rgb(59, 145, 196)',
+      hsv: 'hsv(202, 70, 77)',
       hex: '#3B91C4'
     }
   },
@@ -1998,8 +1998,8 @@ export const idolData: Idol[] = [
     nameKana: 'みなせいおり',
     bland: '765AS',
     color: {
-      rgb: '253, 153, 225',
-      hsv: '317, 40, 99',
+      rgb: 'rgb(253, 153, 225)',
+      hsv: 'hsv(317, 40, 99)',
       hex: '#FD99E1'
     }
   },
@@ -2009,8 +2009,8 @@ export const idolData: Idol[] = [
     nameKana: 'みふねみゆ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '1, 170, 165',
-      hsv: '178, 99, 67',
+      rgb: 'rgb(1, 170, 165)',
+      hsv: 'hsv(178, 99, 67)',
       hex: '#01AAA5'
     }
   },
@@ -2020,8 +2020,8 @@ export const idolData: Idol[] = [
     nameKana: 'みむらかなこ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '244, 171, 180',
-      hsv: '353, 30, 96',
+      rgb: 'rgb(244, 171, 180)',
+      hsv: 'hsv(353, 30, 96)',
       hex: '#F4ABB4'
     }
   },
@@ -2031,8 +2031,8 @@ export const idolData: Idol[] = [
     nameKana: 'みやおみや',
     bland: 'MillionLive',
     color: {
-      rgb: '215, 169, 107',
-      hsv: '34, 50, 84',
+      rgb: 'rgb(215, 169, 107)',
+      hsv: 'hsv(34, 50, 84)',
       hex: '#D7A96B'
     }
   },
@@ -2042,8 +2042,8 @@ export const idolData: Idol[] = [
     nameKana: 'みやもとふれでりか',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '158, 24, 97',
-      hsv: '327, 85, 62',
+      rgb: 'rgb(158, 24, 97)',
+      hsv: 'hsv(327, 85, 62)',
       hex: '#9E1861'
     }
   },
@@ -2053,8 +2053,8 @@ export const idolData: Idol[] = [
     nameKana: 'むかいたくみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '169, 5, 130',
-      hsv: '314, 97, 66',
+      rgb: 'rgb(169, 5, 130)',
+      hsv: 'hsv(314, 97, 66)',
       hex: '#A90582'
     }
   },
@@ -2064,8 +2064,8 @@ export const idolData: Idol[] = [
     nameKana: 'むなかたあつみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '200, 47, 127',
-      hsv: '329, 77, 78',
+      rgb: 'rgb(200, 47, 127)',
+      hsv: 'hsv(329, 77, 78)',
       hex: '#C82F7F'
     }
   },
@@ -2075,8 +2075,8 @@ export const idolData: Idol[] = [
     nameKana: 'むらかみともえ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '212, 46, 56',
-      hsv: '356, 78, 83',
+      rgb: 'rgb(212, 46, 56)',
+      hsv: 'hsv(356, 78, 83)',
       hex: '#D42E38'
     }
   },
@@ -2086,8 +2086,8 @@ export const idolData: Idol[] = [
     nameKana: 'もがみしずか',
     bland: 'MillionLive',
     color: {
-      rgb: '100, 149, 207',
-      hsv: '213, 52, 81',
+      rgb: 'rgb(100, 149, 207)',
+      hsv: 'hsv(213, 52, 81)',
       hex: '#6495CF'
     }
   },
@@ -2097,8 +2097,8 @@ export const idolData: Idol[] = [
     nameKana: 'もちづきあんな',
     bland: 'MillionLive',
     color: {
-      rgb: '126, 108, 168',
-      hsv: '258, 36, 66',
+      rgb: 'rgb(126, 108, 168)',
+      hsv: 'hsv(258, 36, 66)',
       hex: '#7E6CA8'
     }
   },
@@ -2108,8 +2108,8 @@ export const idolData: Idol[] = [
     nameKana: 'ももせりお',
     bland: 'MillionLive',
     color: {
-      rgb: '241, 149, 145',
-      hsv: '2, 40, 95',
+      rgb: 'rgb(241, 149, 145)',
+      hsv: 'hsv(2, 40, 95)',
       hex: '#F19591'
     }
   },
@@ -2119,8 +2119,8 @@ export const idolData: Idol[] = [
     nameKana: 'もりくぼのの',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '151, 211, 211',
-      hsv: '180, 28, 83',
+      rgb: 'rgb(151, 211, 211)',
+      hsv: 'hsv(180, 28, 83)',
       hex: '#97D3D3'
     }
   },
@@ -2130,8 +2130,8 @@ export const idolData: Idol[] = [
     nameKana: 'もりのりんぜ',
     bland: 'ShinyColors',
     color: {
-      rgb: '137, 195, 235',
-      hsv: '204, 42, 92',
+      rgb: 'rgb(137, 195, 235)',
+      hsv: 'hsv(204, 42, 92)',
       hex: '#89C3EB'
     }
   },
@@ -2141,8 +2141,8 @@ export const idolData: Idol[] = [
     nameKana: 'もろぼしきらり',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '248, 202, 2',
-      hsv: '49, 99, 97',
+      rgb: 'rgb(248, 202, 2)',
+      hsv: 'hsv(49, 99, 97)',
       hex: '#F8CA02'
     }
   },
@@ -2152,8 +2152,8 @@ export const idolData: Idol[] = [
     nameKana: 'やぶきかな',
     bland: 'MillionLive',
     color: {
-      rgb: '245, 173, 59',
-      hsv: '37, 76, 96',
+      rgb: 'rgb(245, 173, 59)',
+      hsv: 'hsv(37, 76, 96)',
       hex: '#F5AD3B'
     }
   },
@@ -2163,8 +2163,8 @@ export const idolData: Idol[] = [
     nameKana: 'やましたじろう',
     bland: 'SideM',
     color: {
-      rgb: '238, 118, 2',
-      hsv: '29, 99, 93',
+      rgb: 'rgb(238, 118, 2)',
+      hsv: 'hsv(29, 99, 93)',
       hex: '#EE7602'
     }
   },
@@ -2174,8 +2174,8 @@ export const idolData: Idol[] = [
     nameKana: 'やまとあき',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '39, 110, 78',
-      hsv: '153, 65, 43',
+      rgb: 'rgb(39, 110, 78)',
+      hsv: 'hsv(153, 65, 43)',
       hex: '#276E4E'
     }
   },
@@ -2185,8 +2185,8 @@ export const idolData: Idol[] = [
     nameKana: 'ゆうきはる',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '69, 189, 180',
-      hsv: '176, 63, 74',
+      rgb: 'rgb(69, 189, 180)',
+      hsv: 'hsv(176, 63, 74)',
       hex: '#45BDB4'
     }
   },
@@ -2196,8 +2196,8 @@ export const idolData: Idol[] = [
     nameKana: 'ゆうこくきりこ',
     bland: 'ShinyColors',
     color: {
-      rgb: '217, 242, 255',
-      hsv: '201, 15, 100',
+      rgb: 'rgb(217, 242, 255)',
+      hsv: 'hsv(201, 15, 100)',
       hex: '#D9F2FF'
     }
   },
@@ -2207,8 +2207,8 @@ export const idolData: Idol[] = [
     nameKana: 'よこやまなお',
     bland: 'MillionLive',
     color: {
-      rgb: '120, 139, 197',
-      hsv: '225, 39, 77',
+      rgb: 'rgb(120, 139, 197)',
+      hsv: 'hsv(225, 39, 77)',
       hex: '#788BC5'
     }
   },
@@ -2218,8 +2218,8 @@ export const idolData: Idol[] = [
     nameKana: 'よりたよしの',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '199, 186, 180',
-      hsv: '19, 10, 78',
+      rgb: 'rgb(199, 186, 180)',
+      hsv: 'hsv(19, 10, 78)',
       hex: '#C7BAB4'
     }
   },
@@ -2229,8 +2229,8 @@ export const idolData: Idol[] = [
     nameKana: 'りゅうざきかおる',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '244, 217, 86',
-      hsv: '50, 65, 96',
+      rgb: 'rgb(244, 217, 86)',
+      hsv: 'hsv(50, 65, 96)',
       hex: '#F4D956'
     }
   },
@@ -2240,8 +2240,8 @@ export const idolData: Idol[] = [
     nameKana: 'ろこ',
     bland: 'MillionLive',
     color: {
-      rgb: '255, 240, 60',
-      hsv: '55, 76, 100',
+      rgb: 'rgb(255, 240, 60)',
+      hsv: 'hsv(55, 76, 100)',
       hex: '#FFF03C'
     }
   },
@@ -2251,8 +2251,8 @@ export const idolData: Idol[] = [
     nameKana: 'わかざとはるな',
     bland: 'SideM',
     color: {
-      rgb: '113, 212, 72',
-      hsv: '102, 66, 83',
+      rgb: 'rgb(113, 212, 72)',
+      hsv: 'hsv(102, 66, 83)',
       hex: '#71D448'
     }
   },
@@ -2262,8 +2262,8 @@ export const idolData: Idol[] = [
     nameKana: 'わきやまたまみ',
     bland: 'CinderellaGirls',
     color: {
-      rgb: '58, 117, 187',
-      hsv: '213, 69, 73',
+      rgb: 'rgb(58, 117, 187)',
+      hsv: 'hsv(213, 69, 73)',
       hex: '#3A75BB'
     }
   },
@@ -2273,8 +2273,8 @@ export const idolData: Idol[] = [
     nameKana: 'わたなべみのり',
     bland: 'SideM',
     color: {
-      rgb: '250, 144, 162',
-      hsv: '350, 42, 98',
+      rgb: 'rgb(250, 144, 162)',
+      hsv: 'hsv(350, 42, 98)',
       hex: '#FA90A2'
     }
   }

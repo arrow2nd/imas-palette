@@ -60,8 +60,8 @@ function createColor(hex) {
   const hsv = convert.hex.hsv(hex).join(', ')
 
   return {
-    rgb: rgb,
-    hsv: hsv,
+    rgb: `rgb(${rgb})`,
+    hsv: `hsv(${hsv})`,
     hex: `#${hex}`
   }
 }

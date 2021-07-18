@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "update": "node ./tools/create-data.js"
+    "update:data": "node ./tools/create-data.js"
   },
   "dependencies": {
     "next": "11.0.1",
