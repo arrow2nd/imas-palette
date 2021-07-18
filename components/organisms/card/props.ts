@@ -1,6 +1,6 @@
-import { idol } from '../../../types/idol'
+import { Idol } from '../../../types/idol'
 
 export type Props = {
-  idol: idol
+  idol: Idol
   isTouchable: boolean
 }

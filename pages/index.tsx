@@ -1,6 +1,6 @@
-import Home from '../components/templates/home'
 import { GetServerSidePropsContext, GetServerSidePropsResult } from 'next'
 import { useUserAgent } from 'next-useragent'
+import Home from '../components/templates/home'
 
 type Props = {
   userAgent: string

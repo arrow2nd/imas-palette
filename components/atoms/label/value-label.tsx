@@ -1,5 +1,5 @@
-import dynamic from 'next/dynamic'
 import { FiCopy } from 'react-icons/fi'
+import dynamic from 'next/dynamic'
 
 // https://github.com/wwayne/react-tooltip/issues/675
 const ReactTooltip = dynamic(() => import('react-tooltip'), {

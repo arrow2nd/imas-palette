@@ -1,7 +1,7 @@
+import { useIsMobile } from '../../hooks/useIsMobile'
 import TitleText from '../atoms/title-text'
 import SearchDefault from '../molecules/search/default'
 import SearchMobile from '../molecules/search/mobile'
-import { useIsMobile } from '../../hooks/useIsMobile'
 
 const Header = () => {
   const isMobile = useIsMobile()

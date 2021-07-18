@@ -1,7 +1,7 @@
+import { useIsMobile } from '../../hooks/useIsMobile'
+import { Idol } from '../../types/idol'
 import CardDefault from './card/default'
 import CardMobile from './card/mobile'
-import { useIsMobile } from '../../hooks/useIsMobile'
-import { idol } from '../../types/idol'
 
 type Props = {
   isTouchable: boolean
@@ -10,7 +10,7 @@ type Props = {
 const Cards = ({ isTouchable }: Props) => {
   const isMobile = useIsMobile()
 
-  const idols: idol[] = [
+  const idols: Idol[] = [
     {
       nameJa: '芹沢あさひ',
       nameEn: 'Asahi Serizawa',

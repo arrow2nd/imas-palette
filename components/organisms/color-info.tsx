@@ -1,8 +1,8 @@
-import { color } from '../../types/color'
+import { Color } from '../../types/color'
 import ColorValue from './color-value'
 
 type Props = {
-  color: color
+  color: Color
   isTouchable: boolean
 }
 

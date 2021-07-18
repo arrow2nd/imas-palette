@@ -1,7 +1,7 @@
-import TypeLabel from '../atoms/label/type-label'
-import ValueLabel from '../atoms/label/value-label'
 import { useState } from 'react'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import TypeLabel from '../atoms/label/type-label'
+import ValueLabel from '../atoms/label/value-label'
 
 type Props = {
   className?: string
