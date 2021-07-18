@@ -1,16 +1,20 @@
-import { Idol } from '../../types/idol'
-import { Option } from '../../types/option'
+import { useRef } from 'react'
+import { useState } from 'react'
+import { useIdolColor } from '../../hooks/useIdolColor'
 import { useIsMobile } from '../../hooks/useIsMobile'
-import SearchDefault from '../molecules/search/default'
-import SearchMobile from '../molecules/search/mobile'
+import { Option } from '../../types/option'
+import Search from './search'
 import Cards from './cards'
 
 type Props = {
-  idols: Idol[]
   optionList: Option[]
 }
 
-const UI = ({ idols, optionList }: Props) => {
+const UI = ({ optionList }: Props) => {
+  const [bland, setBland] = useState('')
+  const [name, setName] = useState('')
+
+  const searchResults = useIdolColor(bland, name)
   const isMobile = useIsMobile()
 
   const options = optionList.map((e) => (
@@ -19,16 +23,22 @@ const UI = ({ idols, optionList }: Props) => {
     </option>
   ))
 
+  const handleSearch = (bland: string, name: string) => {
+    setBland(bland)
+    setName(name)
+  }
+
   return (
     <div>
       <div className="flex justify-center">
-        {isMobile ? (
-          <SearchMobile className="mt-8" options={options} />
-        ) : (
-          <SearchDefault className="mt-8" options={options} />
-        )}
+        <Search
+          className="mt-8"
+          options={options}
+          onChange={handleSearch}
+          isMobile={isMobile}
+        />
       </div>
-      <Cards idols={idols} />
+      <Cards idols={searchResults} />
     </div>
   )
 }
