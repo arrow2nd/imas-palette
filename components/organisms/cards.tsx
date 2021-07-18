@@ -40,13 +40,25 @@ const Cards = ({ isTouchable }: Props) => {
     }
   ]
 
-  const cards = idols.map((e) =>
-    isMobile ? (
-      <CardMobile key={e.nameEn} idol={e} isTouchable={isTouchable} />
+  const cards = idols.map((e) => {
+    const isKeeped = false
+
+    return isMobile ? (
+      <CardMobile
+        key={e.nameEn}
+        idol={e}
+        isTouchable={isTouchable}
+        isKeeped={isKeeped}
+      />
     ) : (
-      <CardDefault key={e.nameEn} idol={e} isTouchable={isTouchable} />
+      <CardDefault
+        key={e.nameEn}
+        idol={e}
+        isTouchable={isTouchable}
+        isKeeped={isKeeped}
+      />
     )
-  )
+  })
 
   return (
     <div className="flex flex-row flex-wrap justify-center mt-12">{cards}</div>

@@ -20,12 +20,7 @@ const ValueLabel = ({ value, tooltipDisable }: Props) => (
     {tooltipDisable ? (
       <FiCopy className="ml-2" />
     ) : (
-      <ReactTooltip
-        place="top"
-        border
-        borderColor="#faf8f7"
-        backgroundColor="#1c1c1c"
-      />
+      <ReactTooltip place="top" backgroundColor="#1c1c1c" />
     )}
   </label>
 )
