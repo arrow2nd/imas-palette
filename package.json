@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update": "node ./tools/create-data.js"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -23,6 +24,8 @@
     "@types/react": "17.0.14",
     "@types/react-copy-to-clipboard": "^5.0.1",
     "autoprefixer": "^10.3.0",
+    "axios": "^0.21.1",
+    "color-convert": "^2.0.1",
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
     "eslint-config-prettier": "^8.3.0",
