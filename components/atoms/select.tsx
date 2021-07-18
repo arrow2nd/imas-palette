@@ -1,16 +1,12 @@
 type Props = {
   className?: string
+  children: React.ReactNode
 }
 
-const Select = ({ className = '' }: Props) => (
+const Select = ({ className = '', children }: Props) => (
   <div className={className}>
     <select className="form-select block w-full rounded-lg shadow-md">
-      <option>全てのブランド</option>
-      <option>アイドルマスター</option>
-      <option>ミリオンライブ！</option>
-      <option>シンデレラガールズ</option>
-      <option>SideM</option>
-      <option>シャイニーカラーズ</option>
+      {children}
     </select>
   </div>
 )
