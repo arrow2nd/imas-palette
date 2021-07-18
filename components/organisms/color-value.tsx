@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { FiCopy } from 'react-icons/fi'
+import { RiCheckboxCircleFill } from 'react-icons/ri'
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import TypeLabel from '../atoms/label/type-label'
 import ValueLabel from '../atoms/label/value-label'
@@ -7,10 +9,9 @@ type Props = {
   className?: string
   type: string
   value: string
-  isTouchable: boolean
 }
 
-const ColorValue = ({ className = '', type, value, isTouchable }: Props) => {
+const ColorValue = ({ className = '', type, value }: Props) => {
   const [isCopied, setCopied] = useState(false)
 
   const handleClickCopy = () => {
@@ -25,10 +26,9 @@ const ColorValue = ({ className = '', type, value, isTouchable }: Props) => {
       <TypeLabel type={type} />
       <CopyToClipboard text={value} onCopy={handleClickCopy}>
         <span>
-          <ValueLabel
-            value={isCopied ? 'Copied! 👌' : value}
-            tooltipDisable={isTouchable}
-          />
+          <ValueLabel value={isCopied ? 'Copied!' : value}>
+            {isCopied ? <RiCheckboxCircleFill /> : <FiCopy />}
+          </ValueLabel>
         </span>
       </CopyToClipboard>
     </div>

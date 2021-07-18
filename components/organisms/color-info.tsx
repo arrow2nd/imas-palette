@@ -3,24 +3,13 @@ import ColorValue from './color-value'
 
 type Props = {
   color: Color
-  isTouchable: boolean
 }
 
-const ColorInfo = ({ color, isTouchable }: Props) => (
+const ColorInfo = ({ color }: Props) => (
   <div className="mt-6">
-    <ColorValue type="RGB" value={color.rgb} isTouchable={isTouchable} />
-    <ColorValue
-      className="mt-4"
-      type="HSV"
-      value={color.hsv}
-      isTouchable={isTouchable}
-    />
-    <ColorValue
-      className="mt-4"
-      type="HEX"
-      value={color.hex}
-      isTouchable={isTouchable}
-    />
+    <ColorValue type="RGB" value={color.rgb} />
+    <ColorValue className="mt-4" type="HSV" value={color.hsv} />
+    <ColorValue className="mt-4" type="HEX" value={color.hex} />
   </div>
 )
 

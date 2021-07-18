@@ -1,16 +1,17 @@
+import { Idol } from '../../types/idol'
 import Header from '../organisms/header'
-import Cards from '../organisms/cards'
 import Footer from '../organisms/footer'
+import UI from '../organisms/ui'
 
 type Props = {
-  isTouchable: boolean
+  idols: Idol[]
 }
 
-const Home = ({ isTouchable }: Props) => {
+const Home = (props: Props) => {
   return (
     <div className="flex flex-col mx-8 my-12">
       <Header />
-      <Cards isTouchable={isTouchable} />
+      <UI {...props} />
       <Footer />
     </div>
   )

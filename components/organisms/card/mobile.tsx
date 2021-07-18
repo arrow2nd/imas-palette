@@ -4,7 +4,7 @@ import LikeButton from '../button/like-button'
 import RemoveButton from '../button/remove-button'
 import ColorInfo from '../color-info'
 
-const Card = ({ idol, isTouchable, isKeeped }: Props) => {
+const Card = ({ idol, isKeeped }: Props) => {
   const buttonClassName = 'mt-6 w-full justify-center'
 
   return (
@@ -16,7 +16,7 @@ const Card = ({ idol, isTouchable, isKeeped }: Props) => {
           color={idol.color.hex}
         />
       </div>
-      <ColorInfo color={idol.color} isTouchable={isTouchable} />
+      <ColorInfo color={idol.color} />
       <div>
         {isKeeped ? (
           <RemoveButton className={buttonClassName} />
