@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Idol } from '../types/idol'
 import { idolData } from '../data/idol-data'
 
-export const useIdolColor = (bland: string, name: string) => {
+export const useIdolData = (bland: string, name: string) => {
   const [results, setResults] = useState([] as Idol[])
 
   useEffect(() => {
