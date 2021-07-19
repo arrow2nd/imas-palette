@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 
-const APP_KEY = 'imas-pallet'
+const APP_KEY = 'imas-palette'
 
 type KeepIdType = [
   keepIdList: string[],
