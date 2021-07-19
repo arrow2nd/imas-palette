@@ -1,14 +1,15 @@
 import { Props } from './props'
+import Card from '../../atoms/card'
 import CardTitle from '../../molecules/card-title'
 import LikeButton from '../button/like-button'
 import RemoveButton from '../button/remove-button'
 import ColorInfo from '../color-info'
 
-const Card = ({ idol, isKeeped }: Props) => {
+const CardMobile = ({ idol, isKeeped }: Props) => {
   const buttonClassName = 'mt-6 w-full justify-center'
 
   return (
-    <div className="w-96 my-2 p-6 rounded-lg shadow-md bg-white">
+    <Card>
       <div className="flex flex-row items-center justify-between">
         <CardTitle
           nameJa={idol.nameJa}
@@ -24,8 +25,8 @@ const Card = ({ idol, isKeeped }: Props) => {
           <LikeButton className={buttonClassName} />
         )}
       </div>
-    </div>
+    </Card>
   )
 }
 
-export default Card
+export default CardMobile

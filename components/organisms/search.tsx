@@ -7,11 +7,17 @@ type Props = {
   className?: string
   options: JSX.Element[]
   isMobile: boolean
-  onChange: (bland: string, name: string) => void
+  onChangeBland: (bland: string) => void
+  onChangeName: (name: string) => void
 }
 
-const Search = ({ className = '', options, isMobile, onChange }: Props) => {
-  const blandRef = useRef<HTMLSelectElement>(null)
+const Search = ({
+  className = '',
+  options,
+  isMobile,
+  onChangeBland,
+  onChangeName
+}: Props) => {
   const nameRef = useRef<HTMLInputElement>(null)
 
   const divClassName = isMobile ? 'flex-col w-full items-center' : 'flex-row'
@@ -19,25 +25,23 @@ const Search = ({ className = '', options, isMobile, onChange }: Props) => {
   const inputClassName = isMobile ? 'mt-3 w-full' : 'ml-5 w-64'
   const buttonClassName = isMobile ? 'mt-3 w-full' : 'ml-5 w-24'
 
-  const handleChange = () => {
-    const bland = blandRef.current?.value || ''
+  const handleSubmitName = () => {
     const name = nameRef.current?.value || ''
-
-    onChange(bland, name)
+    onChangeName(name)
   }
 
   return (
     <div className={`flex flex-wrap ${divClassName} ${className}`}>
-      <Select className={selectClassName} ref={blandRef}>
+      <Select className={selectClassName} onChange={onChangeBland}>
         {options}
       </Select>
       <Input
         className={inputClassName}
         placeholder="アイドル名（ひらがな可）"
         ref={nameRef}
-        onSubmit={handleChange}
+        onSubmit={handleSubmitName}
       />
-      <Button className={buttonClassName} onClick={handleChange}>
+      <Button className={buttonClassName} onClick={handleSubmitName}>
         検索
       </Button>
     </div>

@@ -1,11 +1,12 @@
 import { Props } from './props'
+import Card from '../../atoms/card'
 import CardTitle from '../../molecules/card-title'
 import LikeButton from '../button/like-button'
 import RemoveButton from '../button/remove-button'
 import ColorInfo from '../color-info'
 
-const Card = ({ idol, isKeeped }: Props) => (
-  <div className="w-96 m-2 p-6 rounded-lg shadow-md bg-white">
+const CardDefault = ({ idol, isKeeped }: Props) => (
+  <Card>
     <div className="flex flex-row items-center justify-between">
       <CardTitle
         nameJa={idol.nameJa}
@@ -15,7 +16,7 @@ const Card = ({ idol, isKeeped }: Props) => (
       {isKeeped ? <RemoveButton /> : <LikeButton />}
     </div>
     <ColorInfo color={idol.color} />
-  </div>
+  </Card>
 )
 
-export default Card
+export default CardDefault

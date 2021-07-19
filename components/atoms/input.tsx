@@ -3,11 +3,11 @@ import { DetailedHTMLProps, forwardRef, InputHTMLAttributes } from 'react'
 type Props = {
   className?: string
   placeholder?: string
-  onSubmit: () => void
+  onSubmit?: () => void
 }
 
 const Input = forwardRef<HTMLInputElement, Props>(function InputContent(
-  { className = '', placeholder = '', onSubmit }: Props,
+  { className = '', placeholder = '', onSubmit = () => {} }: Props,
   ref
 ) {
   const handleKeyDown = (

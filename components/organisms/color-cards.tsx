@@ -1,4 +1,4 @@
-import { useCards } from '../../hooks/useCards'
+import { useColorCards } from '../../hooks/useColorCards'
 import { Idol } from '../../types/idol'
 
 type Props = {
@@ -6,7 +6,7 @@ type Props = {
 }
 
 const Cards = ({ idols }: Props) => {
-  const cards = useCards(idols)
+  const cards = useColorCards(idols)
 
   return (
     <div className="flex flex-row flex-wrap justify-center mt-12">{cards}</div>
