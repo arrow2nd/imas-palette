@@ -51,7 +51,10 @@ const Search = ({
         ref={inputRef}
         onSubmit={handleSubmitName}
       />
-      <Button className={buttonClassName} onClick={handleSubmitName}>
+      <Button
+        className={`${buttonClassName} shadow-md`}
+        onClick={handleSubmitName}
+      >
         検索
       </Button>
     </div>

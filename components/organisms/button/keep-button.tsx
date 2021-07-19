@@ -1,6 +1,10 @@
 import { FiBookmark } from 'react-icons/fi'
-import { Props } from './props'
 import Button from '../../atoms/button'
+
+type Props = {
+  className?: string
+  onClick: () => void
+}
 
 const KeepButton = ({ className = '', onClick }: Props) => (
   <Button className={`inline-flex text-sm ${className}`} onClick={onClick}>

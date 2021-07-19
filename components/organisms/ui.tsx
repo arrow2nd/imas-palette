@@ -6,6 +6,7 @@ import { Option } from '../../types/option'
 import NotFoundCard from '../molecules/not-found-card'
 import Search from './search'
 import ColorCards from './color-cards'
+import MoveTopButton from './button/move-top-button'
 
 type Props = {
   optionList: Option[]
@@ -54,6 +55,9 @@ const UI = ({ optionList }: Props) => {
             removeKeepId={removeKeepId}
           />
         )}
+      </div>
+      <div className="m-5 fixed right-0 bottom-0">
+        <MoveTopButton />
       </div>
     </div>
   )
