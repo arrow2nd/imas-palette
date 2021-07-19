@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { useIdolData } from '../../hooks/useIdolData'
 import { useIsMobile } from '../../hooks/useIsMobile'
+import { useKeepId } from '../../hooks/useKeepId'
 import { Option } from '../../types/option'
 import Search from './search'
 import ColorCards from './color-cards'
@@ -12,8 +13,9 @@ type Props = {
 const UI = ({ optionList }: Props) => {
   const [bland, setBland] = useState('')
   const [name, setName] = useState('')
+  const keepId = useKeepId()
 
-  const searchResults = useIdolData(bland, name)
+  const searchResults = useIdolData(bland, name, keepId.list)
   const isMobile = useIsMobile()
 
   const options = useMemo(
@@ -40,7 +42,7 @@ const UI = ({ optionList }: Props) => {
           onChangeName={handleChangeName}
         />
       </div>
-      {<ColorCards idols={searchResults} />}
+      <ColorCards idols={searchResults} keepId={keepId} />
     </div>
   )
 }

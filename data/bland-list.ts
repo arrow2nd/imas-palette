@@ -28,5 +28,9 @@ export const blandList: Option[] = [
   {
     title: 'シャイニーカラーズ',
     value: 'ShinyColors'
+  },
+  {
+    title: 'Keep済み',
+    value: 'keep'
   }
 ]

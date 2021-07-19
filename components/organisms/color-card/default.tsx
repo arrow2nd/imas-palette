@@ -1,11 +1,11 @@
 import { Props } from './props'
 import Card from '../../atoms/card'
 import CardTitle from '../../molecules/card-title'
-import LikeButton from '../button/like-button'
+import KeepButton from '../button/keep-button'
 import RemoveButton from '../button/remove-button'
 import ColorInfo from '../color-info'
 
-const CardDefault = ({ idol, isKeeped }: Props) => (
+const CardDefault = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => (
   <Card>
     <div className="flex flex-row items-center justify-between">
       <CardTitle
@@ -13,7 +13,11 @@ const CardDefault = ({ idol, isKeeped }: Props) => (
         nameEn={idol.nameEn}
         color={idol.color.hex}
       />
-      {isKeeped ? <RemoveButton /> : <LikeButton />}
+      {isKeep ? (
+        <RemoveButton onClick={onClickRemove} />
+      ) : (
+        <KeepButton onClick={onClickKeep} />
+      )}
     </div>
     <ColorInfo color={idol.color} />
   </Card>

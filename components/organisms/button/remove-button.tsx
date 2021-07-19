@@ -2,8 +2,8 @@ import { MdRemoveCircleOutline } from 'react-icons/md'
 import { Props } from './props'
 import Button from '../../atoms/button'
 
-const RemoveButton = ({ className = '' }: Props) => (
-  <Button className={`inline-flex text-sm ${className}`}>
+const RemoveButton = ({ className = '', onClick }: Props) => (
+  <Button className={`inline-flex text-sm ${className}`} onClick={onClick}>
     <MdRemoveCircleOutline />
     <span className="ml-2 tracking-wide">Remove</span>
   </Button>
