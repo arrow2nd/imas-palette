@@ -3,6 +3,7 @@ import { useIdolData } from '../../hooks/useIdolData'
 import { useIsMobile } from '../../hooks/useIsMobile'
 import { useKeepId } from '../../hooks/useKeepId'
 import { Option } from '../../types/option'
+import NotFoundCard from '../molecules/not-found-card'
 import Search from './search'
 import ColorCards from './color-cards'
 
@@ -13,10 +14,10 @@ type Props = {
 const UI = ({ optionList }: Props) => {
   const [bland, setBland] = useState('')
   const [name, setName] = useState('')
-  const keepId = useKeepId()
+  const [keepIdList, addKeepId, removeKeepId] = useKeepId()
 
-  const searchResults = useIdolData(bland, name, keepId.list)
   const isMobile = useIsMobile()
+  const searchResults = useIdolData(bland, name, keepIdList)
 
   const options = useMemo(
     () =>
@@ -42,7 +43,18 @@ const UI = ({ optionList }: Props) => {
           onChangeName={handleChangeName}
         />
       </div>
-      <ColorCards idols={searchResults} keepId={keepId} />
+      <div className="flex flex-row flex-wrap justify-center mt-12">
+        {searchResults.length == 0 ? (
+          <NotFoundCard />
+        ) : (
+          <ColorCards
+            idols={searchResults}
+            keepIdList={keepIdList}
+            addKeepId={addKeepId}
+            removeKeepId={removeKeepId}
+          />
+        )}
+      </div>
     </div>
   )
 }

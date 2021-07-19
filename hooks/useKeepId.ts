@@ -1,9 +1,14 @@
 import { useState, useEffect, useCallback } from 'react'
-import { KeepId } from '../types/keepId'
 
 const APP_KEY = 'imas-pallet'
 
-export const useKeepId = (): KeepId => {
+type KeepIdType = [
+  keepIdList: string[],
+  addKeepId: (addId: string) => void,
+  removeKeepId: (removeId: string) => void
+]
+
+export const useKeepId = (): KeepIdType => {
   const [keepIdList, setKeepIdList] = useState([] as string[])
 
   const addKeepId = useCallback(
@@ -26,7 +31,6 @@ export const useKeepId = (): KeepId => {
   useEffect(() => {
     const items = localStorage.getItem(APP_KEY)
     if (items) {
-      console.log(`[ load ] ${items}`)
       setKeepIdList(items.split(','))
     }
   }, [])
@@ -34,12 +38,7 @@ export const useKeepId = (): KeepId => {
   // LocalStrageに書き込み
   useEffect(() => {
     localStorage.setItem(APP_KEY, keepIdList.join(','))
-    console.log(`[ save ] ${keepIdList.join(',')}`)
   }, [keepIdList])
 
-  return {
-    list: keepIdList,
-    add: addKeepId,
-    remove: removeKeepId
-  }
+  return [keepIdList, addKeepId, removeKeepId]
 }

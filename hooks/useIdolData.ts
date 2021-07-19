@@ -12,10 +12,10 @@ export const useIdolData = (
   useEffect(() => {
     const newResults = idolData
       .filter((e) => {
-        // keep済み
-        if (bland === 'keep') {
-          return keepIdList.includes(e.id)
-        }
+        // keep済みのみを返す
+        if (bland === 'keep') return keepIdList.includes(e.id)
+
+        // ブランドの指定がなければすべてを返す
         return bland === '' ? true : bland === e.bland
       })
       .filter((e) =>
