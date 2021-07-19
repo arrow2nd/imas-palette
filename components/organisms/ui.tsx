@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useIdolColor } from '../../hooks/useIdolColor'
 import { useIsMobile } from '../../hooks/useIsMobile'
 import { Option } from '../../types/option'
@@ -16,11 +16,15 @@ const UI = ({ optionList }: Props) => {
   const searchResults = useIdolColor(bland, name)
   const isMobile = useIsMobile()
 
-  const options = optionList.map((e) => (
-    <option key={e.value} value={e.value}>
-      {e.title}
-    </option>
-  ))
+  const options = useMemo(
+    () =>
+      optionList.map((e) => (
+        <option key={e.value} value={e.value}>
+          {e.title}
+        </option>
+      )),
+    [optionList]
+  )
 
   const handleSearch = (bland: string, name: string) => {
     setBland(bland)

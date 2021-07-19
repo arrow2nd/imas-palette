@@ -1,4 +1,3 @@
-import { Idol } from '../../types/idol'
 import { Option } from '../../types/option'
 import Header from '../organisms/header'
 import Footer from '../organisms/footer'
