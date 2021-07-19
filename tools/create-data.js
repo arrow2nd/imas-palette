@@ -35,13 +35,20 @@ ORDER BY ?nameKana
 async function main() {
   const data = await fetchIdolData(query)
 
-  const idolData = data.map((e) => ({
-    nameJa: e.nameJa.value,
-    nameEn: e.nameEn.value,
-    nameKana: e.nameKana.value,
-    bland: e.bland.value,
-    color: createColor(e.hex.value)
-  }))
+  const idolData = data.map((e) => {
+    const id = `${e.nameEn.value}_${e.bland.value}`
+      .toLowerCase()
+      .replace(/ /g, '_')
+
+    return {
+      id: id,
+      nameJa: e.nameJa.value,
+      nameEn: e.nameEn.value,
+      nameKana: e.nameKana.value,
+      bland: e.bland.value,
+      color: createColor(e.hex.value)
+    }
+  })
 
   // 保存
   const save = `import { Idol } from '../types/idol'\n\nexport const idolData: Idol[] = ${JSON.stringify(
