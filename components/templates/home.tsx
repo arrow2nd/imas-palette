@@ -5,7 +5,6 @@ import Footer from '../organisms/footer'
 import UI from '../organisms/ui'
 
 type Props = {
-  idols: Idol[]
   optionList: Option[]
 }
 
