@@ -1,6 +1,7 @@
+import { seoData } from '../data/seo-data'
 import { blandList } from '../data/bland-list'
 import Home from '../components/templates/home'
 
-const ImasPalette = () => <Home optionList={blandList} />
+const ImasPalette = () => <Home seo={seoData} optionList={blandList} />
 
 export default ImasPalette
