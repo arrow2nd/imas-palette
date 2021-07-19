@@ -1,4 +1,3 @@
-import { useRef } from 'react'
 import { useState } from 'react'
 import { useIdolColor } from '../../hooks/useIdolColor'
 import { useIsMobile } from '../../hooks/useIsMobile'

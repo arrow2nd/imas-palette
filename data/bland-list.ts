@@ -3,7 +3,7 @@ import { Option } from '../types/option'
 export const blandList: Option[] = [
   {
     title: '全てのブランド',
-    value: 'all'
+    value: ''
   },
   {
     title: '765PRO ALLSTARS',

@@ -7,7 +7,7 @@ export const useIdolColor = (bland: string, name: string) => {
 
   useEffect(() => {
     const newResults = idolData
-      .filter((e) => (bland == 'all' ? true : bland == e.bland))
+      .filter((e) => (bland == '' ? true : bland == e.bland))
       .filter((e) =>
         name ? e.nameJa.includes(name) || e.nameKana.includes(name) : true
       )
