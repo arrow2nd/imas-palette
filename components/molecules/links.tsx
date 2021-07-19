@@ -1,5 +1,5 @@
-import LinkButton from '../atoms/button/link-button'
 import { FiGithub, FiTwitter } from 'react-icons/fi'
+import LinkButton from '../atoms/button/link-button'
 
 const Links = () => (
   <div className="flex flex-row">

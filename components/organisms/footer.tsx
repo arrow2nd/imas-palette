@@ -1,10 +1,10 @@
 import Links from '../molecules/links'
 
 const Footer = () => (
-  <div className="flex flex-col items-center tracking-wide mt-12">
+  <div className="flex flex-col mt-12 items-center tracking-wide">
     <Links />
     <div className="mt-4 text-center">
-      <span>
+      <p>
         {'Idol color data is obtained from '}
         <a
           className="underline"
@@ -16,7 +16,7 @@ const Footer = () => (
           im@sparql
         </a>
         {'.'}
-      </span>
+      </p>
       <p>
         The copyright of all content related to THE IDOLM@STER belongs to BANDAI
         NAMCO Entertainment Inc.

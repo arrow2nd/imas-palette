@@ -1,38 +1,16 @@
-import TypeLabel from '../atoms/label/type-label'
-import ValueLabel from '../atoms/label/value-label'
-import { useState } from 'react'
-import { CopyToClipboard } from 'react-copy-to-clipboard'
+import { Color } from '../../types/color'
+import ColorValue from './color-value'
 
 type Props = {
-  className?: string
-  type: string
-  value: string
-  tooltip?: boolean
+  color: Color
 }
 
-const ColorInfo = ({ className = '', type, value, tooltip = false }: Props) => {
-  const [isCopied, setCopied] = useState(false)
-
-  const handleClickCopy = () => {
-    if (isCopied) return
-
-    setCopied(true)
-    setTimeout(() => setCopied(false), 1500)
-  }
-
-  return (
-    <div className={`flex flex-row items-center justify-between ${className}`}>
-      <TypeLabel type={type} />
-      <CopyToClipboard text={value} onCopy={handleClickCopy}>
-        <span>
-          <ValueLabel
-            value={isCopied ? 'Copied! 👌' : value}
-            tooltip={tooltip}
-          />
-        </span>
-      </CopyToClipboard>
-    </div>
-  )
-}
+const ColorInfo = ({ color }: Props) => (
+  <div className="mt-6">
+    <ColorValue type="RGB" value={color.rgb} />
+    <ColorValue className="mt-4" type="HSV" value={color.hsv} />
+    <ColorValue className="mt-4" type="HEX" value={color.hex} />
+  </div>
+)
 
 export default ColorInfo

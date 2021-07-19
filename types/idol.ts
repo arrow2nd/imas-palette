@@ -1,7 +1,10 @@
+import { Color } from './color'
+
 export type Idol = {
+  id: string
   nameJa: string
   nameEn: string
-  rgb: string
-  hsv: string
-  hex: string
+  nameKana: string
+  bland: string
+  color: Color
 }

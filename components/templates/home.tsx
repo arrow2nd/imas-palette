@@ -1,12 +1,17 @@
+import { Option } from '../../types/option'
 import Header from '../organisms/header'
-import Cards from '../organisms/cards'
 import Footer from '../organisms/footer'
+import UI from '../organisms/ui'
 
-const Home = () => {
+type Props = {
+  optionList: Option[]
+}
+
+const Home = (props: Props) => {
   return (
-    <div className="flex flex-col mx-8 my-12">
+    <div className="flex flex-col mx-8 my-12 min-h-screen">
       <Header />
-      <Cards />
+      <UI {...props} />
       <Footer />
     </div>
   )

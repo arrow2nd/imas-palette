@@ -1,18 +1,26 @@
+import { ChangeEvent } from 'react'
+
 type Props = {
   className?: string
+  children: React.ReactNode
+  onChange: (value: string) => void
 }
 
-const Select = ({ className = '' }: Props) => (
-  <div className={className}>
-    <select className="form-select block w-full rounded-lg shadow-md">
-      <option>全てのブランド</option>
-      <option>アイドルマスター</option>
-      <option>ミリオンライブ！</option>
-      <option>シンデレラガールズ</option>
-      <option>SideM</option>
-      <option>シャイニーカラーズ</option>
-    </select>
-  </div>
-)
+const Select = ({ className = '', children, onChange }: Props) => {
+  const handleChange = (ev: ChangeEvent<HTMLSelectElement>) => {
+    onChange(ev.target.value)
+  }
+
+  return (
+    <div className={className}>
+      <select
+        className="form-select block w-full rounded-lg shadow-md"
+        onChange={handleChange}
+      >
+        {children}
+      </select>
+    </div>
+  )
+}
 
 export default Select
