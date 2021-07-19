@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { useIdolColor } from '../../hooks/useIdolData'
+import { useIdolData } from '../../hooks/useIdolData'
 import { useIsMobile } from '../../hooks/useIsMobile'
 import { Option } from '../../types/option'
 import Search from './search'
@@ -13,7 +13,7 @@ const UI = ({ optionList }: Props) => {
   const [bland, setBland] = useState('')
   const [name, setName] = useState('')
 
-  const searchResults = useIdolColor(bland, name)
+  const searchResults = useIdolData(bland, name)
   const isMobile = useIsMobile()
 
   const options = useMemo(
@@ -30,7 +30,7 @@ const UI = ({ optionList }: Props) => {
   const handleChangeName = (name: string) => setName(name)
 
   return (
-    <div>
+    <div className="flex-1">
       <div className="flex justify-center">
         <Search
           className="mt-8"
@@ -40,7 +40,7 @@ const UI = ({ optionList }: Props) => {
           onChangeName={handleChangeName}
         />
       </div>
-      <ColorCards idols={searchResults} />
+      {<ColorCards idols={searchResults} />}
     </div>
   )
 }

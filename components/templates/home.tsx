@@ -9,7 +9,7 @@ type Props = {
 
 const Home = (props: Props) => {
   return (
-    <div className="flex flex-col mx-8 my-12">
+    <div className="flex flex-col mx-8 my-12 min-h-screen">
       <Header />
       <UI {...props} />
       <Footer />
