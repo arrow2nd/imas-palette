@@ -5,7 +5,7 @@ const Footer = () => (
     <Links />
     <div className="mt-4 text-center">
       <p>
-        {'Idol color data is obtained from '}
+        {'The color data for idols is obtained from '}
         <a
           className="underline"
           title="im@sparql"
