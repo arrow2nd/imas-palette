@@ -17,7 +17,7 @@ const Footer = () => (
         </a>
         {'.'}
       </p>
-      <p>
+      <p className="mt-1">
         The copyright of all content related to THE IDOLM@STER belongs to BANDAI
         NAMCO Entertainment Inc.
       </p>
