@@ -1,14 +1,16 @@
 import TitleText from '../atoms/title-text'
 
-const Header = () => {
+type Props = {
+  desc: string
+}
+
+const Header = ({ desc }: Props) => {
   return (
     <div className="flex flex-col items-center text-center">
       <a href="">
         <TitleText text="im@s-palette" />
       </a>
-      <p className="mt-2">
-        THE IDOLM@STERシリーズに登場するアイドルの個人カラーを検索できるサイト
-      </p>
+      <p className="mt-2">{desc}</p>
     </div>
   )
 }

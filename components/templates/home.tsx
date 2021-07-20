@@ -14,7 +14,7 @@ const Home = ({ seo, optionList }: Props) => {
   return (
     <div className="flex flex-col mx-8 my-12 min-h-screen">
       <SEO {...seo} />
-      <Header />
+      <Header desc={seo.desc} />
       <UI optionList={optionList} />
       <Footer />
     </div>
