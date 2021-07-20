@@ -23,7 +23,7 @@ const UI = ({ optionList }: Props) => {
   const options = useMemo(
     () =>
       optionList.map((e) => (
-        <option key={e.value} value={e.value}>
+        <option className="font-sans" key={e.value} value={e.value}>
           {e.title}
         </option>
       )),
