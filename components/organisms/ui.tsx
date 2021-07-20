@@ -51,6 +51,7 @@ const UI = ({ optionList }: Props) => {
           <ColorCards
             idols={searchResults}
             keepIdList={keepIdList}
+            isMobile={isMobile}
             addKeepId={addKeepId}
             removeKeepId={removeKeepId}
           />
