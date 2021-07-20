@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import { useIsMobile } from '../../hooks/useIsMobile'
 import { Idol } from '../../types/idol'
 import CardDefault from './color-card/default'
 import CardMobile from './color-card/mobile'
@@ -7,13 +6,19 @@ import CardMobile from './color-card/mobile'
 type Props = {
   idols: Idol[]
   keepIdList: string[]
+  isMobile: boolean
   addKeepId: (addId: string) => void
   removeKeepId: (removeId: string) => void
 }
 
-const ColorCards = ({ idols, keepIdList, addKeepId, removeKeepId }: Props) => {
+const ColorCards = ({
+  idols,
+  keepIdList,
+  isMobile,
+  addKeepId,
+  removeKeepId
+}: Props) => {
   const [cardElements, setCardElements] = useState([] as JSX.Element[])
-  const isMobile = useIsMobile()
 
   useEffect(() => {
     const cards = idols.map((e) => {
