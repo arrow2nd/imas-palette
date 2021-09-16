@@ -11,7 +11,7 @@ const ColorSampleCircle = ({ className = '', name, color }: Props) => {
 
   return (
     <div
-      className={`w-8 h-8 rounded-full ${className}`}
+      className={`w-8 h-8 rounded-full cursor-pointer ${className}`}
       title={name}
       style={style}
     />

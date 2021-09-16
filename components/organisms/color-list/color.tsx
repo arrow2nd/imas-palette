@@ -8,8 +8,8 @@ type Props = {
 const Color = (props: Props): JSX.Element => {
   return (
     <ColorSampleCircle
-      className={`inline-flex mx-1 items-center text-center text-2xl ${
-        props.color === '' && 'border-dashed border-2 border-gray-400'
+      className={`inline-flex mx-1 items-center text-center text-2xl border-2 hover:border-black ${
+        props.color === '' && 'border-dashed border-gray-400'
       }`}
       {...props}
     />
