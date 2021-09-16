@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Idol } from '../types/idol'
+import { IdolType } from '../types/idol'
 import { idolData } from '../data/idol-data'
 
 export const useIdolData = (
@@ -7,7 +7,7 @@ export const useIdolData = (
   name: string,
   keepIdList: string[]
 ) => {
-  const [results, setResults] = useState([] as Idol[])
+  const [results, setResults] = useState([] as IdolType[])
 
   useEffect(() => {
     const newResults = idolData

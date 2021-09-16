@@ -1,8 +1,8 @@
-import { Color } from '../../types/color'
+import { ColorType } from '../../types/color'
 import ColorValue from './color-value'
 
 type Props = {
-  color: Color
+  color: ColorType
 }
 
 const ColorInfo = ({ color }: Props) => (

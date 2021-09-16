@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import { Idol } from '../../types/idol'
+import { IdolType } from '../../types/idol'
 import CardDefault from './color-card/default'
 import CardMobile from './color-card/mobile'
 
 type Props = {
-  idols: Idol[]
+  idols: IdolType[]
   keepIdList: string[]
   isMobile: boolean
   addKeepId: (addId: string) => void

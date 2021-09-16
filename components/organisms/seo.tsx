@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { SeoInfo } from '../../types/seo'
+import { SeoInfoType } from '../../types/seo'
 
-const SEO = ({ title, desc, url, ogpImgUrl }: SeoInfo) => (
+const SEO = ({ title, desc, url, ogpImgUrl }: SeoInfoType) => (
   <Head>
     <title>{title}</title>
     <meta name="description" content={desc} />

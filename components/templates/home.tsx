@@ -1,13 +1,13 @@
-import { SeoInfo } from '../../types/seo'
-import { Option } from '../../types/option'
+import { SeoInfoType } from '../../types/seo'
+import { OptionType } from '../../types/option'
 import SEO from '../organisms/seo'
 import Header from '../organisms/header'
 import Footer from '../organisms/footer'
 import UI from '../organisms/ui'
 
 type Props = {
-  seo: SeoInfo
-  optionList: Option[]
+  seo: SeoInfoType
+  optionList: OptionType[]
 }
 
 const Home = ({ seo, optionList }: Props) => {
