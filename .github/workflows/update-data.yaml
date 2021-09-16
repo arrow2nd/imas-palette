@@ -1,0 +1,32 @@
+name: UpdateData
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js, npm and Yarn
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --check-files --frozen-lockfile --non-interactive
+
+      - name: Update poem data
+        run: update:data
+
+      - name: Run formatter
+        run: yarn prettier --write ./data/*
+
+      - name: Commit the changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update data
