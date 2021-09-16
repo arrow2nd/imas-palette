@@ -1,4 +1,6 @@
-## imas-palette 🎨
+# imas-palette 🎨
+
+![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=imas-palette)
 
 > THE IDOLM@STER シリーズに登場するアイドルの個人カラーが検索できる Web アプリ
 
