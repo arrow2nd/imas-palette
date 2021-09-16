@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import Select from '../atoms/select'
 import Input from '../atoms/input'
 import Button from '../atoms/button'
+import ColorList from './color-list'
 
 type Props = {
   className?: string
@@ -31,7 +32,6 @@ const Search = ({
       inputRef.current.value = ''
       onChangeName('')
     }
-
     onChangeBland(bland)
   }
 
@@ -41,22 +41,25 @@ const Search = ({
   }
 
   return (
-    <div className={`flex flex-wrap ${divClassName} ${className}`}>
-      <Select className={selectClassName} onChange={handleChangeBland}>
-        {options}
-      </Select>
-      <Input
-        className={inputClassName}
-        placeholder="アイドル名（ひらがな可）"
-        ref={inputRef}
-        onSubmit={handleSubmitName}
-      />
-      <Button
-        className={`${buttonClassName} shadow-md`}
-        onClick={handleSubmitName}
-      >
-        検索
-      </Button>
+    <div className={className}>
+      <div className={`flex flex-wrap ${divClassName}`}>
+        <Select className={selectClassName} onChange={handleChangeBland}>
+          {options}
+        </Select>
+        <Input
+          className={inputClassName}
+          placeholder="アイドル名（ひらがな可）"
+          ref={inputRef}
+          onSubmit={handleSubmitName}
+        />
+        <Button
+          className={`${buttonClassName} shadow-md`}
+          onClick={handleSubmitName}
+        >
+          検索
+        </Button>
+      </div>
+      <ColorList />
     </div>
   )
 }

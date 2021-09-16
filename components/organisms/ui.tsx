@@ -37,7 +37,7 @@ const UI = ({ optionList }: Props) => {
     <div className="flex-1">
       <div className="flex justify-center">
         <Search
-          className="mt-8"
+          className="mt-12"
           options={options}
           isMobile={isMobile}
           onChangeBland={handleChangeBland}
