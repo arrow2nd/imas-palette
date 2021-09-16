@@ -1,7 +1,10 @@
-'use strict'
-const { fetchIdolData } = require('./util')
-const fs = require('fs')
-const convert = require('color-convert')
+import { IdolType } from '../types/idol'
+import { ColorType } from '../types/color'
+import { ColorList } from '../data/color-list'
+import { fetchIdolData } from './util'
+import fs from 'fs'
+import convert from 'color-convert'
+const ColorClassifier = require('color-classifier')
 
 const query = `
 PREFIX schema: <http://schema.org/>
@@ -32,16 +35,32 @@ WHERE {
 ORDER BY ?nameKana
 `
 
-async function main() {
-  const data = await fetchIdolData(query)
+const colorClassifier = new ColorClassifier(
+  ColorList.filter((e) => e.hex !== '').map((e) => e.hex)
+)
 
-  const idolData = data.map((e) => {
+function createColor(hex: string): ColorType {
+  const rgb = convert.hex.rgb(hex).join(', ')
+  const hsv = convert.hex.hsv(hex).join(', ')
+
+  return {
+    rgb: `rgb(${rgb})`,
+    hsv: `hsv(${hsv})`,
+    hex: `#${hex}`,
+    similar: colorClassifier.classify(`#${hex}`, 'hex')
+  }
+}
+
+async function main() {
+  const data: any[] = await fetchIdolData(query)
+
+  const idolData = data.map((e): IdolType => {
     const id = `${e.nameEn.value}_${e.bland.value}`
       .toLowerCase()
       .replace(/ /g, '_')
 
     return {
-      id: id,
+      id,
       nameJa: e.nameJa.value,
       nameEn: e.nameEn.value,
       nameKana: e.nameKana.value,
@@ -51,7 +70,7 @@ async function main() {
   })
 
   // 保存
-  const save = `import { Idol } from '../types/idol'\n\nexport const idolData: Idol[] = ${JSON.stringify(
+  const save = `import { IdolType } from '../types/idol'\n\nexport const idolData: IdolType[] = ${JSON.stringify(
     idolData,
     null,
     '  '
@@ -60,17 +79,6 @@ async function main() {
   fs.writeFileSync('./data/idol-data.ts', save)
 
   console.log('[ success! ]')
-}
-
-function createColor(hex) {
-  const rgb = convert.hex.rgb(hex).join(', ')
-  const hsv = convert.hex.hsv(hex).join(', ')
-
-  return {
-    rgb: `rgb(${rgb})`,
-    hsv: `hsv(${hsv})`,
-    hex: `#${hex}`
-  }
 }
 
 main()
