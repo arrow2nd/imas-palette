@@ -1,50 +1,50 @@
 export const ColorList = [
   {
-    name: 'none',
+    name: '全て',
     hex: ''
   },
   {
-    name: 'red',
+    name: '赤',
     hex: '#ff2000'
   },
   {
-    name: 'orange',
+    name: '橙',
     hex: '#ff7c00'
   },
   {
-    name: 'pink',
+    name: 'ピンク',
     hex: '#f52394'
   },
   {
-    name: 'purple',
+    name: '紫',
     hex: '#800080'
   },
   {
-    name: 'blue',
+    name: '青',
     hex: '#0062c6'
   },
   {
-    name: 'lightBlue',
+    name: '水色',
     hex: '#00b2d4'
   },
   {
-    name: 'green',
+    name: '緑',
     hex: '#00ab00'
   },
   {
-    name: 'lightGreen',
+    name: '黄緑',
     hex: '#90e200'
   },
   {
-    name: 'yellow',
+    name: '黄',
     hex: '#ffcf00'
   },
   {
-    name: 'gray',
+    name: 'グレー',
     hex: '#c4c4c4'
   },
   {
-    name: 'brown',
+    name: '茶',
     hex: '#593110'
   }
 ]

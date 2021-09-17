@@ -1,8 +1,8 @@
 import { Props } from './props'
 import Card from '../../atoms/card'
 import CardTitle from '../../molecules/card-title'
-import KeepButton from '../button/keep-button'
-import RemoveButton from '../button/remove-button'
+import KeepButton from '../button/keep'
+import RemoveButton from '../button/remove'
 import ColorInfo from '../color-info'
 
 const CardMobile = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => {

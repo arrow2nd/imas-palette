@@ -6,7 +6,7 @@ import { OptionType } from '../../types/option'
 import NotFoundCard from '../molecules/not-found-card'
 import Search from './search'
 import ColorCards from './color-cards'
-import MoveTopButton from './button/move-top-button'
+import MoveTopButton from './button/move-top'
 
 type Props = {
   optionList: OptionType[]

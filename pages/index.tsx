@@ -1,4 +1,4 @@
-import { seoData } from '../data/seo-data'
+import { seoData } from '../data/seo'
 import { blandList } from '../data/bland-list'
 import Home from '../components/templates/home'
 

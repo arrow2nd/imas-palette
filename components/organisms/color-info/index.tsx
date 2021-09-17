@@ -1,5 +1,5 @@
-import { ColorType } from '../../types/color'
-import ColorValue from './color-value'
+import { ColorType } from '../../../types/color'
+import ColorValue from './value'
 
 type Props = {
   color: ColorType
