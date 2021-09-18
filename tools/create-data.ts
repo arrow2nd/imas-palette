@@ -76,7 +76,7 @@ async function main() {
     '  '
   )}`
 
-  fs.writeFileSync('./data/idol-data.ts', save)
+  fs.writeFileSync('./data/idol.ts', save)
 
   console.log('[ success! ]')
 }
