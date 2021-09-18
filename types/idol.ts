@@ -1,4 +1,4 @@
-import { ColorType } from './color'
+import { IdolColorType } from './idol-color'
 
 export type IdolType = {
   id: string
@@ -6,5 +6,5 @@ export type IdolType = {
   nameEn: string
   nameKana: string
   bland: string
-  color: ColorType
+  color: IdolColorType
 }

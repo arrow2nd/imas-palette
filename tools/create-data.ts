@@ -1,6 +1,6 @@
 import { IdolType } from '../types/idol'
-import { ColorType } from '../types/color'
-import { ColorList } from '../data/color-list'
+import { IdolColorType } from '../types/idol-color'
+import { ColorListData } from '../data/color-list'
 import { fetchIdolData } from './util'
 import fs from 'fs'
 import convert from 'color-convert'
@@ -36,10 +36,10 @@ ORDER BY ?nameKana
 `
 
 const colorClassifier = new ColorClassifier(
-  ColorList.filter((e) => e.hex !== '').map((e) => e.hex)
+  ColorListData.filter((e) => e.hex !== '').map((e) => e.hex)
 )
 
-function createColor(hex: string): ColorType {
+function createColor(hex: string): IdolColorType {
   const rgb = convert.hex.rgb(hex).join(', ')
   const hsv = convert.hex.hsv(hex).join(', ')
 

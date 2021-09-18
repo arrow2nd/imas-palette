@@ -1,4 +1,6 @@
-export const ColorList = [
+import { ColorType } from '../types/color'
+
+export const ColorListData: ColorType[] = [
   {
     name: '全て',
     hex: ''
@@ -40,11 +42,11 @@ export const ColorList = [
     hex: '#ffcf00'
   },
   {
-    name: 'グレー',
-    hex: '#c4c4c4'
+    name: '白',
+    hex: '#e0e0e0'
   },
   {
-    name: '茶',
-    hex: '#593110'
+    name: '黒',
+    hex: '#242424'
   }
 ]

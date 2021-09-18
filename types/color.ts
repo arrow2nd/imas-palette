@@ -1,6 +1,4 @@
 export type ColorType = {
-  rgb: string
-  hsv: string
+  name: string
   hex: string
-  similar: string
 }

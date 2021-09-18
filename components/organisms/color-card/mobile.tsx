@@ -14,7 +14,7 @@ const CardMobile = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => {
         <CardTitle
           nameJa={idol.nameJa}
           nameEn={idol.nameEn}
-          color={idol.color.hex}
+          hex={idol.color.hex}
         />
       </div>
       <ColorInfo color={idol.color} />

@@ -1,6 +1,6 @@
 import { OptionType } from '../types/option'
 
-export const blandList: OptionType[] = [
+export const blandListData: OptionType[] = [
   {
     title: '全てのブランド',
     value: ''
