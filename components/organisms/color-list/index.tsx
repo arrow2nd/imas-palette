@@ -10,7 +10,7 @@ const ColorList = ({ onChange }: Props): JSX.Element => {
     <Color color={e} onClick={onChange} key={e.hex} />
   ))
 
-  return <div className="flex flex-row mt-8 justify-center">{items}</div>
+  return <div className="flex flex-wrap mt-8 justify-center">{items}</div>
 }
 
 export default ColorList
