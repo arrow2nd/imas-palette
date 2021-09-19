@@ -11,7 +11,7 @@ const UI = () => {
   const [bland, setBland] = useState('')
   const [name, setName] = useState('')
   const [similarColor, setSimilarColor] = useState('')
-  const [keepIdList, addKeepId, removeKeepId] = useKeepId()
+  const [keepIdList, handleAddKeepId, handleRemoveKeepId] = useKeepId()
 
   const isMobile = useIsMobile()
   const searchResults = useIdolData(bland, name, similarColor, keepIdList)
@@ -39,8 +39,8 @@ const UI = () => {
             idols={searchResults}
             keepIdList={keepIdList}
             isMobile={isMobile}
-            addKeepId={addKeepId}
-            removeKeepId={removeKeepId}
+            onAddKeepId={handleAddKeepId}
+            onRemoveKeepId={handleRemoveKeepId}
           />
         )}
       </div>
