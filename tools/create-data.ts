@@ -1,7 +1,6 @@
 import { IdolType } from '../types/idol'
 import { IdolColorType } from '../types/idol-color'
 import { ColorListData } from '../data/color-list'
-import { IdolData } from '../data/idol'
 import { fetchIdolData } from './util'
 import fs from 'fs'
 import convert from 'color-convert'
@@ -58,12 +57,6 @@ async function main() {
   const results = data.map((e): IdolType => {
     const nameJa = e.nameJa.value
     const hex = e.hex.value
-
-    // 同じデータが既に存在していればスキップ
-    const foundIdolData = IdolData.find(
-      (idol) => idol.nameJa === nameJa && idol.color.hex === `#${hex}`
-    )
-    if (foundIdolData) return foundIdolData
 
     const id = `${e.nameEn.value}_${e.bland.value}`
       .toLowerCase()
