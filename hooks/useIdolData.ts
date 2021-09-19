@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { IdolType } from '../types/idol'
-import { idolData } from '../data/idol'
+import { IdolData } from '../data/idol'
 
 export const useIdolData = (
   bland: string,
@@ -11,13 +11,12 @@ export const useIdolData = (
   const [results, setResults] = useState([] as IdolType[])
 
   useEffect(() => {
-    const newResults = idolData
-      .filter((e) => {
-        // keep済みのみを返す
-        if (bland === 'keep') return keepIdList.includes(e.id)
-        // ブランドの指定がなければすべてを返す
-        return bland === '' ? true : bland === e.bland
-      })
+    const newResults = IdolData.filter((e) => {
+      // keep済みのみを返す
+      if (bland === 'keep') return keepIdList.includes(e.id)
+      // ブランドの指定がなければすべてを返す
+      return bland === '' ? true : bland === e.bland
+    })
       .filter((e) =>
         name ? e.nameJa.includes(name) || e.nameKana.includes(name) : true
       )
