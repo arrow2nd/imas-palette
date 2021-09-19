@@ -47,8 +47,6 @@ const ColorCards = ({
     })
 
     setCardElements(cards)
-
-    console.log('end : ' + cards.length)
   }, [idols, isMobile, keepIdList, onAddKeepId, onRemoveKeepId])
 
   return <>{cardElements}</>
