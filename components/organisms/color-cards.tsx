@@ -21,7 +21,7 @@ const ColorCards = ({
   const [cardElements, setCardElements] = useState([] as JSX.Element[])
 
   useEffect(() => {
-    const cards = idols.map((e) => {
+    const cards = idols.slice(0, 100).map((e) => {
       const isKeep = keepIdList.includes(e.id)
 
       const handleClickKeep = () => onAddKeepId(e.id)
@@ -47,6 +47,8 @@ const ColorCards = ({
     })
 
     setCardElements(cards)
+
+    console.log('end : ' + cards.length)
   }, [idols, isMobile, keepIdList, onAddKeepId, onRemoveKeepId])
 
   return <>{cardElements}</>
