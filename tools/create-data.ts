@@ -1,6 +1,7 @@
 import { IdolType } from '../types/idol'
 import { IdolColorType } from '../types/idol-color'
 import { ColorListData } from '../data/color-list'
+import { IdolData } from '../data/idol'
 import { fetchIdolData } from './util'
 import fs from 'fs'
 import convert from 'color-convert'
@@ -54,24 +55,33 @@ function createColor(hex: string): IdolColorType {
 async function main() {
   const data: any[] = await fetchIdolData(query)
 
-  const idolData = data.map((e): IdolType => {
+  const results = data.map((e): IdolType => {
+    const nameJa = e.nameJa.value
+    const hex = e.hex.value
+
+    // 同じデータが既に存在していればスキップ
+    const foundIdolData = IdolData.find(
+      (idol) => idol.nameJa === nameJa && idol.color.hex === `#${hex}`
+    )
+    if (foundIdolData) return foundIdolData
+
     const id = `${e.nameEn.value}_${e.bland.value}`
       .toLowerCase()
       .replace(/ /g, '_')
 
     return {
       id,
-      nameJa: e.nameJa.value,
+      nameJa,
       nameEn: e.nameEn.value,
       nameKana: e.nameKana.value,
       bland: e.bland.value,
-      color: createColor(e.hex.value)
+      color: createColor(hex)
     }
   })
 
   // 保存
-  const save = `import { IdolType } from '../types/idol'\n\nexport const idolData: IdolType[] = ${JSON.stringify(
-    idolData,
+  const save = `import { IdolType } from '../types/idol'\n\nexport const IdolData: IdolType[] = ${JSON.stringify(
+    results,
     null,
     '  '
   )}`
