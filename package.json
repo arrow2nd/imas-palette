@@ -1,12 +1,13 @@
 {
   "name": "imas-palette",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:data": "yarn prettier --write ./data/idol.ts",
     "update:data": "yarn ts-node ./tools/create-data.ts"
   },
   "dependencies": {

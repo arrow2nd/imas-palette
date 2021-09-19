@@ -24,7 +24,7 @@ jobs:
         run: update:data
 
       - name: Run formatter
-        run: yarn prettier --write ./data/idol.ts
+        run: yarn lint:data
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
