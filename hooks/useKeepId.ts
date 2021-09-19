@@ -4,14 +4,14 @@ const APP_KEY = 'imas-palette'
 
 type KeepIdType = [
   keepIdList: string[],
-  addKeepId: (addId: string) => void,
-  removeKeepId: (removeId: string) => void
+  handleAddKeepId: (addId: string) => void,
+  handleRemoveKeepId: (removeId: string) => void
 ]
 
 export const useKeepId = (): KeepIdType => {
   const [keepIdList, setKeepIdList] = useState([] as string[])
 
-  const addKeepId = useCallback(
+  const handleAddKeepId = useCallback(
     (addId: string) => {
       const newKeepIdList = [...keepIdList, addId]
       setKeepIdList(newKeepIdList)
@@ -19,7 +19,7 @@ export const useKeepId = (): KeepIdType => {
     [keepIdList]
   )
 
-  const removeKeepId = useCallback(
+  const handleRemoveKeepId = useCallback(
     (removeId: string) => {
       const newKeepIdList = keepIdList.filter((id) => id !== removeId)
       setKeepIdList(newKeepIdList)
@@ -40,5 +40,5 @@ export const useKeepId = (): KeepIdType => {
     localStorage.setItem(APP_KEY, keepIdList.join(','))
   }, [keepIdList])
 
-  return [keepIdList, addKeepId, removeKeepId]
+  return [keepIdList, handleAddKeepId, handleRemoveKeepId]
 }

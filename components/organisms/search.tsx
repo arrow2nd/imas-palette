@@ -1,22 +1,26 @@
-import { useRef } from 'react'
+import { useMemo, useRef } from 'react'
+import { blandListData } from '../../data/bland-list'
 import Select from '../atoms/select'
 import Input from '../atoms/input'
 import Button from '../atoms/button'
+import ColorList from './color-list'
 
 type Props = {
   className?: string
-  options: JSX.Element[]
   isMobile: boolean
+  currentSimilarColor: string
   onChangeBland: (bland: string) => void
   onChangeName: (name: string) => void
+  onChangeSimilarColor: (hex: string) => void
 }
 
 const Search = ({
   className = '',
-  options,
   isMobile,
+  currentSimilarColor,
   onChangeBland,
-  onChangeName
+  onChangeName,
+  onChangeSimilarColor
 }: Props) => {
   const inputRef = useRef<HTMLInputElement>(null)
 
@@ -25,13 +29,22 @@ const Search = ({
   const inputClassName = isMobile ? 'mt-3 w-full' : 'ml-5 w-64'
   const buttonClassName = isMobile ? 'mt-3 w-full' : 'ml-5 w-24'
 
+  const options = useMemo(
+    () =>
+      blandListData.map((e) => (
+        <option className="font-sans" key={e.value} value={e.value}>
+          {e.title}
+        </option>
+      )),
+    []
+  )
+
   const handleChangeBland = (bland: string) => {
-    // 名前の入力を削除
     if (inputRef.current) {
       inputRef.current.value = ''
       onChangeName('')
+      onChangeSimilarColor('')
     }
-
     onChangeBland(bland)
   }
 
@@ -41,22 +54,28 @@ const Search = ({
   }
 
   return (
-    <div className={`flex flex-wrap ${divClassName} ${className}`}>
-      <Select className={selectClassName} onChange={handleChangeBland}>
-        {options}
-      </Select>
-      <Input
-        className={inputClassName}
-        placeholder="アイドル名（ひらがな可）"
-        ref={inputRef}
-        onSubmit={handleSubmitName}
+    <div className={className}>
+      <div className={`flex flex-wrap ${divClassName}`}>
+        <Select className={selectClassName} onChange={handleChangeBland}>
+          {options}
+        </Select>
+        <Input
+          className={inputClassName}
+          placeholder="アイドル名（ひらがな可）"
+          ref={inputRef}
+          onSubmit={handleSubmitName}
+        />
+        <Button
+          className={`${buttonClassName} shadow-md`}
+          onClick={handleSubmitName}
+        >
+          検索
+        </Button>
+      </div>
+      <ColorList
+        current={currentSimilarColor}
+        onChange={onChangeSimilarColor}
       />
-      <Button
-        className={`${buttonClassName} shadow-md`}
-        onClick={handleSubmitName}
-      >
-        検索
-      </Button>
     </div>
   )
 }

@@ -1,10 +1,10 @@
 type Props = {
-  color: string
+  hex: string
 }
 
-const ColorSample = ({ color }: Props) => {
+const ColorSample = ({ hex }: Props) => {
   const style: React.CSSProperties = {
-    backgroundColor: color
+    backgroundColor: hex
   }
 
   return (

@@ -1,8 +1,8 @@
 import { Props } from './props'
 import Card from '../../atoms/card'
 import CardTitle from '../../molecules/card-title'
-import KeepButton from '../button/keep-button'
-import RemoveButton from '../button/remove-button'
+import KeepButton from '../button/keep'
+import RemoveButton from '../button/remove'
 import ColorInfo from '../color-info'
 
 const CardDefault = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => (
@@ -11,7 +11,7 @@ const CardDefault = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => (
       <CardTitle
         nameJa={idol.nameJa}
         nameEn={idol.nameEn}
-        color={idol.color.hex}
+        hex={idol.color.hex}
       />
       {isKeep ? (
         <RemoveButton onClick={onClickRemove} />

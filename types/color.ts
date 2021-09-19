@@ -1,5 +1,4 @@
-export type Color = {
-  rgb: string
-  hsv: string
+export type ColorType = {
+  name: string
   hex: string
 }

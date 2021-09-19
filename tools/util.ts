@@ -1,7 +1,6 @@
-'use strict'
-const axios = require('axios')
+import axios from 'axios'
 
-async function fetchIdolData(query) {
+export async function fetchIdolData(query: string) {
   const url = `https://sparql.crssnky.xyz/spql/imas/query?output=json&query=${encodeURIComponent(
     query
   )}`
@@ -14,5 +13,3 @@ async function fetchIdolData(query) {
     throw err
   }
 }
-
-module.exports = { fetchIdolData }

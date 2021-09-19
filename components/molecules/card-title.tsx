@@ -1,15 +1,15 @@
 import ColorSample from '../atoms/color-sample'
-import NameLabel from '../atoms/label/name-label'
+import NameLabel from '../atoms/label/name'
 
 type Props = {
   nameJa: string
   nameEn: string
-  color: string
+  hex: string
 }
 
-const CardTitle = ({ nameJa, nameEn, color }: Props) => (
+const CardTitle = ({ nameJa, nameEn, hex }: Props) => (
   <div className="flex flex-row items-center">
-    <ColorSample color={color} />
+    <ColorSample hex={hex} />
     <NameLabel className="ml-6" nameJa={nameJa} nameEn={nameEn} />
   </div>
 )
