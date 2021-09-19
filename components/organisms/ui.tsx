@@ -26,6 +26,7 @@ const UI = () => {
         <Search
           className="mt-12"
           isMobile={isMobile}
+          currentSimilarColor={similarColor}
           onChangeBland={handleChangeBland}
           onChangeName={handleChangeName}
           onChangeSimilarColor={handleChangeSimilarColor}

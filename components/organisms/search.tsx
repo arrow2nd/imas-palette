@@ -8,6 +8,7 @@ import ColorList from './color-list'
 type Props = {
   className?: string
   isMobile: boolean
+  currentSimilarColor: string
   onChangeBland: (bland: string) => void
   onChangeName: (name: string) => void
   onChangeSimilarColor: (hex: string) => void
@@ -16,6 +17,7 @@ type Props = {
 const Search = ({
   className = '',
   isMobile,
+  currentSimilarColor,
   onChangeBland,
   onChangeName,
   onChangeSimilarColor
@@ -70,7 +72,10 @@ const Search = ({
           検索
         </Button>
       </div>
-      <ColorList onChange={onChangeSimilarColor} />
+      <ColorList
+        current={currentSimilarColor}
+        onChange={onChangeSimilarColor}
+      />
     </div>
   )
 }

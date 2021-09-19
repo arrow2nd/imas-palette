@@ -10,7 +10,7 @@ const ColorSampleCircle = ({ className = '', name, hex }: Props) => {
   }
 
   return (
-    <span
+    <div
       className={`w-8 h-8 rounded-full ${className}`}
       title={name}
       style={style}
