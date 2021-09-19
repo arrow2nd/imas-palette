@@ -21,7 +21,7 @@ jobs:
         run: yarn install --check-files --frozen-lockfile --non-interactive
 
       - name: Update poem data
-        run: update:data
+        run: yarn update:data
 
       - name: Run formatter
         run: yarn lint:data
