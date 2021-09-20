@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --check-files --frozen-lockfile --non-interactive
 
-      - name: Update poem data
+      - name: Update color data
         run: yarn update:data
 
       - name: Run formatter
