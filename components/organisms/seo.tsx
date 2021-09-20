@@ -9,7 +9,7 @@ const SEO = ({ title, desc, url, ogpImgUrl }: SeoInfoType) => (
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
     <meta property="og:image" content={ogpImgUrl} />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@arrow_2nd" />
     <meta name="twitter:url" content={url} />
     <meta name="twitter:title" content={title} />
