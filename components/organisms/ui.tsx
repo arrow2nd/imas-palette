@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useCallback, useState } from 'react'
 import { useIdolData } from '../../hooks/useIdolData'
 import { useIsMobile } from '../../hooks/useIsMobile'
 import { useKeepId } from '../../hooks/useKeepId'
@@ -16,9 +16,12 @@ const UI = () => {
   const isMobile = useIsMobile()
   const searchResults = useIdolData(bland, name, similarColor, keepIdList)
 
-  const handleChangeBland = (bland: string) => setBland(bland)
-  const handleChangeName = (name: string) => setName(name)
-  const handleChangeSimilarColor = (hex: string) => setSimilarColor(hex)
+  const handleChangeBland = useCallback((bland: string) => setBland(bland), [])
+  const handleChangeName = useCallback((name: string) => setName(name), [])
+  const handleChangeSimilarColor = useCallback(
+    (hex: string) => setSimilarColor(hex),
+    []
+  )
 
   return (
     <div className="flex-1">

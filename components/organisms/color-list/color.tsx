@@ -16,7 +16,7 @@ const Color = ({ color, isSelected, onClick }: Props): JSX.Element => {
 
   return (
     <div
-      className={`mx-1 p-0 rounded-full border-2 ${
+      className={`mx-1 p-0 rounded-full cursor-pointer border-2 ${
         isSelected ? 'border-gray-600' : 'border-transparent'
       }`}
       onClick={handleClick}
