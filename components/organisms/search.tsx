@@ -1,4 +1,4 @@
-import { useMemo, useRef } from 'react'
+import React, { useMemo, useRef } from 'react'
 import { blandListData } from '../../data/bland-list'
 import Select from '../atoms/select'
 import Input from '../atoms/input'
@@ -80,4 +80,4 @@ const Search = ({
   )
 }
 
-export default Search
+export default React.memo(Search)
