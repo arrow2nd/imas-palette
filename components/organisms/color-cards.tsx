@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import { IdolType } from '../../types/idol'
+import NotFoundCard from '../molecules/not-found-card'
 import CardDefault from './color-card/default'
 import CardMobile from './color-card/mobile'
 
 type Props = {
-  idols: IdolType[]
+  className: string
+  items: IdolType[]
   keepIdList: string[]
   isMobile: boolean
   onAddKeepId: (addId: string) => void
@@ -12,7 +14,8 @@ type Props = {
 }
 
 const ColorCards = ({
-  idols,
+  className,
+  items,
   keepIdList,
   isMobile,
   onAddKeepId,
@@ -21,7 +24,7 @@ const ColorCards = ({
   const [cardElements, setCardElements] = useState([] as JSX.Element[])
 
   useEffect(() => {
-    const cards = idols.slice(0, 100).map((e) => {
+    const cards = items.slice(0, 100).map((e) => {
       const isKeep = keepIdList.includes(e.id)
 
       const handleClickKeep = () => onAddKeepId(e.id)
@@ -47,9 +50,13 @@ const ColorCards = ({
     })
 
     setCardElements(cards)
-  }, [idols, isMobile, keepIdList, onAddKeepId, onRemoveKeepId])
+  }, [items, isMobile, keepIdList, onAddKeepId, onRemoveKeepId])
 
-  return <>{cardElements}</>
+  return (
+    <div className={`flex flex-row flex-wrap justify-center ${className}`}>
+      {items.length === 0 ? <NotFoundCard /> : cardElements}
+    </div>
+  )
 }
 
 export default ColorCards
