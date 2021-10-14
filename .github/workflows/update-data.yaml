@@ -23,8 +23,8 @@ jobs:
       - name: Update color data
         run: yarn update:data
 
-      - name: Run formatter
-        run: yarn lint:data
+      - name: Format data
+        run: yarn fmt:data
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
