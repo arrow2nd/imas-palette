@@ -5,7 +5,12 @@ import KeepButton from '../button/keep'
 import RemoveButton from '../button/remove'
 import ColorInfo from '../color-info'
 
-const CardMobile = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => {
+const CardMobile = ({
+  data: idol,
+  isKeep,
+  onClickKeep,
+  onClickRemove
+}: Props) => {
   const buttonClassName = 'mt-6 w-full justify-center'
 
   return (
