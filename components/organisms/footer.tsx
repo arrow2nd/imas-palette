@@ -7,7 +7,7 @@ const Footer = () => (
       <p>
         {'The color data for idols is obtained from '}
         <a
-          className="underline"
+          className="underline hover:text-imas transition-colors"
           title="im@sparql"
           href="https://sparql.crssnky.xyz/imas/"
           target="_blank"

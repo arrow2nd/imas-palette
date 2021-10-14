@@ -55,7 +55,7 @@ const Search = ({
 
   return (
     <div className={className}>
-      <div className={`flex flex-wrap ${divClassName}`}>
+      <div className={`flex flex-wrap justify-center ${divClassName}`}>
         <Select className={selectClassName} onChange={handleChangeBland}>
           {options}
         </Select>

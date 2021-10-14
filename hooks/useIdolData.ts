@@ -15,14 +15,12 @@ export const useIdolData = (
       // keep済みのみを返す
       if (bland === 'keep') return keepIdList.includes(e.id)
       // ブランドの指定がなければすべてを返す
-      return bland === '' ? true : bland === e.bland
+      return bland === '' || bland === e.bland
     })
-      .filter((e) =>
-        name ? e.nameJa.includes(name) || e.nameKana.includes(name) : true
+      .filter(
+        (e) => (name && e.nameJa.includes(name)) || e.nameKana.includes(name)
       )
-      .filter((e) =>
-        similarColor === '' ? true : e.color.similar === similarColor
-      )
+      .filter((e) => similarColor === '' || e.color.similar === similarColor)
 
     setResults(newResults)
   }, [bland, keepIdList, name, similarColor])

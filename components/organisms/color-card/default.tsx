@@ -5,7 +5,12 @@ import KeepButton from '../button/keep'
 import RemoveButton from '../button/remove'
 import ColorInfo from '../color-info'
 
-const CardDefault = ({ idol, isKeep, onClickKeep, onClickRemove }: Props) => (
+const CardDefault = ({
+  data: idol,
+  isKeep,
+  onClickKeep,
+  onClickRemove
+}: Props) => (
   <Card>
     <div className="flex flex-row items-center justify-between">
       <CardTitle

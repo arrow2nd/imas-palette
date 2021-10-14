@@ -52,7 +52,7 @@ function createColor(hex: string): IdolColorType {
 }
 
 async function main() {
-  const data: any[] = await fetchIdolData(query)
+  const data = await fetchIdolData(query)
 
   const results = data.map((e): IdolType => {
     const nameJa = e.nameJa.value

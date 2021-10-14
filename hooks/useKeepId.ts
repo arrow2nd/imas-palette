@@ -12,10 +12,7 @@ export const useKeepId = (): KeepIdType => {
   const [keepIdList, setKeepIdList] = useState([] as string[])
 
   const handleAddKeepId = useCallback(
-    (addId: string) => {
-      const newKeepIdList = [...keepIdList, addId]
-      setKeepIdList(newKeepIdList)
-    },
+    (addId: string) => setKeepIdList([...keepIdList, addId]),
     [keepIdList]
   )
 

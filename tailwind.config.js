@@ -12,7 +12,8 @@ module.exports = {
       },
       colors: {
         'natural-white': '#faf8f7',
-        'natural-black': '#1c1c1c'
+        'natural-black': '#1c1c1c',
+        imas: '#FF74B8'
       }
     }
   },

@@ -1,5 +1,4 @@
 import { SeoInfoType } from '../../types/seo'
-import { OptionType } from '../../types/option'
 import SEO from '../organisms/seo'
 import Header from '../organisms/header'
 import Footer from '../organisms/footer'
@@ -10,7 +9,7 @@ type Props = {
 }
 
 const Home = ({ seo }: Props) => (
-  <div className="flex flex-col mx-8 my-12 min-h-screen">
+  <div className="flex flex-col mx-8 my-16 min-h-screen">
     <SEO {...seo} />
     <Header desc={seo.desc} />
     <UI />

@@ -1,13 +1,12 @@
 {
   "name": "imas-palette",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:data": "yarn prettier --write ./data/idol.ts",
+    "fmt:data": "yarn prettier --write ./data/idol.ts",
     "update:data": "yarn ts-node ./tools/create-data.ts"
   },
   "dependencies": {
@@ -15,27 +14,29 @@
     "react": "17.0.2",
     "react-copy-to-clipboard": "^5.0.4",
     "react-dom": "17.0.2",
-    "react-icons": "^4.2.0",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroller": "^1.2.4",
     "react-scroll": "^1.8.4",
     "use-media": "^1.4.0"
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
     "@types/color-convert": "^2.0.0",
-    "@types/react": "17.0.21",
+    "@types/react": "17.0.29",
     "@types/react-copy-to-clipboard": "^5.0.1",
+    "@types/react-infinite-scroller": "^1.2.2",
     "@types/react-scroll": "^1.8.3",
-    "autoprefixer": "^10.3.4",
-    "axios": "^0.21.4",
+    "autoprefixer": "^10.3.7",
+    "axios": "^0.23.0",
     "color-classifier": "^0.0.1",
     "color-convert": "^2.0.1",
-    "eslint": "7.32.0",
+    "eslint": "8.0.0",
     "eslint-config-next": "11.1.2",
     "eslint-config-prettier": "^8.3.0",
-    "postcss": "^8.3.6",
+    "postcss": "^8.3.9",
     "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.15",
-    "ts-node": "^10.2.1",
-    "typescript": "4.4.3"
+    "tailwindcss": "^2.2.16",
+    "ts-node": "^10.3.0",
+    "typescript": "4.4.4"
   }
 }
