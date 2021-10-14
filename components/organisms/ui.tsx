@@ -3,7 +3,7 @@ import { useIdolData } from '../../hooks/useIdolData'
 import { useIsMobile } from '../../hooks/useIsMobile'
 import { useKeepId } from '../../hooks/useKeepId'
 import Search from './search'
-import ColorCards from './color-cards'
+import SearchResults from './search-results'
 import MoveTopButton from './button/move-top'
 
 const UI = () => {
@@ -32,7 +32,7 @@ const UI = () => {
         onChangeName={handleChangeName}
         onChangeSimilarColor={handleChangeSimilarColor}
       />
-      <ColorCards
+      <SearchResults
         className="mt-12"
         items={searchResults}
         keepIdList={keepIdList}
