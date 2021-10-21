@@ -22,7 +22,7 @@ const Search = ({
   onChangeName,
   onChangeSimilarColor
 }: Props) => {
-  const inputRef = useRef<HTMLInputElement>(null)
+  const inputRef = useRef<HTMLInputElement>({} as HTMLInputElement)
 
   const divClassName = isMobile ? 'flex-col w-full items-center' : 'flex-row'
   const selectClassName = isMobile ? 'w-full' : 'w-64'
@@ -40,11 +40,10 @@ const Search = ({
   )
 
   const handleChangeBland = (bland: string) => {
-    if (inputRef.current) {
-      inputRef.current.value = ''
-      onChangeName('')
-      onChangeSimilarColor('')
-    }
+    inputRef.current.value = ''
+    onChangeName('')
+    onChangeSimilarColor('')
+
     onChangeBland(bland)
   }
 
