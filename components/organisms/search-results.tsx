@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { isMobile } from 'react-device-detect'
 import { IdolType } from '../../types/idol'
 import NotFoundCard from '../molecules/not-found-card'
 import CardDefault from './color-card/default'
@@ -9,7 +10,6 @@ type Props = {
   className: string
   items: IdolType[]
   keepIdList: string[]
-  isMobile: boolean
   onAddKeepId: (addId: string) => void
   onRemoveKeepId: (removeId: string) => void
 }
@@ -21,7 +21,6 @@ const SearchResults = ({
   className,
   items,
   keepIdList,
-  isMobile,
   onAddKeepId,
   onRemoveKeepId
 }: Props) => {

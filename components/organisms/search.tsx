@@ -7,7 +7,6 @@ import ColorList from './color-list'
 
 type Props = {
   className?: string
-  isMobile: boolean
   currentSimilarColor: string
   onChangeBland: (bland: string) => void
   onChangeName: (name: string) => void
@@ -16,18 +15,12 @@ type Props = {
 
 const Search = ({
   className = '',
-  isMobile,
   currentSimilarColor,
   onChangeBland,
   onChangeName,
   onChangeSimilarColor
 }: Props) => {
   const inputRef = useRef<HTMLInputElement>({} as HTMLInputElement)
-
-  const divClassName = isMobile ? 'flex-col w-full items-center' : 'flex-row'
-  const selectClassName = isMobile ? 'w-full' : 'w-64'
-  const inputClassName = isMobile ? 'mt-3 w-full' : 'ml-5 w-64'
-  const buttonClassName = isMobile ? 'mt-3 w-full' : 'ml-5 w-24'
 
   const options = useMemo(
     () =>
@@ -54,18 +47,18 @@ const Search = ({
 
   return (
     <div className={className}>
-      <div className={`flex flex-wrap justify-center ${divClassName}`}>
-        <Select className={selectClassName} onChange={handleChangeBland}>
+      <div className="flex flex-wrap justify-center flex-col md:flex-row">
+        <Select className="w-full md:w-64" onChange={handleChangeBland}>
           {options}
         </Select>
         <Input
-          className={inputClassName}
+          className="mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-64"
           placeholder="アイドル名（ひらがな可）"
           ref={inputRef}
           onSubmit={handleSubmitName}
         />
         <Button
-          className={`${buttonClassName} shadow-md`}
+          className="mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-24 shadow-md"
           onClick={handleSubmitName}
         >
           検索

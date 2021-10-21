@@ -1,6 +1,5 @@
 import { useCallback, useState } from 'react'
 import { useIdolData } from '../../hooks/useIdolData'
-import { useIsMobile } from '../../hooks/useIsMobile'
 import { useKeepId } from '../../hooks/useKeepId'
 import Search from './search'
 import SearchResults from './search-results'
@@ -12,7 +11,6 @@ const UI = () => {
   const [similarColor, setSimilarColor] = useState('')
   const [keepIdList, handleAddKeepId, handleRemoveKeepId] = useKeepId()
 
-  const isMobile = useIsMobile()
   const searchResults = useIdolData(bland, name, similarColor, keepIdList)
 
   const handleChangeBland = useCallback((bland: string) => setBland(bland), [])
@@ -26,7 +24,6 @@ const UI = () => {
     <div className="flex-1">
       <Search
         className="mt-12"
-        isMobile={isMobile}
         currentSimilarColor={similarColor}
         onChangeBland={handleChangeBland}
         onChangeName={handleChangeName}
@@ -36,7 +33,6 @@ const UI = () => {
         className="mt-12"
         items={searchResults}
         keepIdList={keepIdList}
-        isMobile={isMobile}
         onAddKeepId={handleAddKeepId}
         onRemoveKeepId={handleRemoveKeepId}
       />
