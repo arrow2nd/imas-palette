@@ -1,8 +1,12 @@
 import { FiGithub, FiTwitter } from 'react-icons/fi'
 import LinkButton from '../atoms/button/link'
 
-const Links = () => (
-  <div className="flex flex-row">
+type Props = {
+  className?: string
+}
+
+const Links = ({ className = '' }: Props) => (
+  <div className={`flex flex-row ${className}`}>
     <LinkButton href="https://twitter.com/arrow_2nd">
       <FiTwitter />
     </LinkButton>

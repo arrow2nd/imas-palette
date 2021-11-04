@@ -36,7 +36,8 @@ ORDER BY ?nameKana
 `
 
 const colorClassifier = new ColorClassifier(
-  ColorListData.filter((e) => e.hex !== '').map((e) => e.hex)
+  ColorListData.filter((e) => e.hex !== '').map((e) => e.hex),
+  ColorClassifier.AlgorithmTypes.HSV
 )
 
 function createColor(hex: string): IdolColorType {

@@ -3,7 +3,7 @@ import Links from '../molecules/links'
 const Footer = () => (
   <div className="flex flex-col mt-12 items-center tracking-wide">
     <Links />
-    <div className="mt-4 text-center">
+    <div className="mt-4 text-sm text-center">
       <p>
         {'The color data for idols is obtained from '}
         <a
@@ -18,8 +18,9 @@ const Footer = () => (
         {'.'}
       </p>
       <p className="mt-1">
-        The copyright of all content related to THE IDOLM@STER belongs to BANDAI
-        NAMCO Entertainment Inc.
+        {
+          'The copyright of all THE IDOLM@STER related content belongs to NAMCO BANDAI Entertainment Inc.'
+        }
       </p>
     </div>
   </div>
