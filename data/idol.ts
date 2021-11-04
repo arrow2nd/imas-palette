@@ -24,7 +24,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(35, 205, 122)',
       hsv: 'hsv(151, 83, 80)',
       hex: '#23CD7A',
-      similar: '#90e200'
+      similar: '#00ffff'
     }
   },
   {
@@ -115,7 +115,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(254, 107, 2)',
       hsv: 'hsv(25, 99, 100)',
       hex: '#FE6B02',
-      similar: '#ff0000'
+      similar: '#ffa500'
     }
   },
   {
@@ -180,7 +180,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(176, 197, 228)',
       hsv: 'hsv(216, 23, 89)',
       hex: '#B0C5E4',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -271,7 +271,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(245, 103, 198)',
       hsv: 'hsv(320, 58, 96)',
       hex: '#F567C6',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -310,7 +310,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(241, 37, 193)',
       hsv: 'hsv(314, 85, 95)',
       hex: '#F125C1',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -349,7 +349,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(247, 222, 140)',
       hsv: 'hsv(46, 43, 97)',
       hex: '#F7DE8C',
-      similar: '#ffff00'
+      similar: '#ffa500'
     }
   },
   {
@@ -362,7 +362,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(254, 213, 82)',
       hsv: 'hsv(46, 68, 100)',
       hex: '#FED552',
-      similar: '#ffff00'
+      similar: '#ffa500'
     }
   },
   {
@@ -440,7 +440,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(238, 118, 46)',
       hsv: 'hsv(23, 81, 93)',
       hex: '#EE762E',
-      similar: '#ff0000'
+      similar: '#ffa500'
     }
   },
   {
@@ -505,7 +505,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(105, 182, 76)',
       hsv: 'hsv(104, 58, 71)',
       hex: '#69B64C',
-      similar: '#90e200'
+      similar: '#008000'
     }
   },
   {
@@ -635,7 +635,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(141, 117, 179)',
       hsv: 'hsv(263, 35, 70)',
       hex: '#8D75B3',
-      similar: '#800080'
+      similar: '#0000ff'
     }
   },
   {
@@ -700,7 +700,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(81, 85, 88)',
       hsv: 'hsv(206, 8, 35)',
       hex: '#515558',
-      similar: '#800080'
+      similar: '#00ffff'
     }
   },
   {
@@ -765,7 +765,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(244, 208, 89)',
       hsv: 'hsv(46, 64, 96)',
       hex: '#F4D059',
-      similar: '#ffff00'
+      similar: '#ffa500'
     }
   },
   {
@@ -817,7 +817,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(85, 86, 90)',
       hsv: 'hsv(228, 6, 35)',
       hex: '#55565A',
-      similar: '#800080'
+      similar: '#0000ff'
     }
   },
   {
@@ -830,7 +830,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(238, 114, 32)',
       hsv: 'hsv(24, 87, 93)',
       hex: '#EE7220',
-      similar: '#ff0000'
+      similar: '#ffa500'
     }
   },
   {
@@ -843,7 +843,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(121, 165, 223)',
       hsv: 'hsv(214, 46, 87)',
       hex: '#79A5DF',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -856,7 +856,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(17, 23, 33)',
       hsv: 'hsv(217, 48, 13)',
       hex: '#111721',
-      similar: '#000000'
+      similar: '#0000ff'
     }
   },
   {
@@ -921,7 +921,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(217, 103, 163)',
       hsv: 'hsv(328, 53, 85)',
       hex: '#D967A3',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -999,7 +999,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(209, 25, 123)',
       hsv: 'hsv(328, 88, 82)',
       hex: '#D1197B',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -1064,7 +1064,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(0, 106, 182)',
       hsv: 'hsv(205, 100, 71)',
       hex: '#006AB6',
-      similar: '#0000ff'
+      similar: '#00ffff'
     }
   },
   {
@@ -1090,7 +1090,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(228, 78, 142)',
       hsv: 'hsv(334, 66, 89)',
       hex: '#E44E8E',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -1116,7 +1116,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(222, 226, 235)',
       hsv: 'hsv(222, 6, 92)',
       hex: '#DEE2EB',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -1207,7 +1207,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(235, 225, 255)',
       hsv: 'hsv(260, 12, 100)',
       hex: '#EBE1FF',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -1233,7 +1233,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(170, 197, 226)',
       hsv: 'hsv(211, 25, 89)',
       hex: '#AAC5E2',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -1259,7 +1259,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(120, 133, 58)',
       hsv: 'hsv(70, 56, 52)',
       hex: '#78853A',
-      similar: '#008000'
+      similar: '#90e200'
     }
   },
   {
@@ -1441,7 +1441,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(127, 101, 117)',
       hsv: 'hsv(323, 20, 50)',
       hex: '#7F6575',
-      similar: '#800080'
+      similar: '#ffffff'
     }
   },
   {
@@ -1454,7 +1454,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(0, 109, 178)',
       hsv: 'hsv(203, 100, 70)',
       hex: '#006DB2',
-      similar: '#0000ff'
+      similar: '#00ffff'
     }
   },
   {
@@ -1519,7 +1519,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(248, 76, 173)',
       hsv: 'hsv(326, 69, 97)',
       hex: '#F84CAD',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -1545,7 +1545,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(197, 166, 226)',
       hsv: 'hsv(271, 27, 89)',
       hex: '#C5A6E2',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -1558,7 +1558,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(190, 227, 227)',
       hsv: 'hsv(180, 16, 89)',
       hex: '#BEE3E3',
-      similar: '#ffffff'
+      similar: '#00ffff'
     }
   },
   {
@@ -1662,7 +1662,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(203, 120, 176)',
       hsv: 'hsv(320, 41, 80)',
       hex: '#CB78B0',
-      similar: '#800080'
+      similar: '#ffffff'
     }
   },
   {
@@ -1701,7 +1701,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(165, 207, 182)',
       hsv: 'hsv(144, 20, 81)',
       hex: '#A5CFB6',
-      similar: '#00ffff'
+      similar: '#008000'
     }
   },
   {
@@ -1805,7 +1805,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(211, 221, 233)',
       hsv: 'hsv(213, 9, 91)',
       hex: '#D3DDE9',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -1857,7 +1857,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(118, 100, 160)',
       hsv: 'hsv(258, 38, 63)',
       hex: '#7664A0',
-      similar: '#800080'
+      similar: '#0000ff'
     }
   },
   {
@@ -2156,7 +2156,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(162, 29, 60)',
       hsv: 'hsv(346, 82, 64)',
       hex: '#A21D3C',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -2195,7 +2195,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(245, 210, 75)',
       hsv: 'hsv(48, 69, 96)',
       hex: '#F5D24B',
-      similar: '#ffff00'
+      similar: '#ffa500'
     }
   },
   {
@@ -2208,7 +2208,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(226, 90, 155)',
       hsv: 'hsv(331, 60, 89)',
       hex: '#E25A9B',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -2234,7 +2234,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(153, 183, 220)',
       hsv: 'hsv(213, 30, 86)',
       hex: '#99B7DC',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -2247,7 +2247,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(181, 68, 97)',
       hsv: 'hsv(345, 62, 71)',
       hex: '#B54461',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -2260,7 +2260,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(32, 36, 73)',
       hsv: 'hsv(234, 56, 29)',
       hex: '#202449',
-      similar: '#000000'
+      similar: '#800080'
     }
   },
   {
@@ -2351,7 +2351,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(59, 145, 196)',
       hsv: 'hsv(202, 70, 77)',
       hex: '#3B91C4',
-      similar: '#0000ff'
+      similar: '#00ffff'
     }
   },
   {
@@ -2442,7 +2442,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(200, 47, 127)',
       hsv: 'hsv(329, 77, 78)',
       hex: '#C82F7F',
-      similar: '#800080'
+      similar: '#ff0000'
     }
   },
   {
@@ -2468,7 +2468,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(100, 149, 207)',
       hsv: 'hsv(213, 52, 81)',
       hex: '#6495CF',
-      similar: '#ffffff'
+      similar: '#0000ff'
     }
   },
   {
@@ -2481,7 +2481,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(126, 108, 168)',
       hsv: 'hsv(258, 36, 66)',
       hex: '#7E6CA8',
-      similar: '#800080'
+      similar: '#0000ff'
     }
   },
   {
@@ -2494,7 +2494,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(241, 149, 145)',
       hsv: 'hsv(2, 40, 95)',
       hex: '#F19591',
-      similar: '#ff0000'
+      similar: '#ffffff'
     }
   },
   {
@@ -2598,7 +2598,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(217, 242, 255)',
       hsv: 'hsv(201, 15, 100)',
       hex: '#D9F2FF',
-      similar: '#ffffff'
+      similar: '#00ffff'
     }
   },
   {
@@ -2689,7 +2689,7 @@ export const IdolData: IdolType[] = [
       rgb: 'rgb(250, 144, 162)',
       hsv: 'hsv(350, 42, 98)',
       hex: '#FA90A2',
-      similar: '#ff0000'
+      similar: '#ffffff'
     }
   }
 ]
