@@ -12,7 +12,7 @@ export async function fetchIdolData(query: string) {
   )}`
 
   try {
-    const res = await axios.get<IImasAPIResponse>(url)
+    const res = await axios.get<IImasAPIResponse>(url, { timeout: 5000 })
     return res.data.results.bindings
   } catch (err) {
     console.error(err)
