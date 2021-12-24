@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "fmt:data": "yarn prettier --write ./data/idol.ts",
+    "fmt": "prettier --write .",
+    "fmt:data": "prettier --write ./data/idol.ts",
     "update:data": "yarn ts-node ./tools/create-data.ts"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
+    "@trivago/prettier-plugin-sort-imports": "^3.1.1",
     "@types/color-convert": "^2.0.0",
     "@types/react": "17.0.38",
     "@types/react-copy-to-clipboard": "^5.0.2",
