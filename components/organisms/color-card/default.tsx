@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Card from 'components/atoms/card'
 
 import CardTitle from 'components/molecules/card-title'
@@ -8,18 +10,13 @@ import ColorInfo from 'components/organisms/color-info'
 
 import { Props } from './props'
 
-const CardDefault = ({
-  data: idol,
-  isKeep,
-  onClickKeep,
-  onClickRemove
-}: Props) => (
+const CardDefault = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
   <Card>
     <div className="flex flex-row items-center justify-between">
       <CardTitle
-        nameJa={idol.nameJa}
-        nameEn={idol.nameEn}
-        hex={idol.color.hex}
+        nameJa={data.nameJa}
+        nameEn={data.nameEn}
+        hex={data.color.hex}
       />
       {isKeep ? (
         <RemoveButton onClick={onClickRemove} />
@@ -27,8 +24,11 @@ const CardDefault = ({
         <KeepButton onClick={onClickKeep} />
       )}
     </div>
-    <ColorInfo color={idol.color} />
+    <ColorInfo color={data.color} />
   </Card>
 )
 
-export default CardDefault
+export default React.memo(
+  CardDefault,
+  (prev, next) => prev.isKeep === next.isKeep
+)

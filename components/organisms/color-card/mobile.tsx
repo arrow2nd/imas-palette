@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Card from 'components/atoms/card'
 
 import CardTitle from 'components/molecules/card-title'
@@ -8,33 +10,33 @@ import ColorInfo from 'components/organisms/color-info'
 
 import { Props } from './props'
 
-const CardMobile = ({
-  data: idol,
-  isKeep,
-  onClickKeep,
-  onClickRemove
-}: Props) => {
-  const buttonClassName = 'mt-6 w-full justify-center'
-
-  return (
-    <Card>
-      <div className="flex flex-row items-center justify-between">
-        <CardTitle
-          nameJa={idol.nameJa}
-          nameEn={idol.nameEn}
-          hex={idol.color.hex}
+const CardMobile = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
+  <Card>
+    <div className="flex flex-row items-center justify-between">
+      <CardTitle
+        nameJa={data.nameJa}
+        nameEn={data.nameEn}
+        hex={data.color.hex}
+      />
+    </div>
+    <ColorInfo color={data.color} />
+    <div>
+      {isKeep ? (
+        <RemoveButton
+          className="mt-6 w-full justify-center"
+          onClick={onClickRemove}
         />
-      </div>
-      <ColorInfo color={idol.color} />
-      <div>
-        {isKeep ? (
-          <RemoveButton className={buttonClassName} onClick={onClickRemove} />
-        ) : (
-          <KeepButton className={buttonClassName} onClick={onClickKeep} />
-        )}
-      </div>
-    </Card>
-  )
-}
+      ) : (
+        <KeepButton
+          className="mt-6 w-full justify-center"
+          onClick={onClickKeep}
+        />
+      )}
+    </div>
+  </Card>
+)
 
-export default CardMobile
+export default React.memo(
+  CardMobile,
+  (prev, next) => prev.isKeep === next.isKeep
+)
