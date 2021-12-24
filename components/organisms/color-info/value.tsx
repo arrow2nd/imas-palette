@@ -1,9 +1,10 @@
 import { useState } from 'react'
+import { CopyToClipboard } from 'react-copy-to-clipboard'
 import { FiCopy } from 'react-icons/fi'
 import { RiCheckboxCircleFill } from 'react-icons/ri'
-import { CopyToClipboard } from 'react-copy-to-clipboard'
-import TypeLabel from '../../atoms/label/type'
-import ValueLabel from '../../atoms/label/value'
+
+import TypeLabel from 'components/atoms/label/type'
+import ValueLabel from 'components/atoms/label/value'
 
 type Props = {
   className?: string

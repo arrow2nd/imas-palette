@@ -1,9 +1,13 @@
-import { IdolType } from '../types/idol'
-import { IdolColorType } from '../types/idol-color'
-import { ColorListData } from '../data/color-list'
-import { fetchIdolData } from './util'
-import fs from 'fs'
 import convert from 'color-convert'
+import fs from 'fs'
+
+import { ColorListData } from 'data/color-list'
+
+import { IdolType } from 'types/idol'
+import { IdolColorType } from 'types/idol-color'
+
+import { fetchIdolData } from './util'
+
 const ColorClassifier = require('color-classifier')
 
 const query = `
@@ -74,7 +78,7 @@ async function main() {
   })
 
   // 保存
-  const save = `import { IdolType } from '../types/idol'\n\nexport const IdolData: IdolType[] = ${JSON.stringify(
+  const save = `import { IdolType } from 'types/idol'\n\nexport const IdolData: IdolType[] = ${JSON.stringify(
     results,
     null,
     '  '

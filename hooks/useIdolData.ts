@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
-import { IdolType } from '../types/idol'
-import { IdolData } from '../data/idol'
+
+import { IdolData } from 'data/idol'
+
+import { IdolType } from 'types/idol'
 
 export const useIdolData = (
   bland: string,

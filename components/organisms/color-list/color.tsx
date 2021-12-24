@@ -1,6 +1,8 @@
-import ColorSampleCircle from '../../atoms/color-sample/circle'
-import { ColorType } from '../../../types/color'
 import { useEffect, useState } from 'react'
+
+import ColorSampleCircle from 'components/atoms/color-sample/circle'
+
+import { ColorType } from 'types/color'
 
 type Props = {
   color: ColorType

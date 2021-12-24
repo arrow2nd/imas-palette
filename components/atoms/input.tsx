@@ -1,4 +1,4 @@
-import { DetailedHTMLProps, forwardRef, InputHTMLAttributes } from 'react'
+import { DetailedHTMLProps, InputHTMLAttributes, forwardRef } from 'react'
 
 type Props = {
   className?: string

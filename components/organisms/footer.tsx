@@ -1,4 +1,4 @@
-import Links from '../molecules/links'
+import Links from 'components/molecules/links'
 
 const Footer = () => (
   <div className="flex flex-col mt-12 items-center tracking-wide">

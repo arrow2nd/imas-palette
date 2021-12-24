@@ -1,9 +1,12 @@
+import Card from 'components/atoms/card'
+
+import CardTitle from 'components/molecules/card-title'
+
+import KeepButton from 'components/organisms/button/keep'
+import RemoveButton from 'components/organisms/button/remove'
+import ColorInfo from 'components/organisms/color-info'
+
 import { Props } from './props'
-import Card from '../../atoms/card'
-import CardTitle from '../../molecules/card-title'
-import KeepButton from '../button/keep'
-import RemoveButton from '../button/remove'
-import ColorInfo from '../color-info'
 
 const CardMobile = ({
   data: idol,

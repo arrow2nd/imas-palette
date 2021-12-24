@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react'
 import { isMobile } from 'react-device-detect'
-import { IdolType } from '../../types/idol'
-import NotFoundCard from '../molecules/not-found-card'
+import InfiniteScroll from 'react-infinite-scroller'
+
+import NotFoundCard from 'components/molecules/not-found-card'
+
+import { IdolType } from 'types/idol'
+
 import CardDefault from './color-card/default'
 import CardMobile from './color-card/mobile'
-import InfiniteScroll from 'react-infinite-scroller'
 
 type Props = {
   className: string

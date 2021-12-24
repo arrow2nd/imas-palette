@@ -1,4 +1,4 @@
-import { OptionType } from '../types/option'
+import { OptionType } from 'types/option'
 
 export const blandListData: OptionType[] = [
   {

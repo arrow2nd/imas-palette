@@ -1,4 +1,4 @@
-import TitleText from '../atoms/title-text'
+import TitleText from 'components/atoms/title-text'
 
 type Props = {
   desc: string
