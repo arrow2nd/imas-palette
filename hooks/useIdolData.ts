@@ -8,18 +8,23 @@ export const useIdolData = (
   similarColor: string,
   keepIdList: string[]
 ) => {
-  const results = useMemo(
+  // Keep済のデータ
+  const keeps = useMemo(
     () =>
-      IdolData.filter((e) => {
-        // keep済みのみを返す
-        if (bland === 'keep') return keepIdList.includes(e.id)
-        // ブランドの指定がなければすべてを返す
-        return bland === '' || bland === e.bland
-      })
-        .filter((e) => e.nameJa.includes(name) || e.nameKana.includes(name))
-        .filter((e) => similarColor === '' || e.color.similar === similarColor),
-    [bland, keepIdList, name, similarColor]
+      IdolData.filter((e) => keepIdList.includes(e.id)).filter(
+        (e) => similarColor === '' || e.color.similar === similarColor
+      ),
+    [keepIdList, similarColor]
   )
 
-  return results
+  // 検索結果
+  const results = useMemo(
+    () =>
+      IdolData.filter((e) => bland === '' || bland === e.bland)
+        .filter((e) => e.nameJa.includes(name) || e.nameKana.includes(name))
+        .filter((e) => similarColor === '' || e.color.similar === similarColor),
+    [bland, name, similarColor]
+  )
+
+  return bland === 'keep' ? keeps : results
 }

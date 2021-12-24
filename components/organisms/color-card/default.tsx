@@ -30,5 +30,8 @@ const CardDefault = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
 
 export default React.memo(
   CardDefault,
-  (prev, next) => prev.isKeep === next.isKeep
+  (prev, next) =>
+    prev.isKeep === next.isKeep &&
+    prev.onClickKeep === next.onClickKeep &&
+    prev.onClickRemove === next.onClickRemove
 )

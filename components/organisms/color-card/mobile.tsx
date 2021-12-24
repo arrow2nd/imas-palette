@@ -38,5 +38,8 @@ const CardMobile = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
 
 export default React.memo(
   CardMobile,
-  (prev, next) => prev.isKeep === next.isKeep
+  (prev, next) =>
+    prev.isKeep === next.isKeep &&
+    prev.onClickKeep === next.onClickKeep &&
+    prev.onClickRemove === next.onClickRemove
 )
