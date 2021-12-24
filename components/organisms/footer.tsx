@@ -15,7 +15,6 @@ const Footer = () => (
         >
           im@sparql
         </a>
-        {'.'}
       </p>
       <p className="mt-1">
         {

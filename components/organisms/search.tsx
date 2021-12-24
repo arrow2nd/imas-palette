@@ -39,7 +39,6 @@ const Search = ({
     inputRef.current.value = ''
     onChangeName('')
     onChangeSimilarColor('')
-
     onChangeBland(bland)
   }
 
