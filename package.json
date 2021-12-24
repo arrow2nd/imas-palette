@@ -10,7 +10,7 @@
     "update:data": "yarn ts-node ./tools/create-data.ts"
   },
   "dependencies": {
-    "next": "12.0.4",
+    "next": "12.0.7",
     "react": "17.0.2",
     "react-copy-to-clipboard": "^5.0.4",
     "react-device-detect": "^2.1.2",
@@ -23,7 +23,7 @@
   "devDependencies": {
     "@tailwindcss/custom-forms": "^0.2.1",
     "@types/color-convert": "^2.0.0",
-    "@types/react": "17.0.37",
+    "@types/react": "17.0.38",
     "@types/react-copy-to-clipboard": "^5.0.2",
     "@types/react-infinite-scroller": "^1.2.2",
     "@types/react-scroll": "^1.8.3",
@@ -31,13 +31,13 @@
     "axios": "^0.24.0",
     "color-classifier": "^0.0.1",
     "color-convert": "^2.0.1",
-    "eslint": "8.3.0",
-    "eslint-config-next": "12.0.4",
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "^8.3.0",
-    "postcss": "^8.4.1",
-    "prettier": "^2.4.1",
-    "tailwindcss": "^2.2.19",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.7",
     "ts-node": "^10.4.0",
-    "typescript": "4.5.2"
+    "typescript": "4.5.4"
   }
 }
