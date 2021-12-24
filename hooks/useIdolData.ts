@@ -1,8 +1,6 @@
-import { useEffect, useState } from 'react'
+import { useMemo } from 'react'
 
 import { IdolData } from 'data/idol'
-
-import { IdolType } from 'types/idol'
 
 export const useIdolData = (
   bland: string,
@@ -10,22 +8,18 @@ export const useIdolData = (
   similarColor: string,
   keepIdList: string[]
 ) => {
-  const [results, setResults] = useState([] as IdolType[])
-
-  useEffect(() => {
-    const newResults = IdolData.filter((e) => {
-      // keep済みのみを返す
-      if (bland === 'keep') return keepIdList.includes(e.id)
-      // ブランドの指定がなければすべてを返す
-      return bland === '' || bland === e.bland
-    })
-      .filter(
-        (e) => (name && e.nameJa.includes(name)) || e.nameKana.includes(name)
-      )
-      .filter((e) => similarColor === '' || e.color.similar === similarColor)
-
-    setResults(newResults)
-  }, [bland, keepIdList, name, similarColor])
+  const results = useMemo(
+    () =>
+      IdolData.filter((e) => {
+        // keep済みのみを返す
+        if (bland === 'keep') return keepIdList.includes(e.id)
+        // ブランドの指定がなければすべてを返す
+        return bland === '' || bland === e.bland
+      })
+        .filter((e) => e.nameJa.includes(name) || e.nameKana.includes(name))
+        .filter((e) => similarColor === '' || e.color.similar === similarColor),
+    [bland, keepIdList, name, similarColor]
+  )
 
   return results
 }
