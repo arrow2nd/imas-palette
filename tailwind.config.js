@@ -1,6 +1,8 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}'
+  ],
   theme: {
     screens: {
       sm: '640px',
@@ -16,9 +18,6 @@ module.exports = {
         imas: '#FF74B8'
       }
     }
-  },
-  variants: {
-    extend: {}
   },
   plugins: [require('@tailwindcss/custom-forms')]
 }
