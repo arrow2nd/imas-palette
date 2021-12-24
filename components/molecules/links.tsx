@@ -1,5 +1,6 @@
 import { FiGithub, FiTwitter } from 'react-icons/fi'
-import LinkButton from '../atoms/button/link'
+
+import LinkButton from 'components/atoms/button/link'
 
 type Props = {
   className?: string

@@ -1,5 +1,6 @@
 import { ImCrying } from 'react-icons/im'
-import Card from '../atoms/card'
+
+import Card from 'components/atoms/card'
 
 const NotFoundCard = () => (
   <Card>

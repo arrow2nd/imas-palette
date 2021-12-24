@@ -4,18 +4,12 @@ type Props = {
   hex: string
 }
 
-const ColorSampleCircle = ({ className = '', name, hex }: Props) => {
-  const style: React.CSSProperties = {
-    backgroundColor: hex
-  }
-
-  return (
-    <div
-      className={`w-8 h-8 rounded-full ${className}`}
-      title={name}
-      style={style}
-    />
-  )
-}
+const ColorSampleCircle = ({ className = '', name, hex }: Props) => (
+  <div
+    className={`w-8 h-8 rounded-full ${className}`}
+    title={name}
+    style={{ backgroundColor: hex }}
+  />
+)
 
 export default ColorSampleCircle

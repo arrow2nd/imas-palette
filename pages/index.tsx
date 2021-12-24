@@ -1,5 +1,6 @@
-import { seoData } from '../data/seo'
-import Home from '../components/templates/home'
+import Home from 'components/templates/home'
+
+import { seoData } from 'data/seo'
 
 const ImasPalette = () => <Home seo={seoData} />
 

@@ -1,4 +1,4 @@
-import Links from '../molecules/links'
+import Links from 'components/molecules/links'
 
 const Footer = () => (
   <div className="flex flex-col mt-12 items-center tracking-wide">
@@ -15,7 +15,6 @@ const Footer = () => (
         >
           im@sparql
         </a>
-        {'.'}
       </p>
       <p className="mt-1">
         {

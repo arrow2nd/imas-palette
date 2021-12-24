@@ -1,4 +1,4 @@
-import { SeoInfoType } from '../types/seo'
+import { SeoInfoType } from 'types/seo'
 
 export const seoData: SeoInfoType = {
   title: 'im@s-palette | アイマスカラーコード検索',

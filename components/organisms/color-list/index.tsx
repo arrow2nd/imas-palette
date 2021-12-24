@@ -1,4 +1,5 @@
-import { ColorListData } from '../../../data/color-list'
+import { ColorListData } from 'data/color-list'
+
 import Color from './color'
 
 type Props = {

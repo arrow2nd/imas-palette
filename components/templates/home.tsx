@@ -1,8 +1,9 @@
-import { SeoInfoType } from '../../types/seo'
-import SEO from '../organisms/seo'
-import Header from '../organisms/header'
-import Footer from '../organisms/footer'
-import UI from '../organisms/ui'
+import Footer from 'components/organisms/footer'
+import Header from 'components/organisms/header'
+import SEO from 'components/organisms/seo'
+import UI from 'components/organisms/ui'
+
+import { SeoInfoType } from 'types/seo'
 
 type Props = {
   seo: SeoInfoType

@@ -6,5 +6,19 @@
   "singleQuote": true,
   "trailingComma": "none",
   "bracketSpacing": true,
-  "arrowParens": "always"
+  "arrowParens": "always",
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^components/atoms/(.*)$",
+    "^components/molecules/(.*)$",
+    "^components/organisms/(.*)$",
+    "^components/templates/(.*)$",
+    "^hooks/(.*)$",
+    "^data/(.*)$",
+    "^types/(.*)$",
+    "^styles/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
 }

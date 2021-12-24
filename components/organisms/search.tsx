@@ -1,8 +1,11 @@
 import React, { useMemo, useRef } from 'react'
-import { blandListData } from '../../data/bland-list'
-import Select from '../atoms/select'
-import Input from '../atoms/input'
-import Button from '../atoms/button'
+
+import Button from 'components/atoms/button'
+import Input from 'components/atoms/input'
+import Select from 'components/atoms/select'
+
+import { blandListData } from 'data/bland-list'
+
 import ColorList from './color-list'
 
 type Props = {
@@ -36,7 +39,6 @@ const Search = ({
     inputRef.current.value = ''
     onChangeName('')
     onChangeSimilarColor('')
-
     onChangeBland(bland)
   }
 

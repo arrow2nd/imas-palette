@@ -1,4 +1,4 @@
-import { IdolType } from '../types/idol'
+import { IdolType } from 'types/idol'
 
 export const IdolData: IdolType[] = [
   {

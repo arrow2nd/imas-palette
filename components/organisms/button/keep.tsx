@@ -1,5 +1,6 @@
 import { FiBookmark } from 'react-icons/fi'
-import Button from '../../atoms/button'
+
+import Button from 'components/atoms/button'
 
 type Props = {
   className?: string

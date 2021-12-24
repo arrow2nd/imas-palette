@@ -1,4 +1,5 @@
-import { IdolColorType } from '../../../types/idol-color'
+import { IdolColorType } from 'types/idol-color'
+
 import ColorValue from './value'
 
 type Props = {
