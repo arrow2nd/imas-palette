@@ -18,7 +18,7 @@ const Footer = () => (
       </p>
       <p className="mt-1">
         {
-          'The copyright of all THE IDOLM@STER related content belongs to NAMCO BANDAI Entertainment Inc.'
+          'The copyright of all THE IDOLM@STER related content belongs to BANDAI NAMCO Entertainment Inc.'
         }
       </p>
     </div>
