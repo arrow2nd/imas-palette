@@ -1,5 +1,5 @@
-import ColorSample from '../atoms/color-sample'
-import NameLabel from '../atoms/label/name'
+import ColorSample from 'components/atoms/color-sample'
+import NameLabel from 'components/atoms/label/name'
 
 type Props = {
   nameJa: string

@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
 
+/* Windowsでのフォントジャギー対策 */
 a,
 p,
 input,
@@ -10,4 +12,9 @@ span {
   transform: rotate(0.05deg);
 }
 
-@tailwind utilities;
+/* 選択範囲の色 */
+::selection,
+::-moz-selection {
+  background: #ff74b8;
+  color: #fff;
+}
