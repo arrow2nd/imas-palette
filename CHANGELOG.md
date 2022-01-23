@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.6.3] - 2022-01-23
+
+### Changed
+
+- 権利表記を変更
+
 ## [0.6.2] - 2022-01-22
 
 ### Security
@@ -76,7 +82,8 @@
 
 - リリース
 
-[unreleased]: https://github.com/arrow2nd/imas-palette/compare/v0.6.2...HEAD
+[unreleased]: https://github.com/arrow2nd/imas-palette/compare/v0.6.3...HEAD
+[0.6.3]: https://github.com/arrow2nd/imas-palette/compare/v0.6.2...v0.6.3
 [0.6.2]: https://github.com/arrow2nd/imas-palette/compare/v0.6.1...v0.6.2
 [0.6.1]: https://github.com/arrow2nd/imas-palette/compare/v0.6.0...v0.6.1
 [0.6.0]: https://github.com/arrow2nd/imas-palette/compare/v0.5.1...v0.6.0
