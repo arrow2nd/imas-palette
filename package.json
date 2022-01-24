@@ -1,6 +1,5 @@
 {
   "name": "imas-palette",
-  "version": "0.6.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
