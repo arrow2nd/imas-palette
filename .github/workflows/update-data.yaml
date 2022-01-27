@@ -2,13 +2,16 @@ name: UpdateData
 
 on:
   schedule:
-    # 日本時間の午前0時
+    # 日本時間の深夜0時
     - cron: '0 15 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Set branch name as environment variable
+        run: echo "NEW_BRANCH_NAME=update-color-$(date '+%s')" >> $GITHUB_ENV
+
       - name: Checkout
         uses: actions/checkout@v2
 
@@ -17,6 +20,12 @@ jobs:
         with:
           node-version: '16'
           cache: yarn
+
+      - name: Create new branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git switch -c ${{ env.NEW_BRANCH_NAME }}
 
       - name: Install dependencies
         run: yarn install --immutable
@@ -30,4 +39,13 @@ jobs:
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          branch: ${{ env.NEW_BRANCH_NAME }}
           commit_message: 'update: color data'
+
+      - name: Create pull request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ env.NEW_BRANCH_NAME }}
+          destination_branch: 'main'
+          pr_title: 'update: 色データ'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
