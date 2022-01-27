@@ -1,6 +1,7 @@
 name: UpdateData
 
 on:
+  workflow_dispatch:
   schedule:
     # 日本時間の深夜0時
     - cron: '0 15 * * *'
