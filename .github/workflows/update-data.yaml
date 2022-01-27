@@ -2,6 +2,7 @@ name: UpdateData
 
 on:
   schedule:
+    # 日本時間の午前0時
     - cron: '0 15 * * *'
 
 jobs:
@@ -14,11 +15,11 @@ jobs:
       - name: Install Node.js, npm and Yarn
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
           cache: yarn
 
       - name: Install dependencies
-        run: yarn install --check-files --frozen-lockfile --non-interactive
+        run: yarn install --immutable
 
       - name: Update color data
         run: yarn update:data
