@@ -2251,7 +2251,7 @@ __metadata:
     react-device-detect: ^2.1.2
     react-dom: 17.0.2
     react-icons: ^4.3.1
-    react-infinite-scroller: ^1.2.4
+    react-infinite-scroller: ^1.2.5
     react-scroll: ^1.8.4
     tailwindcss: ^3.0.18
     ts-node: ^10.4.0
@@ -3386,14 +3386,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-infinite-scroller@npm:^1.2.4":
-  version: 1.2.4
-  resolution: "react-infinite-scroller@npm:1.2.4"
+"react-infinite-scroller@npm:^1.2.5":
+  version: 1.2.5
+  resolution: "react-infinite-scroller@npm:1.2.5"
   dependencies:
     prop-types: ^15.5.8
   peerDependencies:
-    react: ^0.14.9 || ^15.3.0 || ^16.0.0
-  checksum: 6021df5b0318c6f54c3e9adc830f923232b0ed35082d3abf3761b1f298041b42cfecc9a874489dbcbbe6fe8b5256c120b86123bf602061e3f8a1784bccadcf70
+    react: ^0.14.9 || ^15.3.0 || ^16.0.0 || ^17.0.0
+  checksum: 0114f944766ceb54a78220c856087906dcd7f8fd2cdf409216a174f95b2f94429c55b7f06d9c77bdd7caa86699136be7ff982035da625a924c133ba58c580a68
   languageName: node
   linkType: hard
 
