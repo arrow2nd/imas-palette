@@ -595,10 +595,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^17.0.18":
-  version: 17.0.18
-  resolution: "@types/node@npm:17.0.18"
-  checksum: 6c4edfc2b3ba2342a9c3d56e934c5245948ab752f4dc04bd6790b9603e6ebc53bc4f5befc3662e207f7dba2ddd17ccf657f915e319ea7cdd4f77b851079d1611
+"@types/node@npm:^17.0.21":
+  version: 17.0.21
+  resolution: "@types/node@npm:17.0.21"
+  checksum: 89dcd2fe82f21d3634266f8384e9c865cf8af49685639fbdbd799bdd1040480fb1e8eeda2d3b9fce41edbe704d2a4be9f427118c4ae872e8d9bb7cbeb3c41a94
   languageName: node
   linkType: hard
 
@@ -1562,14 +1562,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "eslint-config-prettier@npm:8.3.0"
+"eslint-config-prettier@npm:^8.4.0":
+  version: 8.4.0
+  resolution: "eslint-config-prettier@npm:8.4.0"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: df4cea3032671995bb5ab07e016169072f7fa59f44a53251664d9ca60951b66cdc872683b5c6a3729c91497c11490ca44a79654b395dd6756beb0c3903a37196
+  checksum: ee8dc343f1fed15dc0658e190a966cc23644477f2331a7f56ae2bb79dd74892e3cde8ea5c142e7a3329a8291a1de041e13ca96e54d0c85ff4a2aba13390c5f10
   languageName: node
   linkType: hard
 
@@ -2231,7 +2231,7 @@ __metadata:
     "@tailwindcss/custom-forms": ^0.2.1
     "@trivago/prettier-plugin-sort-imports": ^3.2.0
     "@types/color-convert": ^2.0.0
-    "@types/node": ^17.0.18
+    "@types/node": ^17.0.21
     "@types/react": 17.0.38
     "@types/react-copy-to-clipboard": ^5.0.2
     "@types/react-infinite-scroller": ^1.2.2
@@ -2242,7 +2242,7 @@ __metadata:
     color-convert: ^2.0.1
     eslint: 8.8.0
     eslint-config-next: 12.0.9
-    eslint-config-prettier: ^8.3.0
+    eslint-config-prettier: ^8.4.0
     next: 12.1.0
     postcss: ^8.4.5
     prettier: ^2.5.1
