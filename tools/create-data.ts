@@ -5,10 +5,11 @@ import { IdolType } from 'types/idol'
 import { IdolColorType } from 'types/idol-color'
 
 import { ColorListData } from '../data/color-list'
-import { fetchIdolData } from './util'
+import { fetchIdolData } from './fetch'
 
 const ColorClassifier = require('color-classifier')
 
+/** SPARQLクエリ（全アイドルの名前とイメージカラーを取得） */
 const query = `
 PREFIX schema: <http://schema.org/>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -20,8 +21,7 @@ WHERE {
      rdfs:label ?nameJa;
      imas:Brand ?bland;
      imas:Color ?hex.     
-  FILTER(?type = imas:Idol)
-  
+  FILTER(?type = imas:Idol)  
   OPTIONAL{
     ?d schema:alternateName ?nameEn.
     FILTER(lang(?nameEn)="en")
@@ -30,7 +30,6 @@ WHERE {
     ?d schema:name ?nameEn.
     FILTER(lang(?nameEn)="en")
   }
-
   OPTIONAL{ ?d imas:alternateNameKana ?nameKana }
   OPTIONAL{ ?d imas:nameKana ?nameKana }
   OPTIONAL{ ?d imas:givenNameKana ?nameKana }
@@ -55,37 +54,30 @@ function createColor(hex: string): IdolColorType {
   }
 }
 
-async function main() {
+;(async () => {
   const data = await fetchIdolData(query)
 
-  const results = data.map((e): IdolType => {
-    const nameJa = e.nameJa.value
-    const hex = e.hex.value
+  const results = data.map(
+    ({ nameJa, nameEn, nameKana, bland, hex }): IdolType => {
+      const id = `${nameEn.value}_${bland.value}`
+        .toLowerCase()
+        .replace(/ /g, '_')
 
-    const id = `${e.nameEn.value}_${e.bland.value}`
-      .toLowerCase()
-      .replace(/ /g, '_')
-
-    return {
-      id,
-      nameJa,
-      nameEn: e.nameEn.value,
-      nameKana: e.nameKana.value,
-      bland: e.bland.value,
-      color: createColor(hex)
+      return {
+        id,
+        nameJa: nameJa.value,
+        nameEn: nameEn.value,
+        nameKana: nameKana.value,
+        bland: bland.value,
+        color: createColor(hex.value)
+      }
     }
-  })
+  )
 
-  // 保存
-  const save = `import { IdolType } from 'types/idol'\n\nexport const IdolData: IdolType[] = ${JSON.stringify(
-    results,
-    null,
-    '  '
-  )}`
+  const json = JSON.stringify(results, null, '  ')
+  const save = `import { IdolType } from 'types/idol'\n\nexport const IdolData: IdolType[] = ${json}`
 
   fs.writeFileSync('./data/idol.ts', save)
 
   console.log('[ success! ]')
-}
-
-main()
+})()
