@@ -2,8 +2,8 @@ type Props = {
   text: string
 }
 
-const TitleText = ({ text }: Props) => (
+const Title = ({ text }: Props) => (
   <div className="text-4xl tracking-widest">{text}</div>
 )
 
-export default TitleText
+export default Title

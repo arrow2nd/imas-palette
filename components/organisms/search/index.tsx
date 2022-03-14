@@ -6,7 +6,7 @@ import Select from 'components/atoms/select'
 
 import { blands } from 'data/blands'
 
-import ColorList from './color-list'
+import ColorList from '../color-list'
 
 type Props = {
   className?: string

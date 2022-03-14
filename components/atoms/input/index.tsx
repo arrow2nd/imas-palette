@@ -1,4 +1,4 @@
-import { DetailedHTMLProps, InputHTMLAttributes, forwardRef } from 'react'
+import { KeyboardEventHandler, forwardRef, useState } from 'react'
 
 type Props = {
   className: string
@@ -10,13 +10,12 @@ const Input = forwardRef<HTMLInputElement, Props>(function InputContent(
   { className, placeholder, onSubmit }: Props,
   ref
 ) {
-  const handleKeyDown = (
-    ev: DetailedHTMLProps<
-      InputHTMLAttributes<HTMLInputElement>,
-      HTMLInputElement
-    >
-  ) => {
-    if (ev.key === 'Enter') {
+  const [isTyping, setIsTyping] = useState(false)
+
+  const handleKeyDown: KeyboardEventHandler<HTMLInputElement> = (ev) => {
+    if (!isTyping && ev.key === 'Enter') {
+      ev.preventDefault()
+      ev.currentTarget.blur()
       onSubmit()
     }
   }
@@ -26,8 +25,11 @@ const Input = forwardRef<HTMLInputElement, Props>(function InputContent(
       <input
         className="form-input block w-full rounded-lg shadow-md"
         placeholder={placeholder}
-        ref={ref}
+        onCompositionStart={() => setIsTyping(true)}
+        onCompositionEnd={() => setIsTyping(false)}
         onKeyDown={handleKeyDown}
+        ref={ref}
+        data-testid="search-textbox"
       />
     </div>
   )

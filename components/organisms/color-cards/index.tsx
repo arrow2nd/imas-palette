@@ -6,8 +6,8 @@ import NotFoundCard from 'components/molecules/not-found-card'
 
 import { Idol } from 'types/idol'
 
-import CardDefault from './color-card/default'
-import CardMobile from './color-card/mobile'
+import CardDefault from '../color-card/default'
+import CardMobile from '../color-card/mobile'
 
 // 1度に読み込む数
 const LOAD_COUNT = 20
@@ -20,7 +20,7 @@ type Props = {
   onRemoveKeepId: (removeId: string) => void
 }
 
-const SearchResults = ({
+const ColorCards = ({
   className,
   items,
   keepIdList,
@@ -92,4 +92,4 @@ const SearchResults = ({
   )
 }
 
-export default SearchResults
+export default ColorCards
