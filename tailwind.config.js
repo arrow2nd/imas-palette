@@ -1,10 +1,6 @@
 module.exports = {
   content: ['./pages/**/*.tsx', './components/**/*.{ts,tsx}'],
   theme: {
-    screens: {
-      sm: '640px',
-      md: '768px'
-    },
     extend: {
       fontFamily: {
         default: ['"M PLUS Rounded 1c"', 'sans-serif']
