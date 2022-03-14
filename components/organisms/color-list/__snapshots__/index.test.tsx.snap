@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorList 見た目が変化していないか 1`] = `
+<div>
+  <div
+    class="flex flex-wrap mt-8 justify-center items-center"
+  >
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-gray-600"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
+        data-testid="color-sample-circle"
+        title="全て"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(255, 0, 0);"
+        title="赤"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(255, 165, 0);"
+        title="橙"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(255, 255, 0);"
+        title="黄"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(144, 226, 0);"
+        title="黄緑"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(0, 128, 0);"
+        title="緑"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(0, 255, 255);"
+        title="水色"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(0, 0, 255);"
+        title="青"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(128, 0, 128);"
+        title="紫"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(255, 255, 255);"
+        title="白"
+      />
+    </div>
+    <div
+      class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+      data-testid="colorlist-button"
+    >
+      <div
+        class="w-8 h-8 rounded-full border-2 false"
+        data-testid="color-sample-circle"
+        style="background-color: rgb(0, 0, 0);"
+        title="黒"
+      />
+    </div>
+  </div>
+</div>
+`;

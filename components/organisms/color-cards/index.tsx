@@ -6,7 +6,7 @@ import NotFoundCard from 'components/molecules/not-found-card'
 
 import { Idol } from 'types/idol'
 
-import CardDefault from '../color-card/default'
+import CardDefault from '../color-card'
 import CardMobile from '../color-card/mobile'
 
 // 1度に読み込む数

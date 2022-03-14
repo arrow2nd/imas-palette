@@ -1,5 +1,4 @@
-import { fireEvent, render } from '@testing-library/react'
-import { act } from 'react-dom/test-utils'
+import { act, fireEvent, render } from '@testing-library/react'
 
 import Input from './index'
 
