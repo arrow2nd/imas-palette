@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardTitle 見た目が変化していないか 1`] = `
+<div>
+  <div
+    class="flex flex-row items-center"
+  >
+    <div
+      class="w-16 h-16 rounded-xl border border-gray-200"
+      data-testid="color-sample"
+      style="background-color: rgb(217, 103, 163);"
+    />
+    <div
+      class="ml-6"
+    >
+      <p
+        class="text-xl"
+      >
+        小早川紗枝
+      </p>
+      <p
+        class="text-sm tracking-wide"
+      >
+        Sae Kobayakawa
+      </p>
+    </div>
+  </div>
+</div>
+`;
