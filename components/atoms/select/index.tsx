@@ -15,6 +15,7 @@ const Select = ({ className = '', children, onChange }: Props) => {
     <div className={className}>
       <select
         className="form-select block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
+        data-testid="search-select"
         onChange={handleChange}
       >
         {children}
