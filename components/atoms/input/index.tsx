@@ -23,7 +23,7 @@ const Input = forwardRef<HTMLInputElement, Props>(function InputContent(
   return (
     <div className={className}>
       <input
-        className="form-input block w-full rounded-lg shadow-md"
+        className="form-input block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
         placeholder={placeholder}
         onCompositionStart={() => setIsTyping(true)}
         onCompositionEnd={() => setIsTyping(false)}

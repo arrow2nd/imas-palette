@@ -1043,16 +1043,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/custom-forms@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "@tailwindcss/custom-forms@npm:0.2.1"
+"@tailwindcss/forms@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@tailwindcss/forms@npm:0.5.0"
   dependencies:
-    lodash: ^4.17.11
-    mini-svg-data-uri: ^1.0.3
-    traverse: ^0.6.6
+    mini-svg-data-uri: ^1.2.3
   peerDependencies:
-    tailwindcss: ^1.0
-  checksum: 875906d2014a169242ee51fb21b0736d330539a23a8980e416d1ccc3f192c5a8d6d964c220e1ed9462092180739206d1538e79d684c5088f8f59035f0b552772
+    tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
+  checksum: 3e57584871bc41947f2a1518deaf69894b75745dee959bb2ba475c819eadec2b86f8bf6e73a051ddab627df4c8c3ad1d18239d48b3a95211be3b11a04dee0511
   languageName: node
   linkType: hard
 
@@ -3478,7 +3476,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "imas-palette@workspace:."
   dependencies:
-    "@tailwindcss/custom-forms": ^0.2.1
+    "@tailwindcss/forms": ^0.5.0
     "@testing-library/jest-dom": ^5.16.2
     "@testing-library/react": ^12.1.4
     "@trivago/prettier-plugin-sort-imports": ^3.2.0
@@ -4560,7 +4558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:4.17.21, lodash@npm:^4.17.11, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.7.0":
+"lodash@npm:4.17.21, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.7.0":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
@@ -4699,12 +4697,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mini-svg-data-uri@npm:^1.0.3":
-  version: 1.4.3
-  resolution: "mini-svg-data-uri@npm:1.4.3"
+"mini-svg-data-uri@npm:^1.2.3":
+  version: 1.4.4
+  resolution: "mini-svg-data-uri@npm:1.4.4"
   bin:
     mini-svg-data-uri: cli.js
-  checksum: bd1789c34907a36ae9157897b7c7f6ad700e71c8cb6d725bb2810ce6211abcaa3717333ca17408f6f8b2a44055e571cd5b78d478688e1864513cb7f8e023ae3f
+  checksum: 997f1fbd8d59a70f03761e18626d335197a3479cb9d1ff75678e4b64b864d32a0b8fc18115eabde035e5299b8b4a354a78e57dd6ac10f9d604162a6170898d09
   languageName: node
   linkType: hard
 
@@ -6319,13 +6317,6 @@ __metadata:
   dependencies:
     punycode: ^2.1.1
   checksum: ffe6049b9dca3ae329b059aada7f515b0f0064c611b39b51ff6b53897e954650f6f63d9319c6c008d36ead477c7b55e5f64c9dc60588ddc91ff720d64eb710b3
-  languageName: node
-  linkType: hard
-
-"traverse@npm:^0.6.6":
-  version: 0.6.6
-  resolution: "traverse@npm:0.6.6"
-  checksum: e2afa72f11efa9ba31ed763d2d9d2aa244612f22015d16c0ea3ba5f6ca8bf071de87f8108b721885cce06ea4a36ef4605d9228c67e431d9015ea4685cb364420
   languageName: node
   linkType: hard
 

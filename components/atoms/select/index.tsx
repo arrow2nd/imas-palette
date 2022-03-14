@@ -14,7 +14,7 @@ const Select = ({ className = '', children, onChange }: Props) => {
   return (
     <div className={className}>
       <select
-        className="form-select block w-full rounded-lg shadow-md"
+        className="form-select block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
         onChange={handleChange}
       >
         {children}
