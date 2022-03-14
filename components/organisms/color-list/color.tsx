@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react'
 
 import ColorSampleCircle from 'components/atoms/color-sample/circle'
 
-import { ColorType } from 'types/color'
+import { Color } from 'types/color'
 
 type Props = {
-  color: ColorType
+  color: Color
   isSelected: boolean
   onClick: (hex: string) => void
 }

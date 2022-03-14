@@ -1,4 +1,4 @@
-export type ColorType = {
+export type Color = {
   name: string
   hex: string
 }

@@ -1,6 +1,6 @@
-import { IdolType } from 'types/idol'
+import { Idol } from 'types/idol'
 
-export const IdolData: IdolType[] = [
+export const idols: Idol[] = [
   {
     id: 'yumi_aiba_cinderellagirls',
     nameJa: '相葉夕美',

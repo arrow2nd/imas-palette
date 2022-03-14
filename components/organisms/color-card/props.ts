@@ -1,7 +1,7 @@
-import { IdolType } from 'types/idol'
+import { Idol } from 'types/idol'
 
 export type Props = {
-  data: IdolType
+  data: Idol
   isKeep: boolean
   onClickKeep: () => void
   onClickRemove: () => void

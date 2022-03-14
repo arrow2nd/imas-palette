@@ -1,7 +1,7 @@
 import Home from 'components/templates/home'
 
-import { seoData } from 'data/seo'
+import { seo } from 'data/seo'
 
-const ImasPalette = () => <Home seo={seoData} />
+const ImasPalette = () => <Home seo={seo} />
 
 export default ImasPalette

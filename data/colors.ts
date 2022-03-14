@@ -1,6 +1,6 @@
-import { ColorType } from 'types/color'
+import { Color } from 'types/color'
 
-export const ColorListData: ColorType[] = [
+export const colors: Color[] = [
   {
     name: '全て',
     hex: ''

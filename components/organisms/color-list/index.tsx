@@ -1,4 +1,4 @@
-import { ColorListData } from 'data/color-list'
+import { colors } from 'data/colors'
 
 import Color from './color'
 
@@ -8,7 +8,7 @@ type Props = {
 }
 
 const ColorList = ({ current, onChange }: Props): JSX.Element => {
-  const items = ColorListData.map((e) => (
+  const items = colors.map((e) => (
     <Color
       color={e}
       isSelected={e.hex === current}

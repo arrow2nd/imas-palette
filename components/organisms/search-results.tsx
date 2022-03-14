@@ -4,7 +4,7 @@ import InfiniteScroll from 'react-infinite-scroller'
 
 import NotFoundCard from 'components/molecules/not-found-card'
 
-import { IdolType } from 'types/idol'
+import { Idol } from 'types/idol'
 
 import CardDefault from './color-card/default'
 import CardMobile from './color-card/mobile'
@@ -14,7 +14,7 @@ const LOAD_COUNT = 20
 
 type Props = {
   className: string
-  items: IdolType[]
+  items: Idol[]
   keepIdList: string[]
   onAddKeepId: (addId: string) => void
   onRemoveKeepId: (removeId: string) => void

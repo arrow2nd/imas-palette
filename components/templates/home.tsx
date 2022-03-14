@@ -3,10 +3,10 @@ import Header from 'components/organisms/header'
 import SEO from 'components/organisms/seo'
 import UI from 'components/organisms/ui'
 
-import { SeoInfoType } from 'types/seo'
+import { Seo } from 'types/seo'
 
 type Props = {
-  seo: SeoInfoType
+  seo: Seo
 }
 
 const Home = ({ seo }: Props) => (

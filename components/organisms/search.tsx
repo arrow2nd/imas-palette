@@ -4,7 +4,7 @@ import Button from 'components/atoms/button'
 import Input from 'components/atoms/input'
 import Select from 'components/atoms/select'
 
-import { blandListData } from 'data/bland-list'
+import { blands } from 'data/blands'
 
 import ColorList from './color-list'
 
@@ -27,7 +27,7 @@ const Search = ({
 
   const options = useMemo(
     () =>
-      blandListData.map((e) => (
+      blands.map((e) => (
         <option className="font-sans" key={e.value} value={e.value}>
           {e.title}
         </option>

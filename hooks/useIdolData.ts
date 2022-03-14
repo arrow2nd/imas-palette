@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 
-import { IdolData } from 'data/idol'
+import { idols } from 'data/idols'
 
 export const useIdolData = (
   bland: string,
@@ -11,16 +11,17 @@ export const useIdolData = (
   // Keep済のデータ
   const keeps = useMemo(
     () =>
-      IdolData.filter((e) => keepIdList.includes(e.id)).filter(
-        (e) => similarColor === '' || e.color.similar === similarColor
-      ),
+      idols
+        .filter((e) => keepIdList.includes(e.id))
+        .filter((e) => similarColor === '' || e.color.similar === similarColor),
     [keepIdList, similarColor]
   )
 
   // 検索結果
   const results = useMemo(
     () =>
-      IdolData.filter((e) => bland === '' || bland === e.bland)
+      idols
+        .filter((e) => bland === '' || bland === e.bland)
         .filter((e) => e.nameJa.includes(name) || e.nameKana.includes(name))
         .filter((e) => similarColor === '' || e.color.similar === similarColor),
     [bland, name, similarColor]

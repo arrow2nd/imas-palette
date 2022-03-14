@@ -1,10 +1,10 @@
 import convert from 'color-convert'
 import fs from 'fs'
 
-import { IdolType } from 'types/idol'
-import { IdolColorType } from 'types/idol-color'
+import { Idol } from 'types/idol'
+import { IdolColor } from 'types/idol-color'
 
-import { ColorListData } from '../data/color-list'
+import { colors } from '../data/colors'
 import { fetchIdolData } from './fetch'
 
 const ColorClassifier = require('color-classifier')
@@ -38,11 +38,11 @@ ORDER BY ?nameKana
 `
 
 const colorClassifier = new ColorClassifier(
-  ColorListData.filter((e) => e.hex !== '').map((e) => e.hex),
+  colors.filter((e) => e.hex !== '').map((e) => e.hex),
   ColorClassifier.AlgorithmTypes.HSV
 )
 
-function createColor(hex: string): IdolColorType {
+function createColor(hex: string): IdolColor {
   const rgb = convert.hex.rgb(hex).join(', ')
   const hsv = convert.hex.hsv(hex).join(', ')
 
@@ -57,27 +57,23 @@ function createColor(hex: string): IdolColorType {
 ;(async () => {
   const data = await fetchIdolData(query)
 
-  const results = data.map(
-    ({ nameJa, nameEn, nameKana, bland, hex }): IdolType => {
-      const id = `${nameEn.value}_${bland.value}`
-        .toLowerCase()
-        .replace(/ /g, '_')
+  const results = data.map(({ nameJa, nameEn, nameKana, bland, hex }): Idol => {
+    const id = `${nameEn.value}_${bland.value}`.toLowerCase().replace(/ /g, '_')
 
-      return {
-        id,
-        nameJa: nameJa.value,
-        nameEn: nameEn.value,
-        nameKana: nameKana.value,
-        bland: bland.value,
-        color: createColor(hex.value)
-      }
+    return {
+      id,
+      nameJa: nameJa.value,
+      nameEn: nameEn.value,
+      nameKana: nameKana.value,
+      bland: bland.value,
+      color: createColor(hex.value)
     }
-  )
+  })
 
   const json = JSON.stringify(results, null, '  ')
-  const save = `import { IdolType } from 'types/idol'\n\nexport const IdolData: IdolType[] = ${json}`
+  const save = `import { Idol } from 'types/idol'\n\nexport const idols: Idol[] = ${json}`
 
-  fs.writeFileSync('./data/idol.ts', save)
+  fs.writeFileSync('./data/idols.ts', save)
 
   console.log('[ success! ]')
 })()
