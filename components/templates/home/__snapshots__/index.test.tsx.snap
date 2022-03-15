@@ -3,7 +3,7 @@
 exports[`Home 見た目が変化していないか 1`] = `
 <div>
   <div
-    class="flex flex-col mx-8 my-16 min-h-screen"
+    class="flex flex-col mx-8 my-20 min-h-screen"
   >
     <div
       class="flex flex-col items-center text-center"
@@ -12,22 +12,22 @@ exports[`Home 見た目が変化していないか 1`] = `
         href=""
       >
         <div
-          class="text-4xl tracking-widest"
+          class="text-3xl md:text-4xl tracking-widest"
         >
           im@s-palette
         </div>
       </a>
       <p
-        class="mt-2"
+        class="mt-4 text-natural-gray text-sm md:text-base"
       >
         説明
       </p>
     </div>
     <div
-      class="flex-1"
+      class="flex-1 mt-12"
     >
       <div
-        class="mt-12"
+        class=""
       >
         <div
           class="flex flex-wrap justify-center flex-col md:flex-row"
@@ -4237,10 +4237,10 @@ exports[`Home 見た目が変化していないか 1`] = `
       </div>
     </div>
     <div
-      class="flex flex-col mt-12 items-center tracking-wide"
+      class="flex flex-col mt-20 items-center tracking-wide"
     >
       <div
-        class="flex flex-row "
+        class="flex flex-row"
       >
         <span
           class="mx-2 text-2xl hover:text-imas transition-colors "
@@ -4294,7 +4294,7 @@ exports[`Home 見た目が変化していないか 1`] = `
         </span>
       </div>
       <div
-        class="mt-4 text-sm text-center"
+        class="mt-8 text-sm text-center"
       >
         <p>
           The color data for idols is obtained from 

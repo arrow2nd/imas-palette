@@ -3,7 +3,7 @@
 exports[`Links 見た目が変化していないか 1`] = `
 <div>
   <div
-    class="flex flex-row "
+    class="flex flex-row"
   >
     <span
       class="mx-2 text-2xl hover:text-imas transition-colors "
