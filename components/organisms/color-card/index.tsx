@@ -11,7 +11,7 @@ import ColorInfo from 'components/organisms/color-info'
 import { Props } from './props'
 
 const CardDefault = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
-  <Card>
+  <Card dataTestId="color-card">
     <div className="flex flex-row items-center justify-between">
       <CardTitle
         nameJa={data.nameJa}
