@@ -8,16 +8,20 @@ export const useIdolData = (
   similarColor: string,
   keepIdList: string[]
 ): Idol[] => {
-  // keep済みカラーからの検索結果
-  if (bland === 'keep') {
-    return idols
-      .filter((e) => keepIdList.includes(e.id))
-      .filter((e) => similarColor === '' || e.color.similar === similarColor)
-  }
+  // keep済みカラーIDで絞り込む
+  const filterFromKeepId = ({ id }: Idol) => keepIdList.includes(id)
 
-  // 全体からの検索結果
-  return idols
-    .filter((e) => bland === '' || bland === e.bland)
-    .filter((e) => e.nameJa.includes(name) || e.nameKana.includes(name))
-    .filter((e) => similarColor === '' || e.color.similar === similarColor)
+  // 検索条件で絞り込む
+  const filterFromCriteria = ({ bland: blandName, nameJa, nameKana }: Idol) =>
+    (bland === '' || bland === blandName) &&
+    (nameJa.includes(name) || nameKana.includes(name))
+
+  const results = idols.filter(
+    bland === 'keep' ? filterFromKeepId : filterFromCriteria
+  )
+
+  // 色味の指定がある場合さらに絞り込む
+  return similarColor === ''
+    ? results
+    : results.filter(({ color }) => color.similar === similarColor)
 }
