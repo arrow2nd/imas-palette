@@ -3,39 +3,39 @@ import { useCallback, useEffect, useState } from 'react'
 const APP_KEY = 'imas-palette'
 
 type KeepIdType = [
-  keepIdList: string[],
+  keepIds: string[],
   handleAddKeepId: (addId: string) => void,
   handleRemoveKeepId: (removeId: string) => void
 ]
 
 export const useKeepId = (): KeepIdType => {
-  const [keepIdList, setKeepIdList] = useState([] as string[])
+  const [keepIds, setKeepIds] = useState([] as string[])
 
   const handleAddKeepId = useCallback(
-    (addId: string) => setKeepIdList([...keepIdList, addId]),
-    [keepIdList]
+    (addId: string) => setKeepIds([...keepIds, addId]),
+    [keepIds]
   )
 
   const handleRemoveKeepId = useCallback(
     (removeId: string) => {
-      const newKeepIdList = keepIdList.filter((id) => id !== removeId)
-      setKeepIdList(newKeepIdList)
+      const newKeepIdList = keepIds.filter((id) => id !== removeId)
+      setKeepIds(newKeepIdList)
     },
-    [keepIdList]
+    [keepIds]
   )
 
   // LocalStrageから読み込み
   useEffect(() => {
     const items = localStorage.getItem(APP_KEY)
     if (items) {
-      setKeepIdList(items.split(','))
+      setKeepIds(items.split(','))
     }
   }, [])
 
   // LocalStrageに書き込み
   useEffect(() => {
-    localStorage.setItem(APP_KEY, keepIdList.join(','))
-  }, [keepIdList])
+    localStorage.setItem(APP_KEY, keepIds.join(','))
+  }, [keepIds])
 
-  return [keepIdList, handleAddKeepId, handleRemoveKeepId]
+  return [keepIds, handleAddKeepId, handleRemoveKeepId]
 }

@@ -26,7 +26,7 @@ const ColorValue = ({ className = '', type, value }: Props) => {
     <div className={`flex flex-row items-center justify-between ${className}`}>
       <TypeLabel type={type} />
       <CopyToClipboard text={value} onCopy={handleClickCopy}>
-        <span>
+        <span data-testid="copy-button">
           <ValueLabel value={isCopied ? 'Copied!' : value}>
             {isCopied ? <RiCheckboxCircleFill /> : <FiCopy />}
           </ValueLabel>

@@ -1,10 +1,10 @@
-import { IdolColorType } from './idol-color'
+import { IdolColor } from './idol-color'
 
-export type IdolType = {
+export type Idol = {
   id: string
   nameJa: string
   nameEn: string
   nameKana: string
   bland: string
-  color: IdolColorType
+  color: IdolColor
 }

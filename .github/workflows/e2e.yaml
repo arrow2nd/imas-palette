@@ -1,0 +1,37 @@
+name: e2e
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js, npm and Yarn
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Setup playwright
+        run: npx playwright install --with-deps
+
+      - name: Run E2E test
+        run: yarn test:e2e
+
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v3
+        with:
+          name: results
+          path: e2e/results

@@ -1,4 +1,4 @@
-export type SeoInfoType = {
+export type Seo = {
   title: string
   desc: string
   url: string

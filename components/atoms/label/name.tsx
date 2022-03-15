@@ -5,7 +5,7 @@ type Props = {
 }
 
 const NameLabel = ({ className = '', nameJa, nameEn }: Props) => (
-  <div className={className}>
+  <div className={className} data-testid="name-label">
     <p className="text-xl">{nameJa}</p>
     <p className="text-sm tracking-wide">{nameEn}</p>
   </div>

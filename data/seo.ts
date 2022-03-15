@@ -1,6 +1,6 @@
-import { SeoInfoType } from 'types/seo'
+import { Seo } from 'types/seo'
 
-export const seoData: SeoInfoType = {
+export const seo: Seo = {
   title: 'im@s-palette | アイマスカラーコード検索',
   desc: 'THE IDOLM@STERシリーズに登場するアイドルの個人カラーが検索できるWebアプリ',
   url: 'https://imas-palette.vercel.app',

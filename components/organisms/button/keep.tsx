@@ -8,7 +8,11 @@ type Props = {
 }
 
 const KeepButton = ({ className = '', onClick }: Props) => (
-  <Button className={`inline-flex text-sm ${className}`} onClick={onClick}>
+  <Button
+    className={`inline-flex text-sm ${className}`}
+    onClick={onClick}
+    dataTestId="keep-button"
+  >
     <FiBookmark />
     <span className="ml-2 tracking-wide">Keep</span>
   </Button>

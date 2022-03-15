@@ -2,7 +2,9 @@
 
 THE IDOLM@STER シリーズに登場するアイドルの個人カラーが検索できる Web アプリ
 
-[![UpdateData](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml)
+[![update-data](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml)
+[![test](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml)
+[![e2e](https://github.com/arrow2nd/imas-palette/actions/workflows/e2e.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/e2e.yaml)
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=imas-palette)](https://imas-palette.vercel.app)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
