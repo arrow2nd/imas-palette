@@ -6,7 +6,7 @@ describe('Select', () => {
   test('値の変更時にコールバックが呼ばれるか', () => {
     const mock = jest.fn()
     const { getByTestId } = render(
-      <Select onChange={mock}>
+      <Select onChange={mock} dataTestId="search-select">
         <option value="opt1">option 1</option>
         <option value="opt2">option 2</option>
         <option value="opt3">option 3</option>

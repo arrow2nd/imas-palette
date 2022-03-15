@@ -5,12 +5,7 @@ type Props = {
   dataTestId?: string
 }
 
-const Button = ({
-  className = '',
-  children,
-  onClick = () => {},
-  dataTestId = undefined
-}: Props) => (
+const Button = ({ className = '', children, onClick, dataTestId }: Props) => (
   <button
     className={`px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors ${className}`}
     onClick={onClick}

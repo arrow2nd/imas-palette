@@ -6,15 +6,21 @@ type Props = {
   color: ColorType
   isSelected: boolean
   onClick: (hex: string) => void
+  dataTestId?: string
 }
 
-const Color = ({ color, isSelected, onClick }: Props): JSX.Element => (
+const Color = ({
+  color,
+  isSelected,
+  onClick,
+  dataTestId
+}: Props): JSX.Element => (
   <div
     className={`mx-1 p-0 rounded-full cursor-pointer border-2 ${
       isSelected ? 'border-gray-600' : 'border-transparent'
     }`}
     onClick={() => onClick(color.hex)}
-    data-testid="colorlist-button"
+    data-testid={dataTestId}
   >
     <ColorSampleCircle
       className={`border-2 ${

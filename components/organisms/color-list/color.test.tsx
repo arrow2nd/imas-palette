@@ -39,7 +39,12 @@ describe('Color', () => {
   test('クリック時にコールバックが呼ばれるか', () => {
     const mock = jest.fn()
     const { getByTestId } = render(
-      <Color color={{ name: '', hex: '' }} isSelected={false} onClick={mock} />
+      <Color
+        color={{ name: '', hex: '' }}
+        isSelected={false}
+        onClick={mock}
+        dataTestId="colorlist-button"
+      />
     )
 
     act(() => {

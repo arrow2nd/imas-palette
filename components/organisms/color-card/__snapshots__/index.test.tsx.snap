@@ -13,7 +13,6 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
       >
         <div
           class="w-16 h-16 rounded-xl border border-gray-200"
-          data-testid="color-sample"
           style="background-color: rgb(234, 226, 141);"
         />
         <div
@@ -216,7 +215,6 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
       >
         <div
           class="w-16 h-16 rounded-xl border border-gray-200"
-          data-testid="color-sample"
           style="background-color: rgb(234, 226, 141);"
         />
         <div

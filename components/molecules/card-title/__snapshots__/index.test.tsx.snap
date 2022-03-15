@@ -7,7 +7,6 @@ exports[`CardTitle 見た目が変化していないか 1`] = `
   >
     <div
       class="w-16 h-16 rounded-xl border border-gray-200"
-      data-testid="color-sample"
       style="background-color: rgb(217, 103, 163);"
     />
     <div

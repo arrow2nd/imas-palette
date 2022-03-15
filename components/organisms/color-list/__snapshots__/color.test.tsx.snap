@@ -4,11 +4,9 @@ exports[`Color 色が指定されていない時の表示は正しいか 1`] = `
 <div>
   <div
     class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-    data-testid="colorlist-button"
   >
     <div
       class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
-      data-testid="color-sample-circle"
       title=""
     />
   </div>

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search 見た目が変化していないか 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <div
+      class="flex flex-wrap justify-center flex-col md:flex-row"
+    >
+      <div
+        class="w-full md:w-64"
+      >
+        <select
+          class="form-select block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
+          data-testid="search-select"
+        >
+          <option
+            class="font-sans"
+            value=""
+          >
+            全てのブランド
+          </option>
+          <option
+            class="font-sans"
+            value="765AS"
+          >
+            765PRO ALLSTARS
+          </option>
+          <option
+            class="font-sans"
+            value="DearlyStars"
+          >
+            Dearly Stars
+          </option>
+          <option
+            class="font-sans"
+            value="MillionLive"
+          >
+            ミリオンライブ！
+          </option>
+          <option
+            class="font-sans"
+            value="CinderellaGirls"
+          >
+            シンデレラガールズ
+          </option>
+          <option
+            class="font-sans"
+            value="SideM"
+          >
+            SideM
+          </option>
+          <option
+            class="font-sans"
+            value="ShinyColors"
+          >
+            シャイニーカラーズ
+          </option>
+          <option
+            class="font-sans"
+            value="Other"
+          >
+            未分類
+          </option>
+          <option
+            class="font-sans"
+            value="keep"
+          >
+            Keepしたカラー
+          </option>
+        </select>
+      </div>
+      <div
+        class="mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-64"
+      >
+        <input
+          class="form-input block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
+          data-testid="search-textbox"
+          placeholder="アイドル名（ひらがな可）"
+        />
+      </div>
+      <button
+        class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-24 shadow-md"
+        data-testid="search-button"
+      >
+        検索
+      </button>
+    </div>
+    <div
+      class="flex flex-wrap mt-8 justify-center items-center"
+    >
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-gray-600"
+        data-testid="colorlist-button-0"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
+          title="全て"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-1"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(255, 0, 0);"
+          title="赤"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-2"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(255, 165, 0);"
+          title="橙"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-3"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(255, 255, 0);"
+          title="黄"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-4"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(144, 226, 0);"
+          title="黄緑"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-5"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(0, 128, 0);"
+          title="緑"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-6"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(0, 255, 255);"
+          title="水色"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-7"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(0, 0, 255);"
+          title="青"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-8"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(128, 0, 128);"
+          title="紫"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-9"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(255, 255, 255);"
+          title="白"
+        />
+      </div>
+      <div
+        class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+        data-testid="colorlist-button-10"
+      >
+        <div
+          class="w-8 h-8 rounded-full border-2 false"
+          style="background-color: rgb(0, 0, 0);"
+          title="黒"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

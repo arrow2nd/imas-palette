@@ -1,0 +1,4280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home 見た目が変化していないか 1`] = `
+<div>
+  <div
+    class="flex flex-col mx-8 my-16 min-h-screen"
+  >
+    <div
+      class="flex flex-col items-center text-center"
+    >
+      <a
+        href=""
+      >
+        <div
+          class="text-4xl tracking-widest"
+        >
+          im@s-palette
+        </div>
+      </a>
+      <p
+        class="mt-2"
+      >
+        説明
+      </p>
+    </div>
+    <div
+      class="flex-1"
+    >
+      <div
+        class="mt-12"
+      >
+        <div
+          class="flex flex-wrap justify-center flex-col md:flex-row"
+        >
+          <div
+            class="w-full md:w-64"
+          >
+            <select
+              class="form-select block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
+              data-testid="search-select"
+            >
+              <option
+                class="font-sans"
+                value=""
+              >
+                全てのブランド
+              </option>
+              <option
+                class="font-sans"
+                value="765AS"
+              >
+                765PRO ALLSTARS
+              </option>
+              <option
+                class="font-sans"
+                value="DearlyStars"
+              >
+                Dearly Stars
+              </option>
+              <option
+                class="font-sans"
+                value="MillionLive"
+              >
+                ミリオンライブ！
+              </option>
+              <option
+                class="font-sans"
+                value="CinderellaGirls"
+              >
+                シンデレラガールズ
+              </option>
+              <option
+                class="font-sans"
+                value="SideM"
+              >
+                SideM
+              </option>
+              <option
+                class="font-sans"
+                value="ShinyColors"
+              >
+                シャイニーカラーズ
+              </option>
+              <option
+                class="font-sans"
+                value="Other"
+              >
+                未分類
+              </option>
+              <option
+                class="font-sans"
+                value="keep"
+              >
+                Keepしたカラー
+              </option>
+            </select>
+          </div>
+          <div
+            class="mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-64"
+          >
+            <input
+              class="form-input block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
+              data-testid="search-textbox"
+              placeholder="アイドル名（ひらがな可）"
+            />
+          </div>
+          <button
+            class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-24 shadow-md"
+            data-testid="search-button"
+          >
+            検索
+          </button>
+        </div>
+        <div
+          class="flex flex-wrap mt-8 justify-center items-center"
+        >
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-gray-600"
+            data-testid="colorlist-button-0"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
+              title="全て"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-1"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(255, 0, 0);"
+              title="赤"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-2"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(255, 165, 0);"
+              title="橙"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-3"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(255, 255, 0);"
+              title="黄"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-4"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(144, 226, 0);"
+              title="黄緑"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-5"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(0, 128, 0);"
+              title="緑"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-6"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(0, 255, 255);"
+              title="水色"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-7"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(0, 0, 255);"
+              title="青"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-8"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(128, 0, 128);"
+              title="紫"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-9"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(255, 255, 255);"
+              title="白"
+            />
+          </div>
+          <div
+            class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
+            data-testid="colorlist-button-10"
+          >
+            <div
+              class="w-8 h-8 rounded-full border-2 false"
+              style="background-color: rgb(0, 0, 0);"
+              title="黒"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-row flex-wrap justify-center mt-12"
+      >
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(234, 226, 141);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  相葉夕美
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Yumi Aiba
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(234, 226, 141)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(55, 40, 92)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #EAE28D
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(35, 205, 122);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  蒼井享介
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Kyosuke Aoi
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(35, 205, 122)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(151, 83, 80)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #23CD7A
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(254, 232, 6);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  蒼井悠介
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Yusuke Aoi
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(254, 232, 6)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(55, 98, 100)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #FEE806
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(230, 60, 46);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  紅井朱雀
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Suzaku Akai
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(230, 60, 46)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(5, 80, 90)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #E63C2E
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(248, 199, 21);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  赤城みりあ
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Miria Akagi
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(248, 199, 21)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(47, 92, 97)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #F8C715
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(1, 168, 96);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  秋月律子
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Ritsuko Akizuki
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(1, 168, 96)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(154, 99, 66)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #01A860
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(178, 212, 104);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  秋月涼
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Ryo Akizuki
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(178, 212, 104)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(79, 51, 83)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #B2D468
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(112, 180, 73);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  秋月涼
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Ryo Akizuki
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(112, 180, 73)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(98, 59, 71)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #70B449
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(254, 107, 2);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  秋山隼人
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Hayato Akiyama
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(254, 107, 2)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(25, 99, 100)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #FE6B02
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(87, 179, 229);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  握野英雄
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Hideo Akuno
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(87, 179, 229)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(201, 62, 90)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #57B3E5
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(118, 14, 16);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  緋田美琴
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Mikoto Aketa
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(118, 14, 16)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(359, 88, 46)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #760E10
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(80, 208, 208);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  浅倉透
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Toru Asakura
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(80, 208, 208)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(180, 62, 82)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #50D0D0
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(96, 108, 178);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  アスラン=BBⅡ世
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Asselin-BB 2
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(96, 108, 178)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(231, 46, 70)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #606CB2
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(176, 197, 228);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  アナスタシア
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Anastasia
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(176, 197, 228)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(216, 23, 89)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #B0C5E4
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(230, 74, 121);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  安部菜々
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Nana Abe
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(230, 74, 121)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(342, 68, 90)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #E64A79
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(243, 35, 51);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  天ヶ瀬冬馬
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Toma Amagase
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(243, 35, 51)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(355, 86, 95)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #F32333
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(226, 43, 48);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  天海春香
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Haruka Amami
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(226, 43, 48)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(358, 81, 89)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #E22B30
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(128, 194, 96);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  荒木比奈
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Hina Araki
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(128, 194, 96)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(100, 51, 76)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #80C260
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(144, 230, 103);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  有栖川夏葉
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Natsuha Arisugawa
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(144, 230, 103)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(101, 55, 90)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #90E667
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+        >
+          <div
+            class="flex flex-row items-center justify-between"
+          >
+            <div
+              class="flex flex-row items-center"
+            >
+              <div
+                class="w-16 h-16 rounded-xl border border-gray-200"
+                style="background-color: rgb(30, 20, 14);"
+              />
+              <div
+                class="ml-6"
+              >
+                <p
+                  class="text-xl"
+                >
+                  斑鳩ルカ
+                </p>
+                <p
+                  class="text-sm tracking-wide"
+                >
+                  Luca Ikaruga
+                </p>
+              </div>
+            </div>
+            <button
+              class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+              data-testid="keep-button"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+                />
+              </svg>
+              <span
+                class="ml-2 tracking-wide"
+              >
+                Keep
+              </span>
+            </button>
+          </div>
+          <div
+            class="mt-6"
+          >
+            <div
+              class="flex flex-row items-center justify-between "
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                RGB
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  rgb(30, 20, 14)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HSV
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  hsv(23, 53, 12)
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+            <div
+              class="flex flex-row items-center justify-between mt-4"
+            >
+              <label
+                class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+              >
+                HEX
+              </label>
+              <span
+                data-testid="copy-button"
+              >
+                <label
+                  class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
+                  data-tip="クリックでコピー"
+                >
+                  #1E140E
+                  <span
+                    class="ml-2"
+                  >
+                    <svg
+                      fill="none"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      viewBox="0 0 24 24"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        height="13"
+                        rx="2"
+                        ry="2"
+                        width="13"
+                        x="9"
+                        y="9"
+                      />
+                      <path
+                        d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                      />
+                    </svg>
+                  </span>
+                </label>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="m-5 fixed right-0 bottom-0"
+      >
+        <button
+          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm shadow-xl "
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M256 217.9L383 345c9.4 9.4 24.6 9.4 33.9 0 9.4-9.4 9.3-24.6 0-34L273 167c-9.1-9.1-23.7-9.3-33.1-.7L95 310.9c-4.7 4.7-7 10.9-7 17s2.3 12.3 7 17c9.4 9.4 24.6 9.4 33.9 0l127.1-127z"
+            />
+          </svg>
+          <span
+            class="ml-2 tracking-wide"
+          >
+            Top
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="flex flex-col mt-12 items-center tracking-wide"
+    >
+      <div
+        class="flex flex-row "
+      >
+        <span
+          class="mx-2 text-2xl hover:text-imas transition-colors "
+        >
+          <a
+            href="https://twitter.com/arrow_2nd"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+              />
+            </svg>
+          </a>
+        </span>
+        <span
+          class="mx-2 text-2xl hover:text-imas transition-colors ml-4"
+        >
+          <a
+            href="https://github.com/arrow2nd/imas-palette"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+              />
+            </svg>
+          </a>
+        </span>
+      </div>
+      <div
+        class="mt-4 text-sm text-center"
+      >
+        <p>
+          The color data for idols is obtained from 
+          <a
+            class="underline hover:text-imas transition-colors"
+            href="https://sparql.crssnky.xyz/imas/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="im@sparql"
+          >
+            im@sparql
+          </a>
+        </p>
+        <p
+          class="mt-1"
+        >
+          The rights to all content related to THE IDOLM@STER belong to BANDAI NAMCO Entertainment Inc.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

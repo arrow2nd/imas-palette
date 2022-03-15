@@ -4,8 +4,8 @@ import Title from './index'
 
 describe('Title', () => {
   test('タイトルが正しく表示できるか', () => {
-    const { container } = render(<Title text="テスト" />)
+    const { getByText } = render(<Title text="テスト" />)
 
-    expect(container).toHaveTextContent('テスト')
+    expect(getByText('テスト')).toBeTruthy()
   })
 })

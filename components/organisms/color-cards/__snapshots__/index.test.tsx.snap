@@ -16,7 +16,6 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
         >
           <div
             class="w-16 h-16 rounded-xl border border-gray-200"
-            data-testid="color-sample"
             style="background-color: rgb(59, 145, 196);"
           />
           <div
@@ -214,7 +213,6 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
         >
           <div
             class="w-16 h-16 rounded-xl border border-gray-200"
-            data-testid="color-sample"
             style="background-color: rgb(253, 153, 225);"
           />
           <div
@@ -412,7 +410,6 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
         >
           <div
             class="w-16 h-16 rounded-xl border border-gray-200"
-            data-testid="color-sample"
             style="background-color: rgb(1, 170, 165);"
           />
           <div

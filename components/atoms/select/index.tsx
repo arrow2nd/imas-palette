@@ -4,9 +4,10 @@ type Props = {
   className?: string
   children: React.ReactNode
   onChange: (value: string) => void
+  dataTestId?: string
 }
 
-const Select = ({ className = '', children, onChange }: Props) => {
+const Select = ({ className = '', children, onChange, dataTestId }: Props) => {
   const handleChange = (ev: ChangeEvent<HTMLSelectElement>) => {
     onChange(ev.target.value)
   }
@@ -15,7 +16,7 @@ const Select = ({ className = '', children, onChange }: Props) => {
     <div className={className}>
       <select
         className="form-select block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
-        data-testid="search-select"
+        data-testid={dataTestId}
         onChange={handleChange}
       >
         {children}

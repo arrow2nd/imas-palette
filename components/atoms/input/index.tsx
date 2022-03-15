@@ -4,10 +4,11 @@ type Props = {
   className: string
   placeholder: string
   onSubmit: () => void
+  dataTestId?: string
 }
 
 const Input = forwardRef<HTMLInputElement, Props>(function InputContent(
-  { className, placeholder, onSubmit }: Props,
+  { className, placeholder, onSubmit, dataTestId }: Props,
   ref
 ) {
   const [isTyping, setIsTyping] = useState(false)
@@ -28,8 +29,8 @@ const Input = forwardRef<HTMLInputElement, Props>(function InputContent(
         onCompositionStart={() => setIsTyping(true)}
         onCompositionEnd={() => setIsTyping(false)}
         onKeyDown={handleKeyDown}
+        data-testid={dataTestId}
         ref={ref}
-        data-testid="search-textbox"
       />
     </div>
   )
