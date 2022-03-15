@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        default: ['M PLUS Rounded 1c', 'sans-serif']
+        default: ['"M PLUS Rounded 1c"', 'sans-serif']
       },
       colors: {
         'natural-white': '#faf8f7',
