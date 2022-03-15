@@ -77,7 +77,7 @@ exports[`Search 見た目が変化していないか 1`] = `
         <input
           class="form-input block w-full border-0 focus:ring-1 focus:ring-natural-black rounded-lg shadow-md"
           data-testid="search-textbox"
-          placeholder="アイドル名（ひらがな可）"
+          placeholder="アイドル・ユニット名"
         />
       </div>
       <button

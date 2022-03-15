@@ -59,7 +59,7 @@ const Search = ({
         </Select>
         <Input
           className="mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-64"
-          placeholder="アイドル名（ひらがな可）"
+          placeholder="アイドル・ユニット名"
           ref={inputRef}
           onSubmit={handleSubmitName}
           dataTestId="search-textbox"
