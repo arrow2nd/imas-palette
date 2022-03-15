@@ -23,9 +23,8 @@ const UI = () => {
   )
 
   return (
-    <div className="flex-1">
+    <div className="flex-1 mt-12">
       <Search
-        className="mt-12"
         currentSimilarColor={similarColor}
         onChangeBland={handleChangeBland}
         onChangeName={handleChangeName}

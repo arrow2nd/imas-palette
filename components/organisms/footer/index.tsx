@@ -1,9 +1,9 @@
 import Links from 'components/molecules/links'
 
 const Footer = () => (
-  <div className="flex flex-col mt-12 items-center tracking-wide">
+  <div className="flex flex-col mt-20 items-center tracking-wide">
     <Links />
-    <div className="mt-4 text-sm text-center">
+    <div className="mt-8 text-sm text-center">
       <p>
         {'The color data for idols is obtained from '}
         <a

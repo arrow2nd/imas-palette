@@ -9,7 +9,7 @@ const Header = ({ desc }: Props) => (
     <a href="">
       <TitleText text="im@s-palette" />
     </a>
-    <p className="mt-2">{desc}</p>
+    <p className="mt-4 text-natural-gray text-sm md:text-base">{desc}</p>
   </div>
 )
 
