@@ -4,6 +4,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
 <div>
   <div
     class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+    data-testid="color-card"
   >
     <div
       class="flex flex-row items-center justify-between"
@@ -17,6 +18,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
         />
         <div
           class="ml-6"
+          data-testid="name-label"
         >
           <p
             class="text-xl"
@@ -208,6 +210,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
 <div>
   <div
     class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+    data-testid="color-card"
   >
     <div
       class="flex flex-row items-center justify-between"
@@ -221,6 +224,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
         />
         <div
           class="ml-6"
+          data-testid="name-label"
         >
           <p
             class="text-xl"

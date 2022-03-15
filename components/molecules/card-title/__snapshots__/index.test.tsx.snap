@@ -11,6 +11,7 @@ exports[`CardTitle 見た目が変化していないか 1`] = `
     />
     <div
       class="ml-6"
+      data-testid="name-label"
     >
       <p
         class="text-xl"
