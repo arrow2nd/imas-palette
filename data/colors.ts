@@ -3,8 +3,8 @@ import { ColorDetail } from 'types/color-detail'
 export const colors: ColorDetail[] = [
   {
     id: 'yumi_aiba_cinderellagirls',
-    nameJa: '相葉夕美',
-    nameEn: 'Yumi Aiba',
+    name: '相葉夕美',
+    nameSuppl: 'Yumi Aiba',
     nameKana: 'あいばゆみ',
     brand: 'CinderellaGirls',
     color: {
@@ -16,8 +16,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kyosuke_aoi_sidem',
-    nameJa: '蒼井享介',
-    nameEn: 'Kyosuke Aoi',
+    name: '蒼井享介',
+    nameSuppl: 'Kyosuke Aoi',
     nameKana: 'あおいきょうすけ',
     brand: 'SideM',
     color: {
@@ -29,8 +29,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yusuke_aoi_sidem',
-    nameJa: '蒼井悠介',
-    nameEn: 'Yusuke Aoi',
+    name: '蒼井悠介',
+    nameSuppl: 'Yusuke Aoi',
     nameKana: 'あおいゆうすけ',
     brand: 'SideM',
     color: {
@@ -42,8 +42,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'suzaku_akai_sidem',
-    nameJa: '紅井朱雀',
-    nameEn: 'Suzaku Akai',
+    name: '紅井朱雀',
+    nameSuppl: 'Suzaku Akai',
     nameKana: 'あかいすざく',
     brand: 'SideM',
     color: {
@@ -55,8 +55,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'miria_akagi_cinderellagirls',
-    nameJa: '赤城みりあ',
-    nameEn: 'Miria Akagi',
+    name: '赤城みりあ',
+    nameSuppl: 'Miria Akagi',
     nameKana: 'あかぎみりあ',
     brand: 'CinderellaGirls',
     color: {
@@ -68,8 +68,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ritsuko_akizuki_765as',
-    nameJa: '秋月律子',
-    nameEn: 'Ritsuko Akizuki',
+    name: '秋月律子',
+    nameSuppl: 'Ritsuko Akizuki',
     nameKana: 'あきづきりつこ',
     brand: '765AS',
     color: {
@@ -81,8 +81,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ryo_akizuki_dearlystars',
-    nameJa: '秋月涼',
-    nameEn: 'Ryo Akizuki',
+    name: '秋月涼',
+    nameSuppl: 'Ryo Akizuki',
     nameKana: 'あきづきりょう',
     brand: 'DearlyStars',
     color: {
@@ -94,8 +94,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ryo_akizuki_sidem',
-    nameJa: '秋月涼',
-    nameEn: 'Ryo Akizuki',
+    name: '秋月涼',
+    nameSuppl: 'Ryo Akizuki',
     nameKana: 'あきづきりょう',
     brand: 'SideM',
     color: {
@@ -107,8 +107,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hayato_akiyama_sidem',
-    nameJa: '秋山隼人',
-    nameEn: 'Hayato Akiyama',
+    name: '秋山隼人',
+    nameSuppl: 'Hayato Akiyama',
     nameKana: 'あきやまはやと',
     brand: 'SideM',
     color: {
@@ -120,8 +120,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hideo_akuno_sidem',
-    nameJa: '握野英雄',
-    nameEn: 'Hideo Akuno',
+    name: '握野英雄',
+    nameSuppl: 'Hideo Akuno',
     nameKana: 'あくのひでお',
     brand: 'SideM',
     color: {
@@ -133,8 +133,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mikoto_aketa_shinycolors',
-    nameJa: '緋田美琴',
-    nameEn: 'Mikoto Aketa',
+    name: '緋田美琴',
+    nameSuppl: 'Mikoto Aketa',
     nameKana: 'あけたみこと',
     brand: 'ShinyColors',
     color: {
@@ -146,8 +146,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'toru_asakura_shinycolors',
-    nameJa: '浅倉透',
-    nameEn: 'Toru Asakura',
+    name: '浅倉透',
+    nameSuppl: 'Toru Asakura',
     nameKana: 'あさくらとおる',
     brand: 'ShinyColors',
     color: {
@@ -159,8 +159,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'asselin-bb_2_sidem',
-    nameJa: 'アスラン=BBⅡ世',
-    nameEn: 'Asselin-BB 2',
+    name: 'アスラン=BBⅡ世',
+    nameSuppl: 'Asselin-BB 2',
     nameKana: 'あすらんべるぜびゅーとにせい',
     brand: 'SideM',
     color: {
@@ -172,8 +172,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'anastasia_cinderellagirls',
-    nameJa: 'アナスタシア',
-    nameEn: 'Anastasia',
+    name: 'アナスタシア',
+    nameSuppl: 'Anastasia',
     nameKana: 'あなすたしあ',
     brand: 'CinderellaGirls',
     color: {
@@ -185,8 +185,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nana_abe_cinderellagirls',
-    nameJa: '安部菜々',
-    nameEn: 'Nana Abe',
+    name: '安部菜々',
+    nameSuppl: 'Nana Abe',
     nameKana: 'あべなな',
     brand: 'CinderellaGirls',
     color: {
@@ -198,8 +198,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'toma_amagase_sidem',
-    nameJa: '天ヶ瀬冬馬',
-    nameEn: 'Toma Amagase',
+    name: '天ヶ瀬冬馬',
+    nameSuppl: 'Toma Amagase',
     nameKana: 'あまがせとうま',
     brand: 'SideM',
     color: {
@@ -211,8 +211,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'haruka_amami_765as',
-    nameJa: '天海春香',
-    nameEn: 'Haruka Amami',
+    name: '天海春香',
+    nameSuppl: 'Haruka Amami',
     nameKana: 'あまみはるか',
     brand: '765AS',
     color: {
@@ -224,8 +224,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hina_araki_cinderellagirls',
-    nameJa: '荒木比奈',
-    nameEn: 'Hina Araki',
+    name: '荒木比奈',
+    nameSuppl: 'Hina Araki',
     nameKana: 'あらきひな',
     brand: 'CinderellaGirls',
     color: {
@@ -237,8 +237,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'natsuha_arisugawa_shinycolors',
-    nameJa: '有栖川夏葉',
-    nameEn: 'Natsuha Arisugawa',
+    name: '有栖川夏葉',
+    nameSuppl: 'Natsuha Arisugawa',
     nameKana: 'ありすがわなつは',
     brand: 'ShinyColors',
     color: {
@@ -250,8 +250,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'altessimo_sidem',
-    nameJa: 'Altessimo',
-    nameEn: '[ユニット]',
+    name: 'Altessimo',
+    nameSuppl: '[ユニット]',
     nameKana: 'あるてっしも',
     brand: 'SideM',
     color: {
@@ -263,8 +263,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kyoko_igarashi_cinderellagirls',
-    nameJa: '五十嵐響子',
-    nameEn: 'Kyoko Igarashi',
+    name: '五十嵐響子',
+    nameSuppl: 'Kyoko Igarashi',
     nameKana: 'いがらしきょうこ',
     brand: 'CinderellaGirls',
     color: {
@@ -276,8 +276,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'luca_ikaruga_shinycolors',
-    nameJa: '斑鳩ルカ',
-    nameEn: 'Luca Ikaruga',
+    name: '斑鳩ルカ',
+    nameSuppl: 'Luca Ikaruga',
     nameKana: 'いかるがるか',
     brand: 'ShinyColors',
     color: {
@@ -289,8 +289,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hokuto_ijuin_sidem',
-    nameJa: '伊集院北斗',
-    nameEn: 'Hokuto Ijuin',
+    name: '伊集院北斗',
+    nameSuppl: 'Hokuto Ijuin',
     nameKana: 'いじゅういんほくと',
     brand: 'SideM',
     color: {
@@ -302,8 +302,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mei_izumi_shinycolors',
-    nameJa: '和泉愛依',
-    nameEn: 'Mei Izumi',
+    name: '和泉愛依',
+    nameSuppl: 'Mei Izumi',
     nameKana: 'いずみめい',
     brand: 'ShinyColors',
     color: {
@@ -315,8 +315,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shiki_iseya_sidem',
-    nameJa: '伊瀬谷四季',
-    nameEn: 'Shiki Iseya',
+    name: '伊瀬谷四季',
+    nameSuppl: 'Shiki Iseya',
     nameKana: 'いせやしき',
     brand: 'SideM',
     color: {
@@ -328,8 +328,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hinana_ichikawa_shinycolors',
-    nameJa: '市川雛菜',
-    nameEn: 'Hinana Ichikawa',
+    name: '市川雛菜',
+    nameSuppl: 'Hinana Ichikawa',
     nameKana: 'いちかわひなな',
     brand: 'ShinyColors',
     color: {
@@ -341,8 +341,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shiki_ichinose_cinderellagirls',
-    nameJa: '一ノ瀬志希',
-    nameEn: 'Shiki Ichinose',
+    name: '一ノ瀬志希',
+    nameSuppl: 'Shiki Ichinose',
     nameKana: 'いちのせしき',
     brand: 'CinderellaGirls',
     color: {
@@ -354,8 +354,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nina_ichihara_cinderellagirls',
-    nameJa: '市原仁奈',
-    nameEn: 'Nina Ichihara',
+    name: '市原仁奈',
+    nameSuppl: 'Nina Ichihara',
     nameKana: 'いちはらにな',
     brand: 'CinderellaGirls',
     color: {
@@ -367,8 +367,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tsubasa_ibuki_millionlive',
-    nameJa: '伊吹翼',
-    nameEn: 'Tsubasa Ibuki',
+    name: '伊吹翼',
+    nameSuppl: 'Tsubasa Ibuki',
     nameKana: 'いぶきつばさ',
     brand: 'MillionLive',
     color: {
@@ -380,8 +380,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'suzuho_ueda_cinderellagirls',
-    nameJa: '上田鈴帆',
-    nameEn: 'Suzuho Ueda',
+    name: '上田鈴帆',
+    nameSuppl: 'Suzuho Ueda',
     nameKana: 'うえだすずほ',
     brand: 'CinderellaGirls',
     color: {
@@ -393,8 +393,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'makio_uzuki_sidem',
-    nameJa: '卯月巻緒',
-    nameEn: 'Makio Uzuki',
+    name: '卯月巻緒',
+    nameSuppl: 'Makio Uzuki',
     nameKana: 'うづきまきお',
     brand: 'SideM',
     color: {
@@ -406,8 +406,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'emily_stewart_millionlive',
-    nameJa: 'エミリー',
-    nameEn: 'Emily Stewart',
+    name: 'エミリー',
+    nameSuppl: 'Emily Stewart',
     nameKana: 'えみりーすちゅあーと',
     brand: 'MillionLive',
     color: {
@@ -419,8 +419,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'michiru_enjoji_sidem',
-    nameJa: '円城寺道流',
-    nameEn: 'Michiru Enjoji',
+    name: '円城寺道流',
+    nameSuppl: 'Michiru Enjoji',
     nameKana: 'えんじょうじみちる',
     brand: 'SideM',
     color: {
@@ -432,8 +432,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shizuku_oikawa_cinderellagirls',
-    nameJa: '及川雫',
-    nameEn: 'Shizuku Oikawa',
+    name: '及川雫',
+    nameSuppl: 'Shizuku Oikawa',
     nameKana: 'おいかわしずく',
     brand: 'CinderellaGirls',
     color: {
@@ -445,8 +445,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tamaki_ogami_millionlive',
-    nameJa: '大神環',
-    nameEn: 'Tamaki Ogami',
+    name: '大神環',
+    nameSuppl: 'Tamaki Ogami',
     nameKana: 'おおがみたまき',
     brand: 'MillionLive',
     color: {
@@ -458,8 +458,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'amana_osaki_shinycolors',
-    nameJa: '大崎甘奈',
-    nameEn: 'Amana Osaki',
+    name: '大崎甘奈',
+    nameSuppl: 'Amana Osaki',
     nameKana: 'おおさきあまな',
     brand: 'ShinyColors',
     color: {
@@ -471,8 +471,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tenka_osaki_shinycolors',
-    nameJa: '大崎甜花',
-    nameEn: 'Tenka Osaki',
+    name: '大崎甜花',
+    nameSuppl: 'Tenka Osaki',
     nameKana: 'おおさきてんか',
     brand: 'ShinyColors',
     color: {
@@ -484,8 +484,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yui_ohtsuki_cinderellagirls',
-    nameJa: '大槻唯',
-    nameEn: 'Yui Ohtsuki',
+    name: '大槻唯',
+    nameSuppl: 'Yui Ohtsuki',
     nameKana: 'おおつきゆい',
     brand: 'CinderellaGirls',
     color: {
@@ -497,8 +497,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chieri_ogata_cinderellagirls',
-    nameJa: '緒方智絵里',
-    nameEn: 'Chieri Ogata',
+    name: '緒方智絵里',
+    nameSuppl: 'Chieri Ogata',
     nameKana: 'おがたちえり',
     brand: 'CinderellaGirls',
     color: {
@@ -510,8 +510,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nao_okamura_sidem',
-    nameJa: '岡村直央',
-    nameEn: 'Nao Okamura',
+    name: '岡村直央',
+    nameSuppl: 'Nao Okamura',
     nameKana: 'おかむらなお',
     brand: 'SideM',
     color: {
@@ -523,8 +523,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'okuzora_kohaku_other',
-    nameJa: '奥空心白',
-    nameEn: 'Okuzora Kohaku',
+    name: '奥空心白',
+    nameSuppl: 'Okuzora Kohaku',
     nameKana: 'おくぞらこはく',
     brand: 'Other',
     color: {
@@ -536,8 +536,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuuki_otokura_cinderellagirls',
-    nameJa: '乙倉悠貴',
-    nameEn: 'Yuuki Otokura',
+    name: '乙倉悠貴',
+    nameSuppl: 'Yuuki Otokura',
     nameKana: 'おとくらゆうき',
     brand: 'CinderellaGirls',
     color: {
@@ -549,8 +549,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rei_kagura_sidem',
-    nameJa: '神楽麗',
-    nameEn: 'Rei Kagura',
+    name: '神楽麗',
+    nameSuppl: 'Rei Kagura',
     nameKana: 'かぐられい',
     brand: 'SideM',
     color: {
@@ -562,8 +562,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hiori_kazano_shinycolors',
-    nameJa: '風野灯織',
-    nameEn: 'Hiori Kazano',
+    name: '風野灯織',
+    nameSuppl: 'Hiori Kazano',
     nameKana: 'かざのひおり',
     brand: 'ShinyColors',
     color: {
@@ -575,8 +575,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tsubasa_kashiwagi_sidem',
-    nameJa: '柏木翼',
-    nameEn: 'Tsubasa Kashiwagi',
+    name: '柏木翼',
+    nameSuppl: 'Tsubasa Kashiwagi',
     nameKana: 'かしわぎつばさ',
     brand: 'SideM',
     color: {
@@ -588,8 +588,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mirai_kasuga_millionlive',
-    nameJa: '春日未来',
-    nameEn: 'Mirai Kasuga',
+    name: '春日未来',
+    nameSuppl: 'Mirai Kasuga',
     nameKana: 'かすがみらい',
     brand: 'MillionLive',
     color: {
@@ -601,8 +601,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'sanae_katagiri_cinderellagirls',
-    nameJa: '片桐早苗',
-    nameEn: 'Sanae Katagiri',
+    name: '片桐早苗',
+    nameSuppl: 'Sanae Katagiri',
     nameKana: 'かたぎりさなえ',
     brand: 'CinderellaGirls',
     color: {
@@ -614,8 +614,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hibiki_ganaha_765as',
-    nameJa: '我那覇響',
-    nameEn: 'Hibiki Ganaha',
+    name: '我那覇響',
+    nameSuppl: 'Hibiki Ganaha',
     nameKana: 'がなはひびき',
     brand: '765AS',
     color: {
@@ -627,8 +627,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'cafeparade_sidem',
-    nameJa: 'CafeParade',
-    nameEn: '[ユニット]',
+    name: 'CafeParade',
+    nameSuppl: '[ユニット]',
     nameKana: 'かふぇぱれーど',
     brand: 'SideM',
     color: {
@@ -640,8 +640,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'daigo_kabuto_sidem',
-    nameJa: '兜大吾',
-    nameEn: 'Daigo Kabuto',
+    name: '兜大吾',
+    nameSuppl: 'Daigo Kabuto',
     nameKana: 'かぶとだいご',
     brand: 'SideM',
     color: {
@@ -653,8 +653,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'haruna_kamijo_cinderellagirls',
-    nameJa: '上条春菜',
-    nameEn: 'Haruna Kamijo',
+    name: '上条春菜',
+    nameSuppl: 'Haruna Kamijo',
     nameKana: 'かみじょうはるな',
     brand: 'CinderellaGirls',
     color: {
@@ -666,8 +666,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nao_kamiya_cinderellagirls',
-    nameJa: '神谷奈緒',
-    nameEn: 'Nao Kamiya',
+    name: '神谷奈緒',
+    nameSuppl: 'Nao Kamiya',
     nameKana: 'かみやなお',
     brand: 'CinderellaGirls',
     color: {
@@ -679,8 +679,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yukihiro_kamiya_sidem',
-    nameJa: '神谷幸広',
-    nameEn: 'Yukihiro Kamiya',
+    name: '神谷幸広',
+    nameSuppl: 'Yukihiro Kamiya',
     nameKana: 'かみやゆきひろ',
     brand: 'SideM',
     color: {
@@ -692,8 +692,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mizuki_kawashima_cinderellagirls',
-    nameJa: '川島瑞樹',
-    nameEn: 'Mizuki Kawashima',
+    name: '川島瑞樹',
+    nameSuppl: 'Mizuki Kawashima',
     nameKana: 'かわしまみずき',
     brand: 'CinderellaGirls',
     color: {
@@ -705,8 +705,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ranko_kanzaki_cinderellagirls',
-    nameJa: '神崎蘭子',
-    nameEn: 'Ranko Kanzaki',
+    name: '神崎蘭子',
+    nameSuppl: 'Ranko Kanzaki',
     nameKana: 'かんざきらんこ',
     brand: 'CinderellaGirls',
     color: {
@@ -718,8 +718,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'makoto_kikuchi_765as',
-    nameJa: '菊地真',
-    nameEn: 'Makoto Kikuchi',
+    name: '菊地真',
+    nameSuppl: 'Makoto Kikuchi',
     nameKana: 'きくちまこと',
     brand: '765AS',
     color: {
@@ -731,8 +731,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ren_kizaki_sidem',
-    nameJa: '牙崎漣',
-    nameEn: 'Ren Kizaki',
+    name: '牙崎漣',
+    nameSuppl: 'Ren Kizaki',
     nameKana: 'きざきれん',
     brand: 'SideM',
     color: {
@@ -744,8 +744,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chihaya_kisaragi_765as',
-    nameJa: '如月千早',
-    nameEn: 'Chihaya Kisaragi',
+    name: '如月千早',
+    nameSuppl: 'Chihaya Kisaragi',
     nameKana: 'きさらぎちはや',
     brand: '765AS',
     color: {
@@ -757,8 +757,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'reika_kitakami_millionlive',
-    nameJa: '北上麗花',
-    nameEn: 'Reika Kitakami',
+    name: '北上麗花',
+    nameSuppl: 'Reika Kitakami',
     nameKana: 'きたかみれいか',
     brand: 'MillionLive',
     color: {
@@ -770,8 +770,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shiho_kitazawa_millionlive',
-    nameJa: '北沢志保',
-    nameEn: 'Shiho Kitazawa',
+    name: '北沢志保',
+    nameSuppl: 'Shiho Kitazawa',
     nameKana: 'きたざわしほ',
     brand: 'MillionLive',
     color: {
@@ -783,8 +783,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hinako_kita_cinderellagirls',
-    nameJa: '喜多日菜子',
-    nameEn: 'Hinako Kita',
+    name: '喜多日菜子',
+    nameSuppl: 'Hinako Kita',
     nameKana: 'きたひなこ',
     brand: 'CinderellaGirls',
     color: {
@@ -796,8 +796,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuzu_kitami_cinderellagirls',
-    nameJa: '喜多見柚',
-    nameEn: 'Yuzu Kitami',
+    name: '喜多見柚',
+    nameSuppl: 'Yuzu Kitami',
     nameKana: 'きたみゆず',
     brand: 'CinderellaGirls',
     color: {
@@ -809,8 +809,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'sora_kitamura_sidem',
-    nameJa: '北村想楽',
-    nameEn: 'Sora Kitamura',
+    name: '北村想楽',
+    nameSuppl: 'Sora Kitamura',
     nameKana: 'きたむらそら',
     brand: 'SideM',
     color: {
@@ -822,8 +822,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hinata_kinoshita_millionlive',
-    nameJa: '木下ひなた',
-    nameEn: 'Hinata Kinoshita',
+    name: '木下ひなた',
+    nameSuppl: 'Hinata Kinoshita',
     nameKana: 'きのしたひなた',
     brand: 'MillionLive',
     color: {
@@ -835,8 +835,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'natsuki_kimura_cinderellagirls',
-    nameJa: '木村夏樹',
-    nameEn: 'Natsuki Kimura',
+    name: '木村夏樹',
+    nameSuppl: 'Natsuki Kimura',
     nameKana: 'きむらなつき',
     brand: 'CinderellaGirls',
     color: {
@@ -848,8 +848,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ryu_kimura_sidem',
-    nameJa: '木村龍',
-    nameEn: 'Ryu Kimura',
+    name: '木村龍',
+    nameSuppl: 'Ryu Kimura',
     nameKana: 'きむらりゅう',
     brand: 'SideM',
     color: {
@@ -861,8 +861,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kuro_kiyosumi_sidem',
-    nameJa: '清澄九郎',
-    nameEn: 'Kuro Kiyosumi',
+    name: '清澄九郎',
+    nameSuppl: 'Kuro Kiyosumi',
     nameKana: 'きよすみくろう',
     brand: 'SideM',
     color: {
@@ -874,8 +874,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'amehiko_kuzunoha_sidem',
-    nameJa: '葛之葉雨彦',
-    nameEn: 'Amehiko Kuzunoha',
+    name: '葛之葉雨彦',
+    nameSuppl: 'Amehiko Kuzunoha',
     nameKana: 'くずのはあめひこ',
     brand: 'SideM',
     color: {
@@ -887,8 +887,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'c.first_sidem',
-    nameJa: 'C.FIRST',
-    nameEn: '[ユニット]',
+    name: 'C.FIRST',
+    nameSuppl: '[ユニット]',
     nameKana: 'くらす ふぁーすと',
     brand: 'SideM',
     color: {
@@ -900,8 +900,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'genbu_kurono_sidem',
-    nameJa: '黒野玄武',
-    nameEn: 'Genbu Kurono',
+    name: '黒野玄武',
+    nameSuppl: 'Genbu Kurono',
     nameKana: 'くろのげんぶ',
     brand: 'SideM',
     color: {
@@ -913,8 +913,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chiyuki_kuwayama_shinycolors',
-    nameJa: '桑山千雪',
-    nameEn: 'Chiyuki Kuwayama',
+    name: '桑山千雪',
+    nameSuppl: 'Chiyuki Kuwayama',
     nameKana: 'くわやまちゆき',
     brand: 'ShinyColors',
     color: {
@@ -926,8 +926,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'umi_kousaka_millionlive',
-    nameJa: '高坂海美',
-    nameEn: 'Umi Kousaka',
+    name: '高坂海美',
+    nameSuppl: 'Umi Kousaka',
     nameKana: 'こうさかうみ',
     brand: 'MillionLive',
     color: {
@@ -939,8 +939,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'sachiko_koshimizu_cinderellagirls',
-    nameJa: '輿水幸子',
-    nameEn: 'Sachiko Koshimizu',
+    name: '輿水幸子',
+    nameSuppl: 'Sachiko Koshimizu',
     nameKana: 'こしみずさちこ',
     brand: 'CinderellaGirls',
     color: {
@@ -952,8 +952,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'sae_kobayakawa_cinderellagirls',
-    nameJa: '小早川紗枝',
-    nameEn: 'Sae Kobayakawa',
+    name: '小早川紗枝',
+    nameSuppl: 'Sae Kobayakawa',
     nameKana: 'こばやかわさえ',
     brand: 'CinderellaGirls',
     color: {
@@ -965,8 +965,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'miho_kohinata_cinderellagirls',
-    nameJa: '小日向美穂',
-    nameEn: 'Miho Kohinata',
+    name: '小日向美穂',
+    nameSuppl: 'Miho Kohinata',
     nameKana: 'こひなたみほ',
     brand: 'CinderellaGirls',
     color: {
@@ -978,8 +978,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kaho_komiya_shinycolors',
-    nameJa: '小宮果穂',
-    nameEn: 'Kaho Komiya',
+    name: '小宮果穂',
+    nameSuppl: 'Kaho Komiya',
     nameKana: 'こみやかほ',
     brand: 'ShinyColors',
     color: {
@@ -991,8 +991,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chris_koron_sidem',
-    nameJa: '古論クリス',
-    nameEn: 'Chris Koron',
+    name: '古論クリス',
+    nameSuppl: 'Chris Koron',
     nameKana: 'ころんくりす',
     brand: 'SideM',
     color: {
@@ -1004,8 +1004,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'the%e8%99%8e%e7%89%99%e9%81%93_sidem',
-    nameJa: 'THE虎牙道',
-    nameEn: '[ユニット]',
+    name: 'THE虎牙道',
+    nameSuppl: '[ユニット]',
     nameKana: 'ざ こがどう',
     brand: 'SideM',
     color: {
@@ -1017,8 +1017,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: '%e5%bd%a9_sidem',
-    nameJa: '彩',
-    nameEn: '[ユニット]',
+    name: '彩',
+    nameSuppl: '[ユニット]',
     nameKana: 'さい',
     brand: 'SideM',
     color: {
@@ -1030,8 +1030,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'juri_saijo_shinycolors',
-    nameJa: '西城樹里',
-    nameEn: 'Juri Saijo',
+    name: '西城樹里',
+    nameSuppl: 'Juri Saijo',
     nameKana: 'さいじょうじゅり',
     brand: 'ShinyColors',
     color: {
@@ -1043,8 +1043,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'natsuki_sakaki_sidem',
-    nameJa: '榊夏来',
-    nameEn: 'Natsuki Sakaki',
+    name: '榊夏来',
+    nameSuppl: 'Natsuki Sakaki',
     nameKana: 'さかきなつき',
     brand: 'SideM',
     color: {
@@ -1056,8 +1056,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mayu_sakuma_cinderellagirls',
-    nameJa: '佐久間まゆ',
-    nameEn: 'Mayu Sakuma',
+    name: '佐久間まゆ',
+    nameSuppl: 'Mayu Sakuma',
     nameKana: 'さくままゆ',
     brand: 'CinderellaGirls',
     color: {
@@ -1069,8 +1069,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'momoka_sakurai_cinderellagirls',
-    nameJa: '櫻井桃華',
-    nameEn: 'Momoka Sakurai',
+    name: '櫻井桃華',
+    nameSuppl: 'Momoka Sakurai',
     nameKana: 'さくらいももか',
     brand: 'CinderellaGirls',
     color: {
@@ -1082,8 +1082,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mano_sakuragi_shinycolors',
-    nameJa: '櫻木真乃',
-    nameEn: 'Mano Sakuragi',
+    name: '櫻木真乃',
+    nameSuppl: 'Mano Sakuragi',
     nameKana: 'さくらぎまの',
     brand: 'ShinyColors',
     color: {
@@ -1095,8 +1095,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kaoru_sakuraba_sidem',
-    nameJa: '桜庭薫',
-    nameEn: 'Kaoru Sakuraba',
+    name: '桜庭薫',
+    nameSuppl: 'Kaoru Sakuraba',
     nameKana: 'さくらばかおる',
     brand: 'SideM',
     color: {
@@ -1108,8 +1108,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kaori_sakuramori_millionlive',
-    nameJa: '桜守歌織',
-    nameEn: 'Kaori Sakuramori',
+    name: '桜守歌織',
+    nameSuppl: 'Kaori Sakuramori',
     nameKana: 'さくらもりかおり',
     brand: 'MillionLive',
     color: {
@@ -1121,8 +1121,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chie_sasaki_cinderellagirls',
-    nameJa: '佐々木千枝',
-    nameEn: 'Chie Sasaki',
+    name: '佐々木千枝',
+    nameSuppl: 'Chie Sasaki',
     nameKana: 'ささきちえ',
     brand: 'CinderellaGirls',
     color: {
@@ -1134,8 +1134,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'minako_satake_millionlive',
-    nameJa: '佐竹美奈子',
-    nameEn: 'Minako Satake',
+    name: '佐竹美奈子',
+    nameSuppl: 'Minako Satake',
     nameKana: 'さたけみなこ',
     brand: 'MillionLive',
     color: {
@@ -1147,8 +1147,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shin_sato_cinderellagirls',
-    nameJa: '佐藤心',
-    nameEn: 'Shin Sato',
+    name: '佐藤心',
+    nameSuppl: 'Shin Sato',
     nameKana: 'さとうしん',
     brand: 'CinderellaGirls',
     color: {
@@ -1160,8 +1160,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'noriko_shiina_cinderellagirls',
-    nameJa: '椎名法子',
-    nameEn: 'Noriko Shiina',
+    name: '椎名法子',
+    nameSuppl: 'Noriko Shiina',
     nameKana: 'しいなのりこ',
     brand: 'CinderellaGirls',
     color: {
@@ -1173,8 +1173,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'syuko_shiomi_cinderellagirls',
-    nameJa: '塩見周子',
-    nameEn: 'Syuko Shiomi',
+    name: '塩見周子',
+    nameSuppl: 'Syuko Shiomi',
     nameKana: 'しおみしゅうこ',
     brand: 'CinderellaGirls',
     color: {
@@ -1186,8 +1186,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'takane_shijou_765as',
-    nameJa: '四条貴音',
-    nameEn: 'Takane Shijou',
+    name: '四条貴音',
+    nameSuppl: 'Takane Shijou',
     nameKana: 'しじょうたかね',
     brand: '765AS',
     color: {
@@ -1199,8 +1199,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'soichiro_shinonome_sidem',
-    nameJa: '東雲荘一郎',
-    nameEn: 'Soichiro Shinonome',
+    name: '東雲荘一郎',
+    nameSuppl: 'Soichiro Shinonome',
     nameKana: 'しののめそういちろう',
     brand: 'SideM',
     color: {
@@ -1212,8 +1212,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'karen_shinomiya_millionlive',
-    nameJa: '篠宮可憐',
-    nameEn: 'Karen Shinomiya',
+    name: '篠宮可憐',
+    nameSuppl: 'Karen Shinomiya',
     nameKana: 'しのみやかれん',
     brand: 'MillionLive',
     color: {
@@ -1225,8 +1225,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rin_shibuya_cinderellagirls',
-    nameJa: '渋谷凛',
-    nameEn: 'Rin Shibuya',
+    name: '渋谷凛',
+    nameSuppl: 'Rin Shibuya',
     nameKana: 'しぶやりん',
     brand: 'CinderellaGirls',
     color: {
@@ -1238,8 +1238,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'elena_shimabara_millionlive',
-    nameJa: '島原エレナ',
-    nameEn: 'Elena Shimabara',
+    name: '島原エレナ',
+    nameSuppl: 'Elena Shimabara',
     nameKana: 'しまばらえれな',
     brand: 'MillionLive',
     color: {
@@ -1251,8 +1251,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'uzuki_shimamura_cinderellagirls',
-    nameJa: '島村卯月',
-    nameEn: 'Uzuki Shimamura',
+    name: '島村卯月',
+    nameSuppl: 'Uzuki Shimamura',
     nameKana: 'しまむらうづき',
     brand: 'CinderellaGirls',
     color: {
@@ -1264,8 +1264,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'jupiter_sidem',
-    nameJa: 'Jupiter',
-    nameEn: '[ユニット]',
+    name: 'Jupiter',
+    nameSuppl: '[ユニット]',
     nameKana: 'じゅぴたー',
     brand: 'SideM',
     color: {
@@ -1277,8 +1277,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'julia_millionlive',
-    nameJa: 'ジュリア',
-    nameEn: 'Julia',
+    name: 'ジュリア',
+    nameSuppl: 'Julia',
     nameKana: 'じゅりあ',
     brand: 'MillionLive',
     color: {
@@ -1290,8 +1290,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mika_jougasaki_cinderellagirls',
-    nameJa: '城ヶ崎美嘉',
-    nameEn: 'Mika Jougasaki',
+    name: '城ヶ崎美嘉',
+    nameSuppl: 'Mika Jougasaki',
     nameKana: 'じょうがさきみか',
     brand: 'CinderellaGirls',
     color: {
@@ -1303,8 +1303,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rika_jougasaki_cinderellagirls',
-    nameJa: '城ヶ崎莉嘉',
-    nameEn: 'Rika Jougasaki',
+    name: '城ヶ崎莉嘉',
+    nameSuppl: 'Rika Jougasaki',
     nameKana: 'じょうがさきりか',
     brand: 'CinderellaGirls',
     color: {
@@ -1316,8 +1316,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tsumugi_shiraishi_millionlive',
-    nameJa: '白石紬',
-    nameEn: 'Tsumugi Shiraishi',
+    name: '白石紬',
+    nameSuppl: 'Tsumugi Shiraishi',
     nameKana: 'しらいしつむぎ',
     brand: 'MillionLive',
     color: {
@@ -1329,8 +1329,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hotaru_shiragiku_cinderellagirls',
-    nameJa: '白菊ほたる',
-    nameEn: 'Hotaru Shiragiku',
+    name: '白菊ほたる',
+    nameSuppl: 'Hotaru Shiragiku',
     nameKana: 'しらぎくほたる',
     brand: 'CinderellaGirls',
     color: {
@@ -1342,8 +1342,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'koume_shirasaka_cinderellagirls',
-    nameJa: '白坂小梅',
-    nameEn: 'Koume Shirasaka',
+    name: '白坂小梅',
+    nameSuppl: 'Koume Shirasaka',
     nameKana: 'しらさかこうめ',
     brand: 'CinderellaGirls',
     color: {
@@ -1355,8 +1355,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'sakuya_shirase_shinycolors',
-    nameJa: '白瀬咲耶',
-    nameEn: 'Sakuya Shirase',
+    name: '白瀬咲耶',
+    nameSuppl: 'Sakuya Shirase',
     nameKana: 'しらせさくや',
     brand: 'ShinyColors',
     color: {
@@ -1368,8 +1368,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'seiji_shingen_sidem',
-    nameJa: '信玄誠司',
-    nameEn: 'Seiji Shingen',
+    name: '信玄誠司',
+    nameSuppl: 'Seiji Shingen',
     nameKana: 'しんげんせいじ',
     brand: 'SideM',
     color: {
@@ -1381,8 +1381,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: '%e7%a5%9e%e9%80%9f%e4%b8%80%e9%ad%82_sidem',
-    nameJa: '神速一魂',
-    nameEn: '[ユニット]',
+    name: '神速一魂',
+    nameSuppl: '[ユニット]',
     nameKana: 'しんそくいっこん',
     brand: 'SideM',
     color: {
@@ -1394,8 +1394,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'momoko_suou_millionlive',
-    nameJa: '周防桃子',
-    nameEn: 'Momoko Suou',
+    name: '周防桃子',
+    nameSuppl: 'Momoko Suou',
     nameKana: 'すおうももこ',
     brand: 'MillionLive',
     color: {
@@ -1407,8 +1407,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hiromi_seki_cinderellagirls',
-    nameJa: '関裕美',
-    nameEn: 'Hiromi Seki',
+    name: '関裕美',
+    nameSuppl: 'Hiromi Seki',
     nameKana: 'せきひろみ',
     brand: 'CinderellaGirls',
     color: {
@@ -1420,8 +1420,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 's.e.m_sidem',
-    nameJa: 'S.E.M',
-    nameEn: '[ユニット]',
+    name: 'S.E.M',
+    nameSuppl: '[ユニット]',
     nameKana: 'せむ',
     brand: 'SideM',
     color: {
@@ -1433,8 +1433,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'asahi_serizawa_shinycolors',
-    nameJa: '芹沢あさひ',
-    nameEn: 'Asahi Serizawa',
+    name: '芹沢あさひ',
+    nameSuppl: 'Asahi Serizawa',
     nameKana: 'せりざわあさひ',
     brand: 'ShinyColors',
     color: {
@@ -1446,8 +1446,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chiyoko_sonoda_shinycolors',
-    nameJa: '園田智代子',
-    nameEn: 'Chiyoko Sonoda',
+    name: '園田智代子',
+    nameSuppl: 'Chiyoko Sonoda',
     nameKana: 'そのだちよこ',
     brand: 'ShinyColors',
     color: {
@@ -1459,8 +1459,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'takeru_taiga_sidem',
-    nameJa: '大河タケル',
-    nameEn: 'Takeru Taiga',
+    name: '大河タケル',
+    nameSuppl: 'Takeru Taiga',
     nameKana: 'たいがたける',
     brand: 'SideM',
     color: {
@@ -1472,8 +1472,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kaede_takagaki_cinderellagirls',
-    nameJa: '高垣楓',
-    nameEn: 'Kaede Takagaki',
+    name: '高垣楓',
+    nameSuppl: 'Kaede Takagaki',
     nameKana: 'たかがきかえで',
     brand: 'CinderellaGirls',
     color: {
@@ -1485,8 +1485,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kyoji_takajo_sidem',
-    nameJa: '鷹城恭二',
-    nameEn: 'Kyoji Takajo',
+    name: '鷹城恭二',
+    nameSuppl: 'Kyoji Takajo',
     nameKana: 'たかじょうきょうじ',
     brand: 'SideM',
     color: {
@@ -1498,8 +1498,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yayoi_takatsuki_765as',
-    nameJa: '高槻やよい',
-    nameEn: 'Yayoi Takatsuki',
+    name: '高槻やよい',
+    nameSuppl: 'Yayoi Takatsuki',
     nameKana: 'たかつきやよい',
     brand: '765AS',
     color: {
@@ -1511,8 +1511,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kako_takafuji_cinderellagirls',
-    nameJa: '鷹富士茄子',
-    nameEn: 'Kako Takafuji',
+    name: '鷹富士茄子',
+    nameSuppl: 'Kako Takafuji',
     nameKana: 'たかふじかこ',
     brand: 'CinderellaGirls',
     color: {
@@ -1524,8 +1524,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'aiko_takamori_cinderellagirls',
-    nameJa: '高森藍子',
-    nameEn: 'Aiko Takamori',
+    name: '高森藍子',
+    nameSuppl: 'Aiko Takamori',
     nameKana: 'たかもりあいこ',
     brand: 'CinderellaGirls',
     color: {
@@ -1537,8 +1537,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'sayoko_takayama_millionlive',
-    nameJa: '高山紗代子',
-    nameEn: 'Sayoko Takayama',
+    name: '高山紗代子',
+    nameSuppl: 'Sayoko Takayama',
     nameKana: 'たかやまさよこ',
     brand: 'MillionLive',
     color: {
@@ -1550,8 +1550,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'riina_tada_cinderellagirls',
-    nameJa: '多田李衣菜',
-    nameEn: 'Riina Tada',
+    name: '多田李衣菜',
+    nameSuppl: 'Riina Tada',
     nameKana: 'ただりいな',
     brand: 'CinderellaGirls',
     color: {
@@ -1563,8 +1563,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'arisu_tachibana_cinderellagirls',
-    nameJa: '橘ありす',
-    nameEn: 'Arisu Tachibana',
+    name: '橘ありす',
+    nameSuppl: 'Arisu Tachibana',
     nameKana: 'たちばなありす',
     brand: 'CinderellaGirls',
     color: {
@@ -1576,8 +1576,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shiro_tachibana_sidem',
-    nameJa: '橘志狼',
-    nameEn: 'Shiro Tachibana',
+    name: '橘志狼',
+    nameSuppl: 'Shiro Tachibana',
     nameKana: 'たちばなしろう',
     brand: 'SideM',
     color: {
@@ -1589,8 +1589,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kotoha_tanaka_millionlive',
-    nameJa: '田中琴葉',
-    nameEn: 'Kotoha Tanaka',
+    name: '田中琴葉',
+    nameSuppl: 'Kotoha Tanaka',
     nameKana: 'たなかことは',
     brand: 'MillionLive',
     color: {
@@ -1602,8 +1602,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mamimi_tanaka_shinycolors',
-    nameJa: '田中摩美々',
-    nameEn: 'Mamimi Tanaka',
+    name: '田中摩美々',
+    nameSuppl: 'Mamimi Tanaka',
     nameKana: 'たなかまみみ',
     brand: 'ShinyColors',
     color: {
@@ -1615,8 +1615,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'w_sidem',
-    nameJa: 'W',
-    nameEn: '[ユニット]',
+    name: 'W',
+    nameSuppl: '[ユニット]',
     nameKana: 'だぶる',
     brand: 'SideM',
     color: {
@@ -1628,8 +1628,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kogane_tsukioka_shinycolors',
-    nameJa: '月岡恋鐘',
-    nameEn: 'Kogane Tsukioka',
+    name: '月岡恋鐘',
+    nameSuppl: 'Kogane Tsukioka',
     nameKana: 'つきおかこがね',
     brand: 'ShinyColors',
     color: {
@@ -1641,8 +1641,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kazuki_tsukumo_sidem',
-    nameJa: '九十九一希',
-    nameEn: 'Kazuki Tsukumo',
+    name: '九十九一希',
+    nameSuppl: 'Kazuki Tsukumo',
     nameKana: 'つくもかずき',
     brand: 'SideM',
     color: {
@@ -1654,8 +1654,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kei_tsuzuki_sidem',
-    nameJa: '都築圭',
-    nameEn: 'Kei Tsuzuki',
+    name: '都築圭',
+    nameSuppl: 'Kei Tsuzuki',
     nameKana: 'つづきけい',
     brand: 'SideM',
     color: {
@@ -1667,8 +1667,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tomoka_tenkubashi_millionlive',
-    nameJa: '天空橋朋花',
-    nameEn: 'Tomoka Tenkubashi',
+    name: '天空橋朋花',
+    nameSuppl: 'Tomoka Tenkubashi',
     nameKana: 'てんくうばしともか',
     brand: 'MillionLive',
     color: {
@@ -1680,8 +1680,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'teru_tendo_sidem',
-    nameJa: '天道輝',
-    nameEn: 'Teru Tendo',
+    name: '天道輝',
+    nameSuppl: 'Teru Tendo',
     nameKana: 'てんどうてる',
     brand: 'SideM',
     color: {
@@ -1693,8 +1693,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'karin_domyoji_cinderellagirls',
-    nameJa: '道明寺歌鈴',
-    nameEn: 'Karin Domyoji',
+    name: '道明寺歌鈴',
+    nameSuppl: 'Karin Domyoji',
     nameKana: 'どうみょうじかりん',
     brand: 'CinderellaGirls',
     color: {
@@ -1706,8 +1706,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'matsuri_tokugawa_millionlive',
-    nameJa: '徳川まつり',
-    nameEn: 'Matsuri Tokugawa',
+    name: '徳川まつり',
+    nameSuppl: 'Matsuri Tokugawa',
     nameKana: 'とくがわまつり',
     brand: 'MillionLive',
     color: {
@@ -1719,8 +1719,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'megumi_tokoro_millionlive',
-    nameJa: '所恵美',
-    nameEn: 'Megumi Tokoro',
+    name: '所恵美',
+    nameSuppl: 'Megumi Tokoro',
     nameKana: 'ところめぐみ',
     brand: 'MillionLive',
     color: {
@@ -1732,8 +1732,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'airi_totoki_cinderellagirls',
-    nameJa: '十時愛梨',
-    nameEn: 'Airi Totoki',
+    name: '十時愛梨',
+    nameSuppl: 'Airi Totoki',
     nameKana: 'とときあいり',
     brand: 'CinderellaGirls',
     color: {
@@ -1745,8 +1745,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'fuka_toyokawa_millionlive',
-    nameJa: '豊川風花',
-    nameEn: 'Fuka Toyokawa',
+    name: '豊川風花',
+    nameSuppl: 'Fuka Toyokawa',
     nameKana: 'とよかわふうか',
     brand: 'MillionLive',
     color: {
@@ -1758,8 +1758,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'dramaticstars_sidem',
-    nameJa: 'DRAMATICSTARS',
-    nameEn: '[ユニット]',
+    name: 'DRAMATICSTARS',
+    nameSuppl: '[ユニット]',
     nameKana: 'どらまちっくすたーず',
     brand: 'SideM',
     color: {
@@ -1771,8 +1771,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'iku_nakatani_millionlive',
-    nameJa: '中谷育',
-    nameEn: 'Iku Nakatani',
+    name: '中谷育',
+    nameSuppl: 'Iku Nakatani',
     nameKana: 'なかたにいく',
     brand: 'MillionLive',
     color: {
@@ -1784,8 +1784,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuka_nakano_cinderellagirls',
-    nameJa: '中野有香',
-    nameEn: 'Yuka Nakano',
+    name: '中野有香',
+    nameSuppl: 'Yuka Nakano',
     nameKana: 'なかのゆか',
     brand: 'CinderellaGirls',
     color: {
@@ -1797,8 +1797,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'subaru_nagayoshi_millionlive',
-    nameJa: '永吉昴',
-    nameEn: 'Subaru Nagayoshi',
+    name: '永吉昴',
+    nameSuppl: 'Subaru Nagayoshi',
     nameKana: 'ながよしすばる',
     brand: 'MillionLive',
     color: {
@@ -1810,8 +1810,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuriko_nanao_millionlive',
-    nameJa: '七尾百合子',
-    nameEn: 'Yuriko Nanao',
+    name: '七尾百合子',
+    nameSuppl: 'Yuriko Nanao',
     nameKana: 'ななおゆりこ',
     brand: 'MillionLive',
     color: {
@@ -1823,8 +1823,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nichika_nanakusa_shinycolors',
-    nameJa: '七草にちか',
-    nameEn: 'Nichika Nanakusa',
+    name: '七草にちか',
+    nameSuppl: 'Nichika Nanakusa',
     nameKana: 'ななくさにちか',
     brand: 'ShinyColors',
     color: {
@@ -1836,8 +1836,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hikaru_nanjo_cinderellagirls',
-    nameJa: '南条光',
-    nameEn: 'Hikaru Nanjo',
+    name: '南条光',
+    nameSuppl: 'Hikaru Nanjo',
     nameKana: 'なんじょうひかる',
     brand: 'CinderellaGirls',
     color: {
@@ -1849,8 +1849,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'emi_namba_cinderellagirls',
-    nameJa: '難波笑美',
-    nameEn: 'Emi Namba',
+    name: '難波笑美',
+    nameSuppl: 'Emi Namba',
     nameKana: 'なんばえみ',
     brand: 'CinderellaGirls',
     color: {
@@ -1862,8 +1862,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'chizuru_nikaido_millionlive',
-    nameJa: '二階堂千鶴',
-    nameEn: 'Chizuru Nikaido',
+    name: '二階堂千鶴',
+    nameSuppl: 'Chizuru Nikaido',
     nameKana: 'にかいどうちづる',
     brand: 'MillionLive',
     color: {
@@ -1875,8 +1875,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'minami_nitta_cinderellagirls',
-    nameJa: '新田美波',
-    nameEn: 'Minami Nitta',
+    name: '新田美波',
+    nameSuppl: 'Minami Nitta',
     nameKana: 'にったみなみ',
     brand: 'CinderellaGirls',
     color: {
@@ -1888,8 +1888,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'asuka_ninomiya_cinderellagirls',
-    nameJa: '二宮飛鳥',
-    nameEn: 'Asuka Ninomiya',
+    name: '二宮飛鳥',
+    nameSuppl: 'Asuka Ninomiya',
     nameKana: 'にのみやあすか',
     brand: 'CinderellaGirls',
     color: {
@@ -1901,8 +1901,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kirio_nekoyanagi_sidem',
-    nameJa: '猫柳キリオ',
-    nameEn: 'Kirio Nekoyanagi',
+    name: '猫柳キリオ',
+    nameSuppl: 'Kirio Nekoyanagi',
     nameKana: 'ねこやなぎきりお',
     brand: 'SideM',
     color: {
@@ -1914,8 +1914,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'akane_nonohara_millionlive',
-    nameJa: '野々原茜',
-    nameEn: 'Akane Nonohara',
+    name: '野々原茜',
+    nameSuppl: 'Akane Nonohara',
     nameKana: 'ののはらあかね',
     brand: 'MillionLive',
     color: {
@@ -1927,8 +1927,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'high%c3%97joker_sidem',
-    nameJa: 'High×Joker',
-    nameEn: '[ユニット]',
+    name: 'High×Joker',
+    nameSuppl: '[ユニット]',
     nameKana: 'はいじょーかー',
     brand: 'SideM',
     color: {
@@ -1940,8 +1940,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'beit_sidem',
-    nameJa: 'Beit',
-    nameEn: '[ユニット]',
+    name: 'Beit',
+    nameSuppl: '[ユニット]',
     nameKana: 'ばいと',
     brand: 'SideM',
     color: {
@@ -1953,8 +1953,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yukiho_hagiwara_765as',
-    nameJa: '萩原雪歩',
-    nameEn: 'Yukiho Hagiwara',
+    name: '萩原雪歩',
+    nameSuppl: 'Yukiho Hagiwara',
     nameKana: 'はぎわらゆきほ',
     brand: '765AS',
     color: {
@@ -1966,8 +1966,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'serika_hakozaki_millionlive',
-    nameJa: '箱崎星梨花',
-    nameEn: 'Serika Hakozaki',
+    name: '箱崎星梨花',
+    nameSuppl: 'Serika Hakozaki',
     nameKana: 'はこざきせりか',
     brand: 'MillionLive',
     color: {
@@ -1979,8 +1979,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'michio_hazama_sidem',
-    nameJa: '硲道夫',
-    nameEn: 'Michio Hazama',
+    name: '硲道夫',
+    nameSuppl: 'Michio Hazama',
     nameKana: 'はざまみちお',
     brand: 'SideM',
     color: {
@@ -1992,8 +1992,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'meguru_hachimiya_shinycolors',
-    nameJa: '八宮めぐる',
-    nameEn: 'Meguru Hachimiya',
+    name: '八宮めぐる',
+    nameSuppl: 'Meguru Hachimiya',
     nameKana: 'はちみやめぐる',
     brand: 'ShinyColors',
     color: {
@@ -2005,8 +2005,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shoma_hanamura_sidem',
-    nameJa: '華村翔真',
-    nameEn: 'Shoma Hanamura',
+    name: '華村翔真',
+    nameSuppl: 'Shoma Hanamura',
     nameKana: 'はなむらしょうま',
     brand: 'SideM',
     color: {
@@ -2018,8 +2018,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'konomi_baba_millionlive',
-    nameJa: '馬場このみ',
-    nameEn: 'Konomi Baba',
+    name: '馬場このみ',
+    nameSuppl: 'Konomi Baba',
     nameKana: 'ばばこのみ',
     brand: 'MillionLive',
     color: {
@@ -2031,8 +2031,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ayame_hamaguchi_cinderellagirls',
-    nameJa: '浜口あやめ',
-    nameEn: 'Ayame Hamaguchi',
+    name: '浜口あやめ',
+    nameSuppl: 'Ayame Hamaguchi',
     nameKana: 'はまぐちあやめ',
     brand: 'CinderellaGirls',
     color: {
@@ -2044,8 +2044,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mirei_hayasaka_cinderellagirls',
-    nameJa: '早坂美玲',
-    nameEn: 'Mirei Hayasaka',
+    name: '早坂美玲',
+    nameSuppl: 'Mirei Hayasaka',
     nameKana: 'はやさかみれい',
     brand: 'CinderellaGirls',
     color: {
@@ -2057,8 +2057,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kanade_hayami_cinderellagirls',
-    nameJa: '速水奏',
-    nameEn: 'Kanade Hayami',
+    name: '速水奏',
+    nameSuppl: 'Kanade Hayami',
     nameKana: 'はやみかなで',
     brand: 'CinderellaGirls',
     color: {
@@ -2070,8 +2070,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'pierre_sidem',
-    nameJa: 'ピエール',
-    nameEn: 'Pierre',
+    name: 'ピエール',
+    nameSuppl: 'Pierre',
     nameKana: 'ぴえーる',
     brand: 'SideM',
     color: {
@@ -2083,8 +2083,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'madoka_higuchi_shinycolors',
-    nameJa: '樋口円香',
-    nameEn: 'Madoka Higuchi',
+    name: '樋口円香',
+    nameSuppl: 'Madoka Higuchi',
     nameKana: 'ひぐちまどか',
     brand: 'ShinyColors',
     color: {
@@ -2096,8 +2096,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nagi_hisakawa_cinderellagirls',
-    nameJa: '久川凪',
-    nameEn: 'Nagi Hisakawa',
+    name: '久川凪',
+    nameSuppl: 'Nagi Hisakawa',
     nameKana: 'ひさかわなぎ',
     brand: 'CinderellaGirls',
     color: {
@@ -2109,8 +2109,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hayate_hisakawa_cinderellagirls',
-    nameJa: '久川颯',
-    nameEn: 'Hayate Hisakawa',
+    name: '久川颯',
+    nameSuppl: 'Hayate Hisakawa',
     nameKana: 'ひさかわはやて',
     brand: 'CinderellaGirls',
     color: {
@@ -2122,8 +2122,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ai_hidaka_dearlystars',
-    nameJa: '日高愛',
-    nameEn: 'Ai Hidaka',
+    name: '日高愛',
+    nameSuppl: 'Ai Hidaka',
     nameKana: 'ひだかあい',
     brand: 'DearlyStars',
     color: {
@@ -2135,8 +2135,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'akane_hino_cinderellagirls',
-    nameJa: '日野茜',
-    nameEn: 'Akane Hino',
+    name: '日野茜',
+    nameSuppl: 'Akane Hino',
     nameKana: 'ひのあかね',
     brand: 'CinderellaGirls',
     color: {
@@ -2148,8 +2148,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuki_himekawa_cinderellagirls',
-    nameJa: '姫川友紀',
-    nameEn: 'Yuki Himekawa',
+    name: '姫川友紀',
+    nameSuppl: 'Yuki Himekawa',
     nameKana: 'ひめかわゆき',
     brand: 'CinderellaGirls',
     color: {
@@ -2161,8 +2161,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kanon_himeno_sidem',
-    nameJa: '姫野かのん',
-    nameEn: 'Kanon Himeno',
+    name: '姫野かのん',
+    nameSuppl: 'Kanon Himeno',
     nameKana: 'ひめのかのん',
     brand: 'SideM',
     color: {
@@ -2174,8 +2174,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'noriko_fukuda_millionlive',
-    nameJa: '福田のり子',
-    nameEn: 'Noriko Fukuda',
+    name: '福田のり子',
+    nameSuppl: 'Noriko Fukuda',
     nameKana: 'ふくだのりこ',
     brand: 'MillionLive',
     color: {
@@ -2187,8 +2187,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'koito_fukumaru_shinycolors',
-    nameJa: '福丸小糸',
-    nameEn: 'Koito Fukumaru',
+    name: '福丸小糸',
+    nameSuppl: 'Koito Fukumaru',
     nameKana: 'ふくまるこいと',
     brand: 'ShinyColors',
     color: {
@@ -2200,8 +2200,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rina_fujimoto_cinderellagirls',
-    nameJa: '藤本里奈',
-    nameEn: 'Rina Fujimoto',
+    name: '藤本里奈',
+    nameSuppl: 'Rina Fujimoto',
     nameKana: 'ふじもとりな',
     brand: 'CinderellaGirls',
     color: {
@@ -2213,8 +2213,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'hajime_fujiwara_cinderellagirls',
-    nameJa: '藤原肇',
-    nameEn: 'Hajime Fujiwara',
+    name: '藤原肇',
+    nameSuppl: 'Hajime Fujiwara',
     nameKana: 'ふじわらはじめ',
     brand: 'CinderellaGirls',
     color: {
@@ -2226,8 +2226,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'anzu_futaba_cinderellagirls',
-    nameJa: '双葉杏',
-    nameEn: 'Anzu Futaba',
+    name: '双葉杏',
+    nameSuppl: 'Anzu Futaba',
     nameKana: 'ふたばあんず',
     brand: 'CinderellaGirls',
     color: {
@@ -2239,8 +2239,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ami_futami_765as',
-    nameJa: '双海亜美',
-    nameEn: 'Ami Futami',
+    name: '双海亜美',
+    nameSuppl: 'Ami Futami',
     nameKana: 'ふたみあみ',
     brand: '765AS',
     color: {
@@ -2252,8 +2252,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mami_futami_765as',
-    nameJa: '双海真美',
-    nameEn: 'Mami Futami',
+    name: '双海真美',
+    nameSuppl: 'Mami Futami',
     nameKana: 'ふたみまみ',
     brand: '765AS',
     color: {
@@ -2265,8 +2265,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'jun_fuyumi_sidem',
-    nameJa: '冬美旬',
-    nameEn: 'Jun Fuyumi',
+    name: '冬美旬',
+    nameSuppl: 'Jun Fuyumi',
     nameKana: 'ふゆみじゅん',
     brand: 'SideM',
     color: {
@@ -2278,8 +2278,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'f-lags_sidem',
-    nameJa: 'F-LAGS',
-    nameEn: '[ユニット]',
+    name: 'F-LAGS',
+    nameSuppl: '[ユニット]',
     nameKana: 'ふらっぐす',
     brand: 'SideM',
     color: {
@@ -2291,8 +2291,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'frame_sidem',
-    nameJa: 'FRAME',
-    nameEn: '[ユニット]',
+    name: 'FRAME',
+    nameSuppl: '[ユニット]',
     nameKana: 'ふれーむ',
     brand: 'SideM',
     color: {
@@ -2304,8 +2304,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'karen_hojo_cinderellagirls',
-    nameJa: '北条加蓮',
-    nameEn: 'Karen Hojo',
+    name: '北条加蓮',
+    nameSuppl: 'Karen Hojo',
     nameKana: 'ほうじょうかれん',
     brand: 'CinderellaGirls',
     color: {
@@ -2317,8 +2317,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'miki_hoshii_765as',
-    nameJa: '星井美希',
-    nameEn: 'Miki Hoshii',
+    name: '星井美希',
+    nameSuppl: 'Miki Hoshii',
     nameKana: 'ほしいみき',
     brand: '765AS',
     color: {
@@ -2330,8 +2330,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'syoko_hoshi_cinderellagirls',
-    nameJa: '星輝子',
-    nameEn: 'Syoko Hoshi',
+    name: '星輝子',
+    nameSuppl: 'Syoko Hoshi',
     nameKana: 'ほししょうこ',
     brand: 'CinderellaGirls',
     color: {
@@ -2343,8 +2343,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuko_hori_cinderellagirls',
-    nameJa: '堀裕子',
-    nameEn: 'Yuko Hori',
+    name: '堀裕子',
+    nameSuppl: 'Yuko Hori',
     nameKana: 'ほりゆうこ',
     brand: 'CinderellaGirls',
     color: {
@@ -2356,8 +2356,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mio_honda_cinderellagirls',
-    nameJa: '本田未央',
-    nameEn: 'Mio Honda',
+    name: '本田未央',
+    nameSuppl: 'Mio Honda',
     nameKana: 'ほんだみお',
     brand: 'CinderellaGirls',
     color: {
@@ -2369,8 +2369,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rui_maita_sidem',
-    nameJa: '舞田類',
-    nameEn: 'Rui Maita',
+    name: '舞田類',
+    nameSuppl: 'Rui Maita',
     nameKana: 'まいたるい',
     brand: 'SideM',
     color: {
@@ -2382,8 +2382,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ayumu_maihama_millionlive',
-    nameJa: '舞浜歩',
-    nameEn: 'Ayumu Maihama',
+    name: '舞浜歩',
+    nameSuppl: 'Ayumu Maihama',
     nameKana: 'まいはまあゆむ',
     brand: 'MillionLive',
     color: {
@@ -2395,8 +2395,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'miku_maekawa_cinderellagirls',
-    nameJa: '前川みく',
-    nameEn: 'Miku Maekawa',
+    name: '前川みく',
+    nameSuppl: 'Miku Maekawa',
     nameKana: 'まえかわみく',
     brand: 'CinderellaGirls',
     color: {
@@ -2408,8 +2408,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'mizuki_makabe_millionlive',
-    nameJa: '真壁瑞希',
-    nameEn: 'Mizuki Makabe',
+    name: '真壁瑞希',
+    nameSuppl: 'Mizuki Makabe',
     nameKana: 'まかべみずき',
     brand: 'MillionLive',
     color: {
@@ -2421,8 +2421,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'arisa_matsuda_millionlive',
-    nameJa: '松田亜利沙',
-    nameEn: 'Arisa Matsuda',
+    name: '松田亜利沙',
+    nameSuppl: 'Arisa Matsuda',
     nameKana: 'まつだありさ',
     brand: 'MillionLive',
     color: {
@@ -2434,8 +2434,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'ryo_matsunaga_cinderellagirls',
-    nameJa: '松永涼',
-    nameEn: 'Ryo Matsunaga',
+    name: '松永涼',
+    nameSuppl: 'Ryo Matsunaga',
     nameKana: 'まつながりょう',
     brand: 'CinderellaGirls',
     color: {
@@ -2447,8 +2447,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'fuyuko_mayuzumi_shinycolors',
-    nameJa: '黛冬優子',
-    nameEn: 'Fuyuko Mayuzumi',
+    name: '黛冬優子',
+    nameSuppl: 'Fuyuko Mayuzumi',
     nameKana: 'まゆずみふゆこ',
     brand: 'ShinyColors',
     color: {
@@ -2460,8 +2460,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'azusa_miura_765as',
-    nameJa: '三浦あずさ',
-    nameEn: 'Azusa Miura',
+    name: '三浦あずさ',
+    nameSuppl: 'Azusa Miura',
     nameKana: 'みうらあずさ',
     brand: '765AS',
     color: {
@@ -2473,8 +2473,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'saki_mizushima_sidem',
-    nameJa: '水嶋咲',
-    nameEn: 'Saki Mizushima',
+    name: '水嶋咲',
+    nameSuppl: 'Saki Mizushima',
     nameKana: 'みずしまさき',
     brand: 'SideM',
     color: {
@@ -2486,8 +2486,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'eri_mizutani_dearlystars',
-    nameJa: '水谷絵理',
-    nameEn: 'Eri Mizutani',
+    name: '水谷絵理',
+    nameSuppl: 'Eri Mizutani',
     nameKana: 'みずたにえり',
     brand: 'DearlyStars',
     color: {
@@ -2499,8 +2499,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yukari_mizumoto_cinderellagirls',
-    nameJa: '水本ゆかり',
-    nameEn: 'Yukari Mizumoto',
+    name: '水本ゆかり',
+    nameSuppl: 'Yukari Mizumoto',
     nameKana: 'みずもとゆかり',
     brand: 'CinderellaGirls',
     color: {
@@ -2512,8 +2512,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shota_mitarai_sidem',
-    nameJa: '御手洗翔太',
-    nameEn: 'Shota Mitarai',
+    name: '御手洗翔太',
+    nameSuppl: 'Shota Mitarai',
     nameKana: 'みたらいしょうた',
     brand: 'SideM',
     color: {
@@ -2525,8 +2525,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yuika_mitsumine_shinycolors',
-    nameJa: '三峰結華',
-    nameEn: 'Yuika Mitsumine',
+    name: '三峰結華',
+    nameSuppl: 'Yuika Mitsumine',
     nameKana: 'みつみねゆいか',
     brand: 'ShinyColors',
     color: {
@@ -2538,8 +2538,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'iori_minase_765as',
-    nameJa: '水瀬伊織',
-    nameEn: 'Iori Minase',
+    name: '水瀬伊織',
+    nameSuppl: 'Iori Minase',
     nameKana: 'みなせいおり',
     brand: '765AS',
     color: {
@@ -2551,8 +2551,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'miyu_mifune_cinderellagirls',
-    nameJa: '三船美優',
-    nameEn: 'Miyu Mifune',
+    name: '三船美優',
+    nameSuppl: 'Miyu Mifune',
     nameKana: 'みふねみゆ',
     brand: 'CinderellaGirls',
     color: {
@@ -2564,8 +2564,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kanako_mimura_cinderellagirls',
-    nameJa: '三村かな子',
-    nameEn: 'Kanako Mimura',
+    name: '三村かな子',
+    nameSuppl: 'Kanako Mimura',
     nameKana: 'みむらかなこ',
     brand: 'CinderellaGirls',
     color: {
@@ -2577,8 +2577,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'miya_miyao_millionlive',
-    nameJa: '宮尾美也',
-    nameEn: 'Miya Miyao',
+    name: '宮尾美也',
+    nameSuppl: 'Miya Miyao',
     nameKana: 'みやおみや',
     brand: 'MillionLive',
     color: {
@@ -2590,8 +2590,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'frederica_miyamoto_cinderellagirls',
-    nameJa: '宮本フレデリカ',
-    nameEn: 'Frederica Miyamoto',
+    name: '宮本フレデリカ',
+    nameSuppl: 'Frederica Miyamoto',
     nameKana: 'みやもとふれでりか',
     brand: 'CinderellaGirls',
     color: {
@@ -2603,8 +2603,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'takumi_mukai_cinderellagirls',
-    nameJa: '向井拓海',
-    nameEn: 'Takumi Mukai',
+    name: '向井拓海',
+    nameSuppl: 'Takumi Mukai',
     nameKana: 'むかいたくみ',
     brand: 'CinderellaGirls',
     color: {
@@ -2616,8 +2616,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'atsumi_munakata_cinderellagirls',
-    nameJa: '棟方愛海',
-    nameEn: 'Atsumi Munakata',
+    name: '棟方愛海',
+    nameSuppl: 'Atsumi Munakata',
     nameKana: 'むなかたあつみ',
     brand: 'CinderellaGirls',
     color: {
@@ -2629,8 +2629,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tomoe_murakami_cinderellagirls',
-    nameJa: '村上巴',
-    nameEn: 'Tomoe Murakami',
+    name: '村上巴',
+    nameSuppl: 'Tomoe Murakami',
     nameKana: 'むらかみともえ',
     brand: 'CinderellaGirls',
     color: {
@@ -2642,8 +2642,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'shizuka_mogami_millionlive',
-    nameJa: '最上静香',
-    nameEn: 'Shizuka Mogami',
+    name: '最上静香',
+    nameSuppl: 'Shizuka Mogami',
     nameKana: 'もがみしずか',
     brand: 'MillionLive',
     color: {
@@ -2655,8 +2655,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'anna_mochizuki_millionlive',
-    nameJa: '望月杏奈',
-    nameEn: 'Anna Mochizuki',
+    name: '望月杏奈',
+    nameSuppl: 'Anna Mochizuki',
     nameKana: 'もちづきあんな',
     brand: 'MillionLive',
     color: {
@@ -2668,8 +2668,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: '%e3%82%82%e3%81%b5%e3%82%82%e3%81%b5%e3%81%88%e3%82%93_sidem',
-    nameJa: 'もふもふえん',
-    nameEn: '[ユニット]',
+    name: 'もふもふえん',
+    nameSuppl: '[ユニット]',
     nameKana: 'もふもふえん',
     brand: 'SideM',
     color: {
@@ -2681,8 +2681,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rio_momose_millionlive',
-    nameJa: '百瀬莉緒',
-    nameEn: 'Rio Momose',
+    name: '百瀬莉緒',
+    nameSuppl: 'Rio Momose',
     nameKana: 'ももせりお',
     brand: 'MillionLive',
     color: {
@@ -2694,8 +2694,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nono_morikubo_cinderellagirls',
-    nameJa: '森久保乃々',
-    nameEn: 'Nono Morikubo',
+    name: '森久保乃々',
+    nameSuppl: 'Nono Morikubo',
     nameKana: 'もりくぼのの',
     brand: 'CinderellaGirls',
     color: {
@@ -2707,8 +2707,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'rinze_morino_shinycolors',
-    nameJa: '杜野凛世',
-    nameEn: 'Rinze Morino',
+    name: '杜野凛世',
+    nameSuppl: 'Rinze Morino',
     nameKana: 'もりのりんぜ',
     brand: 'ShinyColors',
     color: {
@@ -2720,8 +2720,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kirari_moroboshi_cinderellagirls',
-    nameJa: '諸星きらり',
-    nameEn: 'Kirari Moroboshi',
+    name: '諸星きらり',
+    nameSuppl: 'Kirari Moroboshi',
     nameKana: 'もろぼしきらり',
     brand: 'CinderellaGirls',
     color: {
@@ -2733,8 +2733,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kana_yabuki_millionlive',
-    nameJa: '矢吹可奈',
-    nameEn: 'Kana Yabuki',
+    name: '矢吹可奈',
+    nameSuppl: 'Kana Yabuki',
     nameKana: 'やぶきかな',
     brand: 'MillionLive',
     color: {
@@ -2746,8 +2746,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'jiro_yamashita_sidem',
-    nameJa: '山下次郎',
-    nameEn: 'Jiro Yamashita',
+    name: '山下次郎',
+    nameSuppl: 'Jiro Yamashita',
     nameKana: 'やましたじろう',
     brand: 'SideM',
     color: {
@@ -2759,8 +2759,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'aki_yamato_cinderellagirls',
-    nameJa: '大和亜季',
-    nameEn: 'Aki Yamato',
+    name: '大和亜季',
+    nameSuppl: 'Aki Yamato',
     nameKana: 'やまとあき',
     brand: 'CinderellaGirls',
     color: {
@@ -2772,8 +2772,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'haru_yuuki_cinderellagirls',
-    nameJa: '結城晴',
-    nameEn: 'Haru Yuuki',
+    name: '結城晴',
+    nameSuppl: 'Haru Yuuki',
     nameKana: 'ゆうきはる',
     brand: 'CinderellaGirls',
     color: {
@@ -2785,8 +2785,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kiriko_yukoku_shinycolors',
-    nameJa: '幽谷霧子',
-    nameEn: 'Kiriko Yukoku',
+    name: '幽谷霧子',
+    nameSuppl: 'Kiriko Yukoku',
     nameKana: 'ゆうこくきりこ',
     brand: 'ShinyColors',
     color: {
@@ -2798,8 +2798,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'nao_yokoyama_millionlive',
-    nameJa: '横山奈緒',
-    nameEn: 'Nao Yokoyama',
+    name: '横山奈緒',
+    nameSuppl: 'Nao Yokoyama',
     nameKana: 'よこやまなお',
     brand: 'MillionLive',
     color: {
@@ -2811,8 +2811,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'yoshino_yorita_cinderellagirls',
-    nameJa: '依田芳乃',
-    nameEn: 'Yoshino Yorita',
+    name: '依田芳乃',
+    nameSuppl: 'Yoshino Yorita',
     nameKana: 'よりたよしの',
     brand: 'CinderellaGirls',
     color: {
@@ -2824,8 +2824,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'kaoru_ryuzaki_cinderellagirls',
-    nameJa: '龍崎薫',
-    nameEn: 'Kaoru Ryuzaki',
+    name: '龍崎薫',
+    nameSuppl: 'Kaoru Ryuzaki',
     nameKana: 'りゅうざきかおる',
     brand: 'CinderellaGirls',
     color: {
@@ -2837,8 +2837,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'legenders_sidem',
-    nameJa: 'Legenders',
-    nameEn: '[ユニット]',
+    name: 'Legenders',
+    nameSuppl: '[ユニット]',
     nameKana: 'れじぇんだーず',
     brand: 'SideM',
     color: {
@@ -2850,8 +2850,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'roco_millionlive',
-    nameJa: 'ロコ',
-    nameEn: 'Roco',
+    name: 'ロコ',
+    nameSuppl: 'Roco',
     nameKana: 'ろこ',
     brand: 'MillionLive',
     color: {
@@ -2863,8 +2863,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'haruna_wakazato_sidem',
-    nameJa: '若里春名',
-    nameEn: 'Haruna Wakazato',
+    name: '若里春名',
+    nameSuppl: 'Haruna Wakazato',
     nameKana: 'わかざとはるな',
     brand: 'SideM',
     color: {
@@ -2876,8 +2876,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'tamami_wakiyama_cinderellagirls',
-    nameJa: '脇山珠美',
-    nameEn: 'Tamami Wakiyama',
+    name: '脇山珠美',
+    nameSuppl: 'Tamami Wakiyama',
     nameKana: 'わきやまたまみ',
     brand: 'CinderellaGirls',
     color: {
@@ -2889,8 +2889,8 @@ export const colors: ColorDetail[] = [
   },
   {
     id: 'minori_watanabe_sidem',
-    nameJa: '渡辺みのり',
-    nameEn: 'Minori Watanabe',
+    name: '渡辺みのり',
+    nameSuppl: 'Minori Watanabe',
     nameKana: 'わたなべみのり',
     brand: 'SideM',
     color: {

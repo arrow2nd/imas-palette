@@ -4,7 +4,7 @@ import NameLabel from './name'
 
 describe('NameLabel', () => {
   test('ラベルが正しく表示されるか', () => {
-    const { getByText } = render(<NameLabel nameJa="テスト" nameEn="test" />)
+    const { getByText } = render(<NameLabel name="テスト" nameSuppl="test" />)
 
     expect(getByText('テスト')).toBeTruthy()
     expect(getByText('test')).toBeTruthy()

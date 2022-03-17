@@ -12,13 +12,9 @@ export const useColorData = (
   const filterFromKeepId = ({ id }: ColorDetail) => keepIdList.includes(id)
 
   // 検索条件で絞り込む
-  const filterFromCriteria = ({
-    brand: brandName,
-    nameJa,
-    nameKana
-  }: ColorDetail) =>
-    (brand === '' || brand === brandName) &&
-    (nameJa.includes(name) || nameKana.includes(name))
+  const filterFromCriteria = (e: ColorDetail) =>
+    (brand === '' || brand === e.brand) &&
+    (e.name.includes(name) || e.nameKana.includes(name))
 
   const results = colors.filter(
     brand === 'keep' ? filterFromKeepId : filterFromCriteria

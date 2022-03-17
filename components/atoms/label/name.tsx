@@ -1,13 +1,13 @@
 type Props = {
   className?: string
-  nameJa: string
-  nameEn: string
+  name: string
+  nameSuppl: string
 }
 
-const NameLabel = ({ className = '', nameJa, nameEn }: Props) => (
+const NameLabel = ({ className = '', name, nameSuppl }: Props) => (
   <div className={className} data-testid="name-label">
-    <p className="text-xl">{nameJa}</p>
-    <p className="text-sm tracking-wide">{nameEn}</p>
+    <p className="text-xl">{name}</p>
+    <p className="text-sm tracking-wide">{nameSuppl}</p>
   </div>
 )
 

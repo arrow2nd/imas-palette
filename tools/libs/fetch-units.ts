@@ -37,8 +37,8 @@ export async function fetchUnits() {
 
       return {
         id,
-        nameJa: name.value,
-        nameEn: '[ユニット]',
+        name: name.value,
+        nameSuppl: '[ユニット]',
         nameKana: nameKana.value,
         brand: brand.value,
         color: createColor(hex.value)

@@ -25,7 +25,7 @@ describe('useColorData', () => {
         useColorData(brand, name, similarColor, keeps)
       )
 
-      expect(result.current.map((e) => e.nameJa)).toEqual(expected)
+      expect(result.current.map((e) => e.name)).toEqual(expected)
     }
   )
 })
