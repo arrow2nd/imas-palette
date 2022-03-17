@@ -8,8 +8,8 @@
     "test": "jest",
     "test:e2e": "playwright test",
     "fmt": "prettier --write .",
-    "fmt:data": "prettier --write ./data/idols.ts",
-    "create:data": "yarn ts-node ./tools/create-data.ts"
+    "fmt:colors": "prettier --write ./data/colors.ts",
+    "create:colors": "yarn ts-node ./tools/create-colors.ts"
   },
   "dependencies": {
     "next": "12.1.0",

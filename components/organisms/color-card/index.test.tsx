@@ -1,11 +1,11 @@
 import { act, fireEvent, render } from '@testing-library/react'
 
-import { Idol } from 'types/idol'
+import { ColorDetail } from 'types/color-detail'
 
 import CardDefault from './index'
 
 describe('CardDefault', () => {
-  const idol: Idol = {
+  const idol: ColorDetail = {
     id: 'yumi_aiba_cinderellagirls',
     nameJa: '相葉夕美',
     nameEn: 'Yumi Aiba',

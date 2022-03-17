@@ -7,14 +7,16 @@ import { fetchUnits } from './libs/fetch-units'
   console.log('[ start ]')
 
   const data = await Promise.all([fetchIdols(), fetchUnits()])
+
+  // 50音順にソート
   const results = data
     .flat()
     .sort((a, b) => a.nameKana.localeCompare(b.nameKana))
 
-  const json = JSON.stringify(results, null, '  ')
-  const exportText = `import { Idol } from 'types/idol'\n\nexport const idols: Idol[] = ${json}`
+  const json = JSON.stringify(results, null, '\t')
+  const exportText = `import { ColorDetail } from 'types/color-detail'\n\nexport const colors: ColorDetail[] = ${json}`
 
-  fs.writeFileSync('./data/idols.ts', exportText)
+  fs.writeFileSync('./data/colors.ts', exportText)
 
   console.log('[ success! ]')
 })()

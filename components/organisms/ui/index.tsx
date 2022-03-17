@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 
-import { useIdolData } from 'hooks/useIdolData'
+import { useColorData } from 'hooks/useColorData'
 import { useKeepId } from 'hooks/useKeepId'
 
 import MoveTopButton from '../button/move-top'
@@ -13,7 +13,7 @@ const UI = () => {
   const [similarColor, setSimilarColor] = useState('')
   const [keepIdList, handleAddKeepId, handleRemoveKeepId] = useKeepId()
 
-  const searchResults = useIdolData(brand, name, similarColor, keepIdList)
+  const searchResults = useColorData(brand, name, similarColor, keepIdList)
 
   const handleChangebrand = useCallback((brand: string) => setBrand(brand), [])
   const handleChangeName = useCallback((name: string) => setName(name), [])

@@ -92,7 +92,7 @@ exports[`Search 見た目が変化していないか 1`] = `
     >
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-gray-600"
-        data-testid="colorlist-button-0"
+        data-testid="search-color-button-0"
       >
         <div
           class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
@@ -101,7 +101,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-1"
+        data-testid="search-color-button-1"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -111,7 +111,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-2"
+        data-testid="search-color-button-2"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -121,7 +121,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-3"
+        data-testid="search-color-button-3"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -131,7 +131,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-4"
+        data-testid="search-color-button-4"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -141,7 +141,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-5"
+        data-testid="search-color-button-5"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -151,7 +151,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-6"
+        data-testid="search-color-button-6"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -161,7 +161,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-7"
+        data-testid="search-color-button-7"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -171,7 +171,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-8"
+        data-testid="search-color-button-8"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -181,7 +181,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-9"
+        data-testid="search-color-button-9"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"
@@ -191,7 +191,7 @@ exports[`Search 見た目が変化していないか 1`] = `
       </div>
       <div
         class="mx-1 p-0 rounded-full cursor-pointer border-2 border-transparent"
-        data-testid="colorlist-button-10"
+        data-testid="search-color-button-10"
       >
         <div
           class="w-8 h-8 rounded-full border-2 false"

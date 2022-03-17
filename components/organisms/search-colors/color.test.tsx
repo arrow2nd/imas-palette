@@ -43,12 +43,12 @@ describe('Color', () => {
         color={{ name: '', hex: '' }}
         isSelected={false}
         onClick={mock}
-        dataTestId="colorlist-button"
+        dataTestId="search-color-button"
       />
     )
 
     act(() => {
-      fireEvent.click(getByTestId('colorlist-button'))
+      fireEvent.click(getByTestId('search-color-button'))
     })
 
     expect(mock).toBeCalled()

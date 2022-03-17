@@ -32,10 +32,10 @@ jobs:
         run: yarn install --immutable
 
       - name: Recreate color data
-        run: yarn create:data
+        run: yarn create:colors
 
       - name: Format data
-        run: yarn fmt:data
+        run: yarn fmt:colors
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4

@@ -1,22 +1,26 @@
-import { idols } from 'data/idols'
+import { colors } from 'data/colors'
 
-import { Idol } from 'types/idol'
+import { ColorDetail } from 'types/color-detail'
 
-export const useIdolData = (
+export const useColorData = (
   brand: string,
   name: string,
   similarColor: string,
   keepIdList: string[]
-): Idol[] => {
+): ColorDetail[] => {
   // keep済みカラーIDで絞り込む
-  const filterFromKeepId = ({ id }: Idol) => keepIdList.includes(id)
+  const filterFromKeepId = ({ id }: ColorDetail) => keepIdList.includes(id)
 
   // 検索条件で絞り込む
-  const filterFromCriteria = ({ brand: brandName, nameJa, nameKana }: Idol) =>
+  const filterFromCriteria = ({
+    brand: brandName,
+    nameJa,
+    nameKana
+  }: ColorDetail) =>
     (brand === '' || brand === brandName) &&
     (nameJa.includes(name) || nameKana.includes(name))
 
-  const results = idols.filter(
+  const results = colors.filter(
     brand === 'keep' ? filterFromKeepId : filterFromCriteria
   )
 

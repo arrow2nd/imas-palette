@@ -1,14 +1,14 @@
 import { renderHook } from '@testing-library/react-hooks'
 
-import { idols } from 'data/idols'
+import { colors } from 'data/colors'
 
-import { useIdolData } from './useIdolData'
+import { useColorData } from './useColorData'
 
-describe('useIdolData', () => {
+describe('useColorData', () => {
   test('全てのブランドで検索できるか', () => {
-    const { result } = renderHook(() => useIdolData('', '', '', []))
+    const { result } = renderHook(() => useColorData('', '', '', []))
 
-    expect(result.current).toHaveLength(idols.length)
+    expect(result.current).toHaveLength(colors.length)
   })
 
   test.each`
@@ -22,7 +22,7 @@ describe('useIdolData', () => {
     '$testNameからの検索ができるか',
     ({ brand, name, similarColor, keeps, expected }) => {
       const { result } = renderHook(() =>
-        useIdolData(brand, name, similarColor, keeps)
+        useColorData(brand, name, similarColor, keeps)
       )
 
       expect(result.current.map((e) => e.nameJa)).toEqual(expected)

@@ -1,17 +1,17 @@
 import convert from 'color-convert'
 
-import { IdolColor } from 'types/idol-color'
+import { Color } from 'types/color'
 
-import { colors } from '../../data/colors'
+import { searchColors } from '../../data/search-colors'
 
 const ColorClassifier = require('color-classifier')
 
 const colorClassifier = new ColorClassifier(
-  colors.filter((e) => e.hex !== '').map((e) => e.hex),
+  searchColors.filter((e) => e.hex !== '').map((e) => e.hex),
   ColorClassifier.AlgorithmTypes.HSV
 )
 
-export function createColorData(hex: string): IdolColor {
+export function createColor(hex: string): Color {
   const rgb = convert.hex.rgb(hex).join(', ')
   const hsv = convert.hex.hsv(hex).join(', ')
 

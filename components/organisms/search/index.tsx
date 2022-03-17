@@ -6,7 +6,7 @@ import Select from 'components/atoms/select'
 
 import { brands } from 'data/brands'
 
-import ColorList from '../color-list'
+import SearchColors from '../search-colors'
 
 type Props = {
   className?: string
@@ -72,7 +72,7 @@ const Search = ({
           検索
         </Button>
       </div>
-      <ColorList
+      <SearchColors
         current={currentSimilarColor}
         onChange={onChangeSimilarColor}
       />

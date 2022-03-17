@@ -1,6 +1,6 @@
-import { Idol } from 'types/idol'
+import { ColorDetail } from 'types/color-detail'
 
-import { createColorData } from './color'
+import { createColor } from './create-color'
 import { fetchIdolData } from './fetch'
 
 /**
@@ -38,18 +38,22 @@ ORDER BY ?nameKana
 export async function fetchIdols() {
   const data = await fetchIdolData(query)
 
-  const results = data.map(({ nameJa, nameEn, nameKana, brand, hex }): Idol => {
-    const id = `${nameEn.value}_${brand.value}`.toLowerCase().replace(/ /g, '_')
+  const results = data.map(
+    ({ nameJa, nameEn, nameKana, brand, hex }): ColorDetail => {
+      const id = `${nameEn.value}_${brand.value}`
+        .toLowerCase()
+        .replace(/ /g, '_')
 
-    return {
-      id,
-      nameJa: nameJa.value,
-      nameEn: nameEn.value,
-      nameKana: nameKana.value,
-      brand: brand.value,
-      color: createColorData(hex.value)
+      return {
+        id,
+        nameJa: nameJa.value,
+        nameEn: nameEn.value,
+        nameKana: nameKana.value,
+        brand: brand.value,
+        color: createColor(hex.value)
+      }
     }
-  })
+  )
 
   return results
 }

@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 
-import { Idol } from 'types/idol'
+import { ColorDetail } from 'types/color-detail'
 
 import ColorCards from './index'
 
@@ -18,7 +18,7 @@ describe('ColorCards', () => {
   })
 
   test('見た目が変化していないか', () => {
-    const idols: Idol[] = [
+    const colorDetails: ColorDetail[] = [
       {
         id: 'yuika_mitsumine_shinycolors',
         nameJa: '三峰結華',
@@ -60,7 +60,7 @@ describe('ColorCards', () => {
       }
     ]
 
-    const { container } = render(<ColorCards {...props} items={idols} />)
+    const { container } = render(<ColorCards {...props} items={colorDetails} />)
 
     expect(container).toMatchSnapshot()
   })
