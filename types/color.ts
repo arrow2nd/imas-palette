@@ -1,4 +1,6 @@
 export type Color = {
-  name: string
+  rgb: string
+  hsv: string
   hex: string
+  similar: string
 }

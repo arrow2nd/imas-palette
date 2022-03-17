@@ -1,6 +1,6 @@
 # imas-palette 🎨
 
-THE IDOLM@STER シリーズに登場するアイドルの個人カラーが検索できる Web アプリ
+THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラーが検索できる Web アプリ
 
 [![update-data](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml)
 [![test](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml)
@@ -12,9 +12,9 @@ THE IDOLM@STER シリーズに登場するアイドルの個人カラーが検�
 
 ## できること
 
-- アイドル名・色合いから個人カラーを検索
-- RGB / HSV / HEX 形式でカラーをコピー
-- よく使う・お気に入りのカラーを Keep
+- アイドル名や色合いからイメージカラーを検索
+- RGB / HSV / HEX 形式でカラーコードをコピー
+- よく使う・お気に入りのカラーを Keep する
 
 ## Thanks!
 

@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react'
 
-import { useIdolData } from 'hooks/useIdolData'
+import { useColorData } from 'hooks/useColorData'
 import { useKeepId } from 'hooks/useKeepId'
 
 import MoveTopButton from '../button/move-top'
@@ -8,14 +8,14 @@ import ColorCards from '../color-cards'
 import Search from '../search'
 
 const UI = () => {
-  const [bland, setBland] = useState('')
+  const [brand, setBrand] = useState('')
   const [name, setName] = useState('')
   const [similarColor, setSimilarColor] = useState('')
   const [keepIdList, handleAddKeepId, handleRemoveKeepId] = useKeepId()
 
-  const searchResults = useIdolData(bland, name, similarColor, keepIdList)
+  const searchResults = useColorData(brand, name, similarColor, keepIdList)
 
-  const handleChangeBland = useCallback((bland: string) => setBland(bland), [])
+  const handleChangebrand = useCallback((brand: string) => setBrand(brand), [])
   const handleChangeName = useCallback((name: string) => setName(name), [])
   const handleChangeSimilarColor = useCallback(
     (hex: string) => setSimilarColor(hex),
@@ -26,7 +26,7 @@ const UI = () => {
     <div className="flex-1 mt-12">
       <Search
         currentSimilarColor={similarColor}
-        onChangeBland={handleChangeBland}
+        onChangeBrand={handleChangebrand}
         onChangeName={handleChangeName}
         onChangeSimilarColor={handleChangeSimilarColor}
       />

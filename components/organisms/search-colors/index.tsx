@@ -1,4 +1,4 @@
-import { colors } from 'data/colors'
+import { searchColors } from 'data/search-colors'
 
 import Color from './color'
 
@@ -7,13 +7,13 @@ type Props = {
   onChange: (hex: string) => void
 }
 
-const ColorList = ({ current, onChange }: Props): JSX.Element => {
-  const items = colors.map((e, i) => (
+const SearchColors = ({ current, onChange }: Props): JSX.Element => {
+  const items = searchColors.map((e, i) => (
     <Color
       color={e}
       isSelected={e.hex === current}
       onClick={onChange}
-      dataTestId={`colorlist-button-${i}`}
+      dataTestId={`search-color-button-${i}`}
       key={e.hex}
     />
   ))
@@ -25,4 +25,4 @@ const ColorList = ({ current, onChange }: Props): JSX.Element => {
   )
 }
 
-export default ColorList
+export default SearchColors

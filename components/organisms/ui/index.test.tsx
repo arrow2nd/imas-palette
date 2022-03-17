@@ -57,7 +57,7 @@ describe('UI', () => {
 
       fireEvent.change(textbox, { target: { value: '菊' } })
       fireEvent.keyDown(textbox, keyDownEnter)
-      fireEvent.click(getByTestId('colorlist-button-8'))
+      fireEvent.click(getByTestId('search-color-button-8'))
     })
 
     expect(getByText('白菊ほたる')).toBeTruthy()

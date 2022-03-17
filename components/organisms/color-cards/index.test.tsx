@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 
-import { Idol } from 'types/idol'
+import { ColorDetail } from 'types/color-detail'
 
 import ColorCards from './index'
 
@@ -18,13 +18,13 @@ describe('ColorCards', () => {
   })
 
   test('見た目が変化していないか', () => {
-    const idols: Idol[] = [
+    const colorDetails: ColorDetail[] = [
       {
         id: 'yuika_mitsumine_shinycolors',
         nameJa: '三峰結華',
         nameEn: 'Yuika Mitsumine',
         nameKana: 'みつみねゆいか',
-        bland: 'ShinyColors',
+        brand: 'ShinyColors',
         color: {
           rgb: 'rgb(59, 145, 196)',
           hsv: 'hsv(202, 70, 77)',
@@ -37,7 +37,7 @@ describe('ColorCards', () => {
         nameJa: '水瀬伊織',
         nameEn: 'Iori Minase',
         nameKana: 'みなせいおり',
-        bland: '765AS',
+        brand: '765AS',
         color: {
           rgb: 'rgb(253, 153, 225)',
           hsv: 'hsv(317, 40, 99)',
@@ -50,7 +50,7 @@ describe('ColorCards', () => {
         nameJa: '三船美優',
         nameEn: 'Miyu Mifune',
         nameKana: 'みふねみゆ',
-        bland: 'CinderellaGirls',
+        brand: 'CinderellaGirls',
         color: {
           rgb: 'rgb(1, 170, 165)',
           hsv: 'hsv(178, 99, 67)',
@@ -60,7 +60,7 @@ describe('ColorCards', () => {
       }
     ]
 
-    const { container } = render(<ColorCards {...props} items={idols} />)
+    const { container } = render(<ColorCards {...props} items={colorDetails} />)
 
     expect(container).toMatchSnapshot()
   })

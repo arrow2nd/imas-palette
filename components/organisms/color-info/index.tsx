@@ -1,9 +1,9 @@
-import { IdolColor } from 'types/idol-color'
+import { Color } from 'types/color'
 
 import ColorValue from './value'
 
 type Props = {
-  color: IdolColor
+  color: Color
 }
 
 const ColorInfo = ({ color }: Props) => (

@@ -4,14 +4,14 @@ import Button from 'components/atoms/button'
 import Input from 'components/atoms/input'
 import Select from 'components/atoms/select'
 
-import { blands } from 'data/blands'
+import { brands } from 'data/brands'
 
-import ColorList from '../color-list'
+import SearchColors from '../search-colors'
 
 type Props = {
   className?: string
   currentSimilarColor: string
-  onChangeBland: (bland: string) => void
+  onChangeBrand: (brand: string) => void
   onChangeName: (name: string) => void
   onChangeSimilarColor: (hex: string) => void
 }
@@ -19,7 +19,7 @@ type Props = {
 const Search = ({
   className = '',
   currentSimilarColor,
-  onChangeBland,
+  onChangeBrand: onChangebrand,
   onChangeName,
   onChangeSimilarColor
 }: Props) => {
@@ -27,7 +27,7 @@ const Search = ({
 
   const options = useMemo(
     () =>
-      blands.map((e) => (
+      brands.map((e) => (
         <option className="font-sans" key={e.value} value={e.value}>
           {e.title}
         </option>
@@ -35,11 +35,11 @@ const Search = ({
     []
   )
 
-  const handleChangeBland = (bland: string) => {
+  const handleChangebrand = (brand: string) => {
     inputRef.current.value = ''
     onChangeName('')
     onChangeSimilarColor('')
-    onChangeBland(bland)
+    onChangebrand(brand)
   }
 
   const handleSubmitName = () => {
@@ -52,14 +52,14 @@ const Search = ({
       <div className="flex flex-wrap justify-center flex-col md:flex-row">
         <Select
           className="w-full md:w-64"
-          onChange={handleChangeBland}
+          onChange={handleChangebrand}
           dataTestId="search-select"
         >
           {options}
         </Select>
         <Input
           className="mt-3 md:mt-0 ml-0 md:ml-5 w-full md:w-64"
-          placeholder="アイドル名（ひらがな可）"
+          placeholder="アイドル・ユニット名"
           ref={inputRef}
           onSubmit={handleSubmitName}
           dataTestId="search-textbox"
@@ -72,7 +72,7 @@ const Search = ({
           検索
         </Button>
       </div>
-      <ColorList
+      <SearchColors
         current={currentSimilarColor}
         onChange={onChangeSimilarColor}
       />

@@ -1,9 +1,9 @@
 import ColorSampleCircle from 'components/atoms/color-sample/circle'
 
-import { Color as ColorType } from 'types/color'
+import { SearchColor } from 'types/search-color'
 
 type Props = {
-  color: ColorType
+  color: SearchColor
   isSelected: boolean
   onClick: (hex: string) => void
   dataTestId?: string

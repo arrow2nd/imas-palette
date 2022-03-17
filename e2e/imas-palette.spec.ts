@@ -21,7 +21,7 @@ test('検索して画面を記録', async ({ contextOptions, browser }, { projec
   await page.click('[data-testid="search-button"]')
 
   // 色味で絞り込み
-  await page.click('[data-testid="colorlist-button-1"]')
+  await page.click('[data-testid="search-color-button-1"]')
 
   await expect(page.locator('[data-testid="name-label"] > p')).toHaveText([
     '天海春香',

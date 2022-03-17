@@ -1,7 +1,7 @@
-import { Idol } from 'types/idol'
+import { ColorDetail } from 'types/color-detail'
 
 export type Props = {
-  data: Idol
+  data: ColorDetail
   isKeep: boolean
   onClickKeep: () => void
   onClickRemove: () => void
