@@ -8,7 +8,7 @@
     "test": "jest",
     "test:e2e": "playwright test",
     "fmt": "prettier --write .",
-    "fmt:data": "prettier --write ./data/idol.ts",
+    "fmt:data": "prettier --write ./data/idols.ts",
     "create:data": "yarn ts-node ./tools/create-data.ts"
   },
   "dependencies": {
