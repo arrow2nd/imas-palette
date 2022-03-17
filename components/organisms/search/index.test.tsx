@@ -7,7 +7,7 @@ describe('Search', () => {
     const { container } = render(
       <Search
         currentSimilarColor=""
-        onChangeBland={jest.fn()}
+        onChangeBrand={jest.fn()}
         onChangeName={jest.fn()}
         onChangeSimilarColor={jest.fn()}
       />
@@ -21,7 +21,7 @@ describe('Search', () => {
     const { getByTestId } = render(
       <Search
         currentSimilarColor=""
-        onChangeBland={jest.fn()}
+        onChangeBrand={jest.fn()}
         onChangeName={mock}
         onChangeSimilarColor={jest.fn()}
       />

@@ -1,6 +1,6 @@
 import { Option } from 'types/option'
 
-export const blands: Option[] = [
+export const brands: Option[] = [
   {
     title: '全てのブランド',
     value: ''

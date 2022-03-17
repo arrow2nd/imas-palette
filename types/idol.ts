@@ -5,6 +5,6 @@ export type Idol = {
   nameJa: string
   nameEn: string
   nameKana: string
-  bland: string
+  brand: string
   color: IdolColor
 }

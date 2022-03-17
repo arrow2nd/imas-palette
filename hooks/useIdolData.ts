@@ -3,7 +3,7 @@ import { idols } from 'data/idols'
 import { Idol } from 'types/idol'
 
 export const useIdolData = (
-  bland: string,
+  brand: string,
   name: string,
   similarColor: string,
   keepIdList: string[]
@@ -12,12 +12,12 @@ export const useIdolData = (
   const filterFromKeepId = ({ id }: Idol) => keepIdList.includes(id)
 
   // 検索条件で絞り込む
-  const filterFromCriteria = ({ bland: blandName, nameJa, nameKana }: Idol) =>
-    (bland === '' || bland === blandName) &&
+  const filterFromCriteria = ({ brand: brandName, nameJa, nameKana }: Idol) =>
+    (brand === '' || brand === brandName) &&
     (nameJa.includes(name) || nameKana.includes(name))
 
   const results = idols.filter(
-    bland === 'keep' ? filterFromKeepId : filterFromCriteria
+    brand === 'keep' ? filterFromKeepId : filterFromCriteria
   )
 
   // 色味の指定がある場合さらに絞り込む
