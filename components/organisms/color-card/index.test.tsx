@@ -7,8 +7,8 @@ import CardDefault from './index'
 describe('CardDefault', () => {
   const idol: ColorDetail = {
     id: 'yumi_aiba_cinderellagirls',
-    nameJa: '相葉夕美',
-    nameEn: 'Yumi Aiba',
+    name: '相葉夕美',
+    nameSuppl: 'Yumi Aiba',
     nameKana: 'あいばゆみ',
     brand: 'CinderellaGirls',
     color: {

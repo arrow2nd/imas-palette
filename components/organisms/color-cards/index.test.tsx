@@ -21,8 +21,8 @@ describe('ColorCards', () => {
     const colorDetails: ColorDetail[] = [
       {
         id: 'yuika_mitsumine_shinycolors',
-        nameJa: '三峰結華',
-        nameEn: 'Yuika Mitsumine',
+        name: '三峰結華',
+        nameSuppl: 'Yuika Mitsumine',
         nameKana: 'みつみねゆいか',
         brand: 'ShinyColors',
         color: {
@@ -34,8 +34,8 @@ describe('ColorCards', () => {
       },
       {
         id: 'iori_minase_765as',
-        nameJa: '水瀬伊織',
-        nameEn: 'Iori Minase',
+        name: '水瀬伊織',
+        nameSuppl: 'Iori Minase',
         nameKana: 'みなせいおり',
         brand: '765AS',
         color: {
@@ -47,8 +47,8 @@ describe('ColorCards', () => {
       },
       {
         id: 'miyu_mifune_cinderellagirls',
-        nameJa: '三船美優',
-        nameEn: 'Miyu Mifune',
+        name: '三船美優',
+        nameSuppl: 'Miyu Mifune',
         nameKana: 'みふねみゆ',
         brand: 'CinderellaGirls',
         color: {

@@ -2,8 +2,8 @@ import { Color } from './color'
 
 export type ColorDetail = {
   id: string
-  nameJa: string
-  nameEn: string
+  name: string
+  nameSuppl: string
   nameKana: string
   brand: string
   color: Color

@@ -14,8 +14,8 @@ const CardMobile = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
   <Card dataTestId="color-card">
     <div className="flex flex-row items-center justify-between">
       <CardTitle
-        nameJa={data.nameJa}
-        nameEn={data.nameEn}
+        name={data.name}
+        nameSuppl={data.nameSuppl}
         hex={data.color.hex}
       />
     </div>

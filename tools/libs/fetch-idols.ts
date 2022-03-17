@@ -46,8 +46,8 @@ export async function fetchIdols() {
 
       return {
         id,
-        nameJa: nameJa.value,
-        nameEn: nameEn.value,
+        name: nameJa.value,
+        nameSuppl: nameEn.value,
         nameKana: nameKana.value,
         brand: brand.value,
         color: createColor(hex.value)
