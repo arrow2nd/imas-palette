@@ -6,37 +6,33 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
     class="flex flex-row flex-wrap justify-center "
   >
     <div
-      class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+      class="w-96 m-2 p-6 rounded-lg shadow-md bg-white h-64"
       data-testid="color-card"
     >
       <div
-        class="flex flex-row items-center justify-between"
+        class="flex flex-row items-center"
       >
         <div
-          class="flex flex-row items-center"
+          class="flex-none w-16 h-16 rounded-xl border border-gray-200"
+          style="background-color: rgb(59, 145, 196);"
+        />
+        <div
+          class="flex-1 ml-6"
+          data-testid="name-label"
         >
-          <div
-            class="w-16 h-16 rounded-xl border border-gray-200"
-            style="background-color: rgb(59, 145, 196);"
-          />
-          <div
-            class="ml-6"
-            data-testid="name-label"
+          <p
+            class="text-lg leading-6"
           >
-            <p
-              class="text-xl"
-            >
-              三峰結華
-            </p>
-            <p
-              class="text-sm tracking-wide"
-            >
-              Yuika Mitsumine
-            </p>
-          </div>
+            三峰結華
+          </p>
+          <p
+            class="text-sm tracking-wide"
+          >
+            Yuika Mitsumine
+          </p>
         </div>
         <button
-          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm ml-4"
           data-testid="keep-button"
         >
           <svg
@@ -65,177 +61,164 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
         class="mt-6"
       >
         <div
-          class="flex flex-row items-center justify-between "
+          class="flex flex-row items-center "
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             RGB
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            rgb(59, 145, 196)
+            <span
+              class="ml-2"
             >
-              rgb(59, 145, 196)
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
         <div
-          class="flex flex-row items-center justify-between mt-4"
+          class="flex flex-row items-center mt-4"
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             HSV
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            hsv(202, 70, 77)
+            <span
+              class="ml-2"
             >
-              hsv(202, 70, 77)
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
         <div
-          class="flex flex-row items-center justify-between mt-4"
+          class="flex flex-row items-center mt-4"
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             HEX
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            #3B91C4
+            <span
+              class="ml-2"
             >
-              #3B91C4
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
       </div>
     </div>
     <div
-      class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+      class="w-96 m-2 p-6 rounded-lg shadow-md bg-white h-64"
       data-testid="color-card"
     >
       <div
-        class="flex flex-row items-center justify-between"
+        class="flex flex-row items-center"
       >
         <div
-          class="flex flex-row items-center"
+          class="flex-none w-16 h-16 rounded-xl border border-gray-200"
+          style="background-color: rgb(253, 153, 225);"
+        />
+        <div
+          class="flex-1 ml-6"
+          data-testid="name-label"
         >
-          <div
-            class="w-16 h-16 rounded-xl border border-gray-200"
-            style="background-color: rgb(253, 153, 225);"
-          />
-          <div
-            class="ml-6"
-            data-testid="name-label"
+          <p
+            class="text-lg leading-6"
           >
-            <p
-              class="text-xl"
-            >
-              水瀬伊織
-            </p>
-            <p
-              class="text-sm tracking-wide"
-            >
-              Iori Minase
-            </p>
-          </div>
+            水瀬伊織
+          </p>
+          <p
+            class="text-sm tracking-wide"
+          >
+            Iori Minase
+          </p>
         </div>
         <button
-          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm ml-4"
           data-testid="keep-button"
         >
           <svg
@@ -264,177 +247,164 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
         class="mt-6"
       >
         <div
-          class="flex flex-row items-center justify-between "
+          class="flex flex-row items-center "
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             RGB
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            rgb(253, 153, 225)
+            <span
+              class="ml-2"
             >
-              rgb(253, 153, 225)
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
         <div
-          class="flex flex-row items-center justify-between mt-4"
+          class="flex flex-row items-center mt-4"
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             HSV
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            hsv(317, 40, 99)
+            <span
+              class="ml-2"
             >
-              hsv(317, 40, 99)
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
         <div
-          class="flex flex-row items-center justify-between mt-4"
+          class="flex flex-row items-center mt-4"
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             HEX
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            #FD99E1
+            <span
+              class="ml-2"
             >
-              #FD99E1
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
       </div>
     </div>
     <div
-      class="w-96 m-2 p-6 rounded-lg shadow-md bg-white"
+      class="w-96 m-2 p-6 rounded-lg shadow-md bg-white h-64"
       data-testid="color-card"
     >
       <div
-        class="flex flex-row items-center justify-between"
+        class="flex flex-row items-center"
       >
         <div
-          class="flex flex-row items-center"
+          class="flex-none w-16 h-16 rounded-xl border border-gray-200"
+          style="background-color: rgb(1, 170, 165);"
+        />
+        <div
+          class="flex-1 ml-6"
+          data-testid="name-label"
         >
-          <div
-            class="w-16 h-16 rounded-xl border border-gray-200"
-            style="background-color: rgb(1, 170, 165);"
-          />
-          <div
-            class="ml-6"
-            data-testid="name-label"
+          <p
+            class="text-lg leading-6"
           >
-            <p
-              class="text-xl"
-            >
-              三船美優
-            </p>
-            <p
-              class="text-sm tracking-wide"
-            >
-              Miyu Mifune
-            </p>
-          </div>
+            三船美優
+          </p>
+          <p
+            class="text-sm tracking-wide"
+          >
+            Miyu Mifune
+          </p>
         </div>
         <button
-          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm "
+          class="px-3 py-1 text-center items-center border border-natural-black text-white hover:text-natural-black bg-natural-black hover:bg-natural-white rounded-lg transition-colors inline-flex text-sm ml-4"
           data-testid="keep-button"
         >
           <svg
@@ -463,142 +433,133 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
         class="mt-6"
       >
         <div
-          class="flex flex-row items-center justify-between "
+          class="flex flex-row items-center "
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             RGB
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            rgb(1, 170, 165)
+            <span
+              class="ml-2"
             >
-              rgb(1, 170, 165)
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
         <div
-          class="flex flex-row items-center justify-between mt-4"
+          class="flex flex-row items-center mt-4"
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             HSV
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            hsv(178, 99, 67)
+            <span
+              class="ml-2"
             >
-              hsv(178, 99, 67)
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
         <div
-          class="flex flex-row items-center justify-between mt-4"
+          class="flex flex-row items-center mt-4"
         >
-          <label
-            class="w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
+          <div
+            class="flex-none w-16 py-1 text-center text-sm tracking-wide rounded-lg bg-gray-200"
           >
             HEX
-          </label>
-          <span
+          </div>
+          <div
+            class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
+            title="クリックでコピー"
           >
-            <label
-              class="flex flex-row items-center text-sm tracking-wide cursor-pointer"
-              data-tip="クリックでコピー"
+            #01AAA5
+            <span
+              class="ml-2"
             >
-              #01AAA5
-              <span
-                class="ml-2"
+              <svg
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  fill="none"
-                  height="1em"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  viewBox="0 0 24 24"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <rect
-                    height="13"
-                    rx="2"
-                    ry="2"
-                    width="13"
-                    x="9"
-                    y="9"
-                  />
-                  <path
-                    d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
-                  />
-                </svg>
-              </span>
-            </label>
-          </span>
+                <rect
+                  height="13"
+                  rx="2"
+                  ry="2"
+                  width="13"
+                  x="9"
+                  y="9"
+                />
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                />
+              </svg>
+            </span>
+          </div>
         </div>
       </div>
     </div>

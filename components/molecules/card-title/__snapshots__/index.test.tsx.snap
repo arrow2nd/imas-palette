@@ -6,15 +6,15 @@ exports[`CardTitle 見た目が変化していないか 1`] = `
     class="flex flex-row items-center"
   >
     <div
-      class="w-16 h-16 rounded-xl border border-gray-200"
+      class="flex-none w-16 h-16 rounded-xl border border-gray-200"
       style="background-color: rgb(217, 103, 163);"
     />
     <div
-      class="ml-6"
+      class="flex-1 ml-6"
       data-testid="name-label"
     >
       <p
-        class="text-xl"
+        class="text-lg leading-6"
       >
         小早川紗枝
       </p>
