@@ -11,19 +11,14 @@ import ColorInfo from 'components/organisms/color-info'
 import { Props } from './props'
 
 const CardDefault = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
-  <Card dataTestId="color-card">
-    <div className="flex flex-row items-center justify-between">
-      <CardTitle
-        name={data.name}
-        nameSuppl={data.nameSuppl}
-        hex={data.color.hex}
-      />
+  <Card className="h-64" dataTestId="color-card">
+    <CardTitle name={data.name} nameSuppl={data.nameSuppl} hex={data.color.hex}>
       {isKeep ? (
-        <RemoveButton onClick={onClickRemove} />
+        <RemoveButton className="ml-4" onClick={onClickRemove} />
       ) : (
-        <KeepButton onClick={onClickKeep} />
+        <KeepButton className="ml-4" onClick={onClickKeep} />
       )}
-    </div>
+    </CardTitle>
     <ColorInfo color={data.color} />
   </Card>
 )

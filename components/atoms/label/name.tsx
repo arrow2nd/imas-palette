@@ -6,7 +6,7 @@ type Props = {
 
 const NameLabel = ({ className = '', name, nameSuppl }: Props) => (
   <div className={className} data-testid="name-label">
-    <p className="text-xl">{name}</p>
+    <p className="text-lg leading-6">{name}</p>
     <p className="text-sm tracking-wide">{nameSuppl}</p>
   </div>
 )

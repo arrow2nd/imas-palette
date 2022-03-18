@@ -4,7 +4,6 @@ import { FiCopy } from 'react-icons/fi'
 import { RiCheckboxCircleFill } from 'react-icons/ri'
 
 import TypeLabel from 'components/atoms/label/type'
-import ValueLabel from 'components/atoms/label/value'
 
 type Props = {
   className?: string
@@ -23,14 +22,19 @@ const ColorValue = ({ className = '', type, value }: Props) => {
   }
 
   return (
-    <div className={`flex flex-row items-center justify-between ${className}`}>
+    <div className={`flex flex-row items-center ${className}`}>
       <TypeLabel type={type} />
       <CopyToClipboard text={value} onCopy={handleClickCopy}>
-        <span data-testid="copy-button">
-          <ValueLabel value={isCopied ? 'Copied!' : value}>
+        <div
+          className="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
+          title="クリックでコピー"
+          data-testid="copy-button"
+        >
+          {isCopied ? 'Copied!' : value}
+          <span className="ml-2">
             {isCopied ? <RiCheckboxCircleFill /> : <FiCopy />}
-          </ValueLabel>
-        </span>
+          </span>
+        </div>
       </CopyToClipboard>
     </div>
   )

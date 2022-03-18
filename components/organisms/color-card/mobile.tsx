@@ -12,27 +12,23 @@ import { Props } from './props'
 
 const CardMobile = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
   <Card dataTestId="color-card">
-    <div className="flex flex-row items-center justify-between">
-      <CardTitle
-        name={data.name}
-        nameSuppl={data.nameSuppl}
-        hex={data.color.hex}
-      />
-    </div>
+    <CardTitle
+      name={data.name}
+      nameSuppl={data.nameSuppl}
+      hex={data.color.hex}
+    />
     <ColorInfo color={data.color} />
-    <div>
-      {isKeep ? (
-        <RemoveButton
-          className="mt-6 w-full justify-center"
-          onClick={onClickRemove}
-        />
-      ) : (
-        <KeepButton
-          className="mt-6 w-full justify-center"
-          onClick={onClickKeep}
-        />
-      )}
-    </div>
+    {isKeep ? (
+      <RemoveButton
+        className="mt-6 w-full justify-center"
+        onClick={onClickRemove}
+      />
+    ) : (
+      <KeepButton
+        className="mt-6 w-full justify-center"
+        onClick={onClickKeep}
+      />
+    )}
   </Card>
 )
 
