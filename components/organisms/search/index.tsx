@@ -9,7 +9,6 @@ import { brands } from 'data/brands'
 import SearchColors from '../search-colors'
 
 type Props = {
-  className?: string
   currentSimilarColor: string
   onChangeBrand: (brand: string) => void
   onChangeName: (name: string) => void
@@ -17,7 +16,6 @@ type Props = {
 }
 
 const Search = ({
-  className = '',
   currentSimilarColor,
   onChangeBrand: onChangebrand,
   onChangeName,
@@ -48,7 +46,7 @@ const Search = ({
   }
 
   return (
-    <div className={className}>
+    <div>
       <div className="flex flex-wrap justify-center flex-col md:flex-row">
         <Select
           className="w-full md:w-64"
