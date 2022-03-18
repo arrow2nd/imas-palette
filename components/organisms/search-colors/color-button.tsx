@@ -9,14 +9,14 @@ type Props = {
   dataTestId?: string
 }
 
-const Color = ({
+const ColorButton = ({
   color,
   isSelected,
   onClick,
   dataTestId
 }: Props): JSX.Element => (
-  <div
-    className={`mx-1 p-0 rounded-full cursor-pointer border-2 ${
+  <button
+    className={`mx-1 p-0 rounded-full border-2 ${
       isSelected ? 'border-gray-600' : 'border-transparent'
     }`}
     onClick={() => onClick(color.hex)}
@@ -28,7 +28,7 @@ const Color = ({
       }`}
       {...color}
     />
-  </div>
+  </button>
 )
 
-export default Color
+export default ColorButton

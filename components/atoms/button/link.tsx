@@ -5,13 +5,14 @@ type Props = {
 }
 
 const LinkButton = ({ className = '', href, children }: Props) => (
-  <span
+  <a
     className={`mx-2 text-2xl hover:text-imas transition-colors ${className}`}
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
   >
-    <a href={href} target="_blank" rel="noopener noreferrer">
-      {children}
-    </a>
-  </span>
+    {children}
+  </a>
 )
 
 export default LinkButton

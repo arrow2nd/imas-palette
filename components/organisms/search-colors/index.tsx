@@ -1,6 +1,6 @@
 import { searchColors } from 'data/search-colors'
 
-import Color from './color'
+import ColorButton from './color-button'
 
 type Props = {
   current: string
@@ -8,8 +8,8 @@ type Props = {
 }
 
 const SearchColors = ({ current, onChange }: Props): JSX.Element => {
-  const items = searchColors.map((e, i) => (
-    <Color
+  const buttons = searchColors.map((e, i) => (
+    <ColorButton
       color={e}
       isSelected={e.hex === current}
       onClick={onChange}
@@ -20,7 +20,7 @@ const SearchColors = ({ current, onChange }: Props): JSX.Element => {
 
   return (
     <div className="flex flex-wrap mt-8 justify-center items-center">
-      {items}
+      {buttons}
     </div>
   )
 }

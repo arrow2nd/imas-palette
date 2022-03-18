@@ -1,8 +1,8 @@
 import { act, fireEvent, render } from '@testing-library/react'
 
-import Color from './color'
+import ColorButton from './color-button'
 
-describe('Color', () => {
+describe('ColorButtton', () => {
   const color = {
     name: '赤',
     hex: '#ff0000'
@@ -15,18 +15,18 @@ describe('Color', () => {
     }
 
     const { container, rerender } = render(
-      <Color {...props} isSelected={false} />
+      <ColorButton {...props} isSelected={false} />
     )
     const prevInnerHtml = container.innerHTML
 
-    rerender(<Color {...props} isSelected={true} />)
+    rerender(<ColorButton {...props} isSelected={true} />)
 
     expect(prevInnerHtml).not.toBe(container.innerHTML)
   })
 
   test('色が指定されていない時の表示は正しいか', () => {
     const { container } = render(
-      <Color
+      <ColorButton
         color={{ name: '', hex: '' }}
         isSelected={false}
         onClick={jest.fn()}
@@ -39,7 +39,7 @@ describe('Color', () => {
   test('クリック時にコールバックが呼ばれるか', () => {
     const mock = jest.fn()
     const { getByTestId } = render(
-      <Color
+      <ColorButton
         color={{ name: '', hex: '' }}
         isSelected={false}
         onClick={mock}
