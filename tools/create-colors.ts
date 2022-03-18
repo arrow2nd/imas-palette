@@ -11,7 +11,7 @@ import { fetchUnits } from './libs/fetch-units'
   // 50音順にソート
   const results = data
     .flat()
-    .sort((a, b) => a.nameKana.localeCompare(b.nameKana))
+    .sort((a, b) => a.nameKana.localeCompare(b.nameKana, 'ja'))
 
   const json = JSON.stringify(results, null, '\t')
   const exportText = `import { ColorDetail } from 'types/color-detail'\n\nexport const colors: ColorDetail[] = ${json}`
