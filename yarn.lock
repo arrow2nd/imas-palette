@@ -1311,9 +1311,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.20.0":
-  version: 1.20.0
-  resolution: "@playwright/test@npm:1.20.0"
+"@playwright/test@npm:^1.20.1":
+  version: 1.20.1
+  resolution: "@playwright/test@npm:1.20.1"
   dependencies:
     "@babel/code-frame": 7.16.7
     "@babel/core": 7.16.12
@@ -1338,20 +1338,20 @@ __metadata:
     debug: 4.3.3
     expect: 27.2.5
     jest-matcher-utils: 27.2.5
-    json5: 2.2.0
+    json5: 2.2.1
     mime: 3.0.0
     minimatch: 3.0.4
     ms: 2.1.3
     open: 8.4.0
     pirates: 4.0.4
-    playwright-core: 1.20.0
+    playwright-core: 1.20.1
     rimraf: 3.0.2
     source-map-support: 0.4.18
     stack-utils: 2.0.5
     yazl: 2.5.1
   bin:
     playwright: cli.js
-  checksum: 58c867273ac29d22bfd9432913f551c4070884e4378a5603af64794e19906cb9ad8c4489628aa3a40009a27b1159c2510774818189bc9ef90b2f5d957b0591a2
+  checksum: 9e1e6e012fe5ab7338cca1728d1f13b0ffec5201e44f1f0fa0a25b7e4bc2d2d0a456ccbd1433ac47b211bf764f8a89c0d3dc9e7d36c7ef30669e11de61ae67cd
   languageName: node
   linkType: hard
 
@@ -1407,9 +1407,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:^5.16.2":
-  version: 5.16.2
-  resolution: "@testing-library/jest-dom@npm:5.16.2"
+"@testing-library/jest-dom@npm:^5.16.3":
+  version: 5.16.3
+  resolution: "@testing-library/jest-dom@npm:5.16.3"
   dependencies:
     "@babel/runtime": ^7.9.2
     "@types/testing-library__jest-dom": ^5.9.1
@@ -1420,7 +1420,7 @@ __metadata:
     dom-accessibility-api: ^0.5.6
     lodash: ^4.17.15
     redent: ^3.0.0
-  checksum: e4569df67c4c4998d2c60c6cf00ce2f1ac10c9397e0970320728c8be8f4e2c17a0e801705ce8a7384f7f5629b598a6f58db91d4401dde02044f5625405ca0988
+  checksum: 2d7b767bc1337eea9698ec6d57beea37b4993d848b30d7498b72eb975fbf58dea14039515fb4b393f95ea52f55ca5f91db5d7b2f746f8457e345021ed7482ecb
   languageName: node
   linkType: hard
 
@@ -3977,9 +3977,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "imas-palette@workspace:."
   dependencies:
-    "@playwright/test": ^1.20.0
+    "@playwright/test": ^1.20.1
     "@tailwindcss/forms": ^0.5.0
-    "@testing-library/jest-dom": ^5.16.2
+    "@testing-library/jest-dom": ^5.16.3
     "@testing-library/react": ^12.1.4
     "@testing-library/react-hooks": ^7.0.2
     "@trivago/prettier-plugin-sort-imports": ^3.2.0
@@ -4969,14 +4969,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:2.2.0, json5@npm:^2.1.2":
-  version: 2.2.0
-  resolution: "json5@npm:2.2.0"
-  dependencies:
-    minimist: ^1.2.5
+"json5@npm:2.2.1":
+  version: 2.2.1
+  resolution: "json5@npm:2.2.1"
   bin:
     json5: lib/cli.js
-  checksum: e88fc5274bb58fc99547baa777886b069d2dd96d9cfc4490b305fd16d711dabd5979e35a4f90873cefbeb552e216b041a304fe56702bedba76e19bc7845f208d
+  checksum: 74b8a23b102a6f2bf2d224797ae553a75488b5adbaee9c9b6e5ab8b510a2fc6e38f876d4c77dea672d4014a44b2399e15f2051ac2b37b87f74c0c7602003543b
   languageName: node
   linkType: hard
 
@@ -4988,6 +4986,17 @@ __metadata:
   bin:
     json5: lib/cli.js
   checksum: e76ea23dbb8fc1348c143da628134a98adf4c5a4e8ea2adaa74a80c455fc2cdf0e2e13e6398ef819bfe92306b610ebb2002668ed9fc1af386d593691ef346fc3
+  languageName: node
+  linkType: hard
+
+"json5@npm:^2.1.2":
+  version: 2.2.0
+  resolution: "json5@npm:2.2.0"
+  dependencies:
+    minimist: ^1.2.5
+  bin:
+    json5: lib/cli.js
+  checksum: e88fc5274bb58fc99547baa777886b069d2dd96d9cfc4490b305fd16d711dabd5979e35a4f90873cefbeb552e216b041a304fe56702bedba76e19bc7845f208d
   languageName: node
   linkType: hard
 
@@ -5883,9 +5892,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.20.0":
-  version: 1.20.0
-  resolution: "playwright-core@npm:1.20.0"
+"playwright-core@npm:1.20.1":
+  version: 1.20.1
+  resolution: "playwright-core@npm:1.20.1"
   dependencies:
     colors: 1.4.0
     commander: 8.3.0
@@ -5907,7 +5916,7 @@ __metadata:
     yazl: 2.5.1
   bin:
     playwright: cli.js
-  checksum: 24a28715a1d9acda0fd0107b4a5b2955013bcb06b5412fa423cd7fcd8a6b35e46a6c80198d9b2d461bfe87fca3a08adb35b1b6f4eaffbe4db54d076e55f4638c
+  checksum: a436eff4cfb88a68d6c2da7941c0ace35f940f885f97c125e1a0103e4601f1be313eada81283f1208d5cded57a841482f743526fc3960c5f2a383b08220401de
   languageName: node
   linkType: hard
 
