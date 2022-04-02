@@ -1687,12 +1687,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-infinite-scroller@npm:^1.2.2":
-  version: 1.2.2
-  resolution: "@types/react-infinite-scroller@npm:1.2.2"
+"@types/react-infinite-scroller@npm:^1.2.3":
+  version: 1.2.3
+  resolution: "@types/react-infinite-scroller@npm:1.2.3"
   dependencies:
     "@types/react": "*"
-  checksum: 19ffc80fa3887b09fd6a889797c3d52c14cbec33142b5e17b25c8f258ad6f6bc8ecef7d4492b18b2bf84784cddfe2baa85fd805514c038dab234f73e29f8c36f
+  checksum: ae11063b5e114bff1f06e9d3d2ca0948a3a224f13b4a30fbfe56f84e535ee6232de9667456695bbbb409de51887d701f8558fd28c36a2ea172e8593346de85d1
   languageName: node
   linkType: hard
 
@@ -4022,7 +4022,7 @@ __metadata:
     "@types/node": ^17.0.23
     "@types/react": 17.0.43
     "@types/react-copy-to-clipboard": ^5.0.2
-    "@types/react-infinite-scroller": ^1.2.2
+    "@types/react-infinite-scroller": ^1.2.3
     "@types/react-scroll": ^1.8.3
     autoprefixer: ^10.4.4
     axios: ^0.26.1
