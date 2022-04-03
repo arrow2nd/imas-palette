@@ -2,9 +2,10 @@
 
 THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラーが検索できる Web アプリ
 
-[![update-data](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/update-data.yaml)
+[![update](https://github.com/arrow2nd/imas-palette/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/update.yaml)
 [![test](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml)
 [![e2e](https://github.com/arrow2nd/imas-palette/actions/workflows/e2e.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/e2e.yaml)
+[![Depfu](https://badges.depfu.com/badges/da0f441a6bc66ea1257f998872751436/overview.svg)](https://depfu.com/github/arrow2nd/imas-palette?project_id=34197)
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=imas-palette)](https://imas-palette.vercel.app)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
@@ -15,6 +16,12 @@ THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラ�
 - アイドル名や色合いからイメージカラーを検索
 - RGB / HSV / HEX 形式でカラーコードをコピー
 - よく使う・お気に入りのカラーを Keep する
+
+## 実行
+
+```
+yarn build && yarn start
+```
 
 ## Thanks!
 
