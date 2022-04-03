@@ -12,7 +12,7 @@
     "create:colors": "yarn ts-node ./tools/create-colors.ts"
   },
   "dependencies": {
-    "next": "12.1.1",
+    "next": "12.1.4",
     "react": "17.0.2",
     "react-copy-to-clipboard": "^5.0.4",
     "react-device-detect": "^2.1.2",
@@ -40,11 +40,11 @@
     "color-classifier": "^0.0.1",
     "color-convert": "^2.0.1",
     "eslint": "8.12.0",
-    "eslint-config-next": "12.1.1",
+    "eslint-config-next": "12.1.4",
     "eslint-config-prettier": "^8.5.0",
     "jest": "^27.5.1",
     "postcss": "^8.4.12",
-    "prettier": "^2.6.1",
+    "prettier": "^2.6.2",
     "tailwindcss": "^3.0.23",
     "ts-node": "^10.7.0",
     "typescript": "4.6.3"
