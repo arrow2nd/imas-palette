@@ -249,6 +249,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'alstroemeria_shinycolors',
+    name: 'ALSTROEMERIA',
+    nameSuppl: '[ユニット]',
+    nameKana: 'あるすとろめりあ',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(230, 39, 124)',
+      hsv: 'hsv(333, 83, 90)',
+      hex: '#E6277C',
+      similar: '#ff0000'
+    }
+  },
+  {
     id: 'altessimo_sidem',
     name: 'Altessimo',
     nameSuppl: '[ユニット]',
@@ -259,6 +272,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(59, 62, 96)',
       hex: '#F6F45E',
       similar: '#ffff00'
+    }
+  },
+  {
+    id: 'l%27antica_shinycolors',
+    name: "L'Antica",
+    nameSuppl: '[ユニット]',
+    nameKana: 'あんてぃーか',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(131, 54, 150)',
+      hsv: 'hsv(288, 64, 59)',
+      hex: '#833696',
+      similar: '#800080'
     }
   },
   {
@@ -375,6 +401,19 @@ export const colors: ColorDetail[] = [
       rgb: 'rgb(254, 213, 82)',
       hsv: 'hsv(46, 68, 100)',
       hex: '#FED552',
+      similar: '#ffa500'
+    }
+  },
+  {
+    id: 'illuminationstars_shinycolors',
+    name: 'illuminationSTARS',
+    nameSuppl: '[ユニット]',
+    nameKana: 'いるみねーしょんすたーず',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(255, 162, 0)',
+      hsv: 'hsv(38, 100, 100)',
+      hex: '#FFA200',
       similar: '#ffa500'
     }
   },
@@ -1159,6 +1198,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'shhis_shinycolors',
+    name: 'SHHis',
+    nameSuppl: '[ユニット]',
+    nameKana: 'しーず',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(28, 137, 113)',
+      hsv: 'hsv(167, 80, 54)',
+      hex: '#1C8971',
+      similar: '#008000'
+    }
+  },
+  {
     id: 'noriko_shiina_cinderellagirls',
     name: '椎名法子',
     nameSuppl: 'Noriko Shiina',
@@ -1403,6 +1455,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(36, 58, 94)',
       hex: '#EFB864',
       similar: '#ffa500'
+    }
+  },
+  {
+    id: 'straylight_shinycolors',
+    name: 'Straylight',
+    nameSuppl: '[ユニット]',
+    nameKana: 'すとれいらいと',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(165, 31, 36)',
+      hsv: 'hsv(358, 81, 65)',
+      hex: '#A51F24',
+      similar: '#ff0000'
     }
   },
   {
@@ -1913,6 +1978,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'noctchill_shinycolors',
+    name: 'noctchill',
+    nameSuppl: '[ユニット]',
+    nameKana: 'のくちる',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(52, 73, 143)',
+      hsv: 'hsv(226, 64, 56)',
+      hex: '#34498F',
+      similar: '#0000ff'
+    }
+  },
+  {
     id: 'akane_nonohara_millionlive',
     name: '野々原茜',
     nameSuppl: 'Akane Nonohara',
@@ -2300,6 +2378,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(120, 60, 50)',
       hex: '#338033',
       similar: '#008000'
+    }
+  },
+  {
+    id: '%e6%94%be%e8%aa%b2%e5%be%8c%e3%82%af%e3%83%a9%e3%82%a4%e3%83%9e%e3%83%83%e3%82%af%e3%82%b9%e3%82%ac%e3%83%bc%e3%83%ab%e3%82%ba_shinycolors',
+    name: '放課後クライマックスガールズ',
+    nameSuppl: '[ユニット]',
+    nameKana: 'ほうかごくらいまっくすがーるず',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(255, 72, 0)',
+      hsv: 'hsv(17, 100, 100)',
+      hex: '#FF4800',
+      similar: '#ff0000'
     }
   },
   {
