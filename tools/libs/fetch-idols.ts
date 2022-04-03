@@ -1,6 +1,6 @@
 import { ColorDetail } from 'types/color-detail'
 
-import { createColor } from './create-color'
+import { createColor } from './color'
 import { fetchIdolData } from './fetch'
 
 /**
@@ -48,7 +48,7 @@ export async function fetchIdols() {
         id,
         name: nameJa.value,
         nameSuppl: nameEn.value,
-        nameKana: nameKana.value,
+        nameKana: nameKana.value.replace(/ /g, ''),
         brand: brand.value,
         color: createColor(hex.value)
       }

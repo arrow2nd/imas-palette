@@ -889,7 +889,7 @@ export const colors: ColorDetail[] = [
     id: 'c.first_sidem',
     name: 'C.FIRST',
     nameSuppl: '[ユニット]',
-    nameKana: 'くらす ふぁーすと',
+    nameKana: 'くらすふぁーすと',
     brand: 'SideM',
     color: {
       rgb: 'rgb(0, 204, 187)',
@@ -1003,19 +1003,6 @@ export const colors: ColorDetail[] = [
     }
   },
   {
-    id: 'the%e8%99%8e%e7%89%99%e9%81%93_sidem',
-    name: 'THE虎牙道',
-    nameSuppl: '[ユニット]',
-    nameKana: 'ざ こがどう',
-    brand: 'SideM',
-    color: {
-      rgb: 'rgb(74, 74, 74)',
-      hsv: 'hsv(0, 0, 29)',
-      hex: '#4A4A4A',
-      similar: '#000000'
-    }
-  },
-  {
     id: '%e5%bd%a9_sidem',
     name: '彩',
     nameSuppl: '[ユニット]',
@@ -1117,6 +1104,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(222, 68, 47)',
       hex: '#274079',
       similar: '#0000ff'
+    }
+  },
+  {
+    id: 'the%e8%99%8e%e7%89%99%e9%81%93_sidem',
+    name: 'THE虎牙道',
+    nameSuppl: '[ユニット]',
+    nameKana: 'ざこがどう',
+    brand: 'SideM',
+    color: {
+      rgb: 'rgb(74, 74, 74)',
+      hsv: 'hsv(0, 0, 29)',
+      hex: '#4A4A4A',
+      similar: '#000000'
     }
   },
   {
