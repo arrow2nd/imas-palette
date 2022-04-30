@@ -35,7 +35,7 @@
     "@types/react-copy-to-clipboard": "^5.0.2",
     "@types/react-infinite-scroller": "^1.2.3",
     "@types/react-scroll": "^1.8.3",
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.5",
     "axios": "^0.26.1",
     "color-classifier": "^0.0.1",
     "color-convert": "^2.0.1",
