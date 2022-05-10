@@ -1283,14 +1283,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tailwindcss/forms@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@tailwindcss/forms@npm:0.5.0"
+"@tailwindcss/forms@npm:^0.5.1":
+  version: 0.5.1
+  resolution: "@tailwindcss/forms@npm:0.5.1"
   dependencies:
     mini-svg-data-uri: ^1.2.3
   peerDependencies:
     tailwindcss: ">=3.0.0 || >= 3.0.0-alpha.1"
-  checksum: 3e57584871bc41947f2a1518deaf69894b75745dee959bb2ba475c819eadec2b86f8bf6e73a051ddab627df4c8c3ad1d18239d48b3a95211be3b11a04dee0511
+  checksum: c9dc0124235692db6205960a16cfc8fa09ffd6491b9989cddaaaaf92bf252b9029de2e766dc1714aed056d56f9c347d5548dbb5b9a95f512b3301e20054fdbc9
   languageName: node
   linkType: hard
 
@@ -3847,7 +3847,7 @@ __metadata:
   resolution: "imas-palette@workspace:."
   dependencies:
     "@playwright/test": ^1.21.1
-    "@tailwindcss/forms": ^0.5.0
+    "@tailwindcss/forms": ^0.5.1
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^12.1.4
     "@testing-library/react-hooks": ^7.0.2
