@@ -18,16 +18,12 @@ WHERE {
   ?d rdf:type ?type;
      rdfs:label ?nameJa;
      imas:Brand ?brand;
-     imas:Color ?hex.     
-  FILTER(?type = imas:Idol)  
-  OPTIONAL{
-    ?d schema:alternateName ?nameEn.
-    FILTER(lang(?nameEn)="en")
-  }
-  OPTIONAL{
-    ?d schema:name ?nameEn.
-    FILTER(lang(?nameEn)="en")
-  }
+     imas:Color ?hex.
+  FILTER(?type = imas:Idol)
+  OPTIONAL{ ?d schema:alternateName ?nameEn }
+  OPTIONAL{ ?d schema:name ?nameEn }
+  OPTIONAL{ ?d schema:givenName ?nameEn }
+  FILTER(lang(?nameEn)="en")
   OPTIONAL{ ?d imas:alternateNameKana ?nameKana }
   OPTIONAL{ ?d imas:nameKana ?nameKana }
   OPTIONAL{ ?d imas:givenNameKana ?nameKana }
