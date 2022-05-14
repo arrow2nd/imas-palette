@@ -190,9 +190,9 @@ export const colors: ColorDetail[] = [
     nameKana: 'あべなな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(230, 74, 121)',
-      hsv: 'hsv(342, 68, 90)',
-      hex: '#E64A79',
+      rgb: 'rgb(239, 74, 129)',
+      hsv: 'hsv(340, 69, 94)',
+      hex: '#EF4A81',
       similar: '#ff0000'
     }
   },
@@ -220,6 +220,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(358, 81, 89)',
       hex: '#E22B30',
       similar: '#ff0000'
+    }
+  },
+  {
+    id: 'aya_other',
+    name: '亜夜',
+    nameSuppl: 'Aya',
+    nameKana: 'あや',
+    brand: 'Other',
+    color: {
+      rgb: 'rgb(63, 53, 56)',
+      hsv: 'hsv(342, 16, 25)',
+      hex: '#3F3538',
+      similar: '#000000'
     }
   },
   {
@@ -749,9 +762,9 @@ export const colors: ColorDetail[] = [
     nameKana: 'かんざきらんこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(126, 49, 136)',
-      hsv: 'hsv(293, 64, 53)',
-      hex: '#7E3188',
+      rgb: 'rgb(132, 50, 155)',
+      hsv: 'hsv(287, 68, 61)',
+      hex: '#84329B',
       similar: '#800080'
     }
   },
@@ -1198,6 +1211,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'shika_other',
+    name: '詩花',
+    nameSuppl: 'Shika',
+    nameKana: 'しいか',
+    brand: 'Other',
+    color: {
+      rgb: 'rgb(229, 249, 228)',
+      hsv: 'hsv(117, 8, 98)',
+      hex: '#E5F9E4',
+      similar: '#90e200'
+    }
+  },
+  {
     id: 'shhis_shinycolors',
     name: 'SHHis',
     nameSuppl: '[ユニット]',
@@ -1347,9 +1373,9 @@ export const colors: ColorDetail[] = [
     nameKana: 'じょうがさきみか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(244, 152, 43)',
-      hsv: 'hsv(33, 82, 96)',
-      hex: '#F4982B',
+      rgb: 'rgb(255, 158, 27)',
+      hsv: 'hsv(34, 89, 100)',
+      hex: '#FF9E1B',
       similar: '#ffa500'
     }
   },
@@ -1542,9 +1568,9 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかがきかえで',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(51, 213, 172)',
-      hsv: 'hsv(165, 76, 84)',
-      hex: '#33D5AC',
+      rgb: 'rgb(71, 215, 172)',
+      hsv: 'hsv(162, 67, 84)',
+      hex: '#47D7AC',
       similar: '#00ffff'
     }
   },
@@ -2309,9 +2335,9 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふたばあんず',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(241, 157, 180)',
-      hsv: 'hsv(344, 35, 95)',
-      hex: '#F19DB4',
+      rgb: 'rgb(248, 163, 188)',
+      hsv: 'hsv(342, 34, 97)',
+      hex: '#F8A3BC',
       similar: '#ffffff'
     }
   },
@@ -2816,10 +2842,10 @@ export const colors: ColorDetail[] = [
     nameKana: 'もろぼしきらり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(248, 202, 2)',
-      hsv: 'hsv(49, 99, 97)',
-      hex: '#F8CA02',
-      similar: '#ffa500'
+      rgb: 'rgb(224, 225, 1)',
+      hsv: 'hsv(60, 100, 88)',
+      hex: '#E0E101',
+      similar: '#ffff00'
     }
   },
   {
@@ -2927,6 +2953,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'leon_other',
+    name: '玲音',
+    nameSuppl: 'Leon',
+    nameKana: 'れおん',
+    brand: 'Other',
+    color: {
+      rgb: 'rgb(90, 43, 141)',
+      hsv: 'hsv(269, 70, 55)',
+      hex: '#5A2B8D',
+      similar: '#800080'
+    }
+  },
+  {
     id: 'legenders_sidem',
     name: 'Legenders',
     nameSuppl: '[ユニット]',
@@ -2992,3 +3031,4 @@ export const colors: ColorDetail[] = [
     }
   }
 ]
+
