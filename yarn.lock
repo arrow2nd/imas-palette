@@ -1211,12 +1211,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-scroll@npm:^1.8.3":
-  version: 1.8.3
-  resolution: "@types/react-scroll@npm:1.8.3"
+"@types/react-scroll@npm:^1.8.4":
+  version: 1.8.4
+  resolution: "@types/react-scroll@npm:1.8.4"
   dependencies:
     "@types/react": "*"
-  checksum: c3b0928b2a0bff92bc9c52de4c95c448f0569d01828fb80c135cf183819743dfbf859a57b60debc67501d7f64f7e1694c992e5d09898281c987869dd0ceace94
+  checksum: cf14ea48b2c23fdb47e538f542b5556433b520f7f1489b1b07b7b337f93ca2462d7ae3f763ea476f8bfcc3b89b85f914b2a12132c450c9a243ad70ee5bdae167
   languageName: node
   linkType: hard
 
@@ -3396,7 +3396,7 @@ __metadata:
     "@types/react": 17.0.43
     "@types/react-copy-to-clipboard": ^5.0.3
     "@types/react-infinite-scroller": ^1.2.3
-    "@types/react-scroll": ^1.8.3
+    "@types/react-scroll": ^1.8.4
     autoprefixer: ^10.4.7
     axios: ^0.26.1
     color-classifier: ^0.0.1
