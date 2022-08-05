@@ -872,15 +872,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.23.1":
-  version: 1.23.1
-  resolution: "@playwright/test@npm:1.23.1"
+"@playwright/test@npm:^1.24.2":
+  version: 1.24.2
+  resolution: "@playwright/test@npm:1.24.2"
   dependencies:
     "@types/node": "*"
-    playwright-core: 1.23.1
+    playwright-core: 1.24.2
   bin:
     playwright: cli.js
-  checksum: 27fc6b4424dfb0f0dfaaecb01a33bf77c0f95e6a1e635fe85dd4ad36e5053afdbe4ad1de4be1c5705e482451b43f7ddacf667f6c5b70ab5f8e32c30110211c29
+  checksum: 3d24ae59572977a6ad4ef20efbfa029ed3cce45707496838729ff0b6df4d5526e7caa3f24cbbe02a42762fd7c997444fd5fd241f3e49578b320603d29b0cd370
   languageName: node
   linkType: hard
 
@@ -3377,7 +3377,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "imas-palette@workspace:."
   dependencies:
-    "@playwright/test": ^1.23.1
+    "@playwright/test": ^1.24.2
     "@tailwindcss/forms": ^0.5.2
     "@testing-library/jest-dom": ^5.16.4
     "@testing-library/react": ^12.1.4
@@ -5226,12 +5226,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.23.1":
-  version: 1.23.1
-  resolution: "playwright-core@npm:1.23.1"
+"playwright-core@npm:1.24.2":
+  version: 1.24.2
+  resolution: "playwright-core@npm:1.24.2"
   bin:
     playwright: cli.js
-  checksum: 1e6a3a7a9aaee1864b22195c7fef52b6980fcafc6d667749737455360a44a182a7035f12bfd76f298f957d1b99550420a8748f6a473ceeacf2cb2db42beb9be0
+  checksum: b52f9b0cf61c03bb616de889ddbbe88b66ed68c556d3ef1f1148d1a832fa6edec9132cd8aa28e63926b05629fafa78ba419ce0412da91e97e135e66376b457f7
   languageName: node
   linkType: hard
 
