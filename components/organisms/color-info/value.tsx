@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { CopyToClipboard } from 'react-copy-to-clipboard'
+import CopyToClipboard from 'react-copy-to-clipboard'
 import { FiCopy } from 'react-icons/fi'
 import { RiCheckboxCircleFill } from 'react-icons/ri'
 

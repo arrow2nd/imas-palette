@@ -1536,15 +1536,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-infinite-scroller@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@types/react-infinite-scroller@npm:1.2.3"
-  dependencies:
-    "@types/react": "*"
-  checksum: ae11063b5e114bff1f06e9d3d2ca0948a3a224f13b4a30fbfe56f84e535ee6232de9667456695bbbb409de51887d701f8558fd28c36a2ea172e8593346de85d1
-  languageName: node
-  linkType: hard
-
 "@types/react-scroll@npm:^1.8.4":
   version: 1.8.4
   resolution: "@types/react-scroll@npm:1.8.4"
@@ -3829,7 +3820,6 @@ __metadata:
     "@types/color-convert": ^2.0.0
     "@types/node": ^18.7.18
     "@types/react": 18.0.20
-    "@types/react-infinite-scroller": ^1.2.3
     "@types/react-scroll": ^1.8.4
     autoprefixer: ^10.4.11
     axios: ^0.27.2

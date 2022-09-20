@@ -31,7 +31,6 @@
     "@types/color-convert": "^2.0.0",
     "@types/node": "^18.7.18",
     "@types/react": "18.0.20",
-    "@types/react-infinite-scroller": "^1.2.3",
     "@types/react-scroll": "^1.8.4",
     "autoprefixer": "^10.4.11",
     "axios": "^0.27.2",
