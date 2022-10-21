@@ -392,12 +392,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:7.17.8, @babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.16.7, @babel/parser@npm:^7.17.3, @babel/parser@npm:^7.17.8":
+"@babel/parser@npm:7.18.9":
+  version: 7.18.9
+  resolution: "@babel/parser@npm:7.18.9"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 81a966b334e3ef397e883c64026265a5ae0ad435a86f52a84f60a5ee1efc0738c1f42c55e0dc5f191cc6a83ba0c61350433eee417bf1dff160ca5f3cfde244c6
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.1.0, @babel/parser@npm:^7.14.7, @babel/parser@npm:^7.16.7, @babel/parser@npm:^7.17.3, @babel/parser@npm:^7.17.8":
   version: 7.17.8
   resolution: "@babel/parser@npm:7.17.8"
   bin:
     parser: ./bin/babel-parser.js
   checksum: 1771808491982cc47baa888a997aef6b58308e3844c8c00f730f8fd97defe57d32cdbf46075cd49aaee310fa31f3d2c80a0d41b41a4ee0ff336ee09e2ff6c222
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.16.4":
+  version: 7.19.6
+  resolution: "@babel/parser@npm:7.19.6"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 9a3dca4ee3acd7e4fc3b58e1e1526a11fa334acbfe437f8ebf91dfaf48e943c147ef64b1733ba0a55af57d1eccafbf4e4a4afc46a15becd921971fe2ddf309bf
   languageName: node
   linkType: hard
 
@@ -1328,20 +1346,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@trivago/prettier-plugin-sort-imports@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "@trivago/prettier-plugin-sort-imports@npm:3.3.0"
+"@trivago/prettier-plugin-sort-imports@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@trivago/prettier-plugin-sort-imports@npm:3.4.0"
   dependencies:
     "@babel/core": 7.17.8
     "@babel/generator": 7.17.7
-    "@babel/parser": 7.17.8
+    "@babel/parser": 7.18.9
     "@babel/traverse": 7.17.3
     "@babel/types": 7.17.0
+    "@vue/compiler-sfc": ^3.2.40
     javascript-natural-sort: 0.7.1
     lodash: 4.17.21
   peerDependencies:
     prettier: 2.x
-  checksum: 3777efd72c72a5ca7e56a7a279fddc48e02b2786873172ed25a41020455117e3d1220b8e77396418bb203242a31216097b861f657e454c6d3617c33f3cc42793
+  checksum: ed72f8fbf7ae2f6b48dfe3b8b4cde35df063b594eae4a63612ec54720f00f0f65b47cceccee89fda665f32a266808c7e4ae2c7fa79ebce364bd4d08fa41f10b3
   languageName: node
   linkType: hard
 
@@ -1672,6 +1691,76 @@ __metadata:
     "@typescript-eslint/types": 5.38.0
     eslint-visitor-keys: ^3.3.0
   checksum: cc3d0c6eb0c9a20a25d66b640d759cb1b52f8df485f16d948218d63d798b5c0672ef298f5dae5e5327ec021c0f8369d1da5d26b9c16a245a20fa44a9365956bc
+  languageName: node
+  linkType: hard
+
+"@vue/compiler-core@npm:3.2.41":
+  version: 3.2.41
+  resolution: "@vue/compiler-core@npm:3.2.41"
+  dependencies:
+    "@babel/parser": ^7.16.4
+    "@vue/shared": 3.2.41
+    estree-walker: ^2.0.2
+    source-map: ^0.6.1
+  checksum: ff794351be08dff85dcfa9eccf6d5f232464df7a397dedfd738907bfa43448f528c221f8cc7554ce1dc1606cac8047ab421ee06ea191a927b07a48e15ffc9fec
+  languageName: node
+  linkType: hard
+
+"@vue/compiler-dom@npm:3.2.41":
+  version: 3.2.41
+  resolution: "@vue/compiler-dom@npm:3.2.41"
+  dependencies:
+    "@vue/compiler-core": 3.2.41
+    "@vue/shared": 3.2.41
+  checksum: 463f73d935930046678b769aa5439bdc8cfd7d2b7c07cae54a0201c842e6327f2416119442e08a401edaf6dc3dd1dfe5d7a4ce7faa31559bf36ba064e5530fe5
+  languageName: node
+  linkType: hard
+
+"@vue/compiler-sfc@npm:^3.2.40":
+  version: 3.2.41
+  resolution: "@vue/compiler-sfc@npm:3.2.41"
+  dependencies:
+    "@babel/parser": ^7.16.4
+    "@vue/compiler-core": 3.2.41
+    "@vue/compiler-dom": 3.2.41
+    "@vue/compiler-ssr": 3.2.41
+    "@vue/reactivity-transform": 3.2.41
+    "@vue/shared": 3.2.41
+    estree-walker: ^2.0.2
+    magic-string: ^0.25.7
+    postcss: ^8.1.10
+    source-map: ^0.6.1
+  checksum: 0f13d9fa32602a8306df8a59d763c1bc4016cabf8399bcbc89e86c96eb1fd359bded6cd92595b54282fd9b2c5fd8888a39072d90ccc89e5f2a643198aeb94c60
+  languageName: node
+  linkType: hard
+
+"@vue/compiler-ssr@npm:3.2.41":
+  version: 3.2.41
+  resolution: "@vue/compiler-ssr@npm:3.2.41"
+  dependencies:
+    "@vue/compiler-dom": 3.2.41
+    "@vue/shared": 3.2.41
+  checksum: 119913dee2ecbda3a2201148fb534e76dd47a07cc14686c800808aa40ef8a4e49f8094954f02f7b1fcf58568ccfbfb1e61b3650cebd092ef00773a6649ab8db8
+  languageName: node
+  linkType: hard
+
+"@vue/reactivity-transform@npm:3.2.41":
+  version: 3.2.41
+  resolution: "@vue/reactivity-transform@npm:3.2.41"
+  dependencies:
+    "@babel/parser": ^7.16.4
+    "@vue/compiler-core": 3.2.41
+    "@vue/shared": 3.2.41
+    estree-walker: ^2.0.2
+    magic-string: ^0.25.7
+  checksum: f4a1d3ea62bff4cdfa40ba8b29ca746f28c57cdee7bf013b30082630cd2246568bd9bbfb4afa29acfa06c653264c90c7fb9073aaac063068a981a0c2e49f7d15
+  languageName: node
+  linkType: hard
+
+"@vue/shared@npm:3.2.41":
+  version: 3.2.41
+  resolution: "@vue/shared@npm:3.2.41"
+  checksum: 48f13e3eef2e77c06714f1594f971f6d3ba7df67420774d0d4732b540fc31c463ac1f363e1c753af033046b7b517a1a5b3b3d268978951e355ce6be3a4010db4
   languageName: node
   linkType: hard
 
@@ -3275,6 +3364,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"estree-walker@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "estree-walker@npm:2.0.2"
+  checksum: 6151e6f9828abe2259e57f5fd3761335bb0d2ebd76dc1a01048ccee22fabcfef3c0859300f6d83ff0d1927849368775ec5a6d265dde2f6de5a1be1721cd94efc
+  languageName: node
+  linkType: hard
+
 "esutils@npm:^2.0.2":
   version: 2.0.3
   resolution: "esutils@npm:2.0.3"
@@ -3844,7 +3940,7 @@ __metadata:
     "@tailwindcss/forms": ^0.5.3
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
-    "@trivago/prettier-plugin-sort-imports": ^3.3.0
+    "@trivago/prettier-plugin-sort-imports": ^3.4.0
     "@types/color-convert": ^2.0.0
     "@types/node": ^18.7.18
     "@types/react": 18.0.20
@@ -4990,6 +5086,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"magic-string@npm:^0.25.7":
+  version: 0.25.9
+  resolution: "magic-string@npm:0.25.9"
+  dependencies:
+    sourcemap-codec: ^1.4.8
+  checksum: 9a0e55a15c7303fc360f9572a71cffba1f61451bc92c5602b1206c9d17f492403bf96f946dfce7483e66822d6b74607262e24392e87b0ac27b786e69a40e9b1a
+  languageName: node
+  linkType: hard
+
 "make-dir@npm:^3.0.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
@@ -5796,6 +5901,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss@npm:^8.1.10":
+  version: 8.4.18
+  resolution: "postcss@npm:8.4.18"
+  dependencies:
+    nanoid: ^3.3.4
+    picocolors: ^1.0.0
+    source-map-js: ^1.0.2
+  checksum: 9349fd99849b2e3d2e134ff949b7770ecb12375f352723ce2bcc06167eba3850ea7844c1b191a85cd915d6a396b4e8ee9a5267e6cc5d8d003d0cbc7a97555d39
+  languageName: node
+  linkType: hard
+
 "postcss@npm:^8.4.17":
   version: 8.4.17
   resolution: "postcss@npm:8.4.17"
@@ -6429,6 +6545,13 @@ __metadata:
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 59ce8640cf3f3124f64ac289012c2b8bd377c238e316fb323ea22fbfe83da07d81e000071d7242cad7a23cd91c7de98e4df8830ec3f133cb6133a5f6e9f67bc2
+  languageName: node
+  linkType: hard
+
+"sourcemap-codec@npm:^1.4.8":
+  version: 1.4.8
+  resolution: "sourcemap-codec@npm:1.4.8"
+  checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
   languageName: node
   linkType: hard
 
