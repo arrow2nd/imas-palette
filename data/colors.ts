@@ -210,6 +210,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'shu_amamine_sidem',
+    name: '天峰秀',
+    nameSuppl: 'Shu Amamine',
+    nameKana: 'あまみねしゅう',
+    brand: 'SideM',
+    color: {
+      rgb: 'rgb(29, 154, 221)',
+      hsv: 'hsv(201, 87, 87)',
+      hex: '#1D9ADD',
+      similar: '#00ffff'
+    }
+  },
+  {
     id: 'haruka_amami_765as',
     name: '天海春香',
     nameSuppl: 'Haruka Amami',
@@ -922,6 +935,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(214, 46, 87)',
       hex: '#79A5DF',
       similar: '#0000ff'
+    }
+  },
+  {
+    id: 'tsukasa_kiryu_cinderellagirls',
+    name: '桐生つかさ',
+    nameSuppl: 'Tsukasa Kiryu',
+    nameKana: 'きりゅうつかさ',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(176, 78, 197)',
+      hsv: 'hsv(289, 60, 77)',
+      hex: '#B04EC5',
+      similar: '#800080'
     }
   },
   {
@@ -1900,6 +1926,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'natalia_cinderellagirls',
+    name: 'ナターリア',
+    nameSuppl: 'Natalia',
+    nameKana: 'なたーりあ',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(217, 94, 37)',
+      hsv: 'hsv(19, 83, 85)',
+      hex: '#D95E25',
+      similar: '#ff0000'
+    }
+  },
+  {
     id: 'yuriko_nanao_millionlive',
     name: '七尾百合子',
     nameSuppl: 'Yuriko Nanao',
@@ -2105,6 +2144,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(52, 93, 100)',
       hex: '#FFE012',
       similar: '#ffff00'
+    }
+  },
+  {
+    id: 'momohito_hanazono_sidem',
+    name: '花園百々人',
+    nameSuppl: 'Momohito Hanazono',
+    nameKana: 'はなぞのももひと',
+    brand: 'SideM',
+    color: {
+      rgb: 'rgb(162, 213, 94)',
+      hsv: 'hsv(86, 56, 84)',
+      hex: '#A2D55E',
+      similar: '#90e200'
     }
   },
   {
@@ -2563,6 +2615,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'risa_matoba_cinderellagirls',
+    name: '的場梨沙',
+    nameSuppl: 'Risa Matoba',
+    nameKana: 'まとばりさ',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(227, 28, 147)',
+      hsv: 'hsv(324, 88, 89)',
+      hex: '#E31C93',
+      similar: '#ff0000'
+    }
+  },
+  {
     id: 'fuyuko_mayuzumi_shinycolors',
     name: '黛冬優子',
     nameSuppl: 'Fuyuko Mayuzumi',
@@ -2573,6 +2638,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(103, 83, 90)',
       hex: '#5CE626',
       similar: '#90e200'
+    }
+  },
+  {
+    id: 'eishin_mayumi_sidem',
+    name: '眉見鋭心',
+    nameSuppl: 'Eishin Mayumi',
+    nameKana: 'まゆみえいしん',
+    brand: 'SideM',
+    color: {
+      rgb: 'rgb(215, 38, 48)',
+      hsv: 'hsv(357, 82, 84)',
+      hex: '#D72630',
+      similar: '#ff0000'
     }
   },
   {
