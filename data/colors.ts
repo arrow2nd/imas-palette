@@ -977,6 +977,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'chitose_kurosaki_cinderellagirls',
+    name: '黒埼ちとせ',
+    nameSuppl: 'Chitose Kurosaki',
+    nameKana: 'くろさきちとせ',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(246, 48, 63)',
+      hsv: 'hsv(355, 80, 96)',
+      hex: '#F6303F',
+      similar: '#ff0000'
+    }
+  },
+  {
     id: 'genbu_kurono_sidem',
     name: '黒野玄武',
     nameSuppl: 'Genbu Kurono',
@@ -1026,6 +1039,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(295, 18, 81)',
       hex: '#CCAACF',
       similar: '#ffffff'
+    }
+  },
+  {
+    id: 'reina_koseki_cinderellagirls',
+    name: '小関麗奈',
+    nameSuppl: 'Reina Koseki',
+    nameKana: 'こせきれいな',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(159, 37, 182)',
+      hsv: 'hsv(290, 80, 71)',
+      hex: '#9F25B6',
+      similar: '#800080'
     }
   },
   {
@@ -1091,6 +1117,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(270, 76, 80)',
       hex: '#7F31CC',
       similar: '#0000ff'
+    }
+  },
+  {
+    id: 'kotoka_saionji_cinderellagirls',
+    name: '西園寺琴歌',
+    nameSuppl: 'Kotoka Saionji',
+    nameKana: 'さいおんじことか',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(236, 204, 205)',
+      hsv: 'hsv(358, 14, 93)',
+      hex: '#ECCCCD',
+      similar: '#ffffff'
     }
   },
   {
@@ -1767,6 +1806,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(37, 61, 81)',
       hex: '#CF9E51',
       similar: '#ffa500'
+    }
+  },
+  {
+    id: 'akari_tsujino_cinderellagirls',
+    name: '辻野あかり',
+    nameSuppl: 'Akari Tsujino',
+    nameKana: 'つじのあかり',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(211, 22, 28)',
+      hsv: 'hsv(358, 90, 83)',
+      hex: '#D3161C',
+      similar: '#ff0000'
     }
   },
   {
@@ -2924,6 +2976,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(60, 100, 88)',
       hex: '#E0E101',
       similar: '#ffff00'
+    }
+  },
+  {
+    id: 'makino_yagami_cinderellagirls',
+    name: '八神マキノ',
+    nameSuppl: 'Makino Yagami',
+    nameKana: 'やがみまきの',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(169, 163, 225)',
+      hsv: 'hsv(246, 28, 88)',
+      hex: '#A9A3E1',
+      similar: '#0000ff'
     }
   },
   {
