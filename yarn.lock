@@ -1211,15 +1211,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@playwright/test@npm:^1.29.1":
-  version: 1.29.1
-  resolution: "@playwright/test@npm:1.29.1"
+"@playwright/test@npm:^1.29.2":
+  version: 1.29.2
+  resolution: "@playwright/test@npm:1.29.2"
   dependencies:
     "@types/node": "*"
-    playwright-core: 1.29.1
+    playwright-core: 1.29.2
   bin:
     playwright: cli.js
-  checksum: c4424ee09f6589a296a3a78402f8c9eac841f3e5f44d96e3a2ba07aaa00d53ee9c10cc96379b304743a9e70f231df0ded0ad2fc197f412ada67b4cf17ee24b0f
+  checksum: 614cd4ed3baa4e41a6c7865f3c49733caef2c9d5a1aae5832b3d145ffdb0be2dd9d30136c0cb8aed5f9d452782baf2f380e5b12092958bf9fa7578a6d5fa61bf
   languageName: node
   linkType: hard
 
@@ -1538,12 +1538,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-scroll@npm:^1.8.5":
-  version: 1.8.5
-  resolution: "@types/react-scroll@npm:1.8.5"
+"@types/react-scroll@npm:^1.8.6":
+  version: 1.8.6
+  resolution: "@types/react-scroll@npm:1.8.6"
   dependencies:
     "@types/react": "*"
-  checksum: 488cd7b005f5a99f58642f68a959b52c468f0f6c89cf31b1b88c7d7923478b40cdee1d628f537b2b4e0a98ace778a00d7ae15c978a53b08ba7b52b68bc8db8b1
+  checksum: e73aaa4d02ba0afc91aa0dd853933f64963754fbaceb16e685586281cbb4f8bf15dae0176aab7cbc8b75ebfa0211672e3c7972ee2fb703ddd3a2fb665cd6c95b
   languageName: node
   linkType: hard
 
@@ -3877,7 +3877,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "imas-palette@workspace:."
   dependencies:
-    "@playwright/test": ^1.29.1
+    "@playwright/test": ^1.29.2
     "@tailwindcss/forms": ^0.5.3
     "@testing-library/jest-dom": ^5.16.5
     "@testing-library/react": ^13.4.0
@@ -3885,7 +3885,7 @@ __metadata:
     "@types/color-convert": ^2.0.0
     "@types/node": ^18.11.18
     "@types/react": 18.0.26
-    "@types/react-scroll": ^1.8.5
+    "@types/react-scroll": ^1.8.6
     autoprefixer: ^10.4.13
     axios: ^1.2.2
     color-classifier: ^0.0.1
@@ -5754,12 +5754,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"playwright-core@npm:1.29.1":
-  version: 1.29.1
-  resolution: "playwright-core@npm:1.29.1"
+"playwright-core@npm:1.29.2":
+  version: 1.29.2
+  resolution: "playwright-core@npm:1.29.2"
   bin:
     playwright: cli.js
-  checksum: e1c8423db4d28f44e5365a353f321b04a07709c8bf26d0c908f06d2c2669f715315170f84ca98a532951c2ac6324f5f48f651dca1abe43092c7637bdb4703303
+  checksum: 19e00e162a24eb99878408518930346c1d2c8ce83bb02993e3dd890c99df4530240cfebe4ec4e5aca01656462695b6328fb8f913cf2e229c2c73941623ac524e
   languageName: node
   linkType: hard
 
