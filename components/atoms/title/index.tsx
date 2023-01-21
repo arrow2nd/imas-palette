@@ -3,7 +3,7 @@ type Props = {
 }
 
 const Title = ({ text }: Props) => (
-  <div className="text-3xl md:text-4xl tracking-widest">{text}</div>
+  <span className="text-3xl md:text-4xl tracking-widest">{text}</span>
 )
 
 export default Title

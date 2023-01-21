@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import CopyToClipboard from 'react-copy-to-clipboard'
+import { useReducer } from 'react'
 import { FiCopy } from 'react-icons/fi'
 import { RiCheckboxCircleFill } from 'react-icons/ri'
 
@@ -12,30 +11,30 @@ type Props = {
 }
 
 const ColorValue = ({ className = '', type, value }: Props) => {
-  const [isCopied, setCopied] = useState(false)
+  const [isCopied, toggleCopied] = useReducer((prev) => !prev, false)
 
-  const handleClickCopy = () => {
+  const copyToClipboard = async () => {
     if (isCopied) return
+    await navigator.clipboard.writeText(value)
 
-    setCopied(true)
-    setTimeout(() => setCopied(false), 1500)
+    toggleCopied()
+    setTimeout(() => toggleCopied(), 1500)
   }
 
   return (
     <div className={`flex flex-row items-center ${className}`}>
       <TypeLabel type={type} />
-      <CopyToClipboard text={value} onCopy={handleClickCopy}>
-        <div
-          className="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
-          title="クリックでコピー"
-          data-testid="copy-button"
-        >
-          {isCopied ? 'Copied!' : value}
-          <span className="ml-2">
-            {isCopied ? <RiCheckboxCircleFill /> : <FiCopy />}
-          </span>
-        </div>
-      </CopyToClipboard>
+      <button
+        className="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
+        title="クリックでコピー"
+        data-testid="copy-button"
+        onClick={() => copyToClipboard()}
+      >
+        {isCopied ? 'Copied!' : value}
+        <span className="ml-2">
+          {isCopied ? <RiCheckboxCircleFill /> : <FiCopy />}
+        </span>
+      </button>
     </div>
   )
 }

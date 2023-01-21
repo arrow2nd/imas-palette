@@ -40,7 +40,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
         >
           RGB
         </div>
-        <div
+        <button
           class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
           data-testid="copy-button"
           title="クリックでコピー"
@@ -73,7 +73,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
               />
             </svg>
           </span>
-        </div>
+        </button>
       </div>
       <div
         class="flex flex-row items-center mt-4"
@@ -83,7 +83,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
         >
           HSV
         </div>
-        <div
+        <button
           class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
           data-testid="copy-button"
           title="クリックでコピー"
@@ -116,7 +116,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
               />
             </svg>
           </span>
-        </div>
+        </button>
       </div>
       <div
         class="flex flex-row items-center mt-4"
@@ -126,7 +126,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
         >
           HEX
         </div>
-        <div
+        <button
           class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
           data-testid="copy-button"
           title="クリックでコピー"
@@ -159,7 +159,7 @@ exports[`CardDefault Keepボタンを押したときにコールバックが呼�
               />
             </svg>
           </span>
-        </div>
+        </button>
       </div>
     </div>
     <button
@@ -231,7 +231,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
         >
           RGB
         </div>
-        <div
+        <button
           class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
           data-testid="copy-button"
           title="クリックでコピー"
@@ -264,7 +264,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
               />
             </svg>
           </span>
-        </div>
+        </button>
       </div>
       <div
         class="flex flex-row items-center mt-4"
@@ -274,7 +274,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
         >
           HSV
         </div>
-        <div
+        <button
           class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
           data-testid="copy-button"
           title="クリックでコピー"
@@ -307,7 +307,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
               />
             </svg>
           </span>
-        </div>
+        </button>
       </div>
       <div
         class="flex flex-row items-center mt-4"
@@ -317,7 +317,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
         >
           HEX
         </div>
-        <div
+        <button
           class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
           data-testid="copy-button"
           title="クリックでコピー"
@@ -350,7 +350,7 @@ exports[`CardDefault Removeボタンを押したときにコールバックが�
               />
             </svg>
           </span>
-        </div>
+        </button>
       </div>
     </div>
     <button

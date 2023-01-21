@@ -1,26 +1,25 @@
-import Links from 'components/molecules/links'
+import { FiDatabase } from 'react-icons/fi'
+
+const Link = () => (
+  <a
+    className="flex flex-row items-center text-xl hover:text-imas transition-colors"
+    title="Database by im@sparql"
+    href="https://sparql.crssnky.xyz/imas"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <FiDatabase />
+    <span className="ml-2 text-sm">by im@sparql</span>
+  </a>
+)
 
 const Footer = () => (
-  <div className="flex flex-col mt-20 items-center tracking-wide">
-    <Links />
-    <div className="mt-8 text-sm text-center">
-      <p>
-        {'The color data for idols is obtained from '}
-        <a
-          className="underline hover:text-imas transition-colors"
-          title="im@sparql"
-          href="https://sparql.crssnky.xyz/imas/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          im@sparql
-        </a>
-      </p>
-      <p className="mt-1">
-        The rights to all content related to THE IDOLM@STER belong to BANDAI
-        NAMCO Entertainment Inc.
-      </p>
-    </div>
+  <div className="flex flex-col mt-20 items-center text-sm tracking-wide">
+    <Link />
+    <p className="mt-6 text-center">
+      The rights to all content related to THE IDOLM@STER belong to BANDAI NAMCO
+      Entertainment Inc.
+    </p>
   </div>
 )
 

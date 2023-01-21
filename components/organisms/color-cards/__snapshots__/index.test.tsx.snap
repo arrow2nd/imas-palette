@@ -68,7 +68,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             RGB
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -101,7 +101,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
         <div
           class="flex flex-row items-center mt-4"
@@ -111,7 +111,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             HSV
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -144,7 +144,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
         <div
           class="flex flex-row items-center mt-4"
@@ -154,7 +154,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             HEX
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -187,7 +187,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
       </div>
     </div>
@@ -254,7 +254,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             RGB
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -287,7 +287,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
         <div
           class="flex flex-row items-center mt-4"
@@ -297,7 +297,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             HSV
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -330,7 +330,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
         <div
           class="flex flex-row items-center mt-4"
@@ -340,7 +340,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             HEX
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -373,7 +373,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
       </div>
     </div>
@@ -440,7 +440,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             RGB
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -473,7 +473,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
         <div
           class="flex flex-row items-center mt-4"
@@ -483,7 +483,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             HSV
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -516,7 +516,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
         <div
           class="flex flex-row items-center mt-4"
@@ -526,7 +526,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
           >
             HEX
           </div>
-          <div
+          <button
             class="flex-1 flex flex-row justify-end items-center text-sm tracking-wide cursor-pointer"
             data-testid="copy-button"
             title="クリックでコピー"
@@ -559,7 +559,7 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
                 />
               </svg>
             </span>
-          </div>
+          </button>
         </div>
       </div>
     </div>
