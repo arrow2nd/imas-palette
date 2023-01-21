@@ -1,21 +1,26 @@
-import { act, fireEvent, render } from '@testing-library/react'
+import { act, fireEvent, render, waitFor } from '@testing-library/react'
 
 import ColorValue from './value'
 
 describe('ColorValue', () => {
+  const mock = jest.fn()
+
   beforeAll(() => {
-    window.prompt = jest.fn()
+    Object.assign(navigator, {
+      clipboard: {
+        writeText: mock
+      }
+    })
   })
 
-  test('クリックでアイコンが変化するか', async () => {
+  test('クリックで値がコピーされるか', async () => {
     const { getByTestId } = render(<ColorValue type="HEX" value="#F8C715" />)
     const button = getByTestId('copy-button')
-    const prevInnerHTML = button.innerHTML
 
     act(() => {
       fireEvent.click(button)
     })
 
-    expect(button.innerHTML).not.toBe(prevInnerHTML)
+    await waitFor(() => expect(mock).toBeCalled())
   })
 })
