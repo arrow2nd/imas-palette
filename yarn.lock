@@ -3902,6 +3902,7 @@ __metadata:
     react-copy-to-clipboard: ^5.1.0
     react-device-detect: ^2.2.2
     react-dom: 18.2.0
+    react-github-corner: ^2.5.0
     react-icons: ^4.7.1
     react-infinite-scroller: ^1.2.6
     react-scroll: ^1.8.9
@@ -6013,6 +6014,15 @@ __metadata:
   peerDependencies:
     react: ^18.2.0
   checksum: 7d323310bea3a91be2965f9468d552f201b1c27891e45ddc2d6b8f717680c95a75ae0bc1e3f5cf41472446a2589a75aed4483aee8169287909fcd59ad149e8cc
+  languageName: node
+  linkType: hard
+
+"react-github-corner@npm:^2.5.0":
+  version: 2.5.0
+  resolution: "react-github-corner@npm:2.5.0"
+  peerDependencies:
+    react: "*"
+  checksum: cf1bb0f165b638df880f874447999950168d11a78ee2a382007e81c74372eb3453ecf1d4f9d0c7ccc6080315e3c88b2d4062735531311d7d645387ac0a949690
   languageName: node
   linkType: hard
 
