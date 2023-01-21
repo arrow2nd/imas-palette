@@ -7,6 +7,5 @@ declare module 'react-infinite-scroller' {
     children?: React.ReactNode
   }
 
-  class CopyToClipboard extends React.Component<Props, {}> {}
   export default InfiniteScroll
 }
