@@ -1,11 +1,10 @@
-# imas-palette 🎨
+# imas-palette
 
-THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラーが検索できる Web アプリ
+🎨 THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラーが検索できる Web アプリ
 
 [![update](https://github.com/arrow2nd/imas-palette/actions/workflows/update.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/update.yaml)
 [![test](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/test.yaml)
 [![e2e](https://github.com/arrow2nd/imas-palette/actions/workflows/e2e.yaml/badge.svg)](https://github.com/arrow2nd/imas-palette/actions/workflows/e2e.yaml)
-[![Depfu](https://badges.depfu.com/badges/da0f441a6bc66ea1257f998872751436/status.svg)](https://depfu.com)
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=imas-palette)](https://imas-palette.vercel.app)
 [![Powered by im@sparql](https://img.shields.io/badge/powered%20by-im%40sparql-F34F6D)](https://sparql.crssnky.xyz/imas/)
 
