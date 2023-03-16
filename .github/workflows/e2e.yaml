@@ -9,7 +9,7 @@ on:
       - main
 
 jobs:
-  build:
+  e2e:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
