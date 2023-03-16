@@ -20,9 +20,9 @@ THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラ�
 ## 実行
 
 ```
-yarn dev
+pnpm dev
 # or
-yarn build && yarn start
+pnpm build && pnpm start
 ```
 
 ## Thanks!

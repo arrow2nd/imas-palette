@@ -9,7 +9,7 @@
     "test:e2e": "playwright test",
     "fmt": "prettier --write .",
     "fmt:colors": "prettier --write ./data/colors.ts",
-    "create:colors": "yarn ts-node ./tools/create-colors.ts"
+    "create:colors": "ts-node ./tools/create-colors.ts"
   },
   "dependencies": {
     "next": "13.1.1",
@@ -46,6 +46,5 @@
     "tailwindcss": "^3.2.7",
     "ts-node": "^10.9.1",
     "typescript": "4.9.4"
-  },
-  "packageManager": "yarn@3.1.1"
+  }
 }
