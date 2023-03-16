@@ -5,7 +5,7 @@ const slow: LaunchOptions = { slowMo: 250 }
 const config: PlaywrightTestConfig = {
   testDir: './e2e',
   webServer: {
-    command: 'yarn build && yarn start',
+    command: 'pnpm build && pnpm start',
     port: 3000,
     timeout: 120 * 1000,
     reuseExistingServer: !process.env.CI

@@ -14,13 +14,18 @@ jobs:
         run: echo "NEW_BRANCH_NAME=update-color-$(date '+%s')" >> $GITHUB_ENV
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Install Node.js, npm and Yarn
-        uses: actions/setup-node@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
         with:
-          node-version: '16'
-          cache: yarn
+          version: 7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'pnpm'
 
       - name: Create new branch
         env:
@@ -28,14 +33,11 @@ jobs:
         run: |
           git switch -c ${{ env.NEW_BRANCH_NAME }}
 
-      - name: Install dependencies
-        run: yarn install --immutable
-
       - name: Recreate color data
-        run: yarn create:colors
+        run: pnpm create:colors
 
       - name: Format data
-        run: yarn fmt:colors
+        run: pnpm fmt:colors
 
       - name: Commit the changes
         uses: stefanzweifel/git-auto-commit-action@v4
