@@ -9,7 +9,7 @@
     "test:e2e": "playwright test",
     "fmt": "prettier --write .",
     "fmt:colors": "prettier --write ./data/colors.ts",
-    "create:colors": "ts-node ./tools/create-colors.ts"
+    "create:colors": "pnpm exec ts-node ./tools/create-colors.ts"
   },
   "dependencies": {
     "next": "13.2.4",
