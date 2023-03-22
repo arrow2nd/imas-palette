@@ -33,6 +33,9 @@ jobs:
         run: |
           git switch -c ${{ env.NEW_BRANCH_NAME }}
 
+      - name: Install dependencies
+        run: pnpm install
+
       - name: Recreate color data
         run: pnpm create:colors
 
