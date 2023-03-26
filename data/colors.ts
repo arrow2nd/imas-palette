@@ -333,9 +333,22 @@ export const colors: ColorDetail[] = [
     nameKana: 'いかるがるか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(30, 20, 14)',
-      hsv: 'hsv(23, 53, 12)',
-      hex: '#1E140E',
+      rgb: 'rgb(36, 19, 13)',
+      hsv: 'hsv(16, 64, 14)',
+      hex: '#24130D',
+      similar: '#000000'
+    }
+  },
+  {
+    id: '%e6%96%91%e9%b3%a9%e3%83%ab%e3%82%ab_shinycolors',
+    name: '斑鳩ルカ',
+    nameSuppl: '[ユニット]',
+    nameKana: 'いかるがるか',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(36, 19, 13)',
+      hsv: 'hsv(16, 64, 14)',
+      hex: '#24130D',
       similar: '#000000'
     }
   },
