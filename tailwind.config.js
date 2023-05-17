@@ -1,10 +1,7 @@
 module.exports = {
-  content: ['./pages/**/*.tsx', './components/**/*.{ts,tsx}'],
+  content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{ts,tsx}'],
   theme: {
     extend: {
-      fontFamily: {
-        default: ['"M PLUS Rounded 1c"', 'sans-serif']
-      },
       colors: {
         'natural-white': '#faf8f7',
         'natural-gray': '#515151',

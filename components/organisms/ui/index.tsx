@@ -1,3 +1,5 @@
+'use client'
+
 import { useCallback, useState } from 'react'
 
 import { useColorData } from 'hooks/useColorData'

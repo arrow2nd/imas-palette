@@ -1,6 +1,6 @@
 export type Seo = {
   title: string
-  desc: string
+  description: string
   url: string
   ogpImgUrl: string
 }
