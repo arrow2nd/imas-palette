@@ -34,7 +34,7 @@ jobs:
           git switch -c ${{ env.NEW_BRANCH_NAME }}
 
       - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
+        run: pnpm install --frozen-lockfile
 
       - name: Recreate color data
         run: pnpm create:colors
