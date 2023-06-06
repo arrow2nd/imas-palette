@@ -34,7 +34,7 @@ jobs:
           git switch -c ${{ env.NEW_BRANCH_NAME }}
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Recreate color data
         run: pnpm create:colors
@@ -47,6 +47,7 @@ jobs:
         with:
           branch: ${{ env.NEW_BRANCH_NAME }}
           commit_message: 'chore: 色データを更新'
+          file_pattern: '/data/*.ts'
 
       - name: Create pull request
         uses: repo-sync/pull-request@v2
