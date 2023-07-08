@@ -48,7 +48,7 @@ devDependencies:
     version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
   '@trivago/prettier-plugin-sort-imports':
     specifier: ^4.1.1
-    version: 4.1.1(prettier@2.8.4)
+    version: 4.1.1(prettier@3.0.0)
   '@types/color-convert':
     specifier: ^2.0.0
     version: 2.0.0
@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^8.4.21
     version: 8.4.21
   prettier:
-    specifier: ^2.8.4
-    version: 2.8.4
+    specifier: ^3.0.0
+    version: 3.0.0
   tailwindcss:
     specifier: ^3.2.7
     version: 3.2.7(postcss@8.4.21)(ts-node@10.9.1)
@@ -1025,7 +1025,7 @@ packages:
     engines: {node: '>= 10'}
     dev: true
 
-  /@trivago/prettier-plugin-sort-imports@4.1.1(prettier@2.8.4):
+  /@trivago/prettier-plugin-sort-imports@4.1.1(prettier@3.0.0):
     resolution: {integrity: sha512-dQ2r2uzNr1x6pJsuh/8x0IRA3CBUB+pWEW3J/7N98axqt7SQSm+2fy0FLNXvXGg77xEDC7KHxJlHfLYyi7PDcw==}
     peerDependencies:
       '@vue/compiler-sfc': 3.x
@@ -1040,7 +1040,7 @@ packages:
       '@babel/types': 7.17.0
       javascript-natural-sort: 0.7.1
       lodash: 4.17.21
-      prettier: 2.8.4
+      prettier: 3.0.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4197,9 +4197,9 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
-    engines: {node: '>=10.13.0'}
+  /prettier@3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
