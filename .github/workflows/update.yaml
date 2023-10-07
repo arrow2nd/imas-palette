@@ -43,7 +43,7 @@ jobs:
         run: pnpm fmt:colors
 
       - name: Commit the changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ env.NEW_BRANCH_NAME }}
           commit_message: 'chore: 色データを更新'
