@@ -14,7 +14,7 @@ describe('ColorCards', () => {
 
   test('カードが無いときの表示が正しいか', () => {
     const { getByText } = render(<ColorCards {...props} items={[]} />)
-    expect(getByText('みつかりませんでした...')).toBeTruthy()
+    expect(getByText('見つかりませんでした…')).toBeTruthy()
   })
 
   test('見た目が変化していないか', () => {

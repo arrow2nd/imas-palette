@@ -19,7 +19,7 @@ describe('UI', () => {
       fireEvent.click(getByTestId('search-button'))
     })
 
-    expect(getByText('みつかりませんでした...')).toBeTruthy()
+    expect(getByText('見つかりませんでした…')).toBeTruthy()
   })
 
   test('ブランドから検索ができるか', () => {
