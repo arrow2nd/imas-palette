@@ -1,8 +1,10 @@
 import { PlaywrightTestConfig, devices } from '@playwright/test'
 
 const config: PlaywrightTestConfig = {
-  baseURL: 'http://localhost:3000',
   testDir: './e2e',
+  use: {
+    baseURL: 'http://localhost:3000/'
+  },
   webServer: {
     command: 'pnpm build && pnpm start',
     port: 3000,
