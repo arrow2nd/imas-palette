@@ -2,7 +2,7 @@ import { PlaywrightTestConfig, devices } from '@playwright/test'
 
 const config: PlaywrightTestConfig = {
   testDir: './e2e',
-  retry: 2,
+  retries: 2,
   use: {
     baseURL: 'http://localhost:3000/'
   },
