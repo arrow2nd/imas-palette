@@ -11,7 +11,7 @@ import ColorInfo from 'components/organisms/color-info'
 import { Props } from './props'
 
 const CardDefault = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
-  <Card className="h-64" dataTestId="color-card">
+  <Card className="h-64">
     <CardTitle name={data.name} nameSuppl={data.nameSuppl} hex={data.color.hex}>
       {isKeep ? (
         <RemoveButton className="ml-4" onClick={onClickRemove} />

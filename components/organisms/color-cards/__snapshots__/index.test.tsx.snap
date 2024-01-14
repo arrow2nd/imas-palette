@@ -4,10 +4,10 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
 <div>
   <div
     class="flex flex-row flex-wrap justify-center "
+    data-testid="card-area"
   >
     <div
       class="w-96 m-2 p-6 rounded-lg shadow-md bg-white h-64"
-      data-testid="color-card"
     >
       <div
         class="flex flex-row items-center"
@@ -193,7 +193,6 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
     </div>
     <div
       class="w-96 m-2 p-6 rounded-lg shadow-md bg-white h-64"
-      data-testid="color-card"
     >
       <div
         class="flex flex-row items-center"
@@ -379,7 +378,6 @@ exports[`ColorCards 見た目が変化していないか 1`] = `
     </div>
     <div
       class="w-96 m-2 p-6 rounded-lg shadow-md bg-white h-64"
-      data-testid="color-card"
     >
       <div
         class="flex flex-row items-center"

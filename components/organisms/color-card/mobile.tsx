@@ -11,7 +11,7 @@ import ColorInfo from 'components/organisms/color-info'
 import { Props } from './props'
 
 const CardMobile = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (
-  <Card dataTestId="color-card">
+  <Card>
     <CardTitle
       name={data.name}
       nameSuppl={data.nameSuppl}

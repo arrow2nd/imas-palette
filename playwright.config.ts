@@ -1,9 +1,10 @@
-import { LaunchOptions, PlaywrightTestConfig, devices } from '@playwright/test'
-
-const slow: LaunchOptions = { slowMo: 250 }
+import { PlaywrightTestConfig, devices } from '@playwright/test'
 
 const config: PlaywrightTestConfig = {
   testDir: './e2e',
+  use: {
+    baseURL: 'http://localhost:3000/'
+  },
   webServer: {
     command: 'pnpm build && pnpm start',
     port: 3000,
@@ -13,27 +14,27 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: 'chrome',
-      use: { ...devices['Desktop Chrome'], launchOptions: slow }
+      use: { ...devices['Desktop Chrome'] }
     },
     {
       name: 'edge',
-      use: { ...devices['Desktop Edge'], launchOptions: slow }
+      use: { ...devices['Desktop Edge'] }
     },
     {
       name: 'firefox',
-      use: { ...devices['Desktop Firefox'], launchOptions: slow }
+      use: { ...devices['Desktop Firefox'] }
     },
     {
       name: 'safari',
-      use: { ...devices['Desktop Safari'], launchOptions: slow }
+      use: { ...devices['Desktop Safari'] }
     },
     {
       name: 'android',
-      use: { ...devices['Pixel 5'], launchOptions: slow }
+      use: { ...devices['Pixel 5'] }
     },
     {
       name: 'iphone',
-      use: { ...devices['iPhone 13'], launchOptions: slow }
+      use: { ...devices['iPhone 13'] }
     }
   ]
 }
