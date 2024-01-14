@@ -1,6 +1,14 @@
+import { M_PLUS_Rounded_1c } from 'next/font/google'
 import React from 'react'
 
 import 'styles/globals.css'
+
+const mPlusRounded1c = M_PLUS_Rounded_1c({
+  display: 'swap',
+  weight: ['400'],
+  subsets: ['latin'],
+  adjustFontFallback: false
+})
 
 export default function RootLayout({
   children
@@ -9,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body className={mPlusRounded1c.className}>{children}</body>
     </html>
   )
 }
