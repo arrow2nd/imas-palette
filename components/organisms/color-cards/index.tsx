@@ -78,7 +78,7 @@ const ColorCards = ({
   }
 
   return items.length === 0 ? (
-    <div className={`flex justify-center ${className}`}>
+    <div className={`flex justify-center ${className}`} data-testid="card-area">
       <NotFoundCard />
     </div>
   ) : (
@@ -86,10 +86,10 @@ const ColorCards = ({
       className={`flex flex-row flex-wrap justify-center ${className}`}
       loadMore={handleLoadMore}
       hasMore={hasMore}
+      data-testid="card-area"
     >
       {cards.slice(0, offset)}
     </InfiniteScroll>
   )
 }
-
 export default ColorCards
