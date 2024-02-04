@@ -1,5 +1,4 @@
 import fs from 'fs'
-
 import { fetchIdols } from './libs/fetch-idols'
 import { fetchUnits } from './libs/fetch-units'
 

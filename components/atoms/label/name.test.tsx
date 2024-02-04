@@ -1,5 +1,4 @@
 import { render } from '@testing-library/react'
-
 import NameLabel from './name'
 
 describe('NameLabel', () => {

@@ -1,5 +1,4 @@
 import { expect, test } from '@playwright/test'
-
 import { search } from './utils'
 
 test.describe('アイドル名で検索できる', () => {

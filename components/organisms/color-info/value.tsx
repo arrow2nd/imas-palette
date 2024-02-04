@@ -1,7 +1,6 @@
 import { useReducer } from 'react'
 import { FiCopy } from 'react-icons/fi'
 import { RiCheckboxCircleFill } from 'react-icons/ri'
-
 import TypeLabel from 'components/atoms/label/type'
 
 type Props = {

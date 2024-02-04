@@ -1,11 +1,8 @@
 import { useEffect, useMemo, useState } from 'react'
 import { isMobile } from 'react-device-detect'
 import InfiniteScroll from 'react-infinite-scroller'
-
 import NotFoundCard from 'components/molecules/not-found-card'
-
 import { ColorDetail } from 'types/color-detail'
-
 import CardDefault from '../color-card'
 import CardMobile from '../color-card/mobile'
 

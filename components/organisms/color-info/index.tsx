@@ -1,5 +1,4 @@
 import { Color } from 'types/color'
-
 import ColorValue from './value'
 
 type Props = {

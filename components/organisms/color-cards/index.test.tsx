@@ -1,7 +1,5 @@
 import { render } from '@testing-library/react'
-
 import { ColorDetail } from 'types/color-detail'
-
 import ColorCards from './index'
 
 describe('ColorCards', () => {

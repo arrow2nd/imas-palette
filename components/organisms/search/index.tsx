@@ -1,11 +1,8 @@
 import React, { useMemo, useRef } from 'react'
-
 import Button from 'components/atoms/button'
 import Input from 'components/atoms/input'
 import Select from 'components/atoms/select'
-
 import { brands } from 'data/brands'
-
 import SearchColors from '../search-colors'
 
 type Props = {

@@ -1,5 +1,4 @@
 import { act, fireEvent, render } from '@testing-library/react'
-
 import Search from './index'
 
 describe('Search', () => {

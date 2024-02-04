@@ -1,5 +1,4 @@
 import { colors } from 'data/colors'
-
 import { ColorDetail } from 'types/color-detail'
 
 export const useColorData = (

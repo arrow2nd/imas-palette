@@ -1,6 +1,5 @@
 import { IoIosArrowUp } from 'react-icons/io'
 import { animateScroll } from 'react-scroll'
-
 import Button from 'components/atoms/button'
 
 type Props = {

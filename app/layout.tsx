@@ -1,6 +1,6 @@
+import { Analytics } from '@vercel/analytics/react'
 import { M_PLUS_Rounded_1c } from 'next/font/google'
 import React from 'react'
-
 import 'styles/globals.css'
 
 const mPlusRounded1c = M_PLUS_Rounded_1c({
@@ -18,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={mPlusRounded1c.className}>{children}</body>
+      <Analytics />
     </html>
   )
 }

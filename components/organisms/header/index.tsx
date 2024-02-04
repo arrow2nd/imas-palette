@@ -1,5 +1,4 @@
 import TitleText from 'components/atoms/title'
-
 import GitHubCorner from './github-corner'
 
 type Props = {

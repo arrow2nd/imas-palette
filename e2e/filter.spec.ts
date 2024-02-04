@@ -1,5 +1,4 @@
 import { expect, test } from '@playwright/test'
-
 import { search } from './utils'
 
 test.describe('色味で絞り込める', () => {

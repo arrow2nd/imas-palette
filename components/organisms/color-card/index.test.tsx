@@ -1,7 +1,5 @@
 import { act, fireEvent, render } from '@testing-library/react'
-
 import { ColorDetail } from 'types/color-detail'
-
 import CardDefault from './index'
 
 describe('CardDefault', () => {

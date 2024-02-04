@@ -1,5 +1,4 @@
 import { render } from '@testing-library/react'
-
 import ColorSample from './index'
 
 describe('ColorSample', () => {
