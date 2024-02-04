@@ -1,7 +1,5 @@
 import { renderHook } from '@testing-library/react'
-
 import { colors } from 'data/colors'
-
 import { useColorData } from './useColorData'
 
 describe('useColorData', () => {

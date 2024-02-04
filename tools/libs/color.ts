@@ -1,7 +1,5 @@
 import convert from 'color-convert'
-
 import { Color } from 'types/color'
-
 import { searchColors } from '../../data/search-colors'
 
 const ColorClassifier = require('color-classifier')

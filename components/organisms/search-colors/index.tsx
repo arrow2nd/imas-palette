@@ -1,5 +1,4 @@
 import { searchColors } from 'data/search-colors'
-
 import ColorButton from './color-button'
 
 type Props = {

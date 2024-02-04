@@ -1,13 +1,9 @@
 import React from 'react'
-
 import Card from 'components/atoms/card'
-
 import CardTitle from 'components/molecules/card-title'
-
 import KeepButton from 'components/organisms/button/keep'
 import RemoveButton from 'components/organisms/button/remove'
 import ColorInfo from 'components/organisms/color-info'
-
 import { Props } from './props'
 
 const CardMobile = ({ data, isKeep, onClickKeep, onClickRemove }: Props) => (

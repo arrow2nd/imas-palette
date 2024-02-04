@@ -1,5 +1,4 @@
 import { render } from '@testing-library/react'
-
 import TypeLabel from './type'
 
 describe('TypeLabel', () => {

@@ -1,5 +1,4 @@
 import { ColorDetail } from 'types/color-detail'
-
 import { createColor } from './color'
 import { fetchIdolData } from './fetch'
 

@@ -1,9 +1,7 @@
 import { Metadata } from 'next/types'
-
 import Footer from 'components/organisms/footer'
 import Header from 'components/organisms/header'
 import UI from 'components/organisms/ui'
-
 import { seo } from 'data/seo'
 
 export async function generateMetadata(): Promise<Metadata> {

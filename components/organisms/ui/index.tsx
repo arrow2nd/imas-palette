@@ -1,10 +1,8 @@
 'use client'
 
 import { useCallback, useState } from 'react'
-
 import { useColorData } from 'hooks/useColorData'
 import { useKeepId } from 'hooks/useKeepId'
-
 import MoveTopButton from '../button/move-top'
 import ColorCards from '../color-cards'
 import Search from '../search'

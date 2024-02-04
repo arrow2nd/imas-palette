@@ -1,5 +1,4 @@
 import { MdRemoveCircleOutline } from 'react-icons/md'
-
 import Button from 'components/atoms/button'
 
 type Props = {
