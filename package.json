@@ -31,7 +31,7 @@
     "@types/color-convert": "^2.0.3",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.11.0",
-    "@types/react": "18.2.48",
+    "@types/react": "18.2.52",
     "@types/react-scroll": "^1.8.10",
     "autoprefixer": "^10.4.16",
     "axios": "^1.6.5",
