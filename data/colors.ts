@@ -353,6 +353,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'haruki_ikuta_shinycolors',
+    name: '郁田はるき',
+    nameSuppl: 'Haruki Ikuta',
+    nameKana: 'いくたはるき',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(234, 215, 164)',
+      hsv: 'hsv(44, 30, 92)',
+      hex: '#EAD7A4',
+      similar: '#ffffff'
+    }
+  },
+  {
     id: 'hokuto_ijuin_sidem',
     name: '伊集院北斗',
     nameSuppl: 'Hokuto Ijuin',
@@ -1562,6 +1575,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'hana_suzuki_shinycolors',
+    name: '鈴木羽那',
+    nameSuppl: 'Hana Suzuki',
+    nameKana: 'すずきはな',
+    brand: 'ShinyColors',
+    color: {
+      rgb: 'rgb(224, 181, 211)',
+      hsv: 'hsv(318, 19, 88)',
+      hex: '#E0B5D3',
+      similar: '#ffffff'
+    }
+  },
+  {
     id: 'straylight_shinycolors',
     name: 'Straylight',
     nameSuppl: '[ユニット]',
@@ -1572,6 +1598,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(358, 81, 65)',
       hex: '#A51F24',
       similar: '#ff0000'
+    }
+  },
+  {
+    id: 'akira_sunazuka_cinderellagirls',
+    name: '砂塚あきら',
+    nameSuppl: 'Akira Sunazuka',
+    nameKana: 'すなづかあきら',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(124, 142, 162)',
+      hsv: 'hsv(212, 23, 64)',
+      hex: '#7C8EA2',
+      similar: '#0000ff'
     }
   },
   {
@@ -2927,6 +2966,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'hijiri_mochizuki_cinderellagirls',
+    name: '望月聖',
+    nameSuppl: 'Hijiri Mochizuki',
+    nameKana: 'もちづきひじり',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(182, 221, 228)',
+      hsv: 'hsv(189, 20, 89)',
+      hex: '#B6DDE4',
+      similar: '#00ffff'
+    }
+  },
+  {
     id: '%e3%82%82%e3%81%b5%e3%82%82%e3%81%b5%e3%81%88%e3%82%93_sidem',
     name: 'もふもふえん',
     nameSuppl: '[ユニット]',
@@ -3093,6 +3145,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(19, 10, 78)',
       hex: '#C7BAB4',
       similar: '#ffffff'
+    }
+  },
+  {
+    id: 'layla_cinderellagirls',
+    name: 'ライラ',
+    nameSuppl: 'Layla',
+    nameKana: 'らいら',
+    brand: 'CinderellaGirls',
+    color: {
+      rgb: 'rgb(117, 222, 213)',
+      hsv: 'hsv(175, 47, 87)',
+      hex: '#75DED5',
+      similar: '#00ffff'
     }
   },
   {
