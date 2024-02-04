@@ -19,19 +19,13 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'pnpm'
-
-      - name: Create new branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git switch -c ${{ env.NEW_BRANCH_NAME }}
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
@@ -42,17 +36,13 @@ jobs:
       - name: Format data
         run: pnpm fmt:colors
 
-      - name: Commit the changes
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          branch: ${{ env.NEW_BRANCH_NAME }}
-          commit_message: 'chore: 色データを更新'
-          file_pattern: '/data/*.ts'
-
       - name: Create pull request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v6
         with:
-          source_branch: ${{ env.NEW_BRANCH_NAME }}
-          destination_branch: 'main'
-          pr_title: 'chore: 色データを更新'
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 🍱 色データを更新
+          branch: ${{ env.NEW_BRANCH_NAME }}
+          delete-branch: true
+          title: '🍱 色データを更新'
+          body: 'このPRは自動生成されました 🤖'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
