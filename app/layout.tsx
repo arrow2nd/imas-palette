@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react'
 import { M_PLUS_Rounded_1c } from 'next/font/google'
 import React from 'react'
 import 'styles/globals.css'
@@ -18,7 +17,11 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={mPlusRounded1c.className}>{children}</body>
-      <Analytics />
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "7e995a4912664d1f96fba895f160587c"}'
+      ></script>
     </html>
   )
 }
