@@ -16,12 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "7e995a4912664d1f96fba895f160587c"}'
+        ></script>
+      </head>
       <body className={mPlusRounded1c.className}>{children}</body>
-      <script
-        defer
-        src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token": "7e995a4912664d1f96fba895f160587c"}'
-      ></script>
     </html>
   )
 }
