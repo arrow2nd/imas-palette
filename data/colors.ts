@@ -2264,6 +2264,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'hanami_saki_gakuen',
+    name: '花海咲季',
+    nameSuppl: 'Hanami Saki',
+    nameKana: 'はなみさき',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(234, 74, 91)',
+      hsv: 'hsv(354, 68, 92)',
+      hex: '#EA4A5B',
+      similar: '#ff0000'
+    }
+  },
+  {
     id: 'shoma_hanamura_sidem',
     name: '華村翔真',
     nameSuppl: 'Shoma Hanamura',
