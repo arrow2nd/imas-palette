@@ -30,6 +30,10 @@ export const brands: Option[] = [
     value: 'ShinyColors'
   },
   {
+    title: '学園アイドルマスター',
+    value: 'Gakuen'
+  },
+  {
     title: '未分類',
     value: 'Other'
   },

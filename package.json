@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
+    "test:update": "jest -u",
     "test:e2e": "playwright test",
     "fmt": "prettier --write .",
     "fmt:colors": "prettier --write ./data/colors.ts",
