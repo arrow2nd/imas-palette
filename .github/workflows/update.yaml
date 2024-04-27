@@ -44,5 +44,7 @@ jobs:
           delete-branch: true
           title: '🍱 色データを更新'
           body: 'このPRは自動生成されました 🤖'
+          add-paths: |
+            data/*.ts
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
