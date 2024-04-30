@@ -2264,9 +2264,9 @@ export const colors: ColorDetail[] = [
     }
   },
   {
-    id: 'hanami_saki_gakuen',
+    id: 'saki_hanami_gakuen',
     name: '花海咲季',
-    nameSuppl: 'Hanami Saki',
+    nameSuppl: 'Saki Hanami',
     nameKana: 'はなみさき',
     brand: 'Gakuen',
     color: {
