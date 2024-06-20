@@ -275,6 +275,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'mao_arimura_gakuen',
+    name: '有村麻央',
+    nameSuppl: 'Mao Arimura',
+    nameKana: 'ありむらまお',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(164, 83, 166)',
+      hsv: 'hsv(299, 50, 65)',
+      hex: '#A453A6',
+      similar: '#800080'
+    }
+  },
+  {
     id: 'alstroemeria_shinycolors',
     name: 'ALSTROEMERIA',
     nameSuppl: '[ユニット]',
@@ -704,6 +717,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'lilja_katsuragi_gakuen',
+    name: '葛城リーリヤ',
+    nameSuppl: 'Lilja Katsuragi',
+    nameKana: 'かつらぎりーりや',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(239, 253, 255)',
+      hsv: 'hsv(188, 6, 100)',
+      hex: '#EFFDFF',
+      similar: '#00ffff'
+    }
+  },
+  {
     id: 'hibiki_ganaha_765as',
     name: '我那覇響',
     nameSuppl: 'Hibiki Ganaha',
@@ -1000,6 +1026,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(175, 100, 80)',
       hex: '#00CCBB',
       similar: '#00ffff'
+    }
+  },
+  {
+    id: 'china_kuramoto_gakuen',
+    name: '倉本千奈',
+    nameSuppl: 'China Kuramoto',
+    nameKana: 'くらもとちな',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(248, 172, 94)',
+      hsv: 'hsv(30, 62, 97)',
+      hex: '#F8AC5E',
+      similar: '#ffa500'
     }
   },
   {
@@ -1341,6 +1380,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'sumika_shiun_gakuen',
+    name: '紫雲清夏',
+    nameSuppl: 'Sumika Shiun',
+    nameKana: 'しうんすみか',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(162, 253, 71)',
+      hsv: 'hsv(90, 72, 99)',
+      hex: '#A2FD47',
+      similar: '#90e200'
+    }
+  },
+  {
     id: 'syuko_shiomi_cinderellagirls',
     name: '塩見周子',
     nameSuppl: 'Syuko Shiomi',
@@ -1364,6 +1416,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(324, 89, 65)',
       hex: '#A6126A',
       similar: '#800080'
+    }
+  },
+  {
+    id: 'hiro_shinosawa_gakuen',
+    name: '篠澤広',
+    nameSuppl: 'Hiro Shinosawa',
+    nameKana: 'しのさわひろ',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(72, 198, 218)',
+      hsv: 'hsv(188, 67, 85)',
+      hex: '#48C6DA',
+      similar: '#00ffff'
     }
   },
   {
@@ -1429,6 +1494,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(344, 53, 93)',
       hex: '#EC7092',
       similar: '#ff0000'
+    }
+  },
+  {
+    id: 'sena_juo_gakuen',
+    name: '十王星南',
+    nameSuppl: 'Sena Juo',
+    nameKana: 'じゅうおうせな',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(249, 197, 132)',
+      hsv: 'hsv(33, 47, 98)',
+      hex: '#F9C584',
+      similar: '#ffa500'
     }
   },
   {
@@ -1848,6 +1926,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'temari_tsukimura_gakuen',
+    name: '月村手毬',
+    nameSuppl: 'Temari Tsukimura',
+    nameKana: 'つきむらてまり',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(79, 160, 206)',
+      hsv: 'hsv(202, 62, 81)',
+      hex: '#4FA0CE',
+      similar: '#00ffff'
+    }
+  },
+  {
     id: 'kazuki_tsukumo_sidem',
     name: '九十九一希',
     nameSuppl: 'Kazuki Tsukumo',
@@ -2238,6 +2329,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'misuzu_hataya_gakuen',
+    name: '秦谷美鈴',
+    nameSuppl: 'Misuzu Hataya',
+    nameKana: 'はたやみすず',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(160, 182, 220)',
+      hsv: 'hsv(218, 27, 86)',
+      hex: '#A0B6DC',
+      similar: '#0000ff'
+    }
+  },
+  {
     id: 'meguru_hachimiya_shinycolors',
     name: '八宮めぐる',
     nameSuppl: 'Meguru Hachimiya',
@@ -2261,6 +2365,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(86, 56, 84)',
       hex: '#A2D55E',
       similar: '#90e200'
+    }
+  },
+  {
+    id: 'ume_hanami_gakuen',
+    name: '花海佑芽',
+    nameSuppl: 'Ume Hanami',
+    nameKana: 'はなみうめ',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(239, 132, 114)',
+      hsv: 'hsv(9, 52, 94)',
+      hex: '#EF8472',
+      similar: '#ff0000'
     }
   },
   {
@@ -2433,6 +2550,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'rinami_himesaki_gakuen',
+    name: '姫崎莉波',
+    nameSuppl: 'Rinami Himesaki',
+    nameKana: 'ひめさきりなみ',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(249, 196, 214)',
+      hsv: 'hsv(340, 21, 98)',
+      hex: '#F9C4D6',
+      similar: '#ffffff'
+    }
+  },
+  {
     id: 'kanon_himeno_sidem',
     name: '姫野かのん',
     nameSuppl: 'Kanon Himeno',
@@ -2469,6 +2599,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(252, 47, 76)',
       hex: '#7967C3',
       similar: '#0000ff'
+    }
+  },
+  {
+    id: 'kotone_fujita_gakuen',
+    name: '藤田ことね',
+    nameSuppl: 'Kotone Fujita',
+    nameKana: 'ふじたことね',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(250, 211, 86)',
+      hsv: 'hsv(46, 66, 98)',
+      hex: '#FAD356',
+      similar: '#ffa500'
     }
   },
   {
