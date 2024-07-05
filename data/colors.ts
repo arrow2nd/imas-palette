@@ -782,6 +782,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'cosmo_kamizuru_va-liv',
+    name: '上水流宇宙',
+    nameSuppl: 'Cosmo Kamizuru',
+    nameKana: 'かみずるこすも',
+    brand: 'va-liv',
+    color: {
+      rgb: 'rgb(86, 204, 242)',
+      hsv: 'hsv(195, 64, 95)',
+      hex: '#56CCF2',
+      similar: '#00ffff'
+    }
+  },
+  {
     id: 'nao_kamiya_cinderellagirls',
     name: '神谷奈緒',
     nameSuppl: 'Nao Kamiya',
@@ -2052,6 +2065,19 @@ export const colors: ColorDetail[] = [
       rgb: 'rgb(233, 66, 92)',
       hsv: 'hsv(351, 72, 91)',
       hex: '#E9425C',
+      similar: '#ff0000'
+    }
+  },
+  {
+    id: 'manaka_tomori_va-liv',
+    name: '灯里愛夏',
+    nameSuppl: 'Manaka Tomori',
+    nameKana: 'ともりまなか',
+    brand: 'va-liv',
+    color: {
+      rgb: 'rgb(255, 69, 84)',
+      hsv: 'hsv(355, 73, 100)',
+      hex: '#FF4554',
       similar: '#ff0000'
     }
   },
@@ -3353,6 +3379,19 @@ export const colors: ColorDetail[] = [
       hsv: 'hsv(214, 35, 63)',
       hex: '#6880A0',
       similar: '#0000ff'
+    }
+  },
+  {
+    id: 'letora_va-liv',
+    name: 'レトラ',
+    nameSuppl: 'Letora',
+    nameKana: 'れとら',
+    brand: 'va-liv',
+    color: {
+      rgb: 'rgb(215, 249, 48)',
+      hsv: 'hsv(70, 81, 98)',
+      hex: '#D7F930',
+      similar: '#ffff00'
     }
   },
   {
