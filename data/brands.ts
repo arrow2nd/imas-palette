@@ -34,6 +34,10 @@ export const brands: Option[] = [
     value: 'Gakuen'
   },
   {
+    title: 'vα-liv',
+    value: 'va-liv'
+  },
+  {
     title: '未分類',
     value: 'Other'
   },
