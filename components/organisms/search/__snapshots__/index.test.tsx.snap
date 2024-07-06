@@ -63,6 +63,12 @@ exports[`Search 見た目が変化していないか 1`] = `
           </option>
           <option
             class="font-sans"
+            value="va-liv"
+          >
+            vα-liv
+          </option>
+          <option
+            class="font-sans"
             value="Other"
           >
             未分類
