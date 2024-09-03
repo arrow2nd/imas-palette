@@ -37,7 +37,7 @@ jobs:
         run: pnpm fmt:colors
 
       - name: Create pull request
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: 🍱 色データを更新
           branch: ${{ env.NEW_BRANCH_NAME }}
