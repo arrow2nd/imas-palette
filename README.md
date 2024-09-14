@@ -8,7 +8,7 @@
 [![Vercel](https://therealsujitk-vercel-badge.vercel.app/?app=imas-palette)](https://imas-palette.vercel.app)
 [![Powered by im@sparql](https://img.shields.io/badge/powered%20by-im%40sparql-F34F6D)](https://sparql.crssnky.xyz/imas/)
 
-[![imas-palette](https://user-images.githubusercontent.com/44780846/133921477-54eb4e39-f04f-484a-b96b-d215624fd52e.gif)](https://imas-palette.vercel.app/)
+https://github.com/user-attachments/assets/4f4429c1-d6bf-4b89-97fe-0f826f032271
 
 ## できること
 
