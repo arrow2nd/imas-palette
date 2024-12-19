@@ -1,3 +1,4 @@
+import { JSX } from 'react'
 import ColorSampleCircle from 'components/atoms/color-sample/circle'
 import { SearchColor } from 'types/search-color'
 
