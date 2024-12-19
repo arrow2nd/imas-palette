@@ -1,3 +1,4 @@
+import { JSX } from 'react'
 import { searchColors } from 'data/search-colors'
 import ColorButton from './color-button'
 
