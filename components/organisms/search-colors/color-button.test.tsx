@@ -1,7 +1,7 @@
 import { act, fireEvent, render } from '@testing-library/react'
 import ColorButton from './color-button'
 
-describe('ColorButtton', () => {
+describe('ColorButton', () => {
   const color = {
     name: '赤',
     hex: '#ff0000'
