@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ColorButtton 色が指定されていない時の表示は正しいか 1`] = `
+exports[`ColorButton 色が指定されていない時の表示は正しいか 1`] = `
 <div>
   <button
     class="mx-1 p-0 rounded-full border-2 border-transparent"
