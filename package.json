@@ -34,7 +34,7 @@
     "@types/color-convert": "^2.0.3",
     "@types/jest": "^29.5.12",
     "@types/node": "^22.0.0",
-    "@types/react": "19.0.5",
+    "@types/react": "19.0.6",
     "@types/react-dom": "^19.0.0",
     "@types/react-scroll": "^1.8.10",
     "autoprefixer": "^10.4.18",
