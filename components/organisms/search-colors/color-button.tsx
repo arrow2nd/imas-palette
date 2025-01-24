@@ -24,7 +24,7 @@ const ColorButton = ({
   >
     <ColorSampleCircle
       className={`border-2 ${
-        color.hex === '' && 'bg-gradient-to-r from-red-500 to-purple-500'
+        color.hex === '' && 'bg-linear-to-r from-red-500 to-purple-500'
       }`}
       {...color}
     />
