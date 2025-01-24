@@ -105,7 +105,7 @@ exports[`Search 見た目が変化していないか 1`] = `
         data-testid="search-color-button-0"
       >
         <div
-          class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
+          class="w-8 h-8 rounded-full border-2 bg-linear-to-r from-red-500 to-purple-500"
           title="全て"
         />
       </button>

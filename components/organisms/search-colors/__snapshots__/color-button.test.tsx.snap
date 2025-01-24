@@ -6,7 +6,7 @@ exports[`ColorButton 色が指定されていない時の表示は正しいか 1
     class="mx-1 p-0 rounded-full border-2 border-transparent"
   >
     <div
-      class="w-8 h-8 rounded-full border-2 bg-gradient-to-r from-red-500 to-purple-500"
+      class="w-8 h-8 rounded-full border-2 bg-linear-to-r from-red-500 to-purple-500"
       title=""
     />
   </button>
