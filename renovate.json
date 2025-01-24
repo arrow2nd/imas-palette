@@ -15,6 +15,7 @@
       "automerge": true
     }
   ],
+  "automerge": true,
   "commitMessagePrefix": ":arrow_up: ",
   "unicodeEmoji": true,
   "extends": ["config:base"]
