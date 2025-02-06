@@ -10,12 +10,14 @@ const colorClassifier = new ColorClassifier(
 )
 
 export function createColor(hex: string): Color {
-  const rgb = convert.hex.rgb(hex).join(', ')
-  const hsv = convert.hex.hsv(hex).join(', ')
+  const rgb = convert.hex.rgb(hex)
+
+  const rgbStr = rgb.join(',')
+  const hsvStr = convert.rgb.hsv(...rgb).join(',')
 
   return {
-    rgb: `rgb(${rgb})`,
-    hsv: `hsv(${hsv})`,
+    rgb: `rgb(${rgbStr})`,
+    hsv: `hsv(${hsvStr})`,
     hex: `#${hex}`,
     similar: colorClassifier.classify(`#${hex}`, 'hex')
   }
