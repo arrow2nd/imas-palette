@@ -86,7 +86,7 @@ importers:
         version: 0.0.1
       color-convert:
         specifier: ^3.0.0
-        version: 3.0.0
+        version: 3.0.1
       eslint:
         specifier: 9.19.0
         version: 9.19.0(jiti@2.4.2)
@@ -1160,8 +1160,8 @@ packages:
     resolution: {integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==}
     engines: {node: '>=7.0.0'}
 
-  color-convert@3.0.0:
-    resolution: {integrity: sha512-m65xBZ5vGd9Mxtaw/QSGoC5UykQoIksUfcQZ1w3kzl12jM3u1loRAkgXXSkbXp0+/vEslCW4BCajnXLZlxIstA==}
+  color-convert@3.0.1:
+    resolution: {integrity: sha512-5kQah2eolfQV7HCrxtsBBArPfT5dwaKYMCXeMQsdRO7ihTO/cuNLGjd50ITCDn+ZU/YbS0Go64SjP9154eopxg==}
     engines: {node: '>=14.6'}
 
   color-name@1.1.4:
@@ -4217,7 +4217,7 @@ snapshots:
     dependencies:
       color-name: 1.1.4
 
-  color-convert@3.0.0:
+  color-convert@3.0.1:
     dependencies:
       color-name: 2.0.0
 
