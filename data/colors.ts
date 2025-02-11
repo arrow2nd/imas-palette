@@ -8,8 +8,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あいばゆみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(234, 226, 141)',
-      hsv: 'hsv(55, 40, 92)',
+      rgb: 'rgb(234,226,141)',
+      hsv: 'hsv(55,40,92)',
       hex: '#EAE28D',
       similar: '#ffff00'
     }
@@ -21,8 +21,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あおいきょうすけ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(35, 205, 122)',
-      hsv: 'hsv(151, 83, 80)',
+      rgb: 'rgb(35,205,122)',
+      hsv: 'hsv(151,83,80)',
       hex: '#23CD7A',
       similar: '#00ffff'
     }
@@ -34,8 +34,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あおいゆうすけ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(254, 232, 6)',
-      hsv: 'hsv(55, 98, 100)',
+      rgb: 'rgb(254,232,6)',
+      hsv: 'hsv(55,98,100)',
       hex: '#FEE806',
       similar: '#ffff00'
     }
@@ -47,8 +47,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あかいすざく',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(230, 60, 46)',
-      hsv: 'hsv(5, 80, 90)',
+      rgb: 'rgb(230,60,46)',
+      hsv: 'hsv(5,80,90)',
       hex: '#E63C2E',
       similar: '#ff0000'
     }
@@ -60,8 +60,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あかぎみりあ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(248, 199, 21)',
-      hsv: 'hsv(47, 92, 97)',
+      rgb: 'rgb(248,199,21)',
+      hsv: 'hsv(47,92,97)',
       hex: '#F8C715',
       similar: '#ffa500'
     }
@@ -73,8 +73,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あきづきりつこ',
     brand: '765AS',
     color: {
-      rgb: 'rgb(1, 168, 96)',
-      hsv: 'hsv(154, 99, 66)',
+      rgb: 'rgb(1,168,96)',
+      hsv: 'hsv(154,99,66)',
       hex: '#01A860',
       similar: '#008000'
     }
@@ -86,8 +86,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あきづきりょう',
     brand: 'DearlyStars',
     color: {
-      rgb: 'rgb(178, 212, 104)',
-      hsv: 'hsv(79, 51, 83)',
+      rgb: 'rgb(178,212,104)',
+      hsv: 'hsv(79,51,83)',
       hex: '#B2D468',
       similar: '#90e200'
     }
@@ -99,8 +99,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あきづきりょう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(112, 180, 73)',
-      hsv: 'hsv(98, 59, 71)',
+      rgb: 'rgb(112,180,73)',
+      hsv: 'hsv(98,59,71)',
       hex: '#70B449',
       similar: '#90e200'
     }
@@ -112,8 +112,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あきやまはやと',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(254, 107, 2)',
-      hsv: 'hsv(25, 99, 100)',
+      rgb: 'rgb(254,107,2)',
+      hsv: 'hsv(25,99,100)',
       hex: '#FE6B02',
       similar: '#ffa500'
     }
@@ -125,8 +125,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あくのひでお',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(87, 179, 229)',
-      hsv: 'hsv(201, 62, 90)',
+      rgb: 'rgb(87,179,229)',
+      hsv: 'hsv(201,62,90)',
       hex: '#57B3E5',
       similar: '#00ffff'
     }
@@ -138,8 +138,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あけたみこと',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(118, 14, 16)',
-      hsv: 'hsv(359, 88, 46)',
+      rgb: 'rgb(118,14,16)',
+      hsv: 'hsv(359,88,46)',
       hex: '#760E10',
       similar: '#ff0000'
     }
@@ -151,8 +151,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あさくらとおる',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(80, 208, 208)',
-      hsv: 'hsv(180, 62, 82)',
+      rgb: 'rgb(80,208,208)',
+      hsv: 'hsv(180,62,82)',
       hex: '#50D0D0',
       similar: '#00ffff'
     }
@@ -164,8 +164,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あすらんべるぜびゅーとにせい',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(96, 108, 178)',
-      hsv: 'hsv(231, 46, 70)',
+      rgb: 'rgb(96,108,178)',
+      hsv: 'hsv(231,46,70)',
       hex: '#606CB2',
       similar: '#0000ff'
     }
@@ -177,8 +177,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あなすたしあ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(176, 197, 228)',
-      hsv: 'hsv(216, 23, 89)',
+      rgb: 'rgb(176,197,228)',
+      hsv: 'hsv(216,23,89)',
       hex: '#B0C5E4',
       similar: '#0000ff'
     }
@@ -190,8 +190,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あべなな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(239, 74, 129)',
-      hsv: 'hsv(340, 69, 94)',
+      rgb: 'rgb(239,74,129)',
+      hsv: 'hsv(340,69,94)',
       hex: '#EF4A81',
       similar: '#ff0000'
     }
@@ -203,8 +203,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あまがせとうま',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(243, 35, 51)',
-      hsv: 'hsv(355, 86, 95)',
+      rgb: 'rgb(243,35,51)',
+      hsv: 'hsv(355,86,95)',
       hex: '#F32333',
       similar: '#ff0000'
     }
@@ -216,8 +216,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あまみねしゅう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(29, 154, 221)',
-      hsv: 'hsv(201, 87, 87)',
+      rgb: 'rgb(29,154,221)',
+      hsv: 'hsv(201,87,87)',
       hex: '#1D9ADD',
       similar: '#00ffff'
     }
@@ -229,8 +229,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あまみはるか',
     brand: '765AS',
     color: {
-      rgb: 'rgb(226, 43, 48)',
-      hsv: 'hsv(358, 81, 89)',
+      rgb: 'rgb(226,43,48)',
+      hsv: 'hsv(358,81,89)',
       hex: '#E22B30',
       similar: '#ff0000'
     }
@@ -242,8 +242,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あや',
     brand: 'Other',
     color: {
-      rgb: 'rgb(63, 53, 56)',
-      hsv: 'hsv(342, 16, 25)',
+      rgb: 'rgb(63,53,56)',
+      hsv: 'hsv(342,16,25)',
       hex: '#3F3538',
       similar: '#000000'
     }
@@ -255,8 +255,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あらきひな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(128, 194, 96)',
-      hsv: 'hsv(100, 51, 76)',
+      rgb: 'rgb(128,194,96)',
+      hsv: 'hsv(100,51,76)',
       hex: '#80C260',
       similar: '#90e200'
     }
@@ -268,8 +268,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ありすがわなつは',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(144, 230, 103)',
-      hsv: 'hsv(101, 55, 90)',
+      rgb: 'rgb(144,230,103)',
+      hsv: 'hsv(101,55,90)',
       hex: '#90E667',
       similar: '#90e200'
     }
@@ -281,8 +281,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ありむらまお',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(164, 83, 166)',
-      hsv: 'hsv(299, 50, 65)',
+      rgb: 'rgb(164,83,166)',
+      hsv: 'hsv(299,50,65)',
       hex: '#A453A6',
       similar: '#800080'
     }
@@ -294,8 +294,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あるすとろめりあ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(230, 39, 124)',
-      hsv: 'hsv(333, 83, 90)',
+      rgb: 'rgb(230,39,124)',
+      hsv: 'hsv(333,83,90)',
       hex: '#E6277C',
       similar: '#ff0000'
     }
@@ -307,8 +307,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あるてっしも',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(246, 244, 94)',
-      hsv: 'hsv(59, 62, 96)',
+      rgb: 'rgb(246,244,94)',
+      hsv: 'hsv(59,62,96)',
       hex: '#F6F45E',
       similar: '#ffff00'
     }
@@ -320,8 +320,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'あんてぃーか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(131, 54, 150)',
-      hsv: 'hsv(288, 64, 59)',
+      rgb: 'rgb(131,54,150)',
+      hsv: 'hsv(288,64,59)',
       hex: '#833696',
       similar: '#800080'
     }
@@ -333,8 +333,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いがらしきょうこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(245, 103, 198)',
-      hsv: 'hsv(320, 58, 96)',
+      rgb: 'rgb(245,103,198)',
+      hsv: 'hsv(320,58,96)',
       hex: '#F567C6',
       similar: '#ff0000'
     }
@@ -346,8 +346,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いかるがるか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(36, 19, 13)',
-      hsv: 'hsv(16, 64, 14)',
+      rgb: 'rgb(36,19,13)',
+      hsv: 'hsv(16,64,14)',
       hex: '#24130D',
       similar: '#000000'
     }
@@ -359,8 +359,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いかるがるか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(36, 19, 13)',
-      hsv: 'hsv(16, 64, 14)',
+      rgb: 'rgb(36,19,13)',
+      hsv: 'hsv(16,64,14)',
       hex: '#24130D',
       similar: '#000000'
     }
@@ -372,8 +372,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いくたはるき',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(234, 215, 164)',
-      hsv: 'hsv(44, 30, 92)',
+      rgb: 'rgb(234,215,164)',
+      hsv: 'hsv(44,30,92)',
       hex: '#EAD7A4',
       similar: '#ffffff'
     }
@@ -385,8 +385,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いじゅういんほくと',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(28, 35, 170)',
-      hsv: 'hsv(237, 84, 67)',
+      rgb: 'rgb(28,35,170)',
+      hsv: 'hsv(237,84,67)',
       hex: '#1C23AA',
       similar: '#0000ff'
     }
@@ -398,8 +398,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いずみめい',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 0, 255)',
-      hsv: 'hsv(300, 100, 100)',
+      rgb: 'rgb(255,0,255)',
+      hsv: 'hsv(300,100,100)',
       hex: '#FF00FF',
       similar: '#800080'
     }
@@ -411,8 +411,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いせやしき',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(241, 37, 193)',
-      hsv: 'hsv(314, 85, 95)',
+      rgb: 'rgb(241,37,193)',
+      hsv: 'hsv(314,85,95)',
       hex: '#F125C1',
       similar: '#ff0000'
     }
@@ -424,8 +424,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いちかわひなな',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 198, 57)',
-      hsv: 'hsv(43, 78, 100)',
+      rgb: 'rgb(255,198,57)',
+      hsv: 'hsv(43,78,100)',
       hex: '#FFC639',
       similar: '#ffa500'
     }
@@ -437,8 +437,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いちのせしき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(160, 27, 80)',
-      hsv: 'hsv(336, 83, 63)',
+      rgb: 'rgb(160,27,80)',
+      hsv: 'hsv(336,83,63)',
       hex: '#A01B50',
       similar: '#800080'
     }
@@ -450,8 +450,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いちはらにな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(247, 222, 140)',
-      hsv: 'hsv(46, 43, 97)',
+      rgb: 'rgb(247,222,140)',
+      hsv: 'hsv(46,43,97)',
       hex: '#F7DE8C',
       similar: '#ffa500'
     }
@@ -463,8 +463,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いぶきつばさ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(254, 213, 82)',
-      hsv: 'hsv(46, 68, 100)',
+      rgb: 'rgb(254,213,82)',
+      hsv: 'hsv(46,68,100)',
       hex: '#FED552',
       similar: '#ffa500'
     }
@@ -476,8 +476,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'いるみねーしょんすたーず',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 162, 0)',
-      hsv: 'hsv(38, 100, 100)',
+      rgb: 'rgb(255,162,0)',
+      hsv: 'hsv(38,100,100)',
       hex: '#FFA200',
       similar: '#ffa500'
     }
@@ -489,8 +489,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'うえだすずほ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(201, 135, 15)',
-      hsv: 'hsv(39, 93, 79)',
+      rgb: 'rgb(201,135,15)',
+      hsv: 'hsv(39,93,79)',
       hex: '#C9870F',
       similar: '#ffa500'
     }
@@ -502,8 +502,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'うづきまきお',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(248, 197, 89)',
-      hsv: 'hsv(41, 64, 97)',
+      rgb: 'rgb(248,197,89)',
+      hsv: 'hsv(41,64,97)',
       hex: '#F8C559',
       similar: '#ffa500'
     }
@@ -515,8 +515,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'えみりーすちゅあーと',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(85, 65, 113)',
-      hsv: 'hsv(265, 42, 44)',
+      rgb: 'rgb(85,65,113)',
+      hsv: 'hsv(265,42,44)',
       hex: '#554171',
       similar: '#800080'
     }
@@ -528,8 +528,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'えんじょうじみちる',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(202, 145, 17)',
-      hsv: 'hsv(42, 92, 79)',
+      rgb: 'rgb(202,145,17)',
+      hsv: 'hsv(42,92,79)',
       hex: '#CA9111',
       similar: '#ffa500'
     }
@@ -541,8 +541,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おいかわしずく',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(255, 255, 255)',
-      hsv: 'hsv(0, 0, 100)',
+      rgb: 'rgb(255,255,255)',
+      hsv: 'hsv(0,0,100)',
       hex: '#FFFFFF',
       similar: '#ffffff'
     }
@@ -554,8 +554,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おおがみたまき',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(238, 118, 46)',
-      hsv: 'hsv(23, 81, 93)',
+      rgb: 'rgb(238,118,46)',
+      hsv: 'hsv(23,81,93)',
       hex: '#EE762E',
       similar: '#ffa500'
     }
@@ -567,8 +567,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おおさきあまな',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(245, 66, 117)',
-      hsv: 'hsv(343, 73, 96)',
+      rgb: 'rgb(245,66,117)',
+      hsv: 'hsv(343,73,96)',
       hex: '#F54275',
       similar: '#ff0000'
     }
@@ -580,8 +580,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おおさきてんか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(231, 91, 236)',
-      hsv: 'hsv(298, 61, 93)',
+      rgb: 'rgb(231,91,236)',
+      hsv: 'hsv(298,61,93)',
       hex: '#E75BEC',
       similar: '#800080'
     }
@@ -593,8 +593,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おおつきゆい',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(239, 184, 23)',
-      hsv: 'hsv(45, 90, 94)',
+      rgb: 'rgb(239,184,23)',
+      hsv: 'hsv(45,90,94)',
       hex: '#EFB817',
       similar: '#ffa500'
     }
@@ -606,8 +606,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おがたちえり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(105, 182, 76)',
-      hsv: 'hsv(104, 58, 71)',
+      rgb: 'rgb(105,182,76)',
+      hsv: 'hsv(104,58,71)',
       hex: '#69B64C',
       similar: '#008000'
     }
@@ -619,8 +619,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おかむらなお',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(31, 20, 81)',
-      hsv: 'hsv(251, 75, 32)',
+      rgb: 'rgb(31,20,81)',
+      hsv: 'hsv(251,75,32)',
       hex: '#1F1451',
       similar: '#800080'
     }
@@ -632,8 +632,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おくぞらこはく',
     brand: 'Other',
     color: {
-      rgb: 'rgb(252, 250, 212)',
-      hsv: 'hsv(57, 16, 99)',
+      rgb: 'rgb(252,250,212)',
+      hsv: 'hsv(57,16,99)',
       hex: '#FCFAD4',
       similar: '#ffffff'
     }
@@ -645,8 +645,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'おとくらゆうき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(242, 192, 193)',
-      hsv: 'hsv(359, 21, 95)',
+      rgb: 'rgb(242,192,193)',
+      hsv: 'hsv(359,21,95)',
       hex: '#F2C0C1',
       similar: '#ffffff'
     }
@@ -658,8 +658,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かぐられい',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(61, 90, 200)',
-      hsv: 'hsv(227, 70, 78)',
+      rgb: 'rgb(61,90,200)',
+      hsv: 'hsv(227,70,78)',
       hex: '#3D5AC8',
       similar: '#0000ff'
     }
@@ -671,8 +671,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かざのひおり',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(20, 67, 132)',
-      hsv: 'hsv(215, 85, 52)',
+      rgb: 'rgb(20,67,132)',
+      hsv: 'hsv(215,85,52)',
       hex: '#144384',
       similar: '#0000ff'
     }
@@ -684,8 +684,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かしわぎつばさ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(59, 175, 41)',
-      hsv: 'hsv(112, 77, 69)',
+      rgb: 'rgb(59,175,41)',
+      hsv: 'hsv(112,77,69)',
       hex: '#3BAF29',
       similar: '#008000'
     }
@@ -697,8 +697,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かすがみらい',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(234, 91, 118)',
-      hsv: 'hsv(349, 61, 92)',
+      rgb: 'rgb(234,91,118)',
+      hsv: 'hsv(349,61,92)',
       hex: '#EA5B76',
       similar: '#ff0000'
     }
@@ -710,8 +710,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かたぎりさなえ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(233, 77, 26)',
-      hsv: 'hsv(15, 89, 91)',
+      rgb: 'rgb(233,77,26)',
+      hsv: 'hsv(15,89,91)',
       hex: '#E94D1A',
       similar: '#ff0000'
     }
@@ -723,8 +723,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かつらぎりーりや',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(239, 253, 255)',
-      hsv: 'hsv(188, 6, 100)',
+      rgb: 'rgb(239,253,255)',
+      hsv: 'hsv(188,6,100)',
       hex: '#EFFDFF',
       similar: '#00ffff'
     }
@@ -736,8 +736,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'がなはひびき',
     brand: '765AS',
     color: {
-      rgb: 'rgb(1, 173, 185)',
-      hsv: 'hsv(184, 99, 73)',
+      rgb: 'rgb(1,173,185)',
+      hsv: 'hsv(184,99,73)',
       hex: '#01ADB9',
       similar: '#00ffff'
     }
@@ -749,8 +749,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かふぇぱれーど',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(204, 102, 204)',
-      hsv: 'hsv(300, 50, 80)',
+      rgb: 'rgb(204,102,204)',
+      hsv: 'hsv(300,50,80)',
       hex: '#CC66CC',
       similar: '#800080'
     }
@@ -762,8 +762,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かぶとだいご',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(228, 28, 26)',
-      hsv: 'hsv(1, 89, 89)',
+      rgb: 'rgb(228,28,26)',
+      hsv: 'hsv(1,89,89)',
       hex: '#E41C1A',
       similar: '#ff0000'
     }
@@ -775,8 +775,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かみじょうはるな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(89, 183, 219)',
-      hsv: 'hsv(197, 59, 86)',
+      rgb: 'rgb(89,183,219)',
+      hsv: 'hsv(197,59,86)',
       hex: '#59B7DB',
       similar: '#00ffff'
     }
@@ -788,8 +788,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かみずるこすも',
     brand: 'va-liv',
     color: {
-      rgb: 'rgb(86, 204, 242)',
-      hsv: 'hsv(195, 64, 95)',
+      rgb: 'rgb(86,204,242)',
+      hsv: 'hsv(195,64,95)',
       hex: '#56CCF2',
       similar: '#00ffff'
     }
@@ -801,8 +801,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かみやなお',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(141, 117, 179)',
-      hsv: 'hsv(263, 35, 70)',
+      rgb: 'rgb(141,117,179)',
+      hsv: 'hsv(263,35,70)',
       hex: '#8D75B3',
       similar: '#0000ff'
     }
@@ -814,8 +814,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かみやゆきひろ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(240, 144, 121)',
-      hsv: 'hsv(12, 50, 94)',
+      rgb: 'rgb(240,144,121)',
+      hsv: 'hsv(12,50,94)',
       hex: '#F09079',
       similar: '#ff0000'
     }
@@ -827,8 +827,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かわしまみずき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(63, 89, 166)',
-      hsv: 'hsv(225, 62, 65)',
+      rgb: 'rgb(63,89,166)',
+      hsv: 'hsv(225,62,65)',
       hex: '#3F59A6',
       similar: '#0000ff'
     }
@@ -840,8 +840,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'かんざきらんこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(132, 50, 155)',
-      hsv: 'hsv(287, 68, 61)',
+      rgb: 'rgb(132,50,155)',
+      hsv: 'hsv(287,68,61)',
       hex: '#84329B',
       similar: '#800080'
     }
@@ -853,8 +853,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きくちまこと',
     brand: '765AS',
     color: {
-      rgb: 'rgb(81, 85, 88)',
-      hsv: 'hsv(206, 8, 35)',
+      rgb: 'rgb(81,85,88)',
+      hsv: 'hsv(206,8,35)',
       hex: '#515558',
       similar: '#00ffff'
     }
@@ -866,8 +866,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きざきれん',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(172, 22, 42)',
-      hsv: 'hsv(352, 87, 67)',
+      rgb: 'rgb(172,22,42)',
+      hsv: 'hsv(352,87,67)',
       hex: '#AC162A',
       similar: '#ff0000'
     }
@@ -879,8 +879,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きさらぎちはや',
     brand: '765AS',
     color: {
-      rgb: 'rgb(39, 67, 210)',
-      hsv: 'hsv(230, 81, 82)',
+      rgb: 'rgb(39,67,210)',
+      hsv: 'hsv(230,81,82)',
       hex: '#2743D2',
       similar: '#0000ff'
     }
@@ -892,8 +892,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きたかみれいか',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(107, 182, 176)',
-      hsv: 'hsv(175, 41, 71)',
+      rgb: 'rgb(107,182,176)',
+      hsv: 'hsv(175,41,71)',
       hex: '#6BB6B0',
       similar: '#00ffff'
     }
@@ -905,8 +905,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きたざわしほ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(175, 166, 144)',
-      hsv: 'hsv(43, 18, 69)',
+      rgb: 'rgb(175,166,144)',
+      hsv: 'hsv(43,18,69)',
       hex: '#AFA690',
       similar: '#ffffff'
     }
@@ -918,8 +918,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きたひなこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(244, 208, 89)',
-      hsv: 'hsv(46, 64, 96)',
+      rgb: 'rgb(244,208,89)',
+      hsv: 'hsv(46,64,96)',
       hex: '#F4D059',
       similar: '#ffa500'
     }
@@ -931,8 +931,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きたみゆず',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(234, 220, 98)',
-      hsv: 'hsv(54, 58, 92)',
+      rgb: 'rgb(234,220,98)',
+      hsv: 'hsv(54,58,92)',
       hex: '#EADC62',
       similar: '#ffff00'
     }
@@ -944,8 +944,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きたむらそら',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(71, 117, 37)',
-      hsv: 'hsv(94, 68, 46)',
+      rgb: 'rgb(71,117,37)',
+      hsv: 'hsv(94,68,46)',
       hex: '#477525',
       similar: '#008000'
     }
@@ -957,8 +957,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きのしたひなた',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(209, 52, 44)',
-      hsv: 'hsv(3, 79, 82)',
+      rgb: 'rgb(209,52,44)',
+      hsv: 'hsv(3,79,82)',
       hex: '#D1342C',
       similar: '#ff0000'
     }
@@ -970,8 +970,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きむらなつき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(85, 86, 90)',
-      hsv: 'hsv(228, 6, 35)',
+      rgb: 'rgb(85,86,90)',
+      hsv: 'hsv(228,6,35)',
       hex: '#55565A',
       similar: '#0000ff'
     }
@@ -983,8 +983,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きむらりゅう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(238, 114, 32)',
-      hsv: 'hsv(24, 87, 93)',
+      rgb: 'rgb(238,114,32)',
+      hsv: 'hsv(24,87,93)',
       hex: '#EE7220',
       similar: '#ffa500'
     }
@@ -996,8 +996,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きよすみくろう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(121, 165, 223)',
-      hsv: 'hsv(214, 46, 87)',
+      rgb: 'rgb(121,165,223)',
+      hsv: 'hsv(214,46,87)',
       hex: '#79A5DF',
       similar: '#0000ff'
     }
@@ -1009,8 +1009,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'きりゅうつかさ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(176, 78, 197)',
-      hsv: 'hsv(289, 60, 77)',
+      rgb: 'rgb(176,78,197)',
+      hsv: 'hsv(289,60,77)',
       hex: '#B04EC5',
       similar: '#800080'
     }
@@ -1022,8 +1022,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'くずのはあめひこ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(17, 23, 33)',
-      hsv: 'hsv(217, 48, 13)',
+      rgb: 'rgb(17,23,33)',
+      hsv: 'hsv(217,48,13)',
       hex: '#111721',
       similar: '#0000ff'
     }
@@ -1035,8 +1035,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'くらすふぁーすと',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(0, 204, 187)',
-      hsv: 'hsv(175, 100, 80)',
+      rgb: 'rgb(0,204,187)',
+      hsv: 'hsv(175,100,80)',
       hex: '#00CCBB',
       similar: '#00ffff'
     }
@@ -1048,8 +1048,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'くらもとちな',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(248, 172, 94)',
-      hsv: 'hsv(30, 62, 97)',
+      rgb: 'rgb(248,172,94)',
+      hsv: 'hsv(30,62,97)',
       hex: '#F8AC5E',
       similar: '#ffa500'
     }
@@ -1061,8 +1061,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'くろさきちとせ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(246, 48, 63)',
-      hsv: 'hsv(355, 80, 96)',
+      rgb: 'rgb(246,48,63)',
+      hsv: 'hsv(355,80,96)',
       hex: '#F6303F',
       similar: '#ff0000'
     }
@@ -1074,8 +1074,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'くろのげんぶ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(15, 12, 159)',
-      hsv: 'hsv(241, 92, 62)',
+      rgb: 'rgb(15,12,159)',
+      hsv: 'hsv(241,92,62)',
       hex: '#0F0C9F',
       similar: '#0000ff'
     }
@@ -1087,8 +1087,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'くわやまちゆき',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(251, 250, 250)',
-      hsv: 'hsv(0, 0, 98)',
+      rgb: 'rgb(251,250,250)',
+      hsv: 'hsv(0,0,98)',
       hex: '#FBFAFA',
       similar: '#ffffff'
     }
@@ -1100,8 +1100,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'こうさかうみ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(233, 115, 155)',
-      hsv: 'hsv(340, 51, 91)',
+      rgb: 'rgb(233,115,155)',
+      hsv: 'hsv(340,51,91)',
       hex: '#E9739B',
       similar: '#ff0000'
     }
@@ -1113,8 +1113,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'こしみずさちこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(204, 170, 207)',
-      hsv: 'hsv(295, 18, 81)',
+      rgb: 'rgb(204,170,207)',
+      hsv: 'hsv(295,18,81)',
       hex: '#CCAACF',
       similar: '#ffffff'
     }
@@ -1126,8 +1126,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'こせきれいな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(159, 37, 182)',
-      hsv: 'hsv(290, 80, 71)',
+      rgb: 'rgb(159,37,182)',
+      hsv: 'hsv(290,80,71)',
       hex: '#9F25B6',
       similar: '#800080'
     }
@@ -1139,8 +1139,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'こばやかわさえ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(217, 103, 163)',
-      hsv: 'hsv(328, 53, 85)',
+      rgb: 'rgb(217,103,163)',
+      hsv: 'hsv(328,53,85)',
       hex: '#D967A3',
       similar: '#ff0000'
     }
@@ -1152,8 +1152,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'こひなたみほ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(198, 71, 150)',
-      hsv: 'hsv(323, 64, 78)',
+      rgb: 'rgb(198,71,150)',
+      hsv: 'hsv(323,64,78)',
       hex: '#C64796',
       similar: '#800080'
     }
@@ -1165,8 +1165,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'こみやかほ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(229, 70, 28)',
-      hsv: 'hsv(13, 88, 90)',
+      rgb: 'rgb(229,70,28)',
+      hsv: 'hsv(13,88,90)',
       hex: '#E5461C',
       similar: '#ff0000'
     }
@@ -1178,8 +1178,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ころんくりす',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(31, 193, 221)',
-      hsv: 'hsv(189, 86, 87)',
+      rgb: 'rgb(31,193,221)',
+      hsv: 'hsv(189,86,87)',
       hex: '#1FC1DD',
       similar: '#00ffff'
     }
@@ -1191,8 +1191,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さい',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(127, 49, 204)',
-      hsv: 'hsv(270, 76, 80)',
+      rgb: 'rgb(127,49,204)',
+      hsv: 'hsv(270,76,80)',
       hex: '#7F31CC',
       similar: '#0000ff'
     }
@@ -1204,8 +1204,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さいおんじことか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(236, 204, 205)',
-      hsv: 'hsv(358, 14, 93)',
+      rgb: 'rgb(236,204,205)',
+      hsv: 'hsv(358,14,93)',
       hex: '#ECCCCD',
       similar: '#ffffff'
     }
@@ -1217,8 +1217,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さいじょうじゅり',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 198, 2)',
-      hsv: 'hsv(46, 99, 100)',
+      rgb: 'rgb(255,198,2)',
+      hsv: 'hsv(46,99,100)',
       hex: '#FFC602',
       similar: '#ffa500'
     }
@@ -1230,8 +1230,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さかきなつき',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(36, 202, 210)',
-      hsv: 'hsv(183, 83, 82)',
+      rgb: 'rgb(36,202,210)',
+      hsv: 'hsv(183,83,82)',
       hex: '#24CAD2',
       similar: '#00ffff'
     }
@@ -1243,8 +1243,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さくままゆ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(209, 25, 123)',
-      hsv: 'hsv(328, 88, 82)',
+      rgb: 'rgb(209,25,123)',
+      hsv: 'hsv(328,88,82)',
       hex: '#D1197B',
       similar: '#ff0000'
     }
@@ -1256,8 +1256,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さくらいももか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(239, 147, 188)',
-      hsv: 'hsv(333, 38, 94)',
+      rgb: 'rgb(239,147,188)',
+      hsv: 'hsv(333,38,94)',
       hex: '#EF93BC',
       similar: '#ffffff'
     }
@@ -1269,8 +1269,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さくらぎまの',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 186, 214)',
-      hsv: 'hsv(336, 27, 100)',
+      rgb: 'rgb(255,186,214)',
+      hsv: 'hsv(336,27,100)',
       hex: '#FFBAD6',
       similar: '#ffffff'
     }
@@ -1282,8 +1282,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さくらばかおる',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(25, 69, 186)',
-      hsv: 'hsv(224, 87, 73)',
+      rgb: 'rgb(25,69,186)',
+      hsv: 'hsv(224,87,73)',
       hex: '#1945BA',
       similar: '#0000ff'
     }
@@ -1295,8 +1295,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さくらもりかおり',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(39, 64, 121)',
-      hsv: 'hsv(222, 68, 47)',
+      rgb: 'rgb(39,64,121)',
+      hsv: 'hsv(222,68,47)',
       hex: '#274079',
       similar: '#0000ff'
     }
@@ -1308,8 +1308,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ざこがどう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(74, 74, 74)',
-      hsv: 'hsv(0, 0, 29)',
+      rgb: 'rgb(74,74,74)',
+      hsv: 'hsv(0,0,29)',
       hex: '#4A4A4A',
       similar: '#000000'
     }
@@ -1321,8 +1321,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ささきちえ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(0, 106, 182)',
-      hsv: 'hsv(205, 100, 71)',
+      rgb: 'rgb(0,106,182)',
+      hsv: 'hsv(205,100,71)',
       hex: '#006AB6',
       similar: '#00ffff'
     }
@@ -1334,8 +1334,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さたけみなこ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(88, 166, 220)',
-      hsv: 'hsv(205, 60, 86)',
+      rgb: 'rgb(88,166,220)',
+      hsv: 'hsv(205,60,86)',
       hex: '#58A6DC',
       similar: '#00ffff'
     }
@@ -1347,8 +1347,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'さとうしん',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(228, 78, 142)',
-      hsv: 'hsv(334, 66, 89)',
+      rgb: 'rgb(228,78,142)',
+      hsv: 'hsv(334,66,89)',
       hex: '#E44E8E',
       similar: '#ff0000'
     }
@@ -1360,8 +1360,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しいか',
     brand: 'Other',
     color: {
-      rgb: 'rgb(229, 249, 228)',
-      hsv: 'hsv(117, 8, 98)',
+      rgb: 'rgb(229,249,228)',
+      hsv: 'hsv(117,8,98)',
       hex: '#E5F9E4',
       similar: '#90e200'
     }
@@ -1373,8 +1373,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しーず',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(28, 137, 113)',
-      hsv: 'hsv(167, 80, 54)',
+      rgb: 'rgb(28,137,113)',
+      hsv: 'hsv(167,80,54)',
       hex: '#1C8971',
       similar: '#008000'
     }
@@ -1386,8 +1386,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しいなのりこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(234, 73, 91)',
-      hsv: 'hsv(353, 69, 92)',
+      rgb: 'rgb(234,73,91)',
+      hsv: 'hsv(353,69,92)',
       hex: '#EA495B',
       similar: '#ff0000'
     }
@@ -1399,8 +1399,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しうんすみか',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(162, 253, 71)',
-      hsv: 'hsv(90, 72, 99)',
+      rgb: 'rgb(162,253,71)',
+      hsv: 'hsv(90,72,99)',
       hex: '#A2FD47',
       similar: '#90e200'
     }
@@ -1412,8 +1412,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しおみしゅうこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(222, 226, 235)',
-      hsv: 'hsv(222, 6, 92)',
+      rgb: 'rgb(222,226,235)',
+      hsv: 'hsv(222,6,92)',
       hex: '#DEE2EB',
       similar: '#0000ff'
     }
@@ -1425,8 +1425,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しじょうたかね',
     brand: '765AS',
     color: {
-      rgb: 'rgb(166, 18, 106)',
-      hsv: 'hsv(324, 89, 65)',
+      rgb: 'rgb(166,18,106)',
+      hsv: 'hsv(324,89,65)',
       hex: '#A6126A',
       similar: '#800080'
     }
@@ -1438,8 +1438,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しのさわひろ',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(72, 198, 218)',
-      hsv: 'hsv(188, 67, 85)',
+      rgb: 'rgb(72,198,218)',
+      hsv: 'hsv(188,67,85)',
       hex: '#48C6DA',
       similar: '#00ffff'
     }
@@ -1451,8 +1451,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しののめそういちろう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(2, 148, 108)',
-      hsv: 'hsv(164, 99, 58)',
+      rgb: 'rgb(2,148,108)',
+      hsv: 'hsv(164,99,58)',
       hex: '#02946C',
       similar: '#008000'
     }
@@ -1464,8 +1464,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しのみやかれん',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(182, 59, 64)',
-      hsv: 'hsv(358, 68, 71)',
+      rgb: 'rgb(182,59,64)',
+      hsv: 'hsv(358,68,71)',
       hex: '#B63B40',
       similar: '#ff0000'
     }
@@ -1477,8 +1477,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しぶやりん',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(28, 144, 205)',
-      hsv: 'hsv(201, 86, 80)',
+      rgb: 'rgb(28,144,205)',
+      hsv: 'hsv(201,86,80)',
       hex: '#1C90CD',
       similar: '#00ffff'
     }
@@ -1490,8 +1490,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しまばらえれな',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(155, 206, 146)',
-      hsv: 'hsv(111, 29, 81)',
+      rgb: 'rgb(155,206,146)',
+      hsv: 'hsv(111,29,81)',
       hex: '#9BCE92',
       similar: '#90e200'
     }
@@ -1503,8 +1503,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しまむらうづき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(236, 112, 146)',
-      hsv: 'hsv(344, 53, 93)',
+      rgb: 'rgb(236,112,146)',
+      hsv: 'hsv(344,53,93)',
       hex: '#EC7092',
       similar: '#ff0000'
     }
@@ -1516,8 +1516,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'じゅうおうせな',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(249, 197, 132)',
-      hsv: 'hsv(33, 47, 98)',
+      rgb: 'rgb(249,197,132)',
+      hsv: 'hsv(33,47,98)',
       hex: '#F9C584',
       similar: '#ffa500'
     }
@@ -1529,8 +1529,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'じゅぴたー',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(66, 219, 66)',
-      hsv: 'hsv(120, 70, 86)',
+      rgb: 'rgb(66,219,66)',
+      hsv: 'hsv(120,70,86)',
       hex: '#42DB42',
       similar: '#008000'
     }
@@ -1542,8 +1542,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'じゅりあ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(215, 56, 95)',
-      hsv: 'hsv(345, 74, 84)',
+      rgb: 'rgb(215,56,95)',
+      hsv: 'hsv(345,74,84)',
       hex: '#D7385F',
       similar: '#ff0000'
     }
@@ -1555,8 +1555,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'じょうがさきみか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(255, 158, 27)',
-      hsv: 'hsv(34, 89, 100)',
+      rgb: 'rgb(255,158,27)',
+      hsv: 'hsv(34,89,100)',
       hex: '#FF9E1B',
       similar: '#ffa500'
     }
@@ -1568,8 +1568,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'じょうがさきりか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(247, 211, 13)',
-      hsv: 'hsv(51, 95, 97)',
+      rgb: 'rgb(247,211,13)',
+      hsv: 'hsv(51,95,97)',
       hex: '#F7D30D',
       similar: '#ffff00'
     }
@@ -1581,8 +1581,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しらいしつむぎ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(235, 225, 255)',
-      hsv: 'hsv(260, 12, 100)',
+      rgb: 'rgb(235,225,255)',
+      hsv: 'hsv(260,12,100)',
       hex: '#EBE1FF',
       similar: '#0000ff'
     }
@@ -1594,8 +1594,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しらぎくほたる',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(209, 98, 203)',
-      hsv: 'hsv(303, 53, 82)',
+      rgb: 'rgb(209,98,203)',
+      hsv: 'hsv(303,53,82)',
       hex: '#D162CB',
       similar: '#800080'
     }
@@ -1607,8 +1607,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しらさかこうめ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(170, 197, 226)',
-      hsv: 'hsv(211, 25, 89)',
+      rgb: 'rgb(170,197,226)',
+      hsv: 'hsv(211,25,89)',
       hex: '#AAC5E2',
       similar: '#0000ff'
     }
@@ -1620,8 +1620,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しらせさくや',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(0, 96, 71)',
-      hsv: 'hsv(164, 100, 38)',
+      rgb: 'rgb(0,96,71)',
+      hsv: 'hsv(164,100,38)',
       hex: '#006047',
       similar: '#008000'
     }
@@ -1633,8 +1633,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しんげんせいじ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(120, 133, 58)',
-      hsv: 'hsv(70, 56, 52)',
+      rgb: 'rgb(120,133,58)',
+      hsv: 'hsv(70,56,52)',
       hex: '#78853A',
       similar: '#90e200'
     }
@@ -1646,8 +1646,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'しんそくいっこん',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(159, 165, 171)',
-      hsv: 'hsv(210, 7, 67)',
+      rgb: 'rgb(159,165,171)',
+      hsv: 'hsv(210,7,67)',
       hex: '#9FA5AB',
       similar: '#00ffff'
     }
@@ -1659,8 +1659,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'すおうももこ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(239, 184, 100)',
-      hsv: 'hsv(36, 58, 94)',
+      rgb: 'rgb(239,184,100)',
+      hsv: 'hsv(36,58,94)',
       hex: '#EFB864',
       similar: '#ffa500'
     }
@@ -1672,8 +1672,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'すずきはな',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(224, 181, 211)',
-      hsv: 'hsv(318, 19, 88)',
+      rgb: 'rgb(224,181,211)',
+      hsv: 'hsv(318,19,88)',
       hex: '#E0B5D3',
       similar: '#ffffff'
     }
@@ -1685,8 +1685,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'すとれいらいと',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(165, 31, 36)',
-      hsv: 'hsv(358, 81, 65)',
+      rgb: 'rgb(165,31,36)',
+      hsv: 'hsv(358,81,65)',
       hex: '#A51F24',
       similar: '#ff0000'
     }
@@ -1698,8 +1698,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'すなづかあきら',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(124, 142, 162)',
-      hsv: 'hsv(212, 23, 64)',
+      rgb: 'rgb(124,142,162)',
+      hsv: 'hsv(212,23,64)',
       hex: '#7C8EA2',
       similar: '#0000ff'
     }
@@ -1711,8 +1711,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'せきひろみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(248, 197, 193)',
-      hsv: 'hsv(4, 22, 97)',
+      rgb: 'rgb(248,197,193)',
+      hsv: 'hsv(4,22,97)',
       hex: '#F8C5C1',
       similar: '#ffffff'
     }
@@ -1724,8 +1724,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'せむ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(255, 112, 226)',
-      hsv: 'hsv(312, 56, 100)',
+      rgb: 'rgb(255,112,226)',
+      hsv: 'hsv(312,56,100)',
       hex: '#FF70E2',
       similar: '#ff0000'
     }
@@ -1737,8 +1737,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'せりざわあさひ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(243, 1, 0)',
-      hsv: 'hsv(0, 100, 95)',
+      rgb: 'rgb(243,1,0)',
+      hsv: 'hsv(0,100,95)',
       hex: '#F30100',
       similar: '#ff0000'
     }
@@ -1750,8 +1750,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'そのだちよこ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(249, 59, 144)',
-      hsv: 'hsv(333, 76, 98)',
+      rgb: 'rgb(249,59,144)',
+      hsv: 'hsv(333,76,98)',
       hex: '#F93B90',
       similar: '#ff0000'
     }
@@ -1763,8 +1763,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たいがたける',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(14, 12, 159)',
-      hsv: 'hsv(241, 92, 62)',
+      rgb: 'rgb(14,12,159)',
+      hsv: 'hsv(241,92,62)',
       hex: '#0E0C9F',
       similar: '#0000ff'
     }
@@ -1776,8 +1776,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかがきかえで',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(71, 215, 172)',
-      hsv: 'hsv(162, 67, 84)',
+      rgb: 'rgb(71,215,172)',
+      hsv: 'hsv(162,67,84)',
       hex: '#47D7AC',
       similar: '#00ffff'
     }
@@ -1789,8 +1789,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかじょうきょうじ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(106, 196, 233)',
-      hsv: 'hsv(197, 55, 91)',
+      rgb: 'rgb(106,196,233)',
+      hsv: 'hsv(197,55,91)',
       hex: '#6AC4E9',
       similar: '#00ffff'
     }
@@ -1802,8 +1802,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかつきやよい',
     brand: '765AS',
     color: {
-      rgb: 'rgb(243, 153, 57)',
-      hsv: 'hsv(31, 77, 95)',
+      rgb: 'rgb(243,153,57)',
+      hsv: 'hsv(31,77,95)',
       hex: '#F39939',
       similar: '#ffa500'
     }
@@ -1815,8 +1815,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかふじかこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(92, 6, 143)',
-      hsv: 'hsv(278, 96, 56)',
+      rgb: 'rgb(92,6,143)',
+      hsv: 'hsv(278,96,56)',
       hex: '#5C068F',
       similar: '#800080'
     }
@@ -1828,8 +1828,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかもりあいこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(197, 221, 127)',
-      hsv: 'hsv(75, 43, 87)',
+      rgb: 'rgb(197,221,127)',
+      hsv: 'hsv(75,43,87)',
       hex: '#C5DD7F',
       similar: '#90e200'
     }
@@ -1841,8 +1841,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たかやまさよこ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(127, 101, 117)',
-      hsv: 'hsv(323, 20, 50)',
+      rgb: 'rgb(127,101,117)',
+      hsv: 'hsv(323,20,50)',
       hex: '#7F6575',
       similar: '#ffffff'
     }
@@ -1854,8 +1854,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ただりいな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(0, 109, 178)',
-      hsv: 'hsv(203, 100, 70)',
+      rgb: 'rgb(0,109,178)',
+      hsv: 'hsv(203,100,70)',
       hex: '#006DB2',
       similar: '#00ffff'
     }
@@ -1867,8 +1867,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たちばなありす',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(88, 129, 193)',
-      hsv: 'hsv(217, 54, 76)',
+      rgb: 'rgb(88,129,193)',
+      hsv: 'hsv(217,54,76)',
       hex: '#5881C1',
       similar: '#0000ff'
     }
@@ -1880,8 +1880,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たちばなしろう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(209, 48, 55)',
-      hsv: 'hsv(357, 77, 82)',
+      rgb: 'rgb(209,48,55)',
+      hsv: 'hsv(357,77,82)',
       hex: '#D13037',
       similar: '#ff0000'
     }
@@ -1893,8 +1893,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たなかことは',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(146, 207, 187)',
-      hsv: 'hsv(160, 29, 81)',
+      rgb: 'rgb(146,207,187)',
+      hsv: 'hsv(160,29,81)',
       hex: '#92CFBB',
       similar: '#00ffff'
     }
@@ -1906,8 +1906,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'たなかまみみ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(168, 70, 251)',
-      hsv: 'hsv(272, 72, 98)',
+      rgb: 'rgb(168,70,251)',
+      hsv: 'hsv(272,72,98)',
       hex: '#A846FB',
       similar: '#0000ff'
     }
@@ -1919,8 +1919,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'だぶる',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(247, 216, 40)',
-      hsv: 'hsv(51, 84, 97)',
+      rgb: 'rgb(247,216,40)',
+      hsv: 'hsv(51,84,97)',
       hex: '#F7D828',
       similar: '#ffff00'
     }
@@ -1932,8 +1932,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'つきおかこがね',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(248, 76, 173)',
-      hsv: 'hsv(326, 69, 97)',
+      rgb: 'rgb(248,76,173)',
+      hsv: 'hsv(326,69,97)',
       hex: '#F84CAD',
       similar: '#ff0000'
     }
@@ -1945,8 +1945,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'つきむらてまり',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(79, 160, 206)',
-      hsv: 'hsv(202, 62, 81)',
+      rgb: 'rgb(79,160,206)',
+      hsv: 'hsv(202,62,81)',
       hex: '#4FA0CE',
       similar: '#00ffff'
     }
@@ -1958,8 +1958,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'つくもかずき',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(207, 158, 81)',
-      hsv: 'hsv(37, 61, 81)',
+      rgb: 'rgb(207,158,81)',
+      hsv: 'hsv(37,61,81)',
       hex: '#CF9E51',
       similar: '#ffa500'
     }
@@ -1971,8 +1971,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'つじのあかり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(211, 22, 28)',
-      hsv: 'hsv(358, 90, 83)',
+      rgb: 'rgb(211,22,28)',
+      hsv: 'hsv(358,90,83)',
       hex: '#D3161C',
       similar: '#ff0000'
     }
@@ -1984,8 +1984,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'つづきけい',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(197, 166, 226)',
-      hsv: 'hsv(271, 27, 89)',
+      rgb: 'rgb(197,166,226)',
+      hsv: 'hsv(271,27,89)',
       hex: '#C5A6E2',
       similar: '#0000ff'
     }
@@ -1997,8 +1997,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'てんくうばしともか',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(190, 227, 227)',
-      hsv: 'hsv(180, 16, 89)',
+      rgb: 'rgb(190,227,227)',
+      hsv: 'hsv(180,16,89)',
       hex: '#BEE3E3',
       similar: '#00ffff'
     }
@@ -2010,8 +2010,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'てんどうてる',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(227, 28, 26)',
-      hsv: 'hsv(1, 89, 89)',
+      rgb: 'rgb(227,28,26)',
+      hsv: 'hsv(1,89,89)',
       hex: '#E31C1A',
       similar: '#ff0000'
     }
@@ -2023,8 +2023,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'どうみょうじかりん',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(204, 37, 45)',
-      hsv: 'hsv(357, 82, 80)',
+      rgb: 'rgb(204,37,45)',
+      hsv: 'hsv(357,82,80)',
       hex: '#CC252D',
       similar: '#ff0000'
     }
@@ -2036,8 +2036,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'とくがわまつり',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(90, 191, 183)',
-      hsv: 'hsv(175, 53, 75)',
+      rgb: 'rgb(90,191,183)',
+      hsv: 'hsv(175,53,75)',
       hex: '#5ABFB7',
       similar: '#00ffff'
     }
@@ -2049,8 +2049,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ところめぐみ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(69, 67, 65)',
-      hsv: 'hsv(30, 6, 27)',
+      rgb: 'rgb(69,67,65)',
+      hsv: 'hsv(30,6,27)',
       hex: '#454341',
       similar: '#000000'
     }
@@ -2062,8 +2062,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'とときあいり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(233, 66, 92)',
-      hsv: 'hsv(351, 72, 91)',
+      rgb: 'rgb(233,66,92)',
+      hsv: 'hsv(351,72,91)',
       hex: '#E9425C',
       similar: '#ff0000'
     }
@@ -2075,8 +2075,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ともりまなか',
     brand: 'va-liv',
     color: {
-      rgb: 'rgb(255, 69, 84)',
-      hsv: 'hsv(355, 73, 100)',
+      rgb: 'rgb(255,69,84)',
+      hsv: 'hsv(355,73,100)',
       hex: '#FF4554',
       similar: '#ff0000'
     }
@@ -2088,8 +2088,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'とよかわふうか',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(114, 120, 168)',
-      hsv: 'hsv(233, 32, 66)',
+      rgb: 'rgb(114,120,168)',
+      hsv: 'hsv(233,32,66)',
       hex: '#7278A8',
       similar: '#0000ff'
     }
@@ -2101,8 +2101,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'どらまちっくすたーず',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(255, 169, 10)',
-      hsv: 'hsv(39, 96, 100)',
+      rgb: 'rgb(255,169,10)',
+      hsv: 'hsv(39,96,100)',
       hex: '#FFA90A',
       similar: '#ffa500'
     }
@@ -2114,8 +2114,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'なかたにいく',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(247, 231, 142)',
-      hsv: 'hsv(51, 43, 97)',
+      rgb: 'rgb(247,231,142)',
+      hsv: 'hsv(51,43,97)',
       hex: '#F7E78E',
       similar: '#ffff00'
     }
@@ -2127,8 +2127,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'なかのゆか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(203, 120, 176)',
-      hsv: 'hsv(320, 41, 80)',
+      rgb: 'rgb(203,120,176)',
+      hsv: 'hsv(320,41,80)',
       hex: '#CB78B0',
       similar: '#ffffff'
     }
@@ -2140,8 +2140,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ながよしすばる',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(174, 180, 156)',
-      hsv: 'hsv(75, 13, 71)',
+      rgb: 'rgb(174,180,156)',
+      hsv: 'hsv(75,13,71)',
       hex: '#AEB49C',
       similar: '#ffffff'
     }
@@ -2153,8 +2153,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'なたーりあ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(217, 94, 37)',
-      hsv: 'hsv(19, 83, 85)',
+      rgb: 'rgb(217,94,37)',
+      hsv: 'hsv(19,83,85)',
       hex: '#D95E25',
       similar: '#ff0000'
     }
@@ -2166,8 +2166,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ななおゆりこ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(199, 184, 60)',
-      hsv: 'hsv(54, 70, 78)',
+      rgb: 'rgb(199,184,60)',
+      hsv: 'hsv(54,70,78)',
       hex: '#C7B83C',
       similar: '#ffff00'
     }
@@ -2179,8 +2179,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ななくさにちか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(165, 207, 182)',
-      hsv: 'hsv(144, 20, 81)',
+      rgb: 'rgb(165,207,182)',
+      hsv: 'hsv(144,20,81)',
       hex: '#A5CFB6',
       similar: '#008000'
     }
@@ -2192,8 +2192,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'なんじょうひかる',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(237, 8, 41)',
-      hsv: 'hsv(351, 97, 93)',
+      rgb: 'rgb(237,8,41)',
+      hsv: 'hsv(351,97,93)',
       hex: '#ED0829',
       similar: '#ff0000'
     }
@@ -2205,8 +2205,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'なんばえみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(233, 70, 61)',
-      hsv: 'hsv(3, 74, 91)',
+      rgb: 'rgb(233,70,61)',
+      hsv: 'hsv(3,74,91)',
       hex: '#E9463D',
       similar: '#ff0000'
     }
@@ -2218,8 +2218,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'にかいどうちづる',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(241, 149, 87)',
-      hsv: 'hsv(24, 64, 95)',
+      rgb: 'rgb(241,149,87)',
+      hsv: 'hsv(24,64,95)',
       hex: '#F19557',
       similar: '#ffa500'
     }
@@ -2231,8 +2231,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'にったみなみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(109, 188, 219)',
-      hsv: 'hsv(197, 50, 86)',
+      rgb: 'rgb(109,188,219)',
+      hsv: 'hsv(197,50,86)',
       hex: '#6DBCDB',
       similar: '#00ffff'
     }
@@ -2244,8 +2244,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'にのみやあすか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(85, 42, 124)',
-      hsv: 'hsv(271, 66, 49)',
+      rgb: 'rgb(85,42,124)',
+      hsv: 'hsv(271,66,49)',
       hex: '#552A7C',
       similar: '#800080'
     }
@@ -2257,8 +2257,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ねこやなぎきりお',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(247, 189, 5)',
-      hsv: 'hsv(46, 98, 97)',
+      rgb: 'rgb(247,189,5)',
+      hsv: 'hsv(46,98,97)',
       hex: '#F7BD05',
       similar: '#ffa500'
     }
@@ -2270,8 +2270,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'のくちる',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(52, 73, 143)',
-      hsv: 'hsv(226, 64, 56)',
+      rgb: 'rgb(52,73,143)',
+      hsv: 'hsv(226,64,56)',
       hex: '#34498F',
       similar: '#0000ff'
     }
@@ -2283,8 +2283,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ののはらあかね',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(235, 97, 63)',
-      hsv: 'hsv(12, 73, 92)',
+      rgb: 'rgb(235,97,63)',
+      hsv: 'hsv(12,73,92)',
       hex: '#EB613F',
       similar: '#ff0000'
     }
@@ -2296,8 +2296,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はいじょーかー',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(255, 0, 0)',
-      hsv: 'hsv(0, 100, 100)',
+      rgb: 'rgb(255,0,0)',
+      hsv: 'hsv(0,100,100)',
       hex: '#FF0000',
       similar: '#ff0000'
     }
@@ -2309,8 +2309,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ばいと',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(38, 212, 255)',
-      hsv: 'hsv(192, 85, 100)',
+      rgb: 'rgb(38,212,255)',
+      hsv: 'hsv(192,85,100)',
       hex: '#26D4FF',
       similar: '#00ffff'
     }
@@ -2322,8 +2322,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はぎわらゆきほ',
     brand: '765AS',
     color: {
-      rgb: 'rgb(211, 221, 233)',
-      hsv: 'hsv(213, 9, 91)',
+      rgb: 'rgb(211,221,233)',
+      hsv: 'hsv(213,9,91)',
       hex: '#D3DDE9',
       similar: '#0000ff'
     }
@@ -2335,8 +2335,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はこざきせりか',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(237, 144, 186)',
-      hsv: 'hsv(333, 39, 93)',
+      rgb: 'rgb(237,144,186)',
+      hsv: 'hsv(333,39,93)',
       hex: '#ED90BA',
       similar: '#ffffff'
     }
@@ -2348,8 +2348,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はざまみちお',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(67, 108, 169)',
-      hsv: 'hsv(216, 60, 66)',
+      rgb: 'rgb(67,108,169)',
+      hsv: 'hsv(216,60,66)',
       hex: '#436CA9',
       similar: '#0000ff'
     }
@@ -2361,8 +2361,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はたやみすず',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(160, 182, 220)',
-      hsv: 'hsv(218, 27, 86)',
+      rgb: 'rgb(160,182,220)',
+      hsv: 'hsv(218,27,86)',
       hex: '#A0B6DC',
       similar: '#0000ff'
     }
@@ -2374,8 +2374,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はちみやめぐる',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 224, 18)',
-      hsv: 'hsv(52, 93, 100)',
+      rgb: 'rgb(255,224,18)',
+      hsv: 'hsv(52,93,100)',
       hex: '#FFE012',
       similar: '#ffff00'
     }
@@ -2387,8 +2387,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はなぞのももひと',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(162, 213, 94)',
-      hsv: 'hsv(86, 56, 84)',
+      rgb: 'rgb(162,213,94)',
+      hsv: 'hsv(86,56,84)',
       hex: '#A2D55E',
       similar: '#90e200'
     }
@@ -2400,8 +2400,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はなみうめ',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(239, 132, 114)',
-      hsv: 'hsv(9, 52, 94)',
+      rgb: 'rgb(239,132,114)',
+      hsv: 'hsv(9,52,94)',
       hex: '#EF8472',
       similar: '#ff0000'
     }
@@ -2413,8 +2413,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はなみさき',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(234, 74, 91)',
-      hsv: 'hsv(354, 68, 92)',
+      rgb: 'rgb(234,74,91)',
+      hsv: 'hsv(354,68,92)',
       hex: '#EA4A5B',
       similar: '#ff0000'
     }
@@ -2426,8 +2426,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はなむらしょうま',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(118, 100, 160)',
-      hsv: 'hsv(258, 38, 63)',
+      rgb: 'rgb(118,100,160)',
+      hsv: 'hsv(258,38,63)',
       hex: '#7664A0',
       similar: '#0000ff'
     }
@@ -2439,8 +2439,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ばばこのみ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(241, 190, 203)',
-      hsv: 'hsv(345, 21, 95)',
+      rgb: 'rgb(241,190,203)',
+      hsv: 'hsv(345,21,95)',
       hex: '#F1BECB',
       similar: '#ffffff'
     }
@@ -2452,8 +2452,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はまぐちあやめ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(71, 28, 135)',
-      hsv: 'hsv(264, 79, 53)',
+      rgb: 'rgb(71,28,135)',
+      hsv: 'hsv(264,79,53)',
       hex: '#471C87',
       similar: '#800080'
     }
@@ -2465,8 +2465,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はやさかみれい',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(183, 32, 137)',
-      hsv: 'hsv(318, 83, 72)',
+      rgb: 'rgb(183,32,137)',
+      hsv: 'hsv(318,83,72)',
       hex: '#B72089',
       similar: '#800080'
     }
@@ -2478,8 +2478,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'はやみかなで',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(13, 56, 109)',
-      hsv: 'hsv(213, 88, 43)',
+      rgb: 'rgb(13,56,109)',
+      hsv: 'hsv(213,88,43)',
       hex: '#0D386D',
       similar: '#0000ff'
     }
@@ -2491,8 +2491,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ぴえーる',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(139, 220, 99)',
-      hsv: 'hsv(100, 55, 86)',
+      rgb: 'rgb(139,220,99)',
+      hsv: 'hsv(100,55,86)',
       hex: '#8BDC63',
       similar: '#90e200'
     }
@@ -2504,8 +2504,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひぐちまどか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(190, 30, 62)',
-      hsv: 'hsv(348, 84, 75)',
+      rgb: 'rgb(190,30,62)',
+      hsv: 'hsv(348,84,75)',
       hex: '#BE1E3E',
       similar: '#ff0000'
     }
@@ -2517,8 +2517,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひさかわなぎ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(247, 161, 186)',
-      hsv: 'hsv(343, 35, 97)',
+      rgb: 'rgb(247,161,186)',
+      hsv: 'hsv(343,35,97)',
       hex: '#F7A1BA',
       similar: '#ffffff'
     }
@@ -2530,8 +2530,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひさかわはやて',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(122, 218, 214)',
-      hsv: 'hsv(178, 44, 85)',
+      rgb: 'rgb(122,218,214)',
+      hsv: 'hsv(178,44,85)',
       hex: '#7ADAD6',
       similar: '#00ffff'
     }
@@ -2543,8 +2543,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひだかあい',
     brand: 'DearlyStars',
     color: {
-      rgb: 'rgb(232, 87, 134)',
-      hsv: 'hsv(341, 63, 91)',
+      rgb: 'rgb(232,87,134)',
+      hsv: 'hsv(341,63,91)',
       hex: '#E85786',
       similar: '#ff0000'
     }
@@ -2556,8 +2556,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひのあかね',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(234, 79, 33)',
-      hsv: 'hsv(14, 86, 92)',
+      rgb: 'rgb(234,79,33)',
+      hsv: 'hsv(14,86,92)',
       hex: '#EA4F21',
       similar: '#ff0000'
     }
@@ -2569,8 +2569,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひめかわゆき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(233, 135, 12)',
-      hsv: 'hsv(33, 95, 91)',
+      rgb: 'rgb(233,135,12)',
+      hsv: 'hsv(33,95,91)',
       hex: '#E9870C',
       similar: '#ffa500'
     }
@@ -2582,8 +2582,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひめさきりなみ',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(249, 196, 214)',
-      hsv: 'hsv(340, 21, 98)',
+      rgb: 'rgb(249,196,214)',
+      hsv: 'hsv(340,21,98)',
       hex: '#F9C4D6',
       similar: '#ffffff'
     }
@@ -2595,8 +2595,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ひめのかのん',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(247, 181, 196)',
-      hsv: 'hsv(346, 27, 97)',
+      rgb: 'rgb(247,181,196)',
+      hsv: 'hsv(346,27,97)',
       hex: '#F7B5C4',
       similar: '#ffffff'
     }
@@ -2608,8 +2608,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふくだのりこ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(236, 235, 112)',
-      hsv: 'hsv(60, 53, 93)',
+      rgb: 'rgb(236,235,112)',
+      hsv: 'hsv(60,53,93)',
       hex: '#ECEB70',
       similar: '#ffff00'
     }
@@ -2621,8 +2621,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふくまるこいと',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(121, 103, 195)',
-      hsv: 'hsv(252, 47, 76)',
+      rgb: 'rgb(121,103,195)',
+      hsv: 'hsv(252,47,76)',
       hex: '#7967C3',
       similar: '#0000ff'
     }
@@ -2634,8 +2634,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふじたことね',
     brand: 'Gakuen',
     color: {
-      rgb: 'rgb(250, 211, 86)',
-      hsv: 'hsv(46, 66, 98)',
+      rgb: 'rgb(250,211,86)',
+      hsv: 'hsv(46,66,98)',
       hex: '#FAD356',
       similar: '#ffa500'
     }
@@ -2647,8 +2647,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふじもとりな',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(101, 58, 42)',
-      hsv: 'hsv(16, 58, 40)',
+      rgb: 'rgb(101,58,42)',
+      hsv: 'hsv(16,58,40)',
       hex: '#653A2A',
       similar: '#000000'
     }
@@ -2660,8 +2660,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふじわらはじめ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(114, 113, 179)',
-      hsv: 'hsv(241, 37, 70)',
+      rgb: 'rgb(114,113,179)',
+      hsv: 'hsv(241,37,70)',
       hex: '#7271B3',
       similar: '#0000ff'
     }
@@ -2673,8 +2673,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふたばあんず',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(248, 163, 188)',
-      hsv: 'hsv(342, 34, 97)',
+      rgb: 'rgb(248,163,188)',
+      hsv: 'hsv(342,34,97)',
       hex: '#F8A3BC',
       similar: '#ffffff'
     }
@@ -2686,8 +2686,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふたみあみ',
     brand: '765AS',
     color: {
-      rgb: 'rgb(255, 228, 63)',
-      hsv: 'hsv(52, 75, 100)',
+      rgb: 'rgb(255,228,63)',
+      hsv: 'hsv(52,75,100)',
       hex: '#FFE43F',
       similar: '#ffff00'
     }
@@ -2699,8 +2699,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふたみまみ',
     brand: '765AS',
     color: {
-      rgb: 'rgb(255, 228, 63)',
-      hsv: 'hsv(52, 75, 100)',
+      rgb: 'rgb(255,228,63)',
+      hsv: 'hsv(52,75,100)',
       hex: '#FFE43F',
       similar: '#ffff00'
     }
@@ -2712,8 +2712,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふゆみじゅん',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(24, 69, 185)',
-      hsv: 'hsv(223, 87, 73)',
+      rgb: 'rgb(24,69,185)',
+      hsv: 'hsv(223,87,73)',
       hex: '#1845B9',
       similar: '#0000ff'
     }
@@ -2725,8 +2725,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふらっぐす',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(61, 80, 255)',
-      hsv: 'hsv(234, 76, 100)',
+      rgb: 'rgb(61,80,255)',
+      hsv: 'hsv(234,76,100)',
       hex: '#3D50FF',
       similar: '#0000ff'
     }
@@ -2738,8 +2738,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ふれーむ',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(51, 128, 51)',
-      hsv: 'hsv(120, 60, 50)',
+      rgb: 'rgb(51,128,51)',
+      hsv: 'hsv(120,60,50)',
       hex: '#338033',
       similar: '#008000'
     }
@@ -2751,8 +2751,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ほうかごくらいまっくすがーるず',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(255, 72, 0)',
-      hsv: 'hsv(17, 100, 100)',
+      rgb: 'rgb(255,72,0)',
+      hsv: 'hsv(17,100,100)',
       hex: '#FF4800',
       similar: '#ff0000'
     }
@@ -2764,8 +2764,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ほうじょうかれん',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(56, 186, 184)',
-      hsv: 'hsv(179, 70, 73)',
+      rgb: 'rgb(56,186,184)',
+      hsv: 'hsv(179,70,73)',
       hex: '#38BAB8',
       similar: '#00ffff'
     }
@@ -2777,8 +2777,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ほしいみき',
     brand: '765AS',
     color: {
-      rgb: 'rgb(180, 224, 75)',
-      hsv: 'hsv(78, 67, 88)',
+      rgb: 'rgb(180,224,75)',
+      hsv: 'hsv(78,67,88)',
       hex: '#B4E04B',
       similar: '#90e200'
     }
@@ -2790,8 +2790,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ほししょうこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(162, 29, 60)',
-      hsv: 'hsv(346, 82, 64)',
+      rgb: 'rgb(162,29,60)',
+      hsv: 'hsv(346,82,64)',
       hex: '#A21D3C',
       similar: '#ff0000'
     }
@@ -2803,8 +2803,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ほりゆうこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(232, 155, 85)',
-      hsv: 'hsv(29, 63, 91)',
+      rgb: 'rgb(232,155,85)',
+      hsv: 'hsv(29,63,91)',
       hex: '#E89B55',
       similar: '#ffa500'
     }
@@ -2816,8 +2816,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ほんだみお',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(246, 177, 40)',
-      hsv: 'hsv(40, 84, 96)',
+      rgb: 'rgb(246,177,40)',
+      hsv: 'hsv(40,84,96)',
       hex: '#F6B128',
       similar: '#ffa500'
     }
@@ -2829,8 +2829,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まいたるい',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(245, 210, 75)',
-      hsv: 'hsv(48, 69, 96)',
+      rgb: 'rgb(245,210,75)',
+      hsv: 'hsv(48,69,96)',
       hex: '#F5D24B',
       similar: '#ffa500'
     }
@@ -2842,8 +2842,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まいはまあゆむ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(226, 90, 155)',
-      hsv: 'hsv(331, 60, 89)',
+      rgb: 'rgb(226,90,155)',
+      hsv: 'hsv(331,60,89)',
       hex: '#E25A9B',
       similar: '#ff0000'
     }
@@ -2855,8 +2855,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まえかわみく',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(202, 17, 58)',
-      hsv: 'hsv(347, 92, 79)',
+      rgb: 'rgb(202,17,58)',
+      hsv: 'hsv(347,92,79)',
       hex: '#CA113A',
       similar: '#ff0000'
     }
@@ -2868,8 +2868,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まかべみずき',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(153, 183, 220)',
-      hsv: 'hsv(213, 30, 86)',
+      rgb: 'rgb(153,183,220)',
+      hsv: 'hsv(213,30,86)',
       hex: '#99B7DC',
       similar: '#0000ff'
     }
@@ -2881,8 +2881,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まつだありさ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(181, 68, 97)',
-      hsv: 'hsv(345, 62, 71)',
+      rgb: 'rgb(181,68,97)',
+      hsv: 'hsv(345,62,71)',
       hex: '#B54461',
       similar: '#ff0000'
     }
@@ -2894,8 +2894,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まつながりょう',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(32, 36, 73)',
-      hsv: 'hsv(234, 56, 29)',
+      rgb: 'rgb(32,36,73)',
+      hsv: 'hsv(234,56,29)',
       hex: '#202449',
       similar: '#800080'
     }
@@ -2907,8 +2907,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まとばりさ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(227, 28, 147)',
-      hsv: 'hsv(324, 88, 89)',
+      rgb: 'rgb(227,28,147)',
+      hsv: 'hsv(324,88,89)',
       hex: '#E31C93',
       similar: '#ff0000'
     }
@@ -2920,8 +2920,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まゆずみふゆこ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(92, 230, 38)',
-      hsv: 'hsv(103, 83, 90)',
+      rgb: 'rgb(92,230,38)',
+      hsv: 'hsv(103,83,90)',
       hex: '#5CE626',
       similar: '#90e200'
     }
@@ -2933,8 +2933,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'まゆみえいしん',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(215, 38, 48)',
-      hsv: 'hsv(357, 82, 84)',
+      rgb: 'rgb(215,38,48)',
+      hsv: 'hsv(357,82,84)',
       hex: '#D72630',
       similar: '#ff0000'
     }
@@ -2946,8 +2946,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みうらあずさ',
     brand: '765AS',
     color: {
-      rgb: 'rgb(146, 56, 190)',
-      hsv: 'hsv(280, 71, 75)',
+      rgb: 'rgb(146,56,190)',
+      hsv: 'hsv(280,71,75)',
       hex: '#9238BE',
       similar: '#800080'
     }
@@ -2959,8 +2959,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みずしまさき',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(250, 126, 180)',
-      hsv: 'hsv(334, 50, 98)',
+      rgb: 'rgb(250,126,180)',
+      hsv: 'hsv(334,50,98)',
       hex: '#FA7EB4',
       similar: '#ff0000'
     }
@@ -2972,8 +2972,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みずたにえり',
     brand: 'DearlyStars',
     color: {
-      rgb: 'rgb(0, 173, 185)',
-      hsv: 'hsv(184, 100, 73)',
+      rgb: 'rgb(0,173,185)',
+      hsv: 'hsv(184,100,73)',
       hex: '#00ADB9',
       similar: '#00ffff'
     }
@@ -2985,8 +2985,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みずもとゆかり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(232, 186, 214)',
-      hsv: 'hsv(323, 20, 91)',
+      rgb: 'rgb(232,186,214)',
+      hsv: 'hsv(323,20,91)',
       hex: '#E8BAD6',
       similar: '#ffffff'
     }
@@ -2998,8 +2998,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みたらいしょうた',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(148, 213, 9)',
-      hsv: 'hsv(79, 96, 84)',
+      rgb: 'rgb(148,213,9)',
+      hsv: 'hsv(79,96,84)',
       hex: '#94D509',
       similar: '#90e200'
     }
@@ -3011,8 +3011,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みつみねゆいか',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(59, 145, 196)',
-      hsv: 'hsv(202, 70, 77)',
+      rgb: 'rgb(59,145,196)',
+      hsv: 'hsv(202,70,77)',
       hex: '#3B91C4',
       similar: '#00ffff'
     }
@@ -3024,8 +3024,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みなせいおり',
     brand: '765AS',
     color: {
-      rgb: 'rgb(253, 153, 225)',
-      hsv: 'hsv(317, 40, 99)',
+      rgb: 'rgb(253,153,225)',
+      hsv: 'hsv(317,40,99)',
       hex: '#FD99E1',
       similar: '#ffffff'
     }
@@ -3037,8 +3037,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みふねみゆ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(1, 170, 165)',
-      hsv: 'hsv(178, 99, 67)',
+      rgb: 'rgb(1,170,165)',
+      hsv: 'hsv(178,99,67)',
       hex: '#01AAA5',
       similar: '#00ffff'
     }
@@ -3050,8 +3050,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みむらかなこ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(244, 171, 180)',
-      hsv: 'hsv(353, 30, 96)',
+      rgb: 'rgb(244,171,180)',
+      hsv: 'hsv(353,30,96)',
       hex: '#F4ABB4',
       similar: '#ffffff'
     }
@@ -3063,8 +3063,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みやおみや',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(215, 169, 107)',
-      hsv: 'hsv(34, 50, 84)',
+      rgb: 'rgb(215,169,107)',
+      hsv: 'hsv(34,50,84)',
       hex: '#D7A96B',
       similar: '#ffa500'
     }
@@ -3076,8 +3076,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'みやもとふれでりか',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(158, 24, 97)',
-      hsv: 'hsv(327, 85, 62)',
+      rgb: 'rgb(158,24,97)',
+      hsv: 'hsv(327,85,62)',
       hex: '#9E1861',
       similar: '#800080'
     }
@@ -3089,8 +3089,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'むかいたくみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(169, 5, 130)',
-      hsv: 'hsv(314, 97, 66)',
+      rgb: 'rgb(169,5,130)',
+      hsv: 'hsv(314,97,66)',
       hex: '#A90582',
       similar: '#800080'
     }
@@ -3102,8 +3102,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'むなかたあつみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(200, 47, 127)',
-      hsv: 'hsv(329, 77, 78)',
+      rgb: 'rgb(200,47,127)',
+      hsv: 'hsv(329,77,78)',
       hex: '#C82F7F',
       similar: '#ff0000'
     }
@@ -3115,8 +3115,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'むらかみともえ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(212, 46, 56)',
-      hsv: 'hsv(356, 78, 83)',
+      rgb: 'rgb(212,46,56)',
+      hsv: 'hsv(356,78,83)',
       hex: '#D42E38',
       similar: '#ff0000'
     }
@@ -3128,8 +3128,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もがみしずか',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(100, 149, 207)',
-      hsv: 'hsv(213, 52, 81)',
+      rgb: 'rgb(100,149,207)',
+      hsv: 'hsv(213,52,81)',
       hex: '#6495CF',
       similar: '#0000ff'
     }
@@ -3141,8 +3141,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もちづきあんな',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(126, 108, 168)',
-      hsv: 'hsv(258, 36, 66)',
+      rgb: 'rgb(126,108,168)',
+      hsv: 'hsv(258,36,66)',
       hex: '#7E6CA8',
       similar: '#0000ff'
     }
@@ -3154,8 +3154,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もちづきひじり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(182, 221, 228)',
-      hsv: 'hsv(189, 20, 89)',
+      rgb: 'rgb(182,221,228)',
+      hsv: 'hsv(189,20,89)',
       hex: '#B6DDE4',
       similar: '#00ffff'
     }
@@ -3167,8 +3167,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もふもふえん',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(255, 153, 214)',
-      hsv: 'hsv(324, 40, 100)',
+      rgb: 'rgb(255,153,214)',
+      hsv: 'hsv(324,40,100)',
       hex: '#FF99D6',
       similar: '#ffffff'
     }
@@ -3180,8 +3180,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ももせりお',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(241, 149, 145)',
-      hsv: 'hsv(2, 40, 95)',
+      rgb: 'rgb(241,149,145)',
+      hsv: 'hsv(2,40,95)',
       hex: '#F19591',
       similar: '#ffffff'
     }
@@ -3193,8 +3193,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もりくぼのの',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(151, 211, 211)',
-      hsv: 'hsv(180, 28, 83)',
+      rgb: 'rgb(151,211,211)',
+      hsv: 'hsv(180,28,83)',
       hex: '#97D3D3',
       similar: '#00ffff'
     }
@@ -3206,8 +3206,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もりのりんぜ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(137, 195, 235)',
-      hsv: 'hsv(204, 42, 92)',
+      rgb: 'rgb(137,195,235)',
+      hsv: 'hsv(204,42,92)',
       hex: '#89C3EB',
       similar: '#00ffff'
     }
@@ -3219,8 +3219,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'もろぼしきらり',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(224, 225, 1)',
-      hsv: 'hsv(60, 100, 88)',
+      rgb: 'rgb(224,225,1)',
+      hsv: 'hsv(60,100,88)',
       hex: '#E0E101',
       similar: '#ffff00'
     }
@@ -3232,8 +3232,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'やがみまきの',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(169, 163, 225)',
-      hsv: 'hsv(246, 28, 88)',
+      rgb: 'rgb(169,163,225)',
+      hsv: 'hsv(246,28,88)',
       hex: '#A9A3E1',
       similar: '#0000ff'
     }
@@ -3245,8 +3245,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'やぶきかな',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(245, 173, 59)',
-      hsv: 'hsv(37, 76, 96)',
+      rgb: 'rgb(245,173,59)',
+      hsv: 'hsv(37,76,96)',
       hex: '#F5AD3B',
       similar: '#ffa500'
     }
@@ -3258,8 +3258,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'やましたじろう',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(238, 118, 2)',
-      hsv: 'hsv(29, 99, 93)',
+      rgb: 'rgb(238,118,2)',
+      hsv: 'hsv(29,99,93)',
       hex: '#EE7602',
       similar: '#ffa500'
     }
@@ -3271,8 +3271,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'やまとあき',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(39, 110, 78)',
-      hsv: 'hsv(153, 65, 43)',
+      rgb: 'rgb(39,110,78)',
+      hsv: 'hsv(153,65,43)',
       hex: '#276E4E',
       similar: '#008000'
     }
@@ -3284,8 +3284,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ゆうきはる',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(69, 189, 180)',
-      hsv: 'hsv(176, 63, 74)',
+      rgb: 'rgb(69,189,180)',
+      hsv: 'hsv(176,63,74)',
       hex: '#45BDB4',
       similar: '#00ffff'
     }
@@ -3297,8 +3297,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ゆうこくきりこ',
     brand: 'ShinyColors',
     color: {
-      rgb: 'rgb(217, 242, 255)',
-      hsv: 'hsv(201, 15, 100)',
+      rgb: 'rgb(217,242,255)',
+      hsv: 'hsv(201,15,100)',
       hex: '#D9F2FF',
       similar: '#00ffff'
     }
@@ -3310,8 +3310,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'よこやまなお',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(120, 139, 197)',
-      hsv: 'hsv(225, 39, 77)',
+      rgb: 'rgb(120,139,197)',
+      hsv: 'hsv(225,39,77)',
       hex: '#788BC5',
       similar: '#0000ff'
     }
@@ -3323,8 +3323,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'よりたよしの',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(199, 186, 180)',
-      hsv: 'hsv(19, 10, 78)',
+      rgb: 'rgb(199,186,180)',
+      hsv: 'hsv(19,10,78)',
       hex: '#C7BAB4',
       similar: '#ffffff'
     }
@@ -3336,8 +3336,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'らいら',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(117, 222, 213)',
-      hsv: 'hsv(175, 47, 87)',
+      rgb: 'rgb(117,222,213)',
+      hsv: 'hsv(175,47,87)',
       hex: '#75DED5',
       similar: '#00ffff'
     }
@@ -3349,8 +3349,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'りゅうざきかおる',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(244, 217, 86)',
-      hsv: 'hsv(50, 65, 96)',
+      rgb: 'rgb(244,217,86)',
+      hsv: 'hsv(50,65,96)',
       hex: '#F4D956',
       similar: '#ffff00'
     }
@@ -3362,8 +3362,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'れおん',
     brand: 'Other',
     color: {
-      rgb: 'rgb(90, 43, 141)',
-      hsv: 'hsv(269, 70, 55)',
+      rgb: 'rgb(90,43,141)',
+      hsv: 'hsv(269,70,55)',
       hex: '#5A2B8D',
       similar: '#800080'
     }
@@ -3375,8 +3375,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'れじぇんだーず',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(104, 128, 160)',
-      hsv: 'hsv(214, 35, 63)',
+      rgb: 'rgb(104,128,160)',
+      hsv: 'hsv(214,35,63)',
       hex: '#6880A0',
       similar: '#0000ff'
     }
@@ -3388,8 +3388,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'れとら',
     brand: 'va-liv',
     color: {
-      rgb: 'rgb(215, 249, 48)',
-      hsv: 'hsv(70, 81, 98)',
+      rgb: 'rgb(215,249,48)',
+      hsv: 'hsv(70,81,98)',
       hex: '#D7F930',
       similar: '#ffff00'
     }
@@ -3401,8 +3401,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'ろこ',
     brand: 'MillionLive',
     color: {
-      rgb: 'rgb(255, 240, 60)',
-      hsv: 'hsv(55, 76, 100)',
+      rgb: 'rgb(255,240,60)',
+      hsv: 'hsv(55,76,100)',
       hex: '#FFF03C',
       similar: '#ffff00'
     }
@@ -3414,8 +3414,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'わかざとはるな',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(113, 212, 72)',
-      hsv: 'hsv(102, 66, 83)',
+      rgb: 'rgb(113,212,72)',
+      hsv: 'hsv(102,66,83)',
       hex: '#71D448',
       similar: '#90e200'
     }
@@ -3427,8 +3427,8 @@ export const colors: ColorDetail[] = [
     nameKana: 'わきやまたまみ',
     brand: 'CinderellaGirls',
     color: {
-      rgb: 'rgb(58, 117, 187)',
-      hsv: 'hsv(213, 69, 73)',
+      rgb: 'rgb(58,117,187)',
+      hsv: 'hsv(213,69,73)',
       hex: '#3A75BB',
       similar: '#0000ff'
     }
@@ -3440,10 +3440,11 @@ export const colors: ColorDetail[] = [
     nameKana: 'わたなべみのり',
     brand: 'SideM',
     color: {
-      rgb: 'rgb(250, 144, 162)',
-      hsv: 'hsv(350, 42, 98)',
+      rgb: 'rgb(250,144,162)',
+      hsv: 'hsv(350,42,98)',
       hex: '#FA90A2',
       similar: '#ffffff'
     }
   }
 ]
+
