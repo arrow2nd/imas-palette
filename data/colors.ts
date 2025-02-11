@@ -3447,4 +3447,3 @@ export const colors: ColorDetail[] = [
     }
   }
 ]
-
