@@ -41,7 +41,7 @@
     "axios": "^1.6.7",
     "color-classifier": "^0.0.1",
     "color-convert": "^3.0.0",
-    "eslint": "9.22.0",
+    "eslint": "9.23.0",
     "eslint-config-next": "15.2.3",
     "eslint-config-prettier": "^10.0.0",
     "jest": "^29.7.0",
