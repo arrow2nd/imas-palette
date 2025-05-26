@@ -15,9 +15,9 @@ export const useColorData = (
     (brand === '' || brand === e.brand) &&
     (e.name.includes(name) || e.nameKana.includes(name))
 
-  const results = colors.filter(
-    brand === 'keep' ? filterFromKeepId : filterFromCriteria
-  )
+  const results = brand === 'keep'
+    ? colors.filter(filterFromKeepId).filter(filterFromCriteria)
+    : colors.filter(filterFromCriteria)
 
   // 色味の指定がある場合さらに絞り込む
   return similarColor === ''
