@@ -15,7 +15,7 @@ describe('Button', () => {
       fireEvent.click(button)
     })
 
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 
   test('子要素が正しく表示されているか', () => {

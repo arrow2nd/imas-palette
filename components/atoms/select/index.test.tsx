@@ -17,6 +17,6 @@ describe('Select', () => {
       fireEvent.change(select, { target: { value: 'opt2' } })
     })
 
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 })

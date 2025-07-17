@@ -33,7 +33,7 @@ describe('CardDefault', () => {
     })
 
     expect(container).toMatchSnapshot()
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 
   test('Removeボタンを押したときにコールバックが呼ばれるか', () => {
@@ -52,6 +52,6 @@ describe('CardDefault', () => {
     })
 
     expect(container).toMatchSnapshot()
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 })

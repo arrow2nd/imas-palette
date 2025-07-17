@@ -20,7 +20,7 @@ describe('Input', () => {
       fireEvent.keyDown(textbox, { key: 'Enter', code: 'Enter', charCode: 13 })
     })
 
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 
   test('プレースホルダが正しく設定されているか', () => {

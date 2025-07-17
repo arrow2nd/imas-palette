@@ -16,11 +16,12 @@ export const useColorData = (
     (e.name.includes(name) || e.nameKana.includes(name))
 
   const filterByName = (e: ColorDetail) =>
-    (e.name.includes(name) || e.nameKana.includes(name));
+    e.name.includes(name) || e.nameKana.includes(name)
 
-  const results = brand === 'keep'
-    ? colors.filter(filterFromKeepId).filter(filterByName)
-    : colors.filter(filterFromCriteria)
+  const results =
+    brand === 'keep'
+      ? colors.filter(filterFromKeepId).filter(filterByName)
+      : colors.filter(filterFromCriteria)
 
   // 色味の指定がある場合さらに絞り込む
   return similarColor === ''
