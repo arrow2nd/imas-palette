@@ -30,6 +30,6 @@ describe('Search', () => {
       fireEvent.click(getByTestId('search-button'))
     })
 
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 })

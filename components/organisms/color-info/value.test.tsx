@@ -20,6 +20,6 @@ describe('ColorValue', () => {
       fireEvent.click(button)
     })
 
-    await waitFor(() => expect(mock).toBeCalled())
+    await waitFor(() => expect(mock).toHaveBeenCalled())
   })
 })

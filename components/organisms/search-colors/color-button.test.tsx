@@ -50,6 +50,6 @@ describe('ColorButton', () => {
       fireEvent.click(getByTestId('search-color-button'))
     })
 
-    expect(mock).toBeCalled()
+    expect(mock).toHaveBeenCalled()
   })
 })
