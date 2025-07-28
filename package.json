@@ -14,9 +14,9 @@
   },
   "dependencies": {
     "next": "15.4.4",
-    "react": "19.1.0",
+    "react": "19.1.1",
     "react-device-detect": "^2.2.3",
-    "react-dom": "19.1.0",
+    "react-dom": "19.1.1",
     "react-github-corner": "^2.5.0",
     "react-icons": "^5.0.1",
     "react-infinite-scroller": "^1.2.6",
