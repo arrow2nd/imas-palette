@@ -36,7 +36,7 @@
     "@types/color-convert": "^2.0.3",
     "@types/jest": "^30.0.0",
     "@types/node": "^22.0.0",
-    "@types/react": "19.1.8",
+    "@types/react": "19.1.9",
     "@types/react-dom": "^19.0.0",
     "@types/react-scroll": "^1.8.10",
     "axios": "^1.6.7",
