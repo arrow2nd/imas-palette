@@ -13,7 +13,7 @@
     "create:colors": "ts-node ./tools/create-colors.ts"
   },
   "dependencies": {
-    "next": "15.5.1",
+    "next": "15.5.2",
     "react": "19.1.1",
     "react-device-detect": "^2.2.3",
     "react-dom": "19.1.1",
@@ -43,7 +43,7 @@
     "color-classifier": "^0.0.1",
     "color-convert": "^3.0.0",
     "eslint": "9.34.0",
-    "eslint-config-next": "15.5.1",
+    "eslint-config-next": "15.5.2",
     "eslint-config-prettier": "^10.0.0",
     "jest": "^30.0.0",
     "jest-environment-jsdom": "^30.0.0",
