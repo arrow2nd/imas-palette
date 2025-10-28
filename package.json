@@ -35,7 +35,7 @@
     "@trivago/prettier-plugin-sort-imports": "^5.0.0",
     "@types/color-convert": "^2.0.3",
     "@types/jest": "^30.0.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^24.0.0",
     "@types/react": "19.2.2",
     "@types/react-dom": "^19.0.0",
     "@types/react-scroll": "^1.8.10",
