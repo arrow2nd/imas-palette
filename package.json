@@ -32,7 +32,7 @@
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^16.0.0",
-    "@trivago/prettier-plugin-sort-imports": "^5.0.0",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
     "@types/color-convert": "^2.0.3",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.0",
