@@ -1,7 +1,5 @@
-// NOTE: pnpm で prettier のプラグインが解決できないため、暫定的に js で設定を書いてる
-// ref: https://zenn.dev/convcha/articles/6aa3dc18158a41
-module.exports = {
-  plugins: [require('@trivago/prettier-plugin-sort-imports')],
+export default {
+  plugins: ['@trivago/prettier-plugin-sort-imports'],
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
