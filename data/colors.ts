@@ -236,6 +236,19 @@ export const colors: ColorDetail[] = [
     }
   },
   {
+    id: 'tsubame_amaya_gakuen',
+    name: '雨夜燕',
+    nameSuppl: 'Tsubame Amaya',
+    nameKana: 'あまやつばめ',
+    brand: 'Gakuen',
+    color: {
+      rgb: 'rgb(160,147,243)',
+      hsv: 'hsv(248,40,95)',
+      hex: '#A093F3',
+      similar: '#0000ff'
+    }
+  },
+  {
     id: 'aya_other',
     name: '亜夜',
     nameSuppl: 'Aya',
