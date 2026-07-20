@@ -39,7 +39,7 @@
     "@types/react": "19.2.14",
     "@types/react-dom": "^19.0.0",
     "@types/react-scroll": "^1.8.10",
-    "axios": "^1.6.7",
+    "axios": "^1.18.0",
     "color-classifier": "^0.0.1",
     "color-convert": "^3.0.0",
     "eslint": "10.4.0",
