@@ -13,7 +13,7 @@
     "create:colors": "ts-node ./tools/create-colors.ts"
   },
   "dependencies": {
-    "next": "16.2.6",
+    "next": "16.2.11",
     "react": "19.2.6",
     "react-device-detect": "^2.2.3",
     "react-dom": "19.2.6",
