@@ -1,3 +1,5 @@
+
+
 # imas-palette
 
 🎨 THE IDOLM@STER シリーズに登場するアイドル・ユニットのカラーが検索できる Web アプリ
@@ -18,7 +20,8 @@ https://github.com/user-attachments/assets/4f4429c1-d6bf-4b89-97fe-0f826f032271
 
 ## 実行
 
-```
+```bash
+pnpm install
 pnpm dev
 # or
 pnpm build && pnpm start
